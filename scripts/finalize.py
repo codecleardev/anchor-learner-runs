@@ -21,6 +21,7 @@ meta = {
     "before_tag": L["before_tag"], "lesson_tag": L["lesson_tag"],
     "before_commit": git("rev-parse", L["before_tag"] + "^{commit}"), "before_tree": git("rev-parse", L["before_tag"] + "^{tree}"),
     "lesson_commit": git("rev-parse", L["lesson_tag"] + "^{commit}"), "lesson_tree": git("rev-parse", L["lesson_tag"] + "^{tree}"),
+    "before_devcontainer_tree": git("rev-parse", "--verify", "--quiet", L["before_tag"] + ":.devcontainer") if dc_source == "repo" else None,
     "tree_note": "tree hashes depend only on file contents, so they stay valid across a rebuild or push that changes commit ids",
     "repo": url,
     "image": "built by @devcontainers/cli from the tag's .devcontainer" if dc_source == "repo" else
@@ -54,6 +55,8 @@ res = {"lesson_id": L["lesson_id"], "n": L["n"], "setup_ok": setup_ok, "lesson_c
        "commands_in_lesson": len(cmds), "commands_as_written": same_commands, "complete": complete,
        "lesson_failed": lesson_bad, "expected_to_fail_but_passed": unexpected_pass,
        "suites_failed_first_try": bad(ph("suites")), "suites_failed_final": bad(ph(final)) if ph(final) else [{"cmd": "suites did not run", "exit": None}],
+       # the demo's commands on the before-tag files: recorded for the lesson's "before" pane, never part of pass
+       "demo_before": [{"cmd": r["cmd"][:200], "exit": r["exit"]} for r in ph("demo_before")],
        "seconds": round(sum(r["seconds"] for r in rows)),
        "pass": setup_ok and complete and same_commands and not [c for c in lesson_bad if not c.get("expected")]
                and not unexpected_pass and bool(ph("suites")) and not bad(ph("suites"))}

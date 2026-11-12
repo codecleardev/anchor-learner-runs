@@ -2,7 +2,8 @@
 # One learner-path run on a GitHub-hosted runner.
 #   run_lesson.sh <lesson_id> <owner/name of the Anchor repo> <auto|repo|fallback>
 # Fresh clone at the lesson's before-tag, the repo's own dev container (the fallback one only for a tag that
-# has none), post-create, then a new interactive terminal that saves the lesson's files (checkout of the
+# has none), post-create, then a new interactive terminal that first runs the lesson's demo commands on the
+# before-tag files (phase demo_before: recorded, never part of pass or fail), then saves the lesson's files (checkout of the
 # lesson's tag), reinstalls requirements when the lesson changed them, runs the lesson's `$` commands exactly
 # as written, then both suites. Every step is one row of out/<id>/transcript.jsonl.
 # Always exits 0 once the run is recorded: pass or fail is in result.json, not in the exit code.
@@ -14,6 +15,7 @@ L="$HERE/lessons/$ID"; OUT="$HERE/out/$ID"; WORK="$HERE/work"
 case "$ANCHOR_REPO" in *[!A-Za-z0-9._/-]*|*/*/*|/*|*/|"") echo "bad repo name"; exit 2;; esac
 rm -rf "$OUT" "$WORK"; mkdir -p "$OUT" "$WORK"
 cp "$L/commands.json" "$L/lesson.json" "$HERE/scripts/rec.py" "$OUT/"
+if [ -f "$L/demo.json" ]; then cp "$L/demo.json" "$OUT/"; else echo '[]' > "$OUT/demo.json"; fi
 START=$(python3 -c 'import json,sys;print(json.load(open(sys.argv[1]))["before_tag"])' "$L/lesson.json")
 FINISH=$(python3 -c 'import json,sys;print(json.load(open(sys.argv[1]))["lesson_tag"])' "$L/lesson.json")
 URL="https://github.com/$ANCHOR_REPO"
@@ -54,12 +56,26 @@ DRV
 cat > "$OUT/learner.sh" <<DRV
 rec() { local t0=\$(date +%s.%N); eval "\$2" >/tmp/o 2>/tmp/e </dev/null; local rc=\$?; /usr/bin/python3 /run_out/rec.py "\$1" "\$2" \$rc \$t0 /run_out; return \$rc; }
 rec terminal 'echo "VIRTUAL_ENV=\$VIRTUAL_ENV"; which python3 ruby; ruby -v; python3 --version'
+# The demo's "before": its commands on the before-tag files, before anything of the lesson is saved. Each runs in
+# its own shell with a time limit, so a cd, a hang or a non-zero exit cannot reach the lesson's commands; the exit
+# code is recorded and nothing here decides pass or fail.
+recd() { local t0=\$(date +%s.%N); timeout -k 10 ${DEMO_TIMEOUT:-600} bash -c "\$2" >/tmp/o 2>/tmp/e </dev/null; local rc=\$?; /usr/bin/python3 /run_out/rec.py "\$1" "\$2" \$rc \$t0 /run_out; return 0; }
+nd=\$(/usr/bin/python3 -c 'import json;print(len(json.load(open("/run_out/demo.json"))))' 2>/dev/null || echo 0)
+for i in \$(seq 0 \$((nd-1))); do
+  c=\$(/usr/bin/python3 -c 'import json,sys;print(json.load(open("/run_out/demo.json"))[int(sys.argv[1])]["cmd"])' \$i)
+  recd demo_before "\$c"
+done
+if [ "\$nd" -gt 0 ]; then rec demo_before_state "git status --short"; fi
 rec save_files "git checkout -q $FINISH -- . && git rev-parse $FINISH"
 if ! git diff --quiet $START $FINISH -- anchor_ai/requirements.txt; then rec convention_install "python3 -m pip install -q -r anchor_ai/requirements.txt"; fi
 n=\$(/usr/bin/python3 -c 'import json;print(len(json.load(open("/run_out/commands.json"))))')
 for i in \$(seq 0 \$((n-1))); do
   c=\$(/usr/bin/python3 -c 'import json,sys;print(json.load(open("/run_out/commands.json"))[int(sys.argv[1])]["cmd"])' \$i)
+  # A red step: files the lesson saves only after this command go back to the before-tag state for it.
+  later=\$(/usr/bin/python3 -c 'import json,sys;print(" ".join(json.load(open("/run_out/commands.json"))[int(sys.argv[1])].get("saved_later",[])))' \$i)
+  if [ -n "\$later" ]; then rec not_yet_saved "for f in \$later; do if git cat-file -e $START:\\\$f 2>/dev/null; then git checkout -q $START -- \\\$f; else rm -f \\\$f; fi; done"; fi
   rec lesson "\$c"
+  if [ -n "\$later" ]; then rec save_files "git checkout -q $FINISH -- \$later"; fi
 done
 suites() {
   rec "\$1" "bin/rails test"

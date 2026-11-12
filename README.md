@@ -15,10 +15,18 @@ For one lesson, on a GitHub-hosted x86_64 runner (the architecture of GitHub Cod
    `fallback/.devcontainer` and the run says so (`devcontainer_source` in `meta.json`).
 3. `bash .devcontainer/post-create.sh` (the dev container's postCreate), recorded.
 4. A new interactive terminal (`bash -i`, so `.venv` activates as in a codespace):
+   - `demo_before`: only for a lesson with a demo block. The commands in `demo.json` (the `$` lines of the
+     demo's "before" pane, then the demo's own command) run on the before-tag files, each in its own shell
+     with a 10 minute limit. The exit code is recorded (124 = stopped at the limit); it never decides pass or
+     fail. `demo_before_state` is `git status --short` afterwards. The demo's "after" is the lab's own run of
+     the same command in `lesson`.
    - `save_files`: check out the lesson's own tag over the working tree. This stands in for the learner
      saving the lesson's code; it is the only step a learner does not type.
    - `convention_install`: only when the lesson changed `anchor_ai/requirements.txt`.
    - `lesson`: every `$` command of the lesson, in order, exactly as written, in one shell.
+     A command marked `saved_later` in `commands.json` is a red step: the lesson has the learner run it
+     before saving the listed files. For that one command those files are put back to the before-tag state
+     (`not_yet_saved`), then saved again from the lesson's tag (`save_files`).
    - `suites`: `bin/rails test`, then `python3 -m pytest -q anchor_ai/tests`. If one fails, post-create
      runs again and both are repeated (`suites_after_reinstall`).
 
@@ -30,7 +38,8 @@ No secrets are used: the labs run offline against recorded fixtures.
 |---|---|
 | `lessons/index.json` | Every lesson: id, number, before-tag, lesson tag, whether it needs a run. |
 | `lessons/<lesson_id>/lesson.json` | Lesson id, content row id and `content_digest`, before-tag, lesson tag. |
-| `lessons/<lesson_id>/commands.json` | The lesson's commands in order (`block`, `cmd`, optional `"expect": "fail"` with a `reason`). |
+| `lessons/<lesson_id>/commands.json` | The lesson's commands in order (`block`, `cmd`, optional `"expect": "fail"` with a `reason`, optional `saved_later` file list with `saved_later_reason`). |
+| `lessons/<lesson_id>/demo.json` | The demo block's commands for `demo_before` (`block`, `pane`: `before` or `command`, `cmd`). |
 | `fallback/.devcontainer/` | Dev container used only for tags that have none. |
 | `scripts/run_lesson.sh` | One run. `rec.py` writes a transcript row, `finalize.py` writes `meta.json` and `result.json`, `cast.py` the asciicast, `plan.py` the job matrix, `summary.py` the table. |
 | `.github/workflows/learner-runs.yml` | The workflow. |
@@ -61,9 +70,9 @@ any lesson did not pass. A lesson job is green when the run was recorded, whethe
 | `transcript.jsonl` | One JSON object per step: `{phase, cmd, stdout, stderr, exit, seconds}`. Nothing trimmed. |
 | `transcript.txt` | The same as a readable log. |
 | `transcript.cast` | The same as asciicast v2 (made from the JSONL; timing is per step). |
-| `meta.json` | `lesson_id`, `content_id`, `content_digest`, `before_tag`, `lesson_tag`, their commits and tree hashes, `repo`, `image_digest`, `arch`, `devcontainer_source`, `date_utc`, the workflow run, and the sha256 of `transcript.jsonl`. |
-| `result.json` | `pass`, `setup_ok`, commands that exited non-zero, suite results, seconds. |
-| `commands.json`, `setup.sh`, `learner.sh`, `devcontainer_up.log` | Exactly what ran. |
+| `meta.json` | `lesson_id`, `content_id`, `content_digest`, `before_tag`, `lesson_tag`, their commits and tree hashes, `before_devcontainer_tree` (the hash of the before-tag's `.devcontainer/`, which defines the image), `repo`, `image_digest` (of the image this job built: every job builds its own, so it is a record, not something two runs share), `arch`, `devcontainer_source`, `date_utc`, the workflow run, and the sha256 of `transcript.jsonl`. |
+| `result.json` | `pass`, `setup_ok`, commands that exited non-zero, suite results, `demo_before` (command and exit code), seconds. |
+| `commands.json`, `demo.json`, `setup.sh`, `learner.sh`, `devcontainer_up.log` | Exactly what ran. |
 
 `pass` is strict: setup ok, every command exited 0 (except those marked `"expect": "fail"`, which must
 fail), the commands run are the lesson's commands, and both suites were green on the first try.
