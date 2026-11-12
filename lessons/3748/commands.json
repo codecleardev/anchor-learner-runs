@@ -1,0 +1,30 @@
+[
+  {
+    "block": "vllm_verify_1",
+    "cmd": "python3 -c \"from anchor_ai.vllm_backend import validate_deployment; import json; print(json.dumps(validate_deployment(), indent=2))\""
+  },
+  {
+    "block": "vllm_verify_2",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_vllm_backend.py"
+  },
+  {
+    "block": "vllm_verify_3",
+    "cmd": "bin/rails test test/integration/self_hosted_chat_test.rb"
+  },
+  {
+    "block": "vllm_verify_4",
+    "cmd": "python3 labs/vllm-deployment/measure.py"
+  },
+  {
+    "block": "vllm_verify_5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_vllm_backend.py"
+  },
+  {
+    "block": "vllm_verify_5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_provider.py"
+  },
+  {
+    "block": "vllm_verify_5",
+    "cmd": "bin/rails test test/services/llm_client_test.rb test/integration/self_hosted_chat_test.rb"
+  }
+]

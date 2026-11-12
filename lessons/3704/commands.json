@@ -1,0 +1,22 @@
+[
+  {
+    "block": "mcp-step1",
+    "cmd": "python3 labs/mcp-interop/sample_server.py"
+  },
+  {
+    "block": "mcp-step2",
+    "cmd": "ruby bin/mcp_client_test.rb --server http://127.0.0.1:4000/mcp"
+  },
+  {
+    "block": "mcp-step3",
+    "cmd": "ruby bin/mcp_client_test.rb --server http://127.0.0.1:4000/mcp --trace"
+  },
+  {
+    "block": "mcp-step4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_mcp.py"
+  },
+  {
+    "block": "mcp-step4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_tools.py"
+  }
+]

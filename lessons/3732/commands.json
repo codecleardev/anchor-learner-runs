@@ -1,0 +1,26 @@
+[
+  {
+    "block": "quota_step_1",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "quota_step_1",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "quota_step_1",
+    "cmd": "ruby test/integration/ai_quota_enforcement_test.rb"
+  },
+  {
+    "block": "quota_step_2",
+    "cmd": "bin/rails runner labs/quotas-rate-limits/quota_burst_test.rb"
+  },
+  {
+    "block": "quota_step_4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_quota_admission.py"
+  },
+  {
+    "block": "quota_step_5",
+    "cmd": "bin/rails test"
+  }
+]

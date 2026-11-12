@@ -1,0 +1,22 @@
+[
+  {
+    "block": "b11",
+    "cmd": "python3 labs/agent-loop-debug/broken_agentic_rag.py"
+  },
+  {
+    "block": "b15",
+    "cmd": "python3 labs/agent-loop-debug/broken_agentic_rag.py --product"
+  },
+  {
+    "block": "b15_verify_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_agent_loop_guards.py"
+  },
+  {
+    "block": "guard_step_final",
+    "cmd": "python3 -m pytest -q anchor_ai/tests"
+  },
+  {
+    "block": "guard_step_final",
+    "cmd": "python3 labs/agent-loop-debug/broken_agentic_rag.py --product"
+  }
+]

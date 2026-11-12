@@ -1,0 +1,30 @@
+[
+  {
+    "block": "p-step1",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m anchor_ai.planning --stage inspect"
+  },
+  {
+    "block": "p-step2",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m anchor_ai.planning --stage execute"
+  },
+  {
+    "block": "p-step3",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m anchor_ai.planning --stage log"
+  },
+  {
+    "block": "p-step4",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m anchor_ai.planning --stage revise"
+  },
+  {
+    "block": "p-step5",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m pytest -q anchor_ai/tests/test_planning.py anchor_ai/tests/test_react.py anchor_ai/tests/test_agentic_rag.py anchor_ai/tests/test_agent_loop_guards.py anchor_ai/tests/test_agent_trajectories.py"
+  },
+  {
+    "block": "p-step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_retrieval_metrics.py"
+  },
+  {
+    "block": "p-step5",
+    "cmd": "bin/rails test"
+  }
+]

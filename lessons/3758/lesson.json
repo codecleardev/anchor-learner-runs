@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3758,
+  "n": 126,
+  "title": "Reliability and safety: retries, fallbacks, circuit breakers, and kill switches",
+  "phase": 12,
+  "content_id": 17338,
+  "content_digest": "5b4b6a393dbd6b75e5bbb6c3cd66019cb79c87f3a3ccc7f221b17991fc918f81",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "1dc51e55f5f8350eafc9",
+  "before_tag": "lesson-121-load-testing-llm-endpoints",
+  "lesson_tag": "lesson-122-reliability-and-safety-retries-fallbacks-circuit",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 11,
+  "has_demo": true,
+  "commands": 11,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

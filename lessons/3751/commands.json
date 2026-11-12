@@ -1,0 +1,22 @@
+[
+  {
+    "block": "b18",
+    "cmd": "ruby test/services/inference_comparison_exporter_test.rb"
+  },
+  {
+    "block": "b19",
+    "cmd": "python3 bin/compare_hosted_local.py"
+  },
+  {
+    "block": "b20",
+    "cmd": "python3 bin/compare_hosted_local.py --utilization 0.05 --operations-usd 680 --output artifacts/inference_decision/low_utilization.json"
+  },
+  {
+    "block": "hosting-tests-step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_hosting_economics.py"
+  },
+  {
+    "block": "hosting-tests-step",
+    "cmd": "ruby test/services/inference_comparison_exporter_test.rb"
+  }
+]

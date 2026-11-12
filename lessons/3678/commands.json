@@ -1,0 +1,18 @@
+[
+  {
+    "block": "b17",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 labs/multihop-rag/multihop_rag.py --mode single"
+  },
+  {
+    "block": "b18",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 labs/multihop-rag/multihop_rag.py --mode multi"
+  },
+  {
+    "block": "b20",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 labs/multihop-rag/multihop_rag.py --inspect"
+  },
+  {
+    "block": "mh-test-step",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m pytest -q anchor_ai/tests/test_multihop.py anchor_ai/tests/test_dense_rag.py"
+  }
+]

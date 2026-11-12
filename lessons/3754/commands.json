@@ -1,0 +1,22 @@
+[
+  {
+    "block": "deployment-ordered-step-1",
+    "cmd": "python3 -c \"from pathlib import Path; print(Path('ops/deploy/architecture.md').read_text())\""
+  },
+  {
+    "block": "deployment-ordered-step-2",
+    "cmd": "python3 ops/deploy/validate_manifest.py"
+  },
+  {
+    "block": "deployment-ordered-step-2",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_production_manifest.py::test_missing_routing_configuration_is_rejected"
+  },
+  {
+    "block": "deployment-ordered-step-3",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_production_manifest.py"
+  },
+  {
+    "block": "deployment-ordered-step-4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_production_manifest.py::test_rendered_production_manifest anchor_ai/tests/test_production_manifest.py::test_release_refuses_missing_real_infrastructure"
+  }
+]

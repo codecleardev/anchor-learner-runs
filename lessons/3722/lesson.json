@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3722,
+  "n": 86,
+  "title": "OCR pipelines for document extraction",
+  "phase": 8,
+  "content_id": 17300,
+  "content_digest": "dcf24ad4d4b2d986447ab4c7fb29b9904acbe7540306fd660391721570f6d43c",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "f63d94b6fbc2d286a52f",
+  "before_tag": "lesson-082-multimodal-vision-image-understanding-with-llms",
+  "lesson_tag": "lesson-083-ocr-pipelines-for-document-extraction",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 3,
+  "has_demo": true,
+  "commands": 3,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

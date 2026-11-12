@@ -1,0 +1,42 @@
+[
+  {
+    "block": "release-ordered-step-one",
+    "cmd": "python3 -m eval.release_gate smoke --regressed --expect-blocked"
+  },
+  {
+    "block": "release-ordered-step-one",
+    "cmd": "python3 -m ops.deploy.self_hosted_release gate"
+  },
+  {
+    "block": "release-ordered-step-two",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_self_hosted_release.py"
+  },
+  {
+    "block": "release-ordered-step-two",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_vllm_backend.py"
+  },
+  {
+    "block": "release-ordered-step-three",
+    "cmd": "python3 -m ops.deploy.self_hosted_release demo"
+  },
+  {
+    "block": "release-ordered-step-three",
+    "cmd": "ruby test/integration/self_hosted_failover_test.rb"
+  },
+  {
+    "block": "release-ordered-step-four",
+    "cmd": "python3 labs/self-hosted-release/cpu_mechanisms.py"
+  },
+  {
+    "block": "release-ordered-step-four",
+    "cmd": "python3 -c \"from anchor_ai.vllm_backend import validate_deployment; s=validate_deployment(); print('Validated launch configuration:', s['runtime'], 'GPU startup NOT verified')\""
+  },
+  {
+    "block": "release-ordered-step-five",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_self_hosted_release.py -k 'rollback or human_only or production'"
+  },
+  {
+    "block": "release-ordered-step-five",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_quota_admission.py"
+  }
+]

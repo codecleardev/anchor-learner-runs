@@ -1,0 +1,38 @@
+[
+  {
+    "block": "dpo-step-1",
+    "cmd": "python3 bin/build_preference_dataset.py --source eval/finetune/fixtures/preference_transcripts.jsonl --tenant demo --out eval/finetune/preferences.jsonl"
+  },
+  {
+    "block": "dpo-step-2",
+    "cmd": "python3 -c \"import json; from anchor_ai.dataset_quality import read_rows; p=read_rows('eval/finetune/preferences.jsonl')[0]; print(json.dumps({k:p[k] for k in ('prompt','chosen','rejected','review','dispositions')}, indent=2))\""
+  },
+  {
+    "block": "dpo-step-2",
+    "cmd": "python3 -c \"import json; from anchor_ai.training import dpo_experiment; print(json.dumps(dpo_experiment(), indent=2))\""
+  },
+  {
+    "block": "dpo-step-3",
+    "cmd": "python3 bin/analyze_dpo.py --logs eval/finetune/fixtures/dpo_training_log.jsonl --replies eval/finetune/fixtures/dpo_heldout_replies.jsonl"
+  },
+  {
+    "block": "dpo-step-4",
+    "cmd": "python3 eval/model_gate.py --offline --candidate dpo-recorded"
+  },
+  {
+    "block": "dpo-step-5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_preferences.py anchor_ai/tests/test_customization.py anchor_ai/tests/test_training.py"
+  },
+  {
+    "block": "dpo-step-5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests"
+  },
+  {
+    "block": "dpo-step-5",
+    "cmd": "python3 eval/retrieval_gate.py"
+  },
+  {
+    "block": "dpo-step-5",
+    "cmd": "python3 -m eval.rag_gate"
+  }
+]

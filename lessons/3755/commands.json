@@ -1,0 +1,38 @@
+[
+  {
+    "block": "obs-run-1",
+    "cmd": "python3 -c \"from anchor_ai.reranking import DelayedTestScorer, OfflinePairScorer; assert DelayedTestScorer(OfflinePairScorer(), test_only=True).delay_seconds == .15; print('Instrumented reranker and explicit test delay loaded')\""
+  },
+  {
+    "block": "obs-run-2",
+    "cmd": "python3 -c \"import json,yaml; from pathlib import Path; yaml.safe_load(Path('ops/observability/collector.yml').read_text()); [yaml.safe_load(p.read_text()) for p in Path('labs/production-observability').glob('*.yml')]; assert len(json.loads(Path('ops/observability/ticket_dashboard.json').read_text())['panels'])==4; print('Configuration parsed; collector execution not verified')\""
+  },
+  {
+    "block": "obs-run-3",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_production_manifest.py"
+  },
+  {
+    "block": "obs-run-4",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_production_tracing.py"
+  },
+  {
+    "block": "obs-run-5",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_production_tracing.py -k preserves_rails"
+  },
+  {
+    "block": "obs-run-6",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_production_tracing.py -k delay_is"
+  },
+  {
+    "block": "obs-run-7",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_production_tracing.py anchor_ai/tests/test_observability.py"
+  },
+  {
+    "block": "obs-run-8",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_harness_interop.py"
+  },
+  {
+    "block": "obs-run-9",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_observability.py -k observability_release"
+  }
+]

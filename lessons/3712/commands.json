@@ -1,0 +1,22 @@
+[
+  {
+    "block": "m17",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_orchestration_release.py"
+  },
+  {
+    "block": "m18",
+    "cmd": "bin/rails test test/integration/multi_agent_milestone_test.rb"
+  },
+  {
+    "block": "m19",
+    "cmd": "python3 -c 'import os, subprocess, sys; e=dict(os.environ); e.pop(\"ANCHOR_ORCHESTRATION_RELEASE_ADAPTER\", None); p=subprocess.run([sys.executable,\"eval/multi_agent_gate.py\"],env=e,capture_output=True,text=True); print(p.stdout,end=\"\"); assert p.returncode != 0 and \"product_composition_adapter_missing\" in p.stdout; print(\"Offline controls verified; sandbox isolation not verified: no container runtime; production release remains blocked\")'"
+  },
+  {
+    "block": "n19",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_orchestration_release.py -k 'atomic_configuration or human_only_switch'"
+  },
+  {
+    "block": "h01-step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_composed_runtime.py"
+  }
+]

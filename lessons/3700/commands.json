@@ -1,0 +1,10 @@
+[
+  {
+    "block": "h18",
+    "cmd": "python3 labs/human-escalation/escalation_smoke_test.py"
+  },
+  {
+    "block": "h22",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_escalation.py anchor_ai/tests/test_autonomy.py anchor_ai/tests/test_react.py anchor_ai/tests/test_planning.py"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3682,
+  "n": 38,
+  "title": "Groundedness and faithfulness evaluation",
+  "phase": 3,
+  "content_id": 17064,
+  "content_digest": "5b0fded9e6413579c3857c1634ac912ad33ff43bf51229b45127e9489f378ab2",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "cfe11adb9cf79e9b2f1f",
+  "before_tag": "lesson-036-debug-drill-the-agentic-rag-loop-that-never-stop",
+  "lesson_tag": "lesson-037-groundedness-and-faithfulness-evaluation",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

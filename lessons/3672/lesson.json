@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3672,
+  "n": 27,
+  "title": "Anchor — build it: dense retrieval and generation",
+  "phase": 2,
+  "content_id": 17255,
+  "content_digest": "5a12fa015445982c4dae614f8b3b28d50115b7885a908c0cffa16087a5745fc4",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "3463890ca88d5dc96cb3",
+  "before_tag": "lesson-025-index-maintenance-incremental-updates-deletes-an",
+  "lesson_tag": "lesson-026-anchor-build-it-dense-retrieval-and-generation",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 7,
+  "has_demo": true,
+  "commands": 7,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

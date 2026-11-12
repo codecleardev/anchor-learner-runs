@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b17",
+    "cmd": "bin/rails runner \"puts JSON.generate(PromptRegistry.resolve('chat:v3'))\""
+  },
+  {
+    "block": "b27",
+    "cmd": "python3 labs/langchain-chains/langchain_chain_demo.py --ticket labs/langchain-chains/sample_ticket.json"
+  },
+  {
+    "block": "b29",
+    "cmd": "python3 labs/langchain-chains/langchain_chain_demo.py --ticket labs/langchain-chains/sample_ticket.json --invalid"
+  },
+  {
+    "block": "b31",
+    "cmd": "python3 labs/langchain-chains/langchain_chain_demo.py --ticket labs/langchain-chains/sample_ticket.json --invalid --retry"
+  },
+  {
+    "block": "b33",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_chains.py"
+  },
+  {
+    "block": "b33",
+    "cmd": "bin/rails test test/controllers/api/prompt_versions_controller_test.rb"
+  }
+]

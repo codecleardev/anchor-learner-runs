@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3728,
+  "n": 93,
+  "title": "Semantic caching strategies",
+  "phase": 9,
+  "content_id": 17307,
+  "content_digest": "da8b65ad5999e5e6e9a72de3424f5d6b4aefbcd7c68bec34566459259d0709ba",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "904af2dcd4ee4833d357",
+  "before_tag": "lesson-089-token-streaming-for-perceived-latency-reduction",
+  "lesson_tag": "lesson-090-semantic-caching-strategies",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 6,
+  "has_demo": true,
+  "commands": 6,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

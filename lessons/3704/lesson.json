@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3704,
+  "n": 63,
+  "title": "Model Context Protocol (MCP) for tool and context interop",
+  "phase": 6,
+  "content_id": 17284,
+  "content_digest": "89cc76cfab685ac566c6d4826aa3892d8ba032e9d4fa6e2bc34944f8f26fb8f5",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "f48728d90863b6f1bbbc",
+  "before_tag": "lesson-061-multi-agent-orchestration-patterns",
+  "lesson_tag": "lesson-062-model-context-protocol-mcp-for-tool-and-context",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

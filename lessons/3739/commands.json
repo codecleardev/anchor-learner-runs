@@ -1,0 +1,70 @@
+[
+  {
+    "block": "b22",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_pii_pipeline.py -k 'local_ner or structured'"
+  },
+  {
+    "block": "pii_step_two",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "pii_step_two",
+    "cmd": "bin/rails runner 'ActiveRecord::MigrationContext.new(Rails.root.join(\"labs/pii-detection-and-redaction/migrate\").to_s).migrate'"
+  },
+  {
+    "block": "pii_step_two",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "pii_step_two",
+    "cmd": "RAILS_ENV=test bin/rails runner 'ActiveRecord::MigrationContext.new(Rails.root.join(\"labs/pii-detection-and-redaction/migrate\").to_s).migrate'"
+  },
+  {
+    "block": "pii_step_two",
+    "cmd": "ruby test/integration/pii_pipeline_test.rb"
+  },
+  {
+    "block": "pii_step_three",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_pii_pipeline.py"
+  },
+  {
+    "block": "pii_step_four",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_finetuning_redaction.py"
+  },
+  {
+    "block": "pii_step_four",
+    "cmd": "ruby test/services/pii_redaction_client_test.rb"
+  },
+  {
+    "block": "pii_step_four",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_streaming.py"
+  },
+  {
+    "block": "pii_step_four",
+    "cmd": "ANCHOR_STREAM_SMOKE=1 ruby test/controllers/chat_streaming_test.rb"
+  },
+  {
+    "block": "pii_step_five_v3",
+    "cmd": "bin/rails test test/controllers/chat_controller_test.rb"
+  },
+  {
+    "block": "pii_step_five_v3",
+    "cmd": "bin/rails test test/controllers/chat_streaming_test.rb"
+  },
+  {
+    "block": "pii_step_five_v3",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_observability.py anchor_ai/tests/test_ingestion.py anchor_ai/tests/test_vision.py anchor_ai/tests/test_agent_loop_guards.py"
+  },
+  {
+    "block": "pii_step_five_v3",
+    "cmd": "bin/rails test test/services/retrieval_client_test.rb"
+  },
+  {
+    "block": "pii_step_five_v3",
+    "cmd": "bin/rails test test/jobs/ingest_document_job_test.rb"
+  },
+  {
+    "block": "pii_step_five_v3",
+    "cmd": "bin/rails test test/services/security_prompt_registry_test.rb"
+  }
+]

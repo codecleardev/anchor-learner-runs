@@ -1,0 +1,22 @@
+[
+  {
+    "block": "orchestration_baseline",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_agent_trajectories.py"
+  },
+  {
+    "block": "b18",
+    "cmd": "ruby labs/orchestration-patterns/orchestration_pattern_rubric.rb labs/orchestration-patterns/tickets/escalation_case.json"
+  },
+  {
+    "block": "b18b",
+    "cmd": "ruby labs/orchestration-patterns/orchestration_pattern_rubric.rb labs/orchestration-patterns/tickets/faq_case.json"
+  },
+  {
+    "block": "b18d",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_orchestration_patterns.py"
+  },
+  {
+    "block": "b18f",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_bounded_runtime.py anchor_ai/tests/test_agent_loop_guards.py anchor_ai/tests/test_agent_trajectories.py anchor_ai/tests/test_orchestration_patterns.py"
+  }
+]

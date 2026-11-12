@@ -1,0 +1,54 @@
+[
+  {
+    "block": "b24",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/policy.md --normalized"
+  },
+  {
+    "block": "b24",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/faq.html --normalized"
+  },
+  {
+    "block": "b24",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/transcript.txt --normalized"
+  },
+  {
+    "block": "b25",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/policy.md --strategy sentence_window"
+  },
+  {
+    "block": "b25",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/policy.md --strategy sentence_window --context"
+  },
+  {
+    "block": "chunking_step_compare",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/policy.md --strategy fixed_size"
+  },
+  {
+    "block": "chunking_step_compare",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/policy.md --strategy recursive"
+  },
+  {
+    "block": "chunking_step_compare",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/policy.md --strategy semantic"
+  },
+  {
+    "block": "chunking_step_compare",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/policy.md --strategy hierarchical"
+  },
+  {
+    "block": "chunking_step_compare",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/policy.md --strategy structural"
+  },
+  {
+    "block": "chunking_step_compare",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/faq.html --strategy structural"
+  },
+  {
+    "block": "chunking_step_compare",
+    "cmd": "python3 labs/chunking-strategies/chunking_bench.py --doc anchor_ai/tests/fixtures/kb/transcript.txt --strategy structural"
+  },
+  {
+    "block": "chunking_step_verify",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_chunking.py"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "block": "sft-step1",
+    "cmd": "python3 bin/train_sft.py --offline --config config/fine_tuning.yml"
+  },
+  {
+    "block": "sft-step2",
+    "cmd": "python3 bin/analyze_loss.py --log eval/finetune/fixtures/sft_epochs3.jsonl"
+  },
+  {
+    "block": "sft-step3",
+    "cmd": "python3 bin/analyze_loss.py --log eval/finetune/fixtures/sft_epochs8.jsonl"
+  },
+  {
+    "block": "sft-step4",
+    "cmd": "python3 eval/model_gate.py --offline --candidate sft-recorded"
+  },
+  {
+    "block": "sft-step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_training.py anchor_ai/tests/test_customization.py"
+  },
+  {
+    "block": "sft-step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_retrieval_metrics.py anchor_ai/tests/test_rag_gate.py"
+  },
+  {
+    "block": "sft-step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_agent_trajectories.py anchor_ai/tests/test_agent_loop_guards.py"
+  }
+]

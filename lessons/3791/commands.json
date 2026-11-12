@@ -1,0 +1,22 @@
+[
+  {
+    "block": "b24",
+    "cmd": "python3 labs/agent-harness-layers/classify_layers.py"
+  },
+  {
+    "block": "b25",
+    "cmd": "python3 labs/agent-harness-layers/classify_layers.py --compare"
+  },
+  {
+    "block": "h_step_delegate",
+    "cmd": "python3 labs/agent-harness-layers/classify_layers.py --delegate"
+  },
+  {
+    "block": "h_step_verify",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_harness_interop.py"
+  },
+  {
+    "block": "h_step_verify",
+    "cmd": "python3 labs/agent-harness-layers/classify_layers.py --curl-card"
+  }
+]

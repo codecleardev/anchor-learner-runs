@@ -1,0 +1,34 @@
+[
+  {
+    "block": "n8",
+    "cmd": "grep -q webmock Gemfile || bundle add webmock --group test"
+  },
+  {
+    "block": "n8",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "b33",
+    "cmd": "ruby -e 'system(\"bin/rails\", \"test\", \"test/models/prompt_version_test.rb\"); exit($?.exitstatus == 1 ? 0 : 1)'"
+  },
+  {
+    "block": "n4",
+    "cmd": "bin/rails test test/models/prompt_version_test.rb"
+  },
+  {
+    "block": "n7",
+    "cmd": "bin/rails test test/services/prompt_registry_test.rb"
+  },
+  {
+    "block": "b24",
+    "cmd": "RAILS_ENV=test bin/rails runner 'abort \"missing unique version index\" unless ActiveRecord::Base.connection.indexes(:prompt_versions).any? { |i| i.unique && i.columns == [\"version\"] }; puts \"Unique version index retained\"'"
+  },
+  {
+    "block": "b24",
+    "cmd": "env -u ANCHOR_LLM_PROVIDER bin/rails test"
+  },
+  {
+    "block": "b24",
+    "cmd": "env -u ANCHOR_LLM_PROVIDER python3 -m pytest -q anchor_ai/tests"
+  }
+]

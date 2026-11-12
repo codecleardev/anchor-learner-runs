@@ -1,0 +1,42 @@
+[
+  {
+    "block": "b20",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_realtime.py -k 'credential or media or sequence'"
+  },
+  {
+    "block": "rt-step2",
+    "cmd": "python3 labs/realtime-voice/voice_client.py"
+  },
+  {
+    "block": "rt-step3",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_realtime.py -k 'complete or timeout or slow'"
+  },
+  {
+    "block": "rt-step4",
+    "cmd": "python3 ops/load/realtime_sessions.py"
+  },
+  {
+    "block": "rt-step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_realtime.py -k human_only"
+  },
+  {
+    "block": "rt-step6",
+    "cmd": "ruby test/controllers/api/realtime_sessions_controller_test.rb"
+  },
+  {
+    "block": "rt-step6",
+    "cmd": "ruby test/integration/realtime_voice_flow_test.rb"
+  },
+  {
+    "block": "rt-step6",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_realtime.py anchor_ai/tests/test_agent_trajectories.py"
+  },
+  {
+    "block": "rt-step6",
+    "cmd": "python3 -m eval.agent_gate --multimodal"
+  },
+  {
+    "block": "rt-step6",
+    "cmd": "python3 -m eval.agent_gate --multimodal --fault multimodal --expect-rejection"
+  }
+]

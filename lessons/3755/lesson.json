@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3755,
+  "n": 123,
+  "title": "Observability: logs, metrics, and distributed tracing for LLM pipelines",
+  "phase": 12,
+  "content_id": 17335,
+  "content_digest": "cb0e30215558950779943269017c8d83a2b25fd1a5c66a02872a8c3f74e7dd48",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "03277ee879d8ea324e45",
+  "before_tag": "lesson-118-deployment-architectures-for-llm-backed-applicat",
+  "lesson_tag": "lesson-119-observability-logs-metrics-and-distributed-traci",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 9,
+  "has_demo": true,
+  "commands": 9,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

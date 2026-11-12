@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3769,
+  "n": 2,
+  "title": "AI Engineering in one picture",
+  "phase": 1,
+  "content_id": 17037,
+  "content_digest": "cdec36dc69eccc0522491e43eaf12526ac24f8c915de2cfd7fa649db5ce883b2",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "9d3870c4347eec5a158d",
+  "before_tag": "lesson-001-orientation-what-this-course-is-who-it-is-for-an",
+  "lesson_tag": "lesson-002-ai-engineering-in-one-picture",
+  "needs_run": true,
+  "has_lab_step": false,
+  "runnable_lines": 1,
+  "has_demo": false,
+  "commands": 1,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

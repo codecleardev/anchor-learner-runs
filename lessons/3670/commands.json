@@ -1,0 +1,62 @@
+[
+  {
+    "block": "b21",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "b21",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "b21",
+    "cmd": "bin/rails test"
+  },
+  {
+    "block": "b21",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_index_maintenance.py"
+  },
+  {
+    "block": "b21i",
+    "cmd": "python3 labs/index-maintenance/incremental_reindex.py"
+  },
+  {
+    "block": "b21k",
+    "cmd": "python3 labs/index-maintenance/incremental_reindex.py --edit"
+  },
+  {
+    "block": "b21q",
+    "cmd": "python3 labs/index-maintenance/delete_document.py"
+  },
+  {
+    "block": "b21s",
+    "cmd": "python3 labs/index-maintenance/reembed_migration.py"
+  },
+  {
+    "block": "maintenance-verify-fingerprints",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_index_maintenance.py::test_sanitized_hash_metadata_and_chunker"
+  },
+  {
+    "block": "maintenance-verify-inventory",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_index_maintenance.py::test_inventory_and_tenant_isolation"
+  },
+  {
+    "block": "maintenance-verify-generation-deletion",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_index_maintenance.py::test_delete_all_generations_and_snapshot_invalidation"
+  },
+  {
+    "block": "maintenance-verify-publication-races",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_index_maintenance.py::test_failure_concurrent_edit_activation_and_rollback"
+  },
+  {
+    "block": "maintenance-inspect-cascade-enforcement",
+    "cmd": "python3 -c \"from anchor_ai.storage import connect; db = connect('labs/index-maintenance/sandbox/index.sqlite3'); assert db.execute('PRAGMA foreign_keys').fetchone()[0] == 1; assert not db.execute('PRAGMA foreign_key_check').fetchall(); print('Foreign keys enabled; no orphan references'); print([dict(r) for r in db.execute('PRAGMA foreign_key_list(document_chunks)')]); db.close()\""
+  },
+  {
+    "block": "maintenance-inspect-generation-records",
+    "cmd": "python3 -c \"from anchor_ai.storage import connect; from anchor_ai.index_maintenance import active; db = connect('labs/index-maintenance/sandbox/index.sqlite3'); rows = [dict(r) for r in db.execute('SELECT id, model, revision, dimensions, status, active, vector_column, epoch FROM retrieval_generations WHERE tenant_id=1 ORDER BY id')]; assert sum(r['active'] for r in rows) == 1; assert active(db, 1)['dimensions'] == 4; assert any(r['dimensions'] == 6 and r['status'] == 'ready' for r in rows); print(rows); db.close()\""
+  },
+  {
+    "block": "maintenance-verify-retained-coverage",
+    "cmd": "python3 -c \"from anchor_ai.storage import connect; from anchor_ai.index_maintenance import complete; from anchor_ai.vector_index import VectorIndex; db = connect('labs/index-maintenance/sandbox/index.sqlite3'); generations = [dict(r) for r in db.execute(\\\"SELECT * FROM retrieval_generations WHERE tenant_id=1 AND status='ready'\\\")]; assert generations and all(complete(db, 1, g) for g in generations); result = VectorIndex().search_active(db, 1, 'What is the refund policy?'); assert result['hits'] and result['dimensions'] == 4; print({'all_retained_generations_complete': True, 'policy_query': result, 'outcome': 'Anchor serves one complete generation and switches back without changing application code'}); db.close()\""
+  }
+]

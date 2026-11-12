@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3767,
+  "n": 138,
+  "title": "Checkpoint: Anchor production and capstone",
+  "phase": 12,
+  "content_id": 16944,
+  "content_digest": "a48e7e721d428cef9493cad94e50ebfb90c8cd92b28606d5889cb32e22b089e7",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "1491b95079e9ed3b0457",
+  "before_tag": "lesson-133-sprint-retrospective-what-the-hybrid-rag-slice-p",
+  "lesson_tag": "lesson-134-checkpoint-anchor-production-and-capstone",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

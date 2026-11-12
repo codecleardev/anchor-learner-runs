@@ -1,0 +1,26 @@
+[
+  {
+    "block": "batch_step_baseline",
+    "cmd": "python3 ops/load/batch_throughput.py --mode baseline"
+  },
+  {
+    "block": "batch_step_micro",
+    "cmd": "python3 ops/load/batch_throughput.py --mode micro"
+  },
+  {
+    "block": "batch_step_mixed",
+    "cmd": "python3 ops/load/batch_throughput.py --mode mixed"
+  },
+  {
+    "block": "batch_step_async",
+    "cmd": "python3 ops/load/batch_throughput.py --mode async"
+  },
+  {
+    "block": "batch_step_demo",
+    "cmd": "python3 ops/load/batch_throughput.py --mode demo"
+  },
+  {
+    "block": "batch_step_tests",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_batching.py"
+  }
+]

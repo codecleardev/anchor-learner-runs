@@ -1,0 +1,18 @@
+[
+  {
+    "block": "b19",
+    "cmd": "python3 -m eval.eval_endpoint --testclient"
+  },
+  {
+    "block": "step-two",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_rag_endpoint_eval.py anchor_ai/tests/test_rag_gate.py"
+  },
+  {
+    "block": "step-three",
+    "cmd": "python3 -c \"import json; from pathlib import Path; p=Path('.git/anchor-endpoint-eval'); read=lambda n: json.loads((p/n).read_text()); assert read('local-capture.json') == read('endpoint-capture.json'); assert read('local-scores.json') == read('endpoint-scores.json'); print(json.dumps(read('endpoint-capture.json'), indent=2)); print(json.dumps(read('endpoint-scores.json'), indent=2)); print('PASS: persisted endpoint evidence and scores match')\""
+  },
+  {
+    "block": "step-four",
+    "cmd": "sh ops/deploy/rag_release.sh --verify-only"
+  }
+]

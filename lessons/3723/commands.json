@@ -1,0 +1,18 @@
+[
+  {
+    "block": "b21",
+    "cmd": "python3 labs/audio-transcription/generate_call.py"
+  },
+  {
+    "block": "audio-step-2",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_audio.py anchor_ai/tests/test_audio_evidence.py anchor_ai/tests/test_sandbox.py"
+  },
+  {
+    "block": "audio-step-3",
+    "cmd": "bin/rails test test/models/ticket_attachment_test.rb test/integration/attachment_answer_flow_test.rb"
+  },
+  {
+    "block": "audio-step-5",
+    "cmd": "python3 labs/audio-transcription/generate_call.py --fail-chunk 1"
+  }
+]

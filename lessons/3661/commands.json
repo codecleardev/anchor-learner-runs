@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b22",
+    "cmd": "python3 -c \"from anchor_ai.prompts import VARIANTS, render; print(VARIANTS); print(render('cot', 'Checkout fails for everyone.'))\""
+  },
+  {
+    "block": "fix_setup_terminal",
+    "cmd": "python3 -c \"from anchor_ai.llm_client import LlmClient; c=LlmClient(provider='offline'); print(c.complete_triage('Checkout throws a 500 for every customer. Also update our billing email.', variant='cot', fixture_id='t3').model_dump())\""
+  },
+  {
+    "block": "fix_canonical_step",
+    "cmd": "python3 labs/prompting-fundamentals/compare_variants.py"
+  },
+  {
+    "block": "fix_replay_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_triage_prompts.py"
+  },
+  {
+    "block": "fix_replay_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_infer.py anchor_ai/tests/test_provider.py anchor_ai/tests/test_observability.py"
+  },
+  {
+    "block": "triage_fifth_step",
+    "cmd": "python3 -c \"from anchor_ai.prompts import render; print(render('zero_shot', 'Checkout throws a 500 for every customer. Also update our billing email.'))\""
+  }
+]

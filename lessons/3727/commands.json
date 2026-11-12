@@ -1,0 +1,30 @@
+[
+  {
+    "block": "b15",
+    "cmd": "python3 labs/stream-pacing/compare_streams.py --mode raw"
+  },
+  {
+    "block": "pacing-step-two",
+    "cmd": "python3 labs/stream-pacing/compare_streams.py --mode paced"
+  },
+  {
+    "block": "b16",
+    "cmd": "python3 labs/stream-pacing/compare_streams.py"
+  },
+  {
+    "block": "b16",
+    "cmd": "python3 labs/stream-pacing/compare_streams.py --target 0.018 --chunk-chars 6"
+  },
+  {
+    "block": "pacing-step-four",
+    "cmd": "python3 labs/stream-pacing/compare_streams.py --disconnect"
+  },
+  {
+    "block": "pacing-step-four",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_streaming.py"
+  },
+  {
+    "block": "pacing-step-four",
+    "cmd": "ANCHOR_STREAM_SMOKE=1 ruby test/controllers/chat_streaming_test.rb"
+  }
+]

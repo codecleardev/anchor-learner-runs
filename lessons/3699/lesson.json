@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3699,
+  "n": 58,
+  "title": "Agent memory: short-term, long-term, and episodic",
+  "phase": 5,
+  "content_id": 17281,
+  "content_digest": "5f99c8b3ada35181bff73d0c069fd792c4dd651ca83731e5ece0920f4f46e9c1",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "aceaa15deced16af5f00",
+  "before_tag": "lesson-056-plan-and-execute-agent-architectures",
+  "lesson_tag": "lesson-057-agent-memory-short-term-long-term-and-episodic",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

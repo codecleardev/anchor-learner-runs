@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b19",
+    "cmd": "python3 bin/bm25_query.py \"4821\" --tenant 1"
+  },
+  {
+    "block": "b32",
+    "cmd": "python3 bin/bm25_query.py \"shipping delay refund policy\" --tenant 1"
+  },
+  {
+    "block": "b32",
+    "cmd": "python3 bin/bm25_query.py \"shipping delay refund policy\" --tenant 7"
+  },
+  {
+    "block": "b34",
+    "cmd": "python3 bin/bm25_query.py \"shipping delay refund policy\" --tenant 1 --compare"
+  },
+  {
+    "block": "sparse-delete-step",
+    "cmd": "python3 bin/bm25_query.py \"4821\" --tenant 1 --delete"
+  },
+  {
+    "block": "sparse-tests-step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_sparse_retrieval.py"
+  }
+]

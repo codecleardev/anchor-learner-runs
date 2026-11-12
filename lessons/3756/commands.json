@@ -1,0 +1,34 @@
+[
+  {
+    "block": "online_run_sampling",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "online_run_sampling",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "online_run_sampling",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_online_quality.py"
+  },
+  {
+    "block": "online_run_jobs",
+    "cmd": "ruby test/integration/online_quality_monitoring_test.rb"
+  },
+  {
+    "block": "online_run_feedback",
+    "cmd": "ruby test/integration/online_quality_monitoring_test.rb --include test_budget_reservations_and_authorized_feedback_association"
+  },
+  {
+    "block": "online_run_feedback",
+    "cmd": "bin/rails test test/controllers/api/answer_feedback_controller_test.rb"
+  },
+  {
+    "block": "online_run_drift",
+    "cmd": "python3 -m anchor_ai.online_quality"
+  },
+  {
+    "block": "online_run_drift",
+    "cmd": "bin/rails test"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "block": "b17",
+    "cmd": "python3 labs/lora-fundamentals/lora_numpy_lab.py --rank 8 --alpha 16"
+  },
+  {
+    "block": "lora-step-sweep",
+    "cmd": "python3 labs/lora-fundamentals/lora_numpy_lab.py --rank 8 --alpha 8"
+  },
+  {
+    "block": "lora-step-manifest",
+    "cmd": "python3 bin/train_sft.py --offline --config config/fine_tuning.yml"
+  },
+  {
+    "block": "lora-step-tests",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_adapter_config.py anchor_ai/tests/test_training.py"
+  }
+]

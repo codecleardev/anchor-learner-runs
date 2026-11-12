@@ -1,0 +1,30 @@
+[
+  {
+    "block": "b33",
+    "cmd": "python3 bin/dense_rag_query.py --seed"
+  },
+  {
+    "block": "b42",
+    "cmd": "python3 bin/dense_rag_query.py \"How do I get a refund?\""
+  },
+  {
+    "block": "b45",
+    "cmd": "bin/rails test test/services/retrieval_client_test.rb"
+  },
+  {
+    "block": "b48",
+    "cmd": "python3 bin/dense_rag_query.py \"Do you cover lunar shipping?\""
+  },
+  {
+    "block": "dense-run-tests",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_dense_retrieval.py anchor_ai/tests/test_dense_rag.py"
+  },
+  {
+    "block": "dense-run-tests",
+    "cmd": "bin/rails test test/services/retrieval_client_test.rb test/jobs/ingest_document_job_test.rb"
+  },
+  {
+    "block": "dense-run-tests",
+    "cmd": "bin/rails test"
+  }
+]

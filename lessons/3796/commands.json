@@ -1,0 +1,26 @@
+[
+  {
+    "block": "n21",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_reasoning.py"
+  },
+  {
+    "block": "n22",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_reasoning.py anchor_ai/tests/test_observability.py"
+  },
+  {
+    "block": "n23",
+    "cmd": "python3 labs/reasoning-budgets/compare_budgets.py --offline"
+  },
+  {
+    "block": "n24",
+    "cmd": "python3 labs/reasoning-budgets/compare_budgets.py --offline --max-output-tokens 300"
+  },
+  {
+    "block": "n24",
+    "cmd": "python3 labs/reasoning-budgets/compare_budgets.py --offline --max-output-tokens 4000"
+  },
+  {
+    "block": "n25",
+    "cmd": "python3 labs/reasoning-budgets/compare_budgets.py --offline --verify-policy"
+  }
+]

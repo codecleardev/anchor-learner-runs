@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3711,
+  "n": 72,
+  "title": "Code sandboxes for safe agent code execution: isolation, resource limits, and egress control",
+  "phase": 6,
+  "content_id": 17290,
+  "content_digest": "86625469d7df553fc4394c777224064481c8a495b7208c3a26625019698aebba",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "e704ce9c012a8c286382",
+  "before_tag": "lesson-069-framework-comparison-langchain-vs-langgraph-vs-l",
+  "lesson_tag": "lesson-070-code-sandboxes-for-safe-agent-code-execution-iso",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 6,
+  "has_demo": true,
+  "commands": 6,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

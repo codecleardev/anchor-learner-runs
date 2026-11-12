@@ -1,0 +1,50 @@
+[
+  {
+    "block": "ingestion_step_1",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "ingestion_step_1",
+    "cmd": "bin/rails runner 'puts \"Anchor SQLite: #{ActiveRecord::Base.connection_db_config.database}\"; puts Document.column_names.join(\", \"); puts DocumentChunk.column_names.join(\", \")'"
+  },
+  {
+    "block": "ingestion_step_2",
+    "cmd": "ruby bin/seed_kb --enqueue"
+  },
+  {
+    "block": "ingestion_step_3",
+    "cmd": "ruby bin/seed_kb --drain"
+  },
+  {
+    "block": "ingestion_step_3",
+    "cmd": "bin/rails runner 'db = ActiveRecord::Base.connection_db_config.database.to_s; system(\"sqlite3\", \"-header\", \"-column\", db, \"SELECT d.tenant_id,d.id AS document_id,d.status,p.id AS parent_id,l.id AS leaf_id,l.text,l.window_text,l.embedding_dimensions FROM documents d JOIN document_chunks l ON l.document_id=d.id AND l.is_leaf=1 JOIN document_chunks p ON p.id=l.parent_id WHERE d.tenant_id IN (101,202) ORDER BY d.tenant_id,l.chunk_index;\") || abort(\"sqlite3 failed\")'"
+  },
+  {
+    "block": "ingestion_step_3",
+    "cmd": "bin/rails runner 'db = ActiveRecord::Base.connection_db_config.database.to_s; system(\"sqlite3\", db, \"SELECT COUNT(*) AS violations FROM document_chunks c LEFT JOIN documents d ON d.id=c.document_id LEFT JOIN document_chunks p ON p.id=c.parent_id WHERE d.id IS NULL OR c.tenant_id<>d.tenant_id OR (c.is_leaf=0 AND c.embedding IS NOT NULL) OR (c.is_leaf=1 AND (p.id IS NULL OR p.is_leaf<>0 OR p.document_id<>c.document_id OR p.tenant_id<>c.tenant_id));\") || abort(\"sqlite3 failed\")'"
+  },
+  {
+    "block": "ingestion_step_4",
+    "cmd": "ruby bin/seed_kb --drain"
+  },
+  {
+    "block": "ingestion_step_4",
+    "cmd": "bin/rails runner 'db = ActiveRecord::Base.connection_db_config.database.to_s; system(\"sqlite3\", \"-header\", \"-column\", db, \"SELECT tenant_id,content_hash,COUNT(*) AS copies FROM documents WHERE tenant_id IN (101,202) GROUP BY tenant_id,content_hash; SELECT document_id,chunk_index,COUNT(*) AS copies FROM document_chunks GROUP BY document_id,chunk_index HAVING COUNT(*)>1;\") || abort(\"sqlite3 failed\")'"
+  },
+  {
+    "block": "ingestion_step_5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_ingestion.py"
+  },
+  {
+    "block": "ingestion_step_5",
+    "cmd": "bin/rails test test/models/document_test.rb test/jobs/ingest_document_job_test.rb"
+  },
+  {
+    "block": "ingestion_step_5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests"
+  },
+  {
+    "block": "ingestion_step_5",
+    "cmd": "bin/rails test"
+  }
+]

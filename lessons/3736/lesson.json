@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3736,
+  "n": 102,
+  "title": "Checkpoint: Anchor performance and cost",
+  "phase": 9,
+  "content_id": 17315,
+  "content_digest": "959263b83b5ef4d7f0fc735a7d34ad31971b48845f17a665621920aecad30fec",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "729743446e5480a931e3",
+  "before_tag": "lesson-098-debug-drill-the-failover-loop-that-drained-the-b",
+  "lesson_tag": "lesson-099-checkpoint-anchor-performance-and-cost",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

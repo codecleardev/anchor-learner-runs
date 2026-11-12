@@ -1,0 +1,34 @@
+[
+  {
+    "block": "kv-run-1",
+    "cmd": "python3 -c \"from anchor_ai.kv_cache import configuration,budget; print(budget(configuration()))\""
+  },
+  {
+    "block": "kv-run-2",
+    "cmd": "python3 ops/load/kv_cache_dashboard.py --fixtures"
+  },
+  {
+    "block": "kv-run-3",
+    "cmd": "python3 ops/load/load_test.py --concurrency 48 --kv-profile unsafe"
+  },
+  {
+    "block": "kv-run-4",
+    "cmd": "python3 ops/load/kv_cache_dashboard.py --profile bounded"
+  },
+  {
+    "block": "kv-run-4",
+    "cmd": "python3 ops/load/kv_cache_dashboard.py --profile bounded --block-size 32 --context 512 --limit 8 --utilization 0.85"
+  },
+  {
+    "block": "kv-run-4",
+    "cmd": "python3 ops/load/kv_cache_dashboard.py --profile bounded --context 256"
+  },
+  {
+    "block": "kv-run-5-isolated",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_kv_cache.py anchor_ai/tests/test_vllm_backend.py anchor_ai/tests/test_self_hosted_batching.py"
+  },
+  {
+    "block": "kv-run-5-isolated",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_kv_cache.py anchor_ai/tests/test_self_hosted_batching.py anchor_ai/tests/test_quota_admission.py"
+  }
+]

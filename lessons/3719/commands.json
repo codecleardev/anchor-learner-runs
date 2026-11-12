@@ -1,0 +1,30 @@
+[
+  {
+    "block": "lab-1",
+    "cmd": "ruby bin/release_gate --smoke"
+  },
+  {
+    "block": "lab-2",
+    "cmd": "python3 -m eval.release_gate smoke --regressed --expect-blocked"
+  },
+  {
+    "block": "lab-3",
+    "cmd": "python3 -m eval.release_gate smoke"
+  },
+  {
+    "block": "lab-4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_eval_release_gate.py anchor_ai/tests/test_eval_dashboard.py anchor_ai/tests/test_adapter_release.py"
+  },
+  {
+    "block": "lab-4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_customization.py"
+  },
+  {
+    "block": "lab-4",
+    "cmd": "ruby test/integration/evaluation_gate_milestone_test.rb"
+  },
+  {
+    "block": "lab-5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_eval_release_gate.py -k 'upstream or identity or quarantine or stale'"
+  }
+]

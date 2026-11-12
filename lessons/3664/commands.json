@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b17",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m pytest -q anchor_ai/tests/test_streaming.py"
+  },
+  {
+    "block": "stream-step-two",
+    "cmd": "grep -q webmock Gemfile || bundle add webmock --group test"
+  },
+  {
+    "block": "stream-step-two",
+    "cmd": "ruby -c app/services/llm_client.rb"
+  },
+  {
+    "block": "stream-step-two",
+    "cmd": "ruby -c app/controllers/chat_controller.rb"
+  },
+  {
+    "block": "b33",
+    "cmd": "bin/rails test test/controllers/chat_controller_test.rb test/controllers/chat_streaming_test.rb test/services/ai_boundary_test.rb"
+  },
+  {
+    "block": "b34",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m pytest -q -s anchor_ai/tests/test_streaming_stack.py"
+  }
+]

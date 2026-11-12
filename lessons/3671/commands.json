@@ -1,0 +1,22 @@
+[
+  {
+    "block": "b22",
+    "cmd": "python3 labs/vector-indexes/index_bench.py --fingerprint-only"
+  },
+  {
+    "block": "v12",
+    "cmd": "python3 labs/vector-indexes/index_bench.py"
+  },
+  {
+    "block": "v13",
+    "cmd": "python3 labs/vector-indexes/index_bench.py"
+  },
+  {
+    "block": "v14",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_vector_index.py"
+  },
+  {
+    "block": "v14",
+    "cmd": "python3 labs/vector-indexes/index_bench.py --demo"
+  }
+]

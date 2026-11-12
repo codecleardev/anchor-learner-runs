@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3680,
+  "n": 37,
+  "title": "Debug drill: the agentic RAG loop that never stops retrieving",
+  "phase": 3,
+  "content_id": 17265,
+  "content_digest": "7fdc77b96b438026505ebea0a7e69cefeef5c535a1a3f11d23ee040b15fcbfd1",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "6b6e746de0990d99089d",
+  "before_tag": "lesson-035-agentic-rag-retrieval-as-a-tool-in-an-agent-loop",
+  "lesson_tag": "lesson-036-debug-drill-the-agentic-rag-loop-that-never-stop",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

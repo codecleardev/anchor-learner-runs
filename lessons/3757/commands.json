@@ -1,0 +1,18 @@
+[
+  {
+    "block": "b19",
+    "cmd": "python3 ops/load/ticket_spike.py"
+  },
+  {
+    "block": "spike-step-two",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_ticket_spike.py"
+  },
+  {
+    "block": "spike-step-three",
+    "cmd": "python3 ops/load/batch_throughput.py --mode mixed"
+  },
+  {
+    "block": "spike-step-four",
+    "cmd": "python3 ops/load/load_test.py --ticket-spike"
+  }
+]

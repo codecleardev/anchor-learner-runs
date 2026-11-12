@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b17",
+    "cmd": "python3 eval/trajectory_eval.py --run run_042"
+  },
+  {
+    "block": "trajectory_lab_2",
+    "cmd": "python3 eval/trajectory_eval.py --run run_042 --multi-agent"
+  },
+  {
+    "block": "trajectory_lab_3",
+    "cmd": "python3 eval/trajectory_eval.py --run run_042 --routing safe"
+  },
+  {
+    "block": "trajectory_lab_4",
+    "cmd": "python3 eval/agent_gate.py --trajectory-smoke"
+  },
+  {
+    "block": "trajectory_lab_4",
+    "cmd": "python3 eval/multi_agent_gate.py --trajectory-smoke"
+  },
+  {
+    "block": "trajectory_lab_5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_trajectory_eval.py anchor_ai/tests/test_observability.py anchor_ai/tests/test_agent_trajectories.py"
+  }
+]

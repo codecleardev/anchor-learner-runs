@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3791,
+  "n": 70,
+  "title": "Agent harness SDKs and agent-to-agent interop: what each layer is for",
+  "phase": 6,
+  "content_id": 17288,
+  "content_digest": "b9b3e24a5f55e5cdc063545cf871613fcc6abf2f9d6973cad02cf5367b4b5ebe",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "2dae3e64469bfd721a46",
+  "before_tag": "lesson-067-provider-native-agent-and-assistant-apis",
+  "lesson_tag": "lesson-068-agent-harness-sdks-and-agent-to-agent-interop-wh",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

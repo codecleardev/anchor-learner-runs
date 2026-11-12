@@ -1,0 +1,26 @@
+[
+  {
+    "block": "n-step2",
+    "cmd": "grep -q webmock Gemfile || bundle add webmock --group test"
+  },
+  {
+    "block": "n-step2",
+    "cmd": "bin/rails test test/services/ai_telemetry_test.rb test/services/ai_boundary_test.rb"
+  },
+  {
+    "block": "n-step3",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_observability.py::test_replay_requests_are_joinable_and_content_free"
+  },
+  {
+    "block": "n-step4",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_infer.py::test_validation_failure_is_correlated_without_provider"
+  },
+  {
+    "block": "n-step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_observability.py anchor_ai/tests/test_infer.py anchor_ai/tests/test_provider.py"
+  },
+  {
+    "block": "n-step5",
+    "cmd": "bin/rails test test/services/ai_telemetry_test.rb test/services/ai_boundary_test.rb test/services/llm_client_test.rb test/controllers/chat_controller_test.rb"
+  }
+]

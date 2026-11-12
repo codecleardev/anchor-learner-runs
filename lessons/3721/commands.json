@@ -1,0 +1,22 @@
+[
+  {
+    "block": "vision_step_config",
+    "cmd": "python3 -c \"from anchor_ai.vision import settings; c=settings(); print('provider='+c['provider']+'; external_calls='+str(c['external_calls']))\""
+  },
+  {
+    "block": "vision_step_demo",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_vision.py::test_generated_fixture_is_valid anchor_ai/tests/test_vision.py::test_demo"
+  },
+  {
+    "block": "vision_step_upload",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_vision.py -k 'reject_image or invalid_base64 or corrupt_png or signed_context or tenant_not_accepted or service_auth'"
+  },
+  {
+    "block": "vision_step_output",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_vision.py -k 'invalid_model_output or provider_rejection or schema_boundary or live_mode'"
+  },
+  {
+    "block": "vision_step_trace",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_vision.py anchor_ai/tests/test_observability.py"
+  }
+]

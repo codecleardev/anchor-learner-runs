@@ -1,0 +1,30 @@
+[
+  {
+    "block": "lat-baseline",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_observability.py"
+  },
+  {
+    "block": "lat-baseline",
+    "cmd": "bin/rails test test/services/ai_telemetry_test.rb"
+  },
+  {
+    "block": "lat-enable",
+    "cmd": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 -m pytest -q anchor_ai/tests/test_latency_profile.py anchor_ai/tests/test_hybrid_retrieval.py"
+  },
+  {
+    "block": "lat-enable",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_query_engine.py::test_attach_does_not_call_embedding_or_model"
+  },
+  {
+    "block": "lat-enable",
+    "cmd": "bin/rails test test/integration/latency_profile_test.rb test/services/ai_telemetry_test.rb test/services/retrieval_client_test.rb"
+  },
+  {
+    "block": "lat-run",
+    "cmd": "python3 ops/load/profile_tickets.py"
+  },
+  {
+    "block": "lat-inspect",
+    "cmd": "python3 -c \"import json; r=json.load(open('tmp/latency_profile/report.json')); print(json.dumps({k:r[k] for k in ('dominant_exclusive_segment','exclusive_segments','round_trip_counts','cohorts','max_remainder_fraction','labels')}, indent=2))\""
+  }
+]

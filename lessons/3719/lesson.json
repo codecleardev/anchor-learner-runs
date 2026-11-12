@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3719,
+  "n": 83,
+  "title": "Anchor — build it: CI evaluation gates milestone",
+  "phase": 7,
+  "content_id": 17298,
+  "content_digest": "bf4dee2318dcfe76158d186cc0cf44b5dfd6e34e4dab4a2cb1d5309ab29e442a",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "f0abdacec67926618868",
+  "before_tag": "lesson-079-regression-testing-for-prompts-and-pipelines",
+  "lesson_tag": "lesson-080-anchor-build-it-ci-evaluation-gates-milestone",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 7,
+  "has_demo": true,
+  "commands": 7,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

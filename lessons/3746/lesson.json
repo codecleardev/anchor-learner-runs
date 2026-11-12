@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3746,
+  "n": 114,
+  "title": "Self-hosted inference fundamentals",
+  "phase": 11,
+  "content_id": 17326,
+  "content_digest": "a09bdbdd9abf55188fe41e15b8b20f90747b12fd7e1d67b6414d7ac04aebfc45",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "a7528eddf0ea225ba52e",
+  "before_tag": "lesson-109-checkpoint-anchor-security-and-safety",
+  "lesson_tag": "lesson-110-self-hosted-inference-fundamentals",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 4,
+  "has_demo": true,
+  "commands": 4,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

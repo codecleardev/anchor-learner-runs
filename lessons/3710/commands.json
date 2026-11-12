@@ -1,0 +1,18 @@
+[
+  {
+    "block": "native-step-1",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 labs/provider-native-agents/native_agent_wrapper.py"
+  },
+  {
+    "block": "native-step-2",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_native_agent_wrapper.py -k two_turns"
+  },
+  {
+    "block": "native-step-3",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 labs/provider-native-agents/native_agent_wrapper.py --trace-only"
+  },
+  {
+    "block": "native-step-4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_native_agent_wrapper.py"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "block": "b20",
+    "cmd": "python3 -c \"import json; from pathlib import Path; d=json.loads(Path('eval/datasets/advanced_retrieval_queries.json').read_text()); print(d['version'], len(d['cases']), 'queries'); print(d['judging_policy']); print(d['cases'][7])\""
+  },
+  {
+    "block": "b21_label",
+    "cmd": "ANCHOR_EMBEDDING_PROVIDER=offline python3 -m eval.retrieval_eval"
+  },
+  {
+    "block": "b21_label_example",
+    "cmd": "ANCHOR_EMBEDDING_PROVIDER=offline python3 -m eval.retrieval_eval --details"
+  },
+  {
+    "block": "retrieval-verification-step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_retrieval_metrics.py"
+  },
+  {
+    "block": "retrieval-verification-step",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline ANCHOR_QUERY_PROVIDER=offline ANCHOR_EMBEDDING_PROVIDER=offline python3 eval/retrieval_gate.py"
+  }
+]

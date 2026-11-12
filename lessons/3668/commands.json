@@ -1,0 +1,22 @@
+[
+  {
+    "block": "embedding_baseline",
+    "cmd": "python3 -m pytest -q anchor_ai/tests"
+  },
+  {
+    "block": "b19",
+    "cmd": "python3 -c \"from anchor_ai.embeddings import load_config; c = load_config(); assert c['default_provider'] == 'offline'; print(c)\""
+  },
+  {
+    "block": "embedding_run_smoke",
+    "cmd": "python3 labs/embeddings-fundamentals/embed_smoke_test.py"
+  },
+  {
+    "block": "embedding_run_tests",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_embeddings.py"
+  },
+  {
+    "block": "embedding_run_tests",
+    "cmd": "python3 -m pytest -q anchor_ai/tests"
+  }
+]

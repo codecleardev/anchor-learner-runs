@@ -1,0 +1,42 @@
+[
+  {
+    "block": "b18",
+    "cmd": "python3 labs/graph-retrieval/graph_retrieval_demo.py --inspect"
+  },
+  {
+    "block": "b19",
+    "cmd": "python3 labs/graph-retrieval/graph_retrieval_demo.py"
+  },
+  {
+    "block": "b20",
+    "cmd": "python3 labs/graph-retrieval/graph_retrieval_demo.py --mode compare"
+  },
+  {
+    "block": "graph_limits_step",
+    "cmd": "python3 labs/graph-retrieval/graph_retrieval_demo.py --max-depth 2"
+  },
+  {
+    "block": "graph_limits_step",
+    "cmd": "python3 labs/graph-retrieval/graph_retrieval_demo.py --no-tenant-filter"
+  },
+  {
+    "block": "graph_test_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_graph_retrieval.py anchor_ai/tests/test_index_maintenance.py"
+  },
+  {
+    "block": "graph_scope_regression_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_graph_retrieval.py::test_scope_cannot_supply_missing_edge"
+  },
+  {
+    "block": "graph_cycle_regression_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_graph_retrieval.py::test_depth_cycle_and_expansion_limits"
+  },
+  {
+    "block": "graph_generation_regression_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_graph_retrieval.py::test_generation_backfill_activation_and_rollback"
+  },
+  {
+    "block": "graph_source_lifecycle_regression_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_graph_retrieval.py::test_deleted_source_is_excluded_even_if_stale_edge_survives anchor_ai/tests/test_graph_retrieval.py::test_replacement_failure_and_bad_provenance_roll_back"
+  }
+]

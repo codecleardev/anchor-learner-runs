@@ -1,0 +1,110 @@
+name: learner-runs
+
+# Learner-path runs of the CodeClear AI Engineering course, one job per lesson. Started by hand only.
+on:
+  workflow_dispatch:
+    inputs:
+      lessons:
+        description: 'Lesson ids (comma or space separated), or "all" = every lesson that needs a run'
+        required: true
+        default: all
+      anchor_repo:
+        description: 'Anchor repo to clone, owner/name (the repo of record is sandeepmvl/anchor)'
+        required: true
+        default: sandeepmvl/anchor
+      devcontainer:
+        description: 'auto = the tag''s own .devcontainer, the pinned fallback only when the tag has none'
+        type: choice
+        options: [auto, repo, fallback]
+        default: auto
+      max_parallel:
+        description: 'Lesson jobs at the same time'
+        required: true
+        default: '20'
+
+permissions:
+  contents: read
+
+env:
+  DEVCONTAINER_CLI_VERSION: 0.90.0
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - id: plan
+        env:
+          LESSONS: ${{ inputs.lessons }}
+        run: python3 scripts/plan.py "$LESSONS" >> "$GITHUB_OUTPUT"
+
+  lesson:
+    needs: plan
+    name: lesson ${{ matrix.n }} (${{ matrix.lesson }})
+    runs-on: ubuntu-latest   # x86_64, as Codespaces
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: ${{ fromJSON(inputs.max_parallel) }}
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install the dev container CLI
+        run: npm install -g "@devcontainers/cli@${DEVCONTAINER_CLI_VERSION}" && devcontainer --version
+      - name: Learner-path run
+        env:
+          LESSON: ${{ matrix.lesson }}
+          ANCHOR_REPO: ${{ inputs.anchor_repo }}
+          DC_MODE: ${{ inputs.devcontainer }}
+          LESSON_TIMEOUT: '2400'
+        run: |
+          test "$(uname -m)" = x86_64
+          bash scripts/run_lesson.sh "$LESSON" "$ANCHOR_REPO" "$DC_MODE"
+      - name: Upload the run
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: run-${{ matrix.lesson }}
+          path: out/${{ matrix.lesson }}/
+          if-no-files-found: error
+          retention-days: 30
+
+  summary:
+    needs: [plan, lesson]
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          pattern: run-*
+          path: runs
+      - name: Pass/fail table
+        id: table
+        env:
+          MATRIX: ${{ needs.plan.outputs.matrix }}
+          ANCHOR_REPO: ${{ inputs.anchor_repo }}
+        run: |
+          mkdir -p runs
+          rc=0; python3 scripts/summary.py runs "$MATRIX" >> "$GITHUB_STEP_SUMMARY" || rc=$?
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: summary
+          path: |
+            SUMMARY.md
+            summary.json
+          retention-days: 30
+      - name: Fail when a lesson did not pass
+        if: steps.table.outputs.rc != '0'
+        run: exit 1

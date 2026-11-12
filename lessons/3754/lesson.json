@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3754,
+  "n": 122,
+  "title": "Deployment architectures for LLM-backed applications",
+  "phase": 12,
+  "content_id": 17334,
+  "content_digest": "1de1e9d442c0b67b8591b205934d355309b83c822bb71655c7ee9ba534e667e5",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "cf1f09cbd9ed112503a3",
+  "before_tag": "lesson-117-checkpoint-anchor-self-hosted-inference",
+  "lesson_tag": "lesson-118-deployment-architectures-for-llm-backed-applicat",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

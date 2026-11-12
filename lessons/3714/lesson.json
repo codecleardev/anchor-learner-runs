@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3714,
+  "n": 76,
+  "title": "Checkpoint: Anchor multi-agent orchestration",
+  "phase": 6,
+  "content_id": 17293,
+  "content_digest": "962f936b075f5a02002f82b60e84412390330ae585821061875f6d344a5d93a7",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "1251cfd95f8330f85573",
+  "before_tag": "lesson-073-debug-drill-the-multi-agent-handoff-that-drops-c",
+  "lesson_tag": "lesson-074-checkpoint-anchor-multi-agent-orchestration",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

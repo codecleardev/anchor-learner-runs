@@ -1,0 +1,26 @@
+[
+  {
+    "block": "safe-ready-step-1",
+    "cmd": "python3 -c \"from anchor_ai.autonomy import load_policy; p=load_policy(); [print(n, p['tools'][n]) for n in ('lookup_order','issue_refund','update_address')]\""
+  },
+  {
+    "block": "safe-ready-step-1",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "safe-ready-step-1",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "safe-ready-step-2",
+    "cmd": "ruby test/integration/safe_tool_actions_test.rb --name test_preview_execute_retry_and_compensate"
+  },
+  {
+    "block": "safe-ready-step-3",
+    "cmd": "ruby test/integration/safe_tool_actions_test.rb"
+  },
+  {
+    "block": "safe-ready-step-4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_tools.py anchor_ai/tests/test_escalation.py"
+  }
+]

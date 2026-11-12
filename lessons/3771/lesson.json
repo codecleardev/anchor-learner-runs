@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3771,
+  "n": 134,
+  "title": "Roles and hiring: how teams hire AI engineers",
+  "phase": 12,
+  "content_id": 17343,
+  "content_digest": "feea3b83dfb76d7154b23f14b9f550359bfbeac056ebf2a1adf4802739399c43",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "65d1f4e17355e8668962",
+  "before_tag": "lesson-129-staff-level-ai-engineering-interview-system-desi",
+  "lesson_tag": "lesson-130-roles-and-hiring-how-teams-hire-ai-engineers",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

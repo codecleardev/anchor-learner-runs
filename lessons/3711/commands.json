@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b16",
+    "cmd": "python3 -m anchor_ai.sandbox"
+  },
+  {
+    "block": "sandbox-resource-checks-ordered",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_sandbox.py -k 'resource or deadline or output or environment'"
+  },
+  {
+    "block": "sandbox-egress-checks-ordered",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_sandbox.py -k 'egress or production or configuration'"
+  },
+  {
+    "block": "sandbox-step-four",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_sandbox.py -k diagnostic_replay"
+  },
+  {
+    "block": "sandbox-step-five",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_sandbox.py"
+  },
+  {
+    "block": "sandbox-step-five",
+    "cmd": "python3 -c \"from pathlib import Path; print(Path('ops/runbooks/sandbox_capacity.md').read_text())\""
+  }
+]

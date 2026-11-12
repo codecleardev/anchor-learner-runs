@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b13",
+    "cmd": "python3 labs/qlora-memory/qlora_numpy_lab.py"
+  },
+  {
+    "block": "q-step3",
+    "cmd": "python3 bin/train_sft.py --offline --config config/fine_tuning.yml"
+  },
+  {
+    "block": "q-step4",
+    "cmd": "python3 -c \"from pathlib import Path; p=Path('config/fine_tuning.yml'); s=p.read_text(); old='hardware: planning-16GB-no-device-probed\\n    gpu_budget_bytes: 16000000000'; assert old in s; p.write_text(s.replace(old, 'hardware: planning-16GB-no-device-probed\\n    gpu_budget_bytes: 1000000000', 1))\""
+  },
+  {
+    "block": "q-step4",
+    "cmd": "python3 bin/train_sft.py --offline --config config/fine_tuning.yml"
+  },
+  {
+    "block": "q-step5",
+    "cmd": "python3 -c \"from pathlib import Path; p=Path('config/fine_tuning.yml'); s=p.read_text(); old='hardware: planning-16GB-no-device-probed\\n    gpu_budget_bytes: 1000000000'; assert old in s; p.write_text(s.replace(old, 'hardware: planning-16GB-no-device-probed\\n    gpu_budget_bytes: 16000000000', 1))\""
+  },
+  {
+    "block": "q-step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_quantized_training.py anchor_ai/tests/test_adapter_config.py anchor_ai/tests/test_training.py"
+  }
+]

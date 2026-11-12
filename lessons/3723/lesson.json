@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3723,
+  "n": 88,
+  "title": "Audio transcription and speech pipelines with Whisper",
+  "phase": 8,
+  "content_id": 17302,
+  "content_digest": "984d0b3ba799521d04d0fe8e495ea71a2709a5a98dd57a27904da7d6be96eb86",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "9b7c579d9bd54f87f762",
+  "before_tag": "lesson-084-anchor-build-it-screenshot-and-attachment-unders",
+  "lesson_tag": "lesson-085-audio-transcription-and-speech-pipelines-with-wh",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 4,
+  "has_demo": true,
+  "commands": 4,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

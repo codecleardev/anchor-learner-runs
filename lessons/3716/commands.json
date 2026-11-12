@@ -1,0 +1,18 @@
+[
+  {
+    "block": "b19",
+    "cmd": "python3 eval/calibrate_judge.py --dataset golden_v2 --offline"
+  },
+  {
+    "block": "b19_inspect",
+    "cmd": "python3 eval/calibrate_judge.py --dataset golden_v2 --offline --revision clarified --compare"
+  },
+  {
+    "block": "b20",
+    "cmd": "python3 eval/calibrate_judge.py --dataset golden_v2 --offline --revision clarified --split holdout"
+  },
+  {
+    "block": "b20_revise",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_judge_calibration.py"
+  }
+]

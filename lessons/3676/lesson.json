@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3676,
+  "n": 31,
+  "title": "Checkpoint: Anchor RAG indexing and retrieval",
+  "phase": 2,
+  "content_id": 17260,
+  "content_digest": "046234210c53b75761721e135e0237850d3068bfe98f1456ab3204e0dab405ba",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "7b2766b4d4118511e3a1",
+  "before_tag": "lesson-029-query-analysis-and-rewriting-for-retrieval",
+  "lesson_tag": "lesson-030-checkpoint-anchor-rag-indexing-and-retrieval",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

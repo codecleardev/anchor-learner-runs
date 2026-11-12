@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3689,
+  "n": 53,
+  "title": "Checkpoint: Anchor fine-tuning and customization",
+  "phase": 4,
+  "content_id": 17277,
+  "content_digest": "b73a3e088e3fe91a8c2521c6f0ea1890ea8dd6f0c33274236491dca8d46f6062",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "e51ec9baba5066337342",
+  "before_tag": "lesson-051-reinforcement-fine-tuning-with-graders-rft-and-g",
+  "lesson_tag": "lesson-052-checkpoint-anchor-fine-tuning-and-customization",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

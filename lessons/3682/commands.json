@@ -1,0 +1,22 @@
+[
+  {
+    "block": "new-step1",
+    "cmd": "python3 -m eval.groundedness_scorer --query \"What is your refund policy?\""
+  },
+  {
+    "block": "new-step2",
+    "cmd": "python3 -c \"from eval.groundedness_scorer import evaluate_cases; import json; r=evaluate_cases(); print(json.dumps([x for x in r['reports'] if x['case']=='invented_citation'], indent=2))\""
+  },
+  {
+    "block": "new-step3",
+    "cmd": "python3 -m eval.groundedness_scorer --query \"What is your refund policy?\" --show-calls"
+  },
+  {
+    "block": "new-step4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_faithfulness.py"
+  },
+  {
+    "block": "new-step4",
+    "cmd": "python3 -c \"from eval.groundedness_scorer import run_gate; run_gate()\""
+  }
+]

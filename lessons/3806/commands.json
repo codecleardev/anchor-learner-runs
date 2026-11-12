@@ -1,0 +1,22 @@
+[
+  {
+    "block": "ms-step1",
+    "cmd": "python3 labs/mcp-server/probe.py stdio"
+  },
+  {
+    "block": "ms-step2",
+    "cmd": "python3 labs/mcp-server/probe.py http"
+  },
+  {
+    "block": "ms-step3",
+    "cmd": "python3 labs/mcp-server/probe.py vet"
+  },
+  {
+    "block": "ms-step4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_mcp_server.py"
+  },
+  {
+    "block": "ms-step4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_mcp.py"
+  }
+]

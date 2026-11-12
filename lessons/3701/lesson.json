@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3701,
+  "n": 60,
+  "title": "Anchor — build it: bounded agent with tools, planning, and memory",
+  "phase": 5,
+  "content_id": 17345,
+  "content_digest": "096838bbba6b2bf8df0a4687b2911021039f04311025a9b2b4a06108a3c80a99",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "c86ce51fadc672393c78",
+  "before_tag": "lesson-058-human-escalation-and-human-in-the-loop-workflows",
+  "lesson_tag": "lesson-059-anchor-build-it-bounded-agent-with-tools-plannin",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 71,
+  "has_demo": true,
+  "commands": 71,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

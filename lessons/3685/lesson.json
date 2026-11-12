@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3685,
+  "n": 42,
+  "title": "Checkpoint: Anchor advanced RAG and evaluation",
+  "phase": 3,
+  "content_id": 17269,
+  "content_digest": "3461e2f68a49f6b860cedd457eabd649f4f445886872ef351fbcd0c3138a0a76",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "d2a541187f04c29a1fde",
+  "before_tag": "lesson-040-sprint-deploy-ship-hybrid-rag-to-a-real-endpoint",
+  "lesson_tag": "lesson-041-checkpoint-anchor-advanced-rag-and-evaluation",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

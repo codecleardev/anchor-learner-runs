@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3794,
+  "n": 35,
+  "title": "GraphRAG: knowledge-graph retrieval for relationship questions",
+  "phase": 3,
+  "content_id": 17264,
+  "content_digest": "885c8072410e4498307308792f0adf8bd6f543786cddd24839158029f12c3a1a",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "97aba78acb07e9d2bfdc",
+  "before_tag": "lesson-033-multi-hop-rag-for-complex-queries",
+  "lesson_tag": "lesson-034-graphrag-knowledge-graph-retrieval-for-relations",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 10,
+  "has_demo": true,
+  "commands": 10,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

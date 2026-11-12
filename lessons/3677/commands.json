@@ -1,0 +1,18 @@
+[
+  {
+    "block": "b15",
+    "cmd": "ANCHOR_RERANKER=disabled python3 -m eval.rerank_bench --mode before"
+  },
+  {
+    "block": "lab-enable",
+    "cmd": "ANCHOR_RERANKER=offline python3 -m eval.rerank_bench"
+  },
+  {
+    "block": "lab-interface",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_reranking.py -k 'factory or generation_trajectory'"
+  },
+  {
+    "block": "lab-regression",
+    "cmd": "ANCHOR_RERANKER=disabled python3 -m pytest -q anchor_ai/tests/test_reranking.py anchor_ai/tests/test_hybrid_retrieval.py anchor_ai/tests/test_retrieval_metrics.py"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3695,
+  "n": 54,
+  "title": "Tool calling and function calling patterns",
+  "phase": 5,
+  "content_id": 17278,
+  "content_digest": "274a5d776b27a3d2e3dfd3a8cc48c02973ccb37061fd4ac062920ae090f0351b",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "d9854ecede56a6f77b4c",
+  "before_tag": "lesson-052-checkpoint-anchor-fine-tuning-and-customization",
+  "lesson_tag": "lesson-053-tool-calling-and-function-calling-patterns",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 8,
+  "has_demo": true,
+  "commands": 8,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

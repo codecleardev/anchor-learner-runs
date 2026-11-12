@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3674,
+  "n": 29,
+  "title": "Anchor — build it: hybrid retrieval fusion",
+  "phase": 2,
+  "content_id": 17258,
+  "content_digest": "18fa63367387b243dc29061e7d42de704b7513a73f505e7a3112a61220af15d4",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "e98bf70c3f37f34d1aab",
+  "before_tag": "lesson-027-anchor-build-it-sparse-retrieval-with-bm25",
+  "lesson_tag": "lesson-028-anchor-build-it-hybrid-retrieval-fusion",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 8,
+  "has_demo": true,
+  "commands": 8,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

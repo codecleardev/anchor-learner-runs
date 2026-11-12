@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b25",
+    "cmd": "ruby labs/provider-failover/failover_drill.rb primary"
+  },
+  {
+    "block": "b18",
+    "cmd": "bin/rails runner labs/provider-failover/failover_drill.rb"
+  },
+  {
+    "block": "pf-policy-step",
+    "cmd": "ruby labs/provider-failover/failover_drill.rb policy"
+  },
+  {
+    "block": "pf-budget-step",
+    "cmd": "ruby labs/provider-failover/failover_drill.rb budget"
+  },
+  {
+    "block": "pf-recovery-step",
+    "cmd": "ruby labs/provider-failover/failover_drill.rb recovery"
+  },
+  {
+    "block": "pf-recovery-step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_provider_routing.py"
+  }
+]

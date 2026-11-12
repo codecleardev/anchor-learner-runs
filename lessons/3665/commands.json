@@ -1,0 +1,50 @@
+[
+  {
+    "block": "prompt_step_storage",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "prompt_step_storage",
+    "cmd": "bin/rails db:seed"
+  },
+  {
+    "block": "prompt_step_storage",
+    "cmd": "bin/rails db:seed"
+  },
+  {
+    "block": "prompt_step_resolution",
+    "cmd": "bin/rails runner 'require \"yaml\"; require \"erb\"; c = YAML.safe_load(ERB.new(Rails.root.join(\"config/llm.yml\").read).result).fetch(\"shared\"); puts \"default=#{c.fetch(\"default_prompt_version\")}\"; %w[chat:v1 chat:v2].each { |v| puts PromptRegistry.resolve(v).to_json }'"
+  },
+  {
+    "block": "prompt_step_test_dependency",
+    "cmd": "grep -q webmock Gemfile || bundle add webmock --group test"
+  },
+  {
+    "block": "prompt_step_tests",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate db:seed"
+  },
+  {
+    "block": "prompt_step_tests",
+    "cmd": "bin/rails test test/services/prompt_registry_test.rb"
+  },
+  {
+    "block": "prompt_step_tests",
+    "cmd": "bin/rails test"
+  },
+  {
+    "block": "prompt_step_tests",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_prompt_contract.py"
+  },
+  {
+    "block": "prompt_step_tests",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_model_catalog.py"
+  },
+  {
+    "block": "prompt_step_demo",
+    "cmd": "ANCHOR_PROMPT_EXPORT=/tmp/anchor-3665-contracts.json bin/rails test test/services/prompt_registry_test.rb"
+  },
+  {
+    "block": "prompt_step_demo",
+    "cmd": "ANCHOR_PROMPT_EXPORT=/tmp/anchor-3665-contracts.json python3 -m pytest -q -s anchor_ai/tests/test_prompt_contract.py"
+  }
+]

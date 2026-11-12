@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b14",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline python3 -c \"from anchor_ai.rag import fixture_runtime; r=fixture_runtime(); print(type(r.client).__name__, type(r.retriever).__name__, 'offline dependencies selected')\""
+  },
+  {
+    "block": "s3737-seed",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline python3 -m pytest -q anchor_ai/tests/test_injection_filter.py -k normalization"
+  },
+  {
+    "block": "s3737-boundary",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline python3 -m pytest -q anchor_ai/tests/test_injection_filter.py -k 'only_flagged or direct_rag or paraphrase'"
+  },
+  {
+    "block": "s3737-http",
+    "cmd": "python3 labs/prompt-injection-defenses/injection_filter_test.py"
+  },
+  {
+    "block": "s3737-regression",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline python3 -m pytest -q anchor_ai/tests/test_injection_filter.py anchor_ai/tests/test_tools.py"
+  },
+  {
+    "block": "s3737-regression",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline python3 -m pytest -q anchor_ai/tests/test_context.py anchor_ai/tests/test_dense_rag.py anchor_ai/tests/test_agent_trajectories.py"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3694,
+  "n": 48,
+  "title": "LoRA fundamentals and adapter architecture",
+  "phase": 4,
+  "content_id": 17274,
+  "content_digest": "239b33c966deaead75488c139a827ab98e5f7d62c9c6d3bd052fef1f9936f8ec",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "1ec963be0eb79f2407b1",
+  "before_tag": "lesson-046-distillation-train-a-smaller-model-from-a-larger",
+  "lesson_tag": "lesson-047-lora-fundamentals-and-adapter-architecture",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 4,
+  "has_demo": true,
+  "commands": 4,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

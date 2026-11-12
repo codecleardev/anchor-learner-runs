@@ -1,0 +1,50 @@
+[
+  {
+    "block": "g29",
+    "cmd": "bin/rails db:migrate db:seed"
+  },
+  {
+    "block": "g29",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "g30",
+    "cmd": "bin/rails 'golden:inspect_replay[eval/datasets/release_query_replay.jsonl]'"
+  },
+  {
+    "block": "g30",
+    "cmd": "bin/rails 'golden:build[eval/datasets/release_query_replay.jsonl,tenant-demo]'"
+  },
+  {
+    "block": "g30",
+    "cmd": "bin/rails 'golden:build[eval/datasets/release_query_replay.jsonl,tenant-demo]'"
+  },
+  {
+    "block": "g31",
+    "cmd": "bin/rails 'golden:review[tenant-demo,reviewer-a,release-run-1|release-run-2|release-run-3|release-run-4|release-run-5]'"
+  },
+  {
+    "block": "g32",
+    "cmd": "bin/rails 'golden:version[tenant-demo,v2,v1,eval/datasets/release_query_replay.jsonl,replay-release-v1]'"
+  },
+  {
+    "block": "g32",
+    "cmd": "bin/rails 'golden:coverage[tenant-demo]'"
+  },
+  {
+    "block": "g33",
+    "cmd": "ruby -Itest test/models/golden_dataset_test.rb"
+  },
+  {
+    "block": "g33",
+    "cmd": "ruby -Itest test/services/golden_datasets/builder_test.rb"
+  },
+  {
+    "block": "g33",
+    "cmd": "ruby -Itest test/services/golden_datasets/versioner_test.rb"
+  },
+  {
+    "block": "g33",
+    "cmd": "bin/rails test"
+  }
+]

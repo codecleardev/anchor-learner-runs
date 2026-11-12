@@ -1,0 +1,46 @@
+[
+  {
+    "block": "lg_step1",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "lg_step1",
+    "cmd": "python3 labs/langgraph-workflows/run_graph.py --demo --storage"
+  },
+  {
+    "block": "lg_step2",
+    "cmd": "python3 labs/langgraph-workflows/run_graph.py --demo --ticket labs/langgraph-workflows/refund_over_limit.json"
+  },
+  {
+    "block": "lg_step2",
+    "cmd": "python3 labs/langgraph-workflows/run_graph.py --demo --inspect latest"
+  },
+  {
+    "block": "lg_step3",
+    "cmd": "python3 labs/langgraph-workflows/run_graph.py --demo --approve latest"
+  },
+  {
+    "block": "lg_step3",
+    "cmd": "python3 labs/langgraph-workflows/run_graph.py --demo --inspect latest"
+  },
+  {
+    "block": "lg_step4",
+    "cmd": "python3 labs/langgraph-workflows/run_graph.py --demo --resume latest"
+  },
+  {
+    "block": "lg_step4",
+    "cmd": "python3 labs/langgraph-workflows/run_graph.py --demo --inspect latest"
+  },
+  {
+    "block": "lg_step5",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "lg_step5",
+    "cmd": "bin/rails test test/controllers/api/agent_checkpoints_controller_test.rb"
+  },
+  {
+    "block": "lg_step5",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_graph_checkpoints.py"
+  }
+]

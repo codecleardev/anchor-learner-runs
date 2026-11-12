@@ -1,0 +1,30 @@
+[
+  {
+    "block": "pc-step-1",
+    "cmd": "python3 labs/provider-prompt-caching/compare_prefixes.py --section layout"
+  },
+  {
+    "block": "pc-step-2",
+    "cmd": "python3 labs/provider-prompt-caching/compare_prefixes.py --section stable"
+  },
+  {
+    "block": "pc-step-3",
+    "cmd": "python3 labs/provider-prompt-caching/compare_prefixes.py --section usage"
+  },
+  {
+    "block": "pc-step-3",
+    "cmd": "python3 labs/provider-prompt-caching/compare_prefixes.py --section decisions"
+  },
+  {
+    "block": "pc-step-4",
+    "cmd": "python3 labs/provider-prompt-caching/compare_prefixes.py --section expiry"
+  },
+  {
+    "block": "pc-step-4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_provider_prompt_cache.py"
+  },
+  {
+    "block": "pc-step-5",
+    "cmd": "python3 labs/provider-prompt-caching/compare_prefixes.py --section answers"
+  }
+]

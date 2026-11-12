@@ -1,0 +1,26 @@
+[
+  {
+    "block": "reg-step-one",
+    "cmd": "ruby test/services/prompt_registry_export_test.rb"
+  },
+  {
+    "block": "reg-step-two",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_prompt_contract.py anchor_ai/tests/test_prompt_regression.py"
+  },
+  {
+    "block": "reg-step-three",
+    "cmd": "python3 eval/regression_gate.py --run"
+  },
+  {
+    "block": "reg-step-four",
+    "cmd": "python3 eval/regression_gate.py --run --regressed --expect-blocked"
+  },
+  {
+    "block": "reg-step-five",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_prompt_regression.py"
+  },
+  {
+    "block": "reg-step-five",
+    "cmd": "bin/rails test"
+  }
+]

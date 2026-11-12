@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3760,
+  "n": 128,
+  "title": "Incident response playbooks for AI outages",
+  "phase": 12,
+  "content_id": 17144,
+  "content_digest": "53c0af556e023a45cc88a74d5bb4f50d2aedc47fd22ffa7218d0b3ec789a7458",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "090bdce89ea9218a2e56",
+  "before_tag": "lesson-123-rollback-strategies-for-prompt-model-changes",
+  "lesson_tag": "lesson-124-incident-response-playbooks-for-ai-outages",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 6,
+  "has_demo": true,
+  "commands": 6,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

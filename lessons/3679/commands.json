@@ -1,0 +1,22 @@
+[
+  {
+    "block": "agent-step-one",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 labs/agentic-rag/agentic_rag.py"
+  },
+  {
+    "block": "agent-step-two",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 labs/agentic-rag/agentic_rag.py --max-tool-calls 2"
+  },
+  {
+    "block": "agent-step-three",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m pytest -q anchor_ai/tests/test_agentic_rag.py -k trace"
+  },
+  {
+    "block": "agent-step-four",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m pytest -q anchor_ai/tests/test_agentic_rag.py"
+  },
+  {
+    "block": "agent-step-four",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m pytest -q anchor_ai/tests/test_agentic_rag.py anchor_ai/tests/test_multihop.py anchor_ai/tests/test_retrieval_metrics.py"
+  }
+]

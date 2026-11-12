@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b14",
+    "cmd": "python3 ops/drills/stale_release_pointer.py inject"
+  },
+  {
+    "block": "b14",
+    "cmd": "bash ops/drills/golden_dataset_eval.sh --expect fail"
+  },
+  {
+    "block": "b15",
+    "cmd": "python3 ops/drills/stale_release_pointer.py inspect"
+  },
+  {
+    "block": "b16",
+    "cmd": "bash ops/deploy/rollback_pipeline.sh --revert --resync --cache-bypass"
+  },
+  {
+    "block": "b16",
+    "cmd": "bash ops/drills/golden_dataset_eval.sh --expect pass"
+  },
+  {
+    "block": "stale-run-tests",
+    "cmd": "ruby test/integration/stale_release_recovery_test.rb"
+  }
+]

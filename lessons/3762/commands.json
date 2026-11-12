@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b19",
+    "cmd": "bash ops/drills/simulate_latency_alert.sh"
+  },
+  {
+    "block": "b20",
+    "cmd": "ruby labs/production-operations/worker_recovery.rb inspect"
+  },
+  {
+    "block": "b21",
+    "cmd": "ruby labs/production-operations/worker_recovery.rb restart"
+  },
+  {
+    "block": "b21",
+    "cmd": "ruby labs/production-operations/worker_recovery.rb verify"
+  },
+  {
+    "block": "ops-step-maintenance",
+    "cmd": "ruby labs/production-operations/worker_recovery.rb maintenance"
+  },
+  {
+    "block": "ops-step-tests",
+    "cmd": "ruby test/integration/worker_recovery_test.rb"
+  }
+]

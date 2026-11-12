@@ -1,0 +1,66 @@
+[
+  {
+    "block": "b20",
+    "cmd": "git init -q"
+  },
+  {
+    "block": "b20",
+    "cmd": "git rev-parse --verify HEAD >/dev/null 2>&1 || git -c user.name='Anchor Lab' -c user.email='anchor@example.invalid' commit --allow-empty --only -m 'Initialize Anchor evaluation workspace'"
+  },
+  {
+    "block": "b20",
+    "cmd": "python3 -m eval.rag_gate"
+  },
+  {
+    "block": "n_lab_replay",
+    "cmd": "python3 -m eval.ragas_eval --eval-set eval/datasets/anchor_eval_20.jsonl"
+  },
+  {
+    "block": "n_lab_replay",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_rag_gate.py -k 'fresh_gate or deterministic'"
+  },
+  {
+    "block": "n_lab_faults",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_rag_gate.py"
+  },
+  {
+    "block": "n_lab_faults",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_agent_trajectories.py"
+  },
+  {
+    "block": "n_lab_accumulated",
+    "cmd": "python3 -m pytest -q anchor_ai/tests"
+  },
+  {
+    "block": "n_lab_accumulated",
+    "cmd": "python3 -m eval.retrieval_gate"
+  },
+  {
+    "block": "n_lab_accumulated",
+    "cmd": "python3 -m eval.retrieval_eval --details"
+  },
+  {
+    "block": "n_lab_accumulated",
+    "cmd": "bin/rails test"
+  },
+  {
+    "block": "n_lab_release",
+    "cmd": "git add anchor_ai/rag.py anchor_ai/tests/test_rag_gate.py anchor_ai/tests/test_agent_trajectories.py eval/heuristic_judge.py eval/rag_gate.py eval/datasets/rag_thresholds.json eval/triad.py eval/faithfulness.py eval/ragas_eval.py eval/trulens_eval.py eval/retrieval_gate.py .github/workflows/retrieval-eval.yml"
+  },
+  {
+    "block": "n_lab_release",
+    "cmd": "git -c user.name='Anchor Lab' -c user.email='anchor@example.invalid' commit -m 'Gate Anchor RAG milestone on fresh pipeline evidence'"
+  },
+  {
+    "block": "n_lab_release",
+    "cmd": "python3 -m eval.rag_gate --release rag-v2"
+  },
+  {
+    "block": "n_lab_release",
+    "cmd": "git show --no-patch rag-v2"
+  },
+  {
+    "block": "n_lab_release",
+    "cmd": "git status --porcelain"
+  }
+]

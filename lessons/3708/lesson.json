@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3708,
+  "n": 67,
+  "title": "LlamaIndex data connectors and query engines",
+  "phase": 6,
+  "content_id": 17286,
+  "content_digest": "c89434d89f63cce26ef45a73526d728f68fb906ce19af6fb4da23dfb50cb855e",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "5a9c306d0bb2bf6f2dea",
+  "before_tag": "lesson-064-langgraph-stateful-graph-orchestration",
+  "lesson_tag": "lesson-065-llamaindex-data-connectors-and-query-engines",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 8,
+  "has_demo": true,
+  "commands": 8,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

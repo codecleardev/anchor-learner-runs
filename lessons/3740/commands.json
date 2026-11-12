@@ -1,0 +1,30 @@
+[
+  {
+    "block": "authz-step1",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "authz-step1",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "authz-step1",
+    "cmd": "bin/rails runner 'abort(\"orders table missing: run bin/rails db:migrate:status\") unless ActiveRecord::Base.connection.table_exists?(:orders); puts \"orders table present\"'"
+  },
+  {
+    "block": "authz-step3",
+    "cmd": "ANCHOR_AUTHZ_OFFLINE=1 ruby test/integration/tool_authorization_test.rb"
+  },
+  {
+    "block": "authz-step4",
+    "cmd": "python3 labs/scoped-agent-authorization/authz_test.py"
+  },
+  {
+    "block": "authz-step5",
+    "cmd": "bin/rails test test/integration/tool_authorization_test.rb"
+  },
+  {
+    "block": "authz-step5",
+    "cmd": "ANCHOR_LLM_PROVIDER=fake python3 -m pytest -q anchor_ai/tests/test_tools.py"
+  }
+]

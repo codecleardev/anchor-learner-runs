@@ -1,0 +1,22 @@
+[
+  {
+    "block": "as-step1",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_agentic_security.py"
+  },
+  {
+    "block": "as-step2",
+    "cmd": "python3 -m anchor_ai.trifecta"
+  },
+  {
+    "block": "as-step3",
+    "cmd": "python3 -m anchor_ai.trifecta --overlay labs/agentic-security/followup_v1.yml --expect-findings"
+  },
+  {
+    "block": "as-step4",
+    "cmd": "python3 -m anchor_ai.trifecta --overlay labs/agentic-security/followup_v2.yml"
+  },
+  {
+    "block": "as-step5",
+    "cmd": "python3 eval/owasp_coverage.py"
+  }
+]

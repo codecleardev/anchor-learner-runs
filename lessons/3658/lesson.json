@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3658,
+  "n": 6,
+  "title": "LLM foundations: transformer architecture and tokenization",
+  "phase": 1,
+  "content_id": 17216,
+  "content_digest": "b6813463b40712534faf5fabac03973d067ba4d49207316f7795be43d3f8764f",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "974e184d13f7feb9843c",
+  "before_tag": "lesson-005-anchor-build-it",
+  "lesson_tag": "lesson-006-llm-foundations-transformer-architecture-and-tok",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

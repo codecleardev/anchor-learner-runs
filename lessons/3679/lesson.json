@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3679,
+  "n": 36,
+  "title": "Agentic RAG: retrieval as a tool in an agent loop",
+  "phase": 3,
+  "content_id": 17194,
+  "content_digest": "780c0ed74144b6381924fdb0edc9ef3a13364d83b1ee5535f1bc95934972e3f0",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "2f003a117e733d8ff93e",
+  "before_tag": "lesson-034-graphrag-knowledge-graph-retrieval-for-relations",
+  "lesson_tag": "lesson-035-agentic-rag-retrieval-as-a-tool-in-an-agent-loop",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "block": "browser_step1",
+    "cmd": "python3 labs/browser-agents/browser_agent_demo.py --readiness"
+  },
+  {
+    "block": "browser_step2",
+    "cmd": "python3 labs/browser-agents/browser_agent_demo.py"
+  },
+  {
+    "block": "browser_step3",
+    "cmd": "python3 labs/browser-agents/browser_agent_demo.py --fixture injected"
+  },
+  {
+    "block": "browser_step4",
+    "cmd": "python3 labs/browser-agents/browser_agent_demo.py --fixture account"
+  },
+  {
+    "block": "browser_step5",
+    "cmd": "python3 labs/browser-agents/browser_agent_demo.py --network-denied"
+  },
+  {
+    "block": "browser_step6",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_browser_tools.py"
+  },
+  {
+    "block": "browser_step7",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_sandbox.py"
+  },
+  {
+    "block": "browser_step8",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_browser_tools.py::test_consequential_click_requires_trusted_bound_one_use_approval"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "block": "b16",
+    "cmd": "python3 -m anchor_ai.tools --inspect"
+  },
+  {
+    "block": "tools_step_2",
+    "cmd": "python3 -m anchor_ai.tools"
+  },
+  {
+    "block": "tools_step_3",
+    "cmd": "python3 -m anchor_ai.tools --reverse"
+  },
+  {
+    "block": "tools_step_3",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_tools.py -k concurrent_reverse"
+  },
+  {
+    "block": "tools_step_4",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_tools.py -k rejected_before_backend"
+  },
+  {
+    "block": "tools_step_4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_tools.py"
+  },
+  {
+    "block": "tools_step_5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_tools.py -k 'three_provider_envelopes or history_chain_errors_and_correction or missing_result_rejected_by_fake'"
+  },
+  {
+    "block": "tools_step_5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_query_analysis.py::test_golden_gate_and_nonzero_exit_on_regression"
+  }
+]

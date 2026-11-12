@@ -1,0 +1,30 @@
+[
+  {
+    "block": "s1",
+    "cmd": "python3 -m eval.trace_review read t006 t011 t022 t024 t029"
+  },
+  {
+    "block": "s2",
+    "cmd": "python3 -m eval.trace_review axial"
+  },
+  {
+    "block": "s3",
+    "cmd": "python3 -m eval.judge_agreement --judge v1_likert"
+  },
+  {
+    "block": "s3",
+    "cmd": "python3 -m eval.judge_agreement --judge v2_binary"
+  },
+  {
+    "block": "s3",
+    "cmd": "python3 -m eval.trace_review read t061"
+  },
+  {
+    "block": "s4",
+    "cmd": "python3 -m eval.trial_metrics --gate"
+  },
+  {
+    "block": "s5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_eval_practice.py"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3807,
+  "n": 79,
+  "title": "Error analysis and eval practice",
+  "phase": 7,
+  "content_id": 17174,
+  "content_digest": "29ba0b2860fbdd5be4012d82cd2b6a91bbc75585640ee64ba4ecb96bfb02134c",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "a9b2784d2c2257227666",
+  "before_tag": "lesson-076-ai-product-ux-citations-uncertainty-graceful-ref",
+  "lesson_tag": "lesson-076a-error-analysis-and-eval-practice",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 7,
+  "has_demo": true,
+  "commands": 7,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

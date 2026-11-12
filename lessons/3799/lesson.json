@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3799,
+  "n": 20,
+  "title": "Sprint build plan: seven days from bootstrap to deployed hybrid RAG",
+  "phase": 1,
+  "content_id": 17170,
+  "content_digest": "a1de2c84d3462e657030f55256b19b4d1fd866dcca113f68e5a7370f5c86395f",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "b81e3c93d0907b13f09e",
+  "before_tag": "lesson-018-the-concepts-an-interviewer-assumes-six-mental-m",
+  "lesson_tag": "lesson-019-sprint-build-plan-seven-days-from-bootstrap-to-d",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

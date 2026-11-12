@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3696,
+  "n": 55,
+  "title": "Bounded agent design and autonomy guardrails",
+  "phase": 5,
+  "content_id": 17279,
+  "content_digest": "a7f1855f115fe88e9cd5d7d061c439e0daf4879e92c2afb8cb1c0c17cd3ccd4d",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "eed0a80bf05b86a4c0a7",
+  "before_tag": "lesson-053-tool-calling-and-function-calling-patterns",
+  "lesson_tag": "lesson-054-bounded-agent-design-and-autonomy-guardrails",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

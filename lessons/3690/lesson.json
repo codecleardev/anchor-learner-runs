@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3690,
+  "n": 43,
+  "title": "When not to fine-tune: prompt engineering vs RAG vs fine-tune decision framework",
+  "phase": 4,
+  "content_id": 17073,
+  "content_digest": "ca3c9aad53a8fa1ed2b49e4167731c160fd4d562f39432eeec9dc575b0ebcc53",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "5042383ed0ff1bd39720",
+  "before_tag": "lesson-041-checkpoint-anchor-advanced-rag-and-evaluation",
+  "lesson_tag": "lesson-042-when-not-to-fine-tune-prompt-engineering-vs-rag",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 3,
+  "has_demo": true,
+  "commands": 3,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

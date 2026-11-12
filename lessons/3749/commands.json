@@ -1,0 +1,22 @@
+[
+  {
+    "block": "b18",
+    "cmd": "python3 ops/load/load_test.py --concurrency 50 --backend vllm"
+  },
+  {
+    "block": "b27",
+    "cmd": "python3 ops/load/load_test.py --concurrency 50 --backend vllm --profile tuned"
+  },
+  {
+    "block": "b29",
+    "cmd": "python3 ops/load/load_test.py --concurrency 50 --backend vllm --compare"
+  },
+  {
+    "block": "b31",
+    "cmd": "python3 ops/load/load_test.py --backend vllm --profile default --sweep"
+  },
+  {
+    "block": "b33",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_self_hosted_batching.py anchor_ai/tests/test_vllm_backend.py"
+  }
+]

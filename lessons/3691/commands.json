@@ -1,0 +1,26 @@
+[
+  {
+    "block": "n3691-step1",
+    "cmd": "ruby bin/curate_dataset.rb --since 30d --tenant demo --as-of 2026-01-31 --source eval/finetune/fixtures/transcripts.jsonl --out eval/finetune/train.jsonl"
+  },
+  {
+    "block": "n3691-step2",
+    "cmd": "python3 -c \"import json; from pathlib import Path; rows=[json.loads(s) for s in Path('eval/finetune/train.jsonl').read_text().splitlines()]; assert rows; assert all(set(r)=={'input','output','label'} for r in rows); text=json.dumps(rows); assert all(v not in text for v in ('customer@example.test','support@example.test','212-555-0199')); print('\\n'.join(json.dumps(r) for r in rows[:5]))\""
+  },
+  {
+    "block": "n3691-step3",
+    "cmd": "python3 -c \"import json; from pathlib import Path; m=json.loads(Path('eval/finetune/train.manifest.json').read_text()); print(json.dumps(m, indent=2)); entries=[e for e in m['audit'] if 'split' in e]; assert all(len({e['split'] for e in entries if e['group_id']==g})==1 for g in {e['group_id'] for e in entries}); print('PASS: connected conversation and duplicate groups stay in one split')\""
+  },
+  {
+    "block": "n3691-step4",
+    "cmd": "ruby test/services/finetuning/dataset_curator_test.rb"
+  },
+  {
+    "block": "n3691-step4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_finetuning_redaction.py anchor_ai/tests/test_customization.py"
+  },
+  {
+    "block": "n3691-step5",
+    "cmd": "python3 -c \"import json; from pathlib import Path; from anchor_ai.customization import sft_examples; rows=[json.loads(s) for s in Path('eval/finetune/train.jsonl').read_text().splitlines()]; print(json.dumps(sft_examples(rows)[0], indent=2))\""
+  }
+]

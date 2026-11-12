@@ -1,0 +1,34 @@
+[
+  {
+    "block": "cost-step-1",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "cost-step-1",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "cost-step-1",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_cost_accounting.py"
+  },
+  {
+    "block": "cost-step-2",
+    "cmd": "python3 ops/load/profile_tickets.py --costs"
+  },
+  {
+    "block": "cost-step-3",
+    "cmd": "ANCHOR_COST_STANDALONE=1 RAILS_ENV=test ruby test/integration/ai_cost_dashboard_test.rb"
+  },
+  {
+    "block": "cost-step-4",
+    "cmd": "ANCHOR_COST_STANDALONE=1 RAILS_ENV=test ruby test/integration/ai_cost_dashboard_test.rb --name '/atomic_idempotent|exact_threshold/'"
+  },
+  {
+    "block": "cost-step-4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests"
+  },
+  {
+    "block": "cost-step-4",
+    "cmd": "bin/rails test test/integration/ai_cost_dashboard_test.rb"
+  }
+]

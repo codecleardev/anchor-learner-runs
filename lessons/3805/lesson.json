@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3805,
+  "n": 18,
+  "title": "Working with coding agents: AGENTS.md, skills, spec-first loops and diff review",
+  "phase": 1,
+  "content_id": 17172,
+  "content_digest": "1f0557c851966fd6812d2e17d06c435c0b9fa0e1bcd483e7e6c47dad63653c09",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "bdd2459f14e1e03b9b15",
+  "before_tag": "lesson-017-model-testing-fundamentals-your-first-minitest-f",
+  "lesson_tag": "lesson-017a-working-with-coding-agents-agents-md-skills-spec",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 11,
+  "has_demo": true,
+  "commands": 11,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

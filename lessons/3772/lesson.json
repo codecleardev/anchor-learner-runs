@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3772,
+  "n": 135,
+  "title": "AI Engineering interview question bank",
+  "phase": 12,
+  "content_id": 17208,
+  "content_digest": "99787b10d2f2fe9efcccc7064555ee374c0275a62f5ff10b6da7a10bc902a7d8",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "6472027ab86604a1af33",
+  "before_tag": "lesson-130-roles-and-hiring-how-teams-hire-ai-engineers",
+  "lesson_tag": "lesson-131-ai-engineering-interview-question-bank",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

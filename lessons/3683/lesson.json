@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3683,
+  "n": 39,
+  "title": "RAG evaluation frameworks: RAGAS and TruLens",
+  "phase": 3,
+  "content_id": 17266,
+  "content_digest": "b51d5d7b08c946225f8c843066e5399a906da884cf3d122df0ef2faecdf9d260",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "c44e1037c775d3a3badc",
+  "before_tag": "lesson-037-groundedness-and-faithfulness-evaluation",
+  "lesson_tag": "lesson-038-rag-evaluation-frameworks-ragas-and-trulens",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

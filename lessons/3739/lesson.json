@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3739,
+  "n": 105,
+  "title": "PII detection and redaction in LLM pipelines",
+  "phase": 10,
+  "content_id": 17318,
+  "content_digest": "2b4b1207870d5b1e7d1101e6cd74048d92904239cb51eb69050b31e24294b899",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "4f3b597b5389a861d7ff",
+  "before_tag": "lesson-101-jailbreak-resistance-techniques",
+  "lesson_tag": "lesson-102-pii-detection-and-redaction-in-llm-pipelines",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 17,
+  "has_demo": true,
+  "commands": 17,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

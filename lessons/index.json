@@ -1,0 +1,1382 @@
+[
+  {
+    "lesson_id": 3764,
+    "n": 1,
+    "phase": 1,
+    "before_tag": "lesson-000-rails-new",
+    "lesson_tag": "lesson-001-orientation-what-this-course-is-who-it-is-for-an",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17148
+  },
+  {
+    "lesson_id": 3769,
+    "n": 2,
+    "phase": 1,
+    "before_tag": "lesson-001-orientation-what-this-course-is-who-it-is-for-an",
+    "lesson_tag": "lesson-002-ai-engineering-in-one-picture",
+    "needs_run": true,
+    "commands": 1,
+    "content_id": 17037
+  },
+  {
+    "lesson_id": 3770,
+    "n": 3,
+    "phase": 1,
+    "before_tag": "lesson-002-ai-engineering-in-one-picture",
+    "lesson_tag": "lesson-003-where-ai-engineering-fits-llm-apps-vs-ml-enginee",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17209
+  },
+  {
+    "lesson_id": 3773,
+    "n": 4,
+    "phase": 1,
+    "before_tag": "lesson-003-where-ai-engineering-fits-llm-apps-vs-ml-enginee",
+    "lesson_tag": "lesson-004-what-you-can-t-build-yet-and-where-to-go-next",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17211
+  },
+  {
+    "lesson_id": 3656,
+    "n": 5,
+    "phase": 1,
+    "before_tag": "lesson-004-what-you-can-t-build-yet-and-where-to-go-next",
+    "lesson_tag": "lesson-005-anchor-build-it",
+    "needs_run": true,
+    "commands": 14,
+    "content_id": 17213
+  },
+  {
+    "lesson_id": 3658,
+    "n": 6,
+    "phase": 1,
+    "before_tag": "lesson-005-anchor-build-it",
+    "lesson_tag": "lesson-006-llm-foundations-transformer-architecture-and-tok",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17216
+  },
+  {
+    "lesson_id": 3657,
+    "n": 7,
+    "phase": 1,
+    "before_tag": "lesson-006-llm-foundations-transformer-architecture-and-tok",
+    "lesson_tag": "lesson-007-anchor-s-ai-service-boundary-calling-the-python",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17218
+  },
+  {
+    "lesson_id": 3659,
+    "n": 8,
+    "phase": 1,
+    "before_tag": "lesson-007-anchor-s-ai-service-boundary-calling-the-python",
+    "lesson_tag": "lesson-008-llm-provider-apis-request-response-lifecycle-aut",
+    "needs_run": true,
+    "commands": 4,
+    "content_id": 17220
+  },
+  {
+    "lesson_id": 3660,
+    "n": 9,
+    "phase": 1,
+    "before_tag": "lesson-008-llm-provider-apis-request-response-lifecycle-aut",
+    "lesson_tag": "lesson-009-tracing-and-structured-logging-for-llm-calls-req",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17222
+  },
+  {
+    "lesson_id": 3661,
+    "n": 10,
+    "phase": 1,
+    "before_tag": "lesson-009-tracing-and-structured-logging-for-llm-calls-req",
+    "lesson_tag": "lesson-010-prompting-fundamentals-zero-shot-few-shot-and-ch",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17225
+  },
+  {
+    "lesson_id": 3662,
+    "n": 11,
+    "phase": 1,
+    "before_tag": "lesson-010-prompting-fundamentals-zero-shot-few-shot-and-ch",
+    "lesson_tag": "lesson-011-model-selection-cost-latency-context-length-and",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17226
+  },
+  {
+    "lesson_id": 3796,
+    "n": 12,
+    "phase": 1,
+    "before_tag": "lesson-011-model-selection-cost-latency-context-length-and",
+    "lesson_tag": "lesson-012-reasoning-models-and-thinking-budgets-when-extra",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17227
+  },
+  {
+    "lesson_id": 3663,
+    "n": 13,
+    "phase": 1,
+    "before_tag": "lesson-012-reasoning-models-and-thinking-budgets-when-extra",
+    "lesson_tag": "lesson-013-structured-outputs-json-mode-function-calling-sc",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17186
+  },
+  {
+    "lesson_id": 3664,
+    "n": 14,
+    "phase": 1,
+    "before_tag": "lesson-013-structured-outputs-json-mode-function-calling-sc",
+    "lesson_tag": "lesson-014-streaming-responses-and-server-sent-events",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17230
+  },
+  {
+    "lesson_id": 3665,
+    "n": 15,
+    "phase": 1,
+    "before_tag": "lesson-014-streaming-responses-and-server-sent-events",
+    "lesson_tag": "lesson-015-prompt-versioning-and-prompts-as-contracts-desig",
+    "needs_run": true,
+    "commands": 12,
+    "content_id": 17232
+  },
+  {
+    "lesson_id": 3795,
+    "n": 16,
+    "phase": 1,
+    "before_tag": "lesson-015-prompt-versioning-and-prompts-as-contracts-desig",
+    "lesson_tag": "lesson-016-context-engineering-assembling-the-context-windo",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17234
+  },
+  {
+    "lesson_id": 3768,
+    "n": 17,
+    "phase": 1,
+    "before_tag": "lesson-016-context-engineering-assembling-the-context-windo",
+    "lesson_tag": "lesson-017-model-testing-fundamentals-your-first-minitest-f",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17237
+  },
+  {
+    "lesson_id": 3805,
+    "n": 18,
+    "phase": 1,
+    "before_tag": "lesson-017-model-testing-fundamentals-your-first-minitest-f",
+    "lesson_tag": "lesson-017a-working-with-coding-agents-agents-md-skills-spec",
+    "needs_run": true,
+    "commands": 11,
+    "content_id": 17172
+  },
+  {
+    "lesson_id": 3797,
+    "n": 19,
+    "phase": 1,
+    "before_tag": "lesson-017a-working-with-coding-agents-agents-md-skills-spec",
+    "lesson_tag": "lesson-018-the-concepts-an-interviewer-assumes-six-mental-m",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17239
+  },
+  {
+    "lesson_id": 3799,
+    "n": 20,
+    "phase": 1,
+    "before_tag": "lesson-018-the-concepts-an-interviewer-assumes-six-mental-m",
+    "lesson_tag": "lesson-019-sprint-build-plan-seven-days-from-bootstrap-to-d",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17170
+  },
+  {
+    "lesson_id": 3666,
+    "n": 21,
+    "phase": 1,
+    "before_tag": "lesson-019-sprint-build-plan-seven-days-from-bootstrap-to-d",
+    "lesson_tag": "lesson-020-checkpoint-anchor-foundations",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17241
+  },
+  {
+    "lesson_id": 3668,
+    "n": 22,
+    "phase": 2,
+    "before_tag": "lesson-020-checkpoint-anchor-foundations",
+    "lesson_tag": "lesson-021-embeddings-fundamentals-and-embedding-model-sele",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17243
+  },
+  {
+    "lesson_id": 3667,
+    "n": 23,
+    "phase": 2,
+    "before_tag": "lesson-021-embeddings-fundamentals-and-embedding-model-sele",
+    "lesson_tag": "lesson-022-chunking-strategies-for-retrieval-quality",
+    "needs_run": true,
+    "commands": 13,
+    "content_id": 17246
+  },
+  {
+    "lesson_id": 3669,
+    "n": 24,
+    "phase": 2,
+    "before_tag": "lesson-022-chunking-strategies-for-retrieval-quality",
+    "lesson_tag": "lesson-023-anchor-build-it-document-ingestion-pipeline",
+    "needs_run": true,
+    "commands": 12,
+    "content_id": 17248
+  },
+  {
+    "lesson_id": 3671,
+    "n": 25,
+    "phase": 2,
+    "before_tag": "lesson-023-anchor-build-it-document-ingestion-pipeline",
+    "lesson_tag": "lesson-024-vector-indexes-faiss-hnsw-ivf-tradeoffs",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17250
+  },
+  {
+    "lesson_id": 3670,
+    "n": 26,
+    "phase": 2,
+    "before_tag": "lesson-024-vector-indexes-faiss-hnsw-ivf-tradeoffs",
+    "lesson_tag": "lesson-025-index-maintenance-incremental-updates-deletes-an",
+    "needs_run": true,
+    "commands": 15,
+    "content_id": 17253
+  },
+  {
+    "lesson_id": 3672,
+    "n": 27,
+    "phase": 2,
+    "before_tag": "lesson-025-index-maintenance-incremental-updates-deletes-an",
+    "lesson_tag": "lesson-026-anchor-build-it-dense-retrieval-and-generation",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17255
+  },
+  {
+    "lesson_id": 3673,
+    "n": 28,
+    "phase": 2,
+    "before_tag": "lesson-026-anchor-build-it-dense-retrieval-and-generation",
+    "lesson_tag": "lesson-027-anchor-build-it-sparse-retrieval-with-bm25",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17257
+  },
+  {
+    "lesson_id": 3674,
+    "n": 29,
+    "phase": 2,
+    "before_tag": "lesson-027-anchor-build-it-sparse-retrieval-with-bm25",
+    "lesson_tag": "lesson-028-anchor-build-it-hybrid-retrieval-fusion",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17258
+  },
+  {
+    "lesson_id": 3675,
+    "n": 30,
+    "phase": 2,
+    "before_tag": "lesson-028-anchor-build-it-hybrid-retrieval-fusion",
+    "lesson_tag": "lesson-029-query-analysis-and-rewriting-for-retrieval",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17259
+  },
+  {
+    "lesson_id": 3676,
+    "n": 31,
+    "phase": 2,
+    "before_tag": "lesson-029-query-analysis-and-rewriting-for-retrieval",
+    "lesson_tag": "lesson-030-checkpoint-anchor-rag-indexing-and-retrieval",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17260
+  },
+  {
+    "lesson_id": 3681,
+    "n": 32,
+    "phase": 3,
+    "before_tag": "lesson-030-checkpoint-anchor-rag-indexing-and-retrieval",
+    "lesson_tag": "lesson-031-retrieval-evaluation-metrics-recall-mrr-and-ndcg",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17261
+  },
+  {
+    "lesson_id": 3677,
+    "n": 33,
+    "phase": 3,
+    "before_tag": "lesson-031-retrieval-evaluation-metrics-recall-mrr-and-ndcg",
+    "lesson_tag": "lesson-032-reranking-with-cross-encoders",
+    "needs_run": true,
+    "commands": 4,
+    "content_id": 17262
+  },
+  {
+    "lesson_id": 3678,
+    "n": 34,
+    "phase": 3,
+    "before_tag": "lesson-032-reranking-with-cross-encoders",
+    "lesson_tag": "lesson-033-multi-hop-rag-for-complex-queries",
+    "needs_run": true,
+    "commands": 4,
+    "content_id": 17263
+  },
+  {
+    "lesson_id": 3794,
+    "n": 35,
+    "phase": 3,
+    "before_tag": "lesson-033-multi-hop-rag-for-complex-queries",
+    "lesson_tag": "lesson-034-graphrag-knowledge-graph-retrieval-for-relations",
+    "needs_run": true,
+    "commands": 10,
+    "content_id": 17264
+  },
+  {
+    "lesson_id": 3679,
+    "n": 36,
+    "phase": 3,
+    "before_tag": "lesson-034-graphrag-knowledge-graph-retrieval-for-relations",
+    "lesson_tag": "lesson-035-agentic-rag-retrieval-as-a-tool-in-an-agent-loop",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17194
+  },
+  {
+    "lesson_id": 3680,
+    "n": 37,
+    "phase": 3,
+    "before_tag": "lesson-035-agentic-rag-retrieval-as-a-tool-in-an-agent-loop",
+    "lesson_tag": "lesson-036-debug-drill-the-agentic-rag-loop-that-never-stop",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17265
+  },
+  {
+    "lesson_id": 3682,
+    "n": 38,
+    "phase": 3,
+    "before_tag": "lesson-036-debug-drill-the-agentic-rag-loop-that-never-stop",
+    "lesson_tag": "lesson-037-groundedness-and-faithfulness-evaluation",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17064
+  },
+  {
+    "lesson_id": 3683,
+    "n": 39,
+    "phase": 3,
+    "before_tag": "lesson-037-groundedness-and-faithfulness-evaluation",
+    "lesson_tag": "lesson-038-rag-evaluation-frameworks-ragas-and-trulens",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17266
+  },
+  {
+    "lesson_id": 3684,
+    "n": 40,
+    "phase": 3,
+    "before_tag": "lesson-038-rag-evaluation-frameworks-ragas-and-trulens",
+    "lesson_tag": "lesson-039-anchor-build-it-ship-rag-evaluation-milestone",
+    "needs_run": true,
+    "commands": 16,
+    "content_id": 17267
+  },
+  {
+    "lesson_id": 3774,
+    "n": 41,
+    "phase": 3,
+    "before_tag": "lesson-039-anchor-build-it-ship-rag-evaluation-milestone",
+    "lesson_tag": "lesson-040-sprint-deploy-ship-hybrid-rag-to-a-real-endpoint",
+    "needs_run": true,
+    "commands": 4,
+    "content_id": 17268
+  },
+  {
+    "lesson_id": 3685,
+    "n": 42,
+    "phase": 3,
+    "before_tag": "lesson-040-sprint-deploy-ship-hybrid-rag-to-a-real-endpoint",
+    "lesson_tag": "lesson-041-checkpoint-anchor-advanced-rag-and-evaluation",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17269
+  },
+  {
+    "lesson_id": 3690,
+    "n": 43,
+    "phase": 4,
+    "before_tag": "lesson-041-checkpoint-anchor-advanced-rag-and-evaluation",
+    "lesson_tag": "lesson-042-when-not-to-fine-tune-prompt-engineering-vs-rag",
+    "needs_run": true,
+    "commands": 3,
+    "content_id": 17073
+  },
+  {
+    "lesson_id": 3691,
+    "n": 44,
+    "phase": 4,
+    "before_tag": "lesson-042-when-not-to-fine-tune-prompt-engineering-vs-rag",
+    "lesson_tag": "lesson-043-dataset-engineering-for-fine-tuning-collection-c",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17270
+  },
+  {
+    "lesson_id": 3692,
+    "n": 45,
+    "phase": 4,
+    "before_tag": "lesson-043-dataset-engineering-for-fine-tuning-collection-c",
+    "lesson_tag": "lesson-044-synthetic-data-generation-and-quality-filtering",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17271
+  },
+  {
+    "lesson_id": 3693,
+    "n": 46,
+    "phase": 4,
+    "before_tag": "lesson-044-synthetic-data-generation-and-quality-filtering",
+    "lesson_tag": "lesson-045-supervised-fine-tuning-sft-workflow-end-to-end",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17272
+  },
+  {
+    "lesson_id": 3793,
+    "n": 47,
+    "phase": 4,
+    "before_tag": "lesson-045-supervised-fine-tuning-sft-workflow-end-to-end",
+    "lesson_tag": "lesson-046-distillation-train-a-smaller-model-from-a-larger",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17273
+  },
+  {
+    "lesson_id": 3694,
+    "n": 48,
+    "phase": 4,
+    "before_tag": "lesson-046-distillation-train-a-smaller-model-from-a-larger",
+    "lesson_tag": "lesson-047-lora-fundamentals-and-adapter-architecture",
+    "needs_run": true,
+    "commands": 4,
+    "content_id": 17274
+  },
+  {
+    "lesson_id": 3686,
+    "n": 49,
+    "phase": 4,
+    "before_tag": "lesson-047-lora-fundamentals-and-adapter-architecture",
+    "lesson_tag": "lesson-048-qlora-and-quantized-fine-tuning",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17275
+  },
+  {
+    "lesson_id": 3687,
+    "n": 50,
+    "phase": 4,
+    "before_tag": "lesson-048-qlora-and-quantized-fine-tuning",
+    "lesson_tag": "lesson-049-peft-library-patterns-and-adapter-merging",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17276
+  },
+  {
+    "lesson_id": 3688,
+    "n": 51,
+    "phase": 4,
+    "before_tag": "lesson-049-peft-library-patterns-and-adapter-merging",
+    "lesson_tag": "lesson-050-preference-alignment-rlhf-and-dpo",
+    "needs_run": true,
+    "commands": 9,
+    "content_id": 17200
+  },
+  {
+    "lesson_id": 3792,
+    "n": 52,
+    "phase": 4,
+    "before_tag": "lesson-050-preference-alignment-rlhf-and-dpo",
+    "lesson_tag": "lesson-051-reinforcement-fine-tuning-with-graders-rft-and-g",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17163
+  },
+  {
+    "lesson_id": 3689,
+    "n": 53,
+    "phase": 4,
+    "before_tag": "lesson-051-reinforcement-fine-tuning-with-graders-rft-and-g",
+    "lesson_tag": "lesson-052-checkpoint-anchor-fine-tuning-and-customization",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17277
+  },
+  {
+    "lesson_id": 3695,
+    "n": 54,
+    "phase": 5,
+    "before_tag": "lesson-052-checkpoint-anchor-fine-tuning-and-customization",
+    "lesson_tag": "lesson-053-tool-calling-and-function-calling-patterns",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17278
+  },
+  {
+    "lesson_id": 3696,
+    "n": 55,
+    "phase": 5,
+    "before_tag": "lesson-053-tool-calling-and-function-calling-patterns",
+    "lesson_tag": "lesson-054-bounded-agent-design-and-autonomy-guardrails",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17279
+  },
+  {
+    "lesson_id": 3697,
+    "n": 56,
+    "phase": 5,
+    "before_tag": "lesson-054-bounded-agent-design-and-autonomy-guardrails",
+    "lesson_tag": "lesson-055-react-reasoning-acting-loops-for-agents",
+    "needs_run": true,
+    "commands": 4,
+    "content_id": 17280
+  },
+  {
+    "lesson_id": 3698,
+    "n": 57,
+    "phase": 5,
+    "before_tag": "lesson-055-react-reasoning-acting-loops-for-agents",
+    "lesson_tag": "lesson-056-plan-and-execute-agent-architectures",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17081
+  },
+  {
+    "lesson_id": 3699,
+    "n": 58,
+    "phase": 5,
+    "before_tag": "lesson-056-plan-and-execute-agent-architectures",
+    "lesson_tag": "lesson-057-agent-memory-short-term-long-term-and-episodic",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17281
+  },
+  {
+    "lesson_id": 3700,
+    "n": 59,
+    "phase": 5,
+    "before_tag": "lesson-057-agent-memory-short-term-long-term-and-episodic",
+    "lesson_tag": "lesson-058-human-escalation-and-human-in-the-loop-workflows",
+    "needs_run": true,
+    "commands": 2,
+    "content_id": 17282
+  },
+  {
+    "lesson_id": 3701,
+    "n": 60,
+    "phase": 5,
+    "before_tag": "lesson-058-human-escalation-and-human-in-the-loop-workflows",
+    "lesson_tag": "lesson-059-anchor-build-it-bounded-agent-with-tools-plannin",
+    "needs_run": true,
+    "commands": 71,
+    "content_id": 17345
+  },
+  {
+    "lesson_id": 3702,
+    "n": 61,
+    "phase": 5,
+    "before_tag": "lesson-059-anchor-build-it-bounded-agent-with-tools-plannin",
+    "lesson_tag": "lesson-060-checkpoint-anchor-bounded-agents",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17085
+  },
+  {
+    "lesson_id": 3703,
+    "n": 62,
+    "phase": 6,
+    "before_tag": "lesson-060-checkpoint-anchor-bounded-agents",
+    "lesson_tag": "lesson-061-multi-agent-orchestration-patterns",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17283
+  },
+  {
+    "lesson_id": 3704,
+    "n": 63,
+    "phase": 6,
+    "before_tag": "lesson-061-multi-agent-orchestration-patterns",
+    "lesson_tag": "lesson-062-model-context-protocol-mcp-for-tool-and-context",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17284
+  },
+  {
+    "lesson_id": 3806,
+    "n": 64,
+    "phase": 6,
+    "before_tag": "lesson-062-model-context-protocol-mcp-for-tool-and-context",
+    "lesson_tag": "lesson-062a-build-an-mcp-server-properly-official-sdk-transp",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17173
+  },
+  {
+    "lesson_id": 3706,
+    "n": 65,
+    "phase": 6,
+    "before_tag": "lesson-062a-build-an-mcp-server-properly-official-sdk-transp",
+    "lesson_tag": "lesson-063-langchain-core-abstractions-and-chains",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17285
+  },
+  {
+    "lesson_id": 3707,
+    "n": 66,
+    "phase": 6,
+    "before_tag": "lesson-063-langchain-core-abstractions-and-chains",
+    "lesson_tag": "lesson-064-langgraph-stateful-graph-orchestration",
+    "needs_run": true,
+    "commands": 11,
+    "content_id": 17091
+  },
+  {
+    "lesson_id": 3708,
+    "n": 67,
+    "phase": 6,
+    "before_tag": "lesson-064-langgraph-stateful-graph-orchestration",
+    "lesson_tag": "lesson-065-llamaindex-data-connectors-and-query-engines",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17286
+  },
+  {
+    "lesson_id": 3709,
+    "n": 68,
+    "phase": 6,
+    "before_tag": "lesson-065-llamaindex-data-connectors-and-query-engines",
+    "lesson_tag": "lesson-066-autogen-multi-agent-conversation-patterns",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17287
+  },
+  {
+    "lesson_id": 3710,
+    "n": 69,
+    "phase": 6,
+    "before_tag": "lesson-066-autogen-multi-agent-conversation-patterns",
+    "lesson_tag": "lesson-067-provider-native-agent-and-assistant-apis",
+    "needs_run": true,
+    "commands": 4,
+    "content_id": 17094
+  },
+  {
+    "lesson_id": 3791,
+    "n": 70,
+    "phase": 6,
+    "before_tag": "lesson-067-provider-native-agent-and-assistant-apis",
+    "lesson_tag": "lesson-068-agent-harness-sdks-and-agent-to-agent-interop-wh",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17288
+  },
+  {
+    "lesson_id": 3705,
+    "n": 71,
+    "phase": 6,
+    "before_tag": "lesson-068-agent-harness-sdks-and-agent-to-agent-interop-wh",
+    "lesson_tag": "lesson-069-framework-comparison-langchain-vs-langgraph-vs-l",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17289
+  },
+  {
+    "lesson_id": 3711,
+    "n": 72,
+    "phase": 6,
+    "before_tag": "lesson-069-framework-comparison-langchain-vs-langgraph-vs-l",
+    "lesson_tag": "lesson-070-code-sandboxes-for-safe-agent-code-execution-iso",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17290
+  },
+  {
+    "lesson_id": 3790,
+    "n": 73,
+    "phase": 6,
+    "before_tag": "lesson-070-code-sandboxes-for-safe-agent-code-execution-iso",
+    "lesson_tag": "lesson-071-computer-use-and-browser-agents-driving-a-ui-whe",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17291
+  },
+  {
+    "lesson_id": 3712,
+    "n": 74,
+    "phase": 6,
+    "before_tag": "lesson-071-computer-use-and-browser-agents-driving-a-ui-whe",
+    "lesson_tag": "lesson-072-anchor-build-it-ship-multi-agent-orchestration-m",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17346
+  },
+  {
+    "lesson_id": 3713,
+    "n": 75,
+    "phase": 6,
+    "before_tag": "lesson-072-anchor-build-it-ship-multi-agent-orchestration-m",
+    "lesson_tag": "lesson-073-debug-drill-the-multi-agent-handoff-that-drops-c",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17292
+  },
+  {
+    "lesson_id": 3714,
+    "n": 76,
+    "phase": 6,
+    "before_tag": "lesson-073-debug-drill-the-multi-agent-handoff-that-drops-c",
+    "lesson_tag": "lesson-074-checkpoint-anchor-multi-agent-orchestration",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17293
+  },
+  {
+    "lesson_id": 3715,
+    "n": 77,
+    "phase": 7,
+    "before_tag": "lesson-074-checkpoint-anchor-multi-agent-orchestration",
+    "lesson_tag": "lesson-075-golden-dataset-construction-and-maintenance",
+    "needs_run": true,
+    "commands": 12,
+    "content_id": 17294
+  },
+  {
+    "lesson_id": 3789,
+    "n": 78,
+    "phase": 7,
+    "before_tag": "lesson-075-golden-dataset-construction-and-maintenance",
+    "lesson_tag": "lesson-076-ai-product-ux-citations-uncertainty-graceful-ref",
+    "needs_run": true,
+    "commands": 11,
+    "content_id": 17295
+  },
+  {
+    "lesson_id": 3807,
+    "n": 79,
+    "phase": 7,
+    "before_tag": "lesson-076-ai-product-ux-citations-uncertainty-graceful-ref",
+    "lesson_tag": "lesson-076a-error-analysis-and-eval-practice",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17174
+  },
+  {
+    "lesson_id": 3716,
+    "n": 80,
+    "phase": 7,
+    "before_tag": "lesson-076a-error-analysis-and-eval-practice",
+    "lesson_tag": "lesson-077-llm-as-judge-design-and-calibration-against-huma",
+    "needs_run": true,
+    "commands": 4,
+    "content_id": 17296
+  },
+  {
+    "lesson_id": 3717,
+    "n": 81,
+    "phase": 7,
+    "before_tag": "lesson-077-llm-as-judge-design-and-calibration-against-huma",
+    "lesson_tag": "lesson-078-agent-trajectory-evaluation-step-level-scoring",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17223
+  },
+  {
+    "lesson_id": 3718,
+    "n": 82,
+    "phase": 7,
+    "before_tag": "lesson-078-agent-trajectory-evaluation-step-level-scoring",
+    "lesson_tag": "lesson-079-regression-testing-for-prompts-and-pipelines",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17297
+  },
+  {
+    "lesson_id": 3719,
+    "n": 83,
+    "phase": 7,
+    "before_tag": "lesson-079-regression-testing-for-prompts-and-pipelines",
+    "lesson_tag": "lesson-080-anchor-build-it-ci-evaluation-gates-milestone",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17298
+  },
+  {
+    "lesson_id": 3720,
+    "n": 84,
+    "phase": 7,
+    "before_tag": "lesson-080-anchor-build-it-ci-evaluation-gates-milestone",
+    "lesson_tag": "lesson-081-checkpoint-anchor-evaluation-and-ci",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17103
+  },
+  {
+    "lesson_id": 3721,
+    "n": 85,
+    "phase": 8,
+    "before_tag": "lesson-081-checkpoint-anchor-evaluation-and-ci",
+    "lesson_tag": "lesson-082-multimodal-vision-image-understanding-with-llms",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17299
+  },
+  {
+    "lesson_id": 3722,
+    "n": 86,
+    "phase": 8,
+    "before_tag": "lesson-082-multimodal-vision-image-understanding-with-llms",
+    "lesson_tag": "lesson-083-ocr-pipelines-for-document-extraction",
+    "needs_run": true,
+    "commands": 3,
+    "content_id": 17300
+  },
+  {
+    "lesson_id": 3788,
+    "n": 87,
+    "phase": 8,
+    "before_tag": "lesson-083-ocr-pipelines-for-document-extraction",
+    "lesson_tag": "lesson-084-anchor-build-it-screenshot-and-attachment-unders",
+    "needs_run": true,
+    "commands": 13,
+    "content_id": 17301
+  },
+  {
+    "lesson_id": 3723,
+    "n": 88,
+    "phase": 8,
+    "before_tag": "lesson-084-anchor-build-it-screenshot-and-attachment-unders",
+    "lesson_tag": "lesson-085-audio-transcription-and-speech-pipelines-with-wh",
+    "needs_run": true,
+    "commands": 4,
+    "content_id": 17302
+  },
+  {
+    "lesson_id": 3724,
+    "n": 89,
+    "phase": 8,
+    "before_tag": "lesson-085-audio-transcription-and-speech-pipelines-with-wh",
+    "lesson_tag": "lesson-086-anchor-build-it-realtime-voice-interaction",
+    "needs_run": true,
+    "commands": 10,
+    "content_id": 17347
+  },
+  {
+    "lesson_id": 3725,
+    "n": 90,
+    "phase": 8,
+    "before_tag": "lesson-086-anchor-build-it-realtime-voice-interaction",
+    "lesson_tag": "lesson-087-checkpoint-anchor-multimodal-and-realtime",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17304
+  },
+  {
+    "lesson_id": 3726,
+    "n": 91,
+    "phase": 9,
+    "before_tag": "lesson-087-checkpoint-anchor-multimodal-and-realtime",
+    "lesson_tag": "lesson-088-latency-what-drives-it-and-how-it-is-measured-an",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17305
+  },
+  {
+    "lesson_id": 3727,
+    "n": 92,
+    "phase": 9,
+    "before_tag": "lesson-088-latency-what-drives-it-and-how-it-is-measured-an",
+    "lesson_tag": "lesson-089-token-streaming-for-perceived-latency-reduction",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17306
+  },
+  {
+    "lesson_id": 3728,
+    "n": 93,
+    "phase": 9,
+    "before_tag": "lesson-089-token-streaming-for-perceived-latency-reduction",
+    "lesson_tag": "lesson-090-semantic-caching-strategies",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17307
+  },
+  {
+    "lesson_id": 3787,
+    "n": 94,
+    "phase": 9,
+    "before_tag": "lesson-090-semantic-caching-strategies",
+    "lesson_tag": "lesson-091-provider-prompt-caching-stable-prefix-layout-and",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17308
+  },
+  {
+    "lesson_id": 3729,
+    "n": 95,
+    "phase": 9,
+    "before_tag": "lesson-091-provider-prompt-caching-stable-prefix-layout-and",
+    "lesson_tag": "lesson-092-request-batching-for-throughput",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17309
+  },
+  {
+    "lesson_id": 3730,
+    "n": 96,
+    "phase": 9,
+    "before_tag": "lesson-092-request-batching-for-throughput",
+    "lesson_tag": "lesson-093-durable-background-jobs-for-long-running-ai-task",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17310
+  },
+  {
+    "lesson_id": 3731,
+    "n": 97,
+    "phase": 9,
+    "before_tag": "lesson-093-durable-background-jobs-for-long-running-ai-task",
+    "lesson_tag": "lesson-094-cost-what-drives-spend-and-how-it-is-bounded",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17311
+  },
+  {
+    "lesson_id": 3732,
+    "n": 98,
+    "phase": 9,
+    "before_tag": "lesson-094-cost-what-drives-spend-and-how-it-is-bounded",
+    "lesson_tag": "lesson-095-quotas-rate-limiting-and-cost-controls",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17312
+  },
+  {
+    "lesson_id": 3733,
+    "n": 99,
+    "phase": 9,
+    "before_tag": "lesson-095-quotas-rate-limiting-and-cost-controls",
+    "lesson_tag": "lesson-096-provider-failover-and-multi-provider-routing",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17313
+  },
+  {
+    "lesson_id": 3734,
+    "n": 100,
+    "phase": 9,
+    "before_tag": "lesson-096-provider-failover-and-multi-provider-routing",
+    "lesson_tag": "lesson-097-retries-timeouts-and-circuit-breakers-for-llm-ca",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17314
+  },
+  {
+    "lesson_id": 3735,
+    "n": 101,
+    "phase": 9,
+    "before_tag": "lesson-097-retries-timeouts-and-circuit-breakers-for-llm-ca",
+    "lesson_tag": "lesson-098-debug-drill-the-failover-loop-that-drained-the-b",
+    "needs_run": true,
+    "commands": 9,
+    "content_id": 17240
+  },
+  {
+    "lesson_id": 3736,
+    "n": 102,
+    "phase": 9,
+    "before_tag": "lesson-098-debug-drill-the-failover-loop-that-drained-the-b",
+    "lesson_tag": "lesson-099-checkpoint-anchor-performance-and-cost",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17315
+  },
+  {
+    "lesson_id": 3737,
+    "n": 103,
+    "phase": 10,
+    "before_tag": "lesson-099-checkpoint-anchor-performance-and-cost",
+    "lesson_tag": "lesson-100-prompt-injection-attack-vectors-and-defenses",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17316
+  },
+  {
+    "lesson_id": 3738,
+    "n": 104,
+    "phase": 10,
+    "before_tag": "lesson-100-prompt-injection-attack-vectors-and-defenses",
+    "lesson_tag": "lesson-101-jailbreak-resistance-techniques",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17317
+  },
+  {
+    "lesson_id": 3739,
+    "n": 105,
+    "phase": 10,
+    "before_tag": "lesson-101-jailbreak-resistance-techniques",
+    "lesson_tag": "lesson-102-pii-detection-and-redaction-in-llm-pipelines",
+    "needs_run": true,
+    "commands": 17,
+    "content_id": 17318
+  },
+  {
+    "lesson_id": 3740,
+    "n": 106,
+    "phase": 10,
+    "before_tag": "lesson-102-pii-detection-and-redaction-in-llm-pipelines",
+    "lesson_tag": "lesson-103-scoped-authorization-for-agent-actions",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17319
+  },
+  {
+    "lesson_id": 3741,
+    "n": 107,
+    "phase": 10,
+    "before_tag": "lesson-103-scoped-authorization-for-agent-actions",
+    "lesson_tag": "lesson-104-tenant-isolation-in-multi-tenant-ai-systems",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17320
+  },
+  {
+    "lesson_id": 3742,
+    "n": 108,
+    "phase": 10,
+    "before_tag": "lesson-104-tenant-isolation-in-multi-tenant-ai-systems",
+    "lesson_tag": "lesson-105-safe-side-effects-confirmation-dry-run-reversibi",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17321
+  },
+  {
+    "lesson_id": 3743,
+    "n": 109,
+    "phase": 10,
+    "before_tag": "lesson-105-safe-side-effects-confirmation-dry-run-reversibi",
+    "lesson_tag": "lesson-106-red-team-testing-methodology-for-llm-systems",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17322
+  },
+  {
+    "lesson_id": 3808,
+    "n": 110,
+    "phase": 10,
+    "before_tag": "lesson-106-red-team-testing-methodology-for-llm-systems",
+    "lesson_tag": "lesson-106a-agentic-security-canon-owasp-lists-the-lethal-tr",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17176
+  },
+  {
+    "lesson_id": 3786,
+    "n": 111,
+    "phase": 10,
+    "before_tag": "lesson-106a-agentic-security-canon-owasp-lists-the-lethal-tr",
+    "lesson_tag": "lesson-107-ai-governance-and-compliance-risk-contracts-lice",
+    "needs_run": true,
+    "commands": 0,
+    "content_id": 17323
+  },
+  {
+    "lesson_id": 3744,
+    "n": 112,
+    "phase": 10,
+    "before_tag": "lesson-107-ai-governance-and-compliance-risk-contracts-lice",
+    "lesson_tag": "lesson-108-anchor-build-it-security-hardening-milestone",
+    "needs_run": true,
+    "commands": 9,
+    "content_id": 17324
+  },
+  {
+    "lesson_id": 3745,
+    "n": 113,
+    "phase": 10,
+    "before_tag": "lesson-108-anchor-build-it-security-hardening-milestone",
+    "lesson_tag": "lesson-109-checkpoint-anchor-security-and-safety",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17325
+  },
+  {
+    "lesson_id": 3746,
+    "n": 114,
+    "phase": 11,
+    "before_tag": "lesson-109-checkpoint-anchor-security-and-safety",
+    "lesson_tag": "lesson-110-self-hosted-inference-fundamentals",
+    "needs_run": true,
+    "commands": 4,
+    "content_id": 17326
+  },
+  {
+    "lesson_id": 3747,
+    "n": 115,
+    "phase": 11,
+    "before_tag": "lesson-110-self-hosted-inference-fundamentals",
+    "lesson_tag": "lesson-111-quantization-techniques-gptq-awq-and-gguf",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17327
+  },
+  {
+    "lesson_id": 3748,
+    "n": 116,
+    "phase": 11,
+    "before_tag": "lesson-111-quantization-techniques-gptq-awq-and-gguf",
+    "lesson_tag": "lesson-112-vllm-deployment-and-serving",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17328
+  },
+  {
+    "lesson_id": 3749,
+    "n": 117,
+    "phase": 11,
+    "before_tag": "lesson-112-vllm-deployment-and-serving",
+    "lesson_tag": "lesson-113-continuous-batching-for-inference-throughput",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17329
+  },
+  {
+    "lesson_id": 3750,
+    "n": 118,
+    "phase": 11,
+    "before_tag": "lesson-113-continuous-batching-for-inference-throughput",
+    "lesson_tag": "lesson-114-kv-cache-management",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17330
+  },
+  {
+    "lesson_id": 3751,
+    "n": 119,
+    "phase": 11,
+    "before_tag": "lesson-114-kv-cache-management",
+    "lesson_tag": "lesson-115-hosted-versus-local-inference-tradeoffs",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17331
+  },
+  {
+    "lesson_id": 3752,
+    "n": 120,
+    "phase": 11,
+    "before_tag": "lesson-115-hosted-versus-local-inference-tradeoffs",
+    "lesson_tag": "lesson-116-anchor-build-it-self-hosted-inference-milestone",
+    "needs_run": true,
+    "commands": 10,
+    "content_id": 17332
+  },
+  {
+    "lesson_id": 3753,
+    "n": 121,
+    "phase": 11,
+    "before_tag": "lesson-116-anchor-build-it-self-hosted-inference-milestone",
+    "lesson_tag": "lesson-117-checkpoint-anchor-self-hosted-inference",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17333
+  },
+  {
+    "lesson_id": 3754,
+    "n": 122,
+    "phase": 12,
+    "before_tag": "lesson-117-checkpoint-anchor-self-hosted-inference",
+    "lesson_tag": "lesson-118-deployment-architectures-for-llm-backed-applicat",
+    "needs_run": true,
+    "commands": 5,
+    "content_id": 17334
+  },
+  {
+    "lesson_id": 3755,
+    "n": 123,
+    "phase": 12,
+    "before_tag": "lesson-118-deployment-architectures-for-llm-backed-applicat",
+    "lesson_tag": "lesson-119-observability-logs-metrics-and-distributed-traci",
+    "needs_run": true,
+    "commands": 9,
+    "content_id": 17335
+  },
+  {
+    "lesson_id": 3756,
+    "n": 124,
+    "phase": 12,
+    "before_tag": "lesson-119-observability-logs-metrics-and-distributed-traci",
+    "lesson_tag": "lesson-120-online-evaluation-and-quality-monitoring-on-prod",
+    "needs_run": true,
+    "commands": 8,
+    "content_id": 17336
+  },
+  {
+    "lesson_id": 3757,
+    "n": 125,
+    "phase": 12,
+    "before_tag": "lesson-120-online-evaluation-and-quality-monitoring-on-prod",
+    "lesson_tag": "lesson-121-load-testing-llm-endpoints",
+    "needs_run": true,
+    "commands": 4,
+    "content_id": 17337
+  },
+  {
+    "lesson_id": 3758,
+    "n": 126,
+    "phase": 12,
+    "before_tag": "lesson-121-load-testing-llm-endpoints",
+    "lesson_tag": "lesson-122-reliability-and-safety-retries-fallbacks-circuit",
+    "needs_run": true,
+    "commands": 11,
+    "content_id": 17338
+  },
+  {
+    "lesson_id": 3759,
+    "n": 127,
+    "phase": 12,
+    "before_tag": "lesson-122-reliability-and-safety-retries-fallbacks-circuit",
+    "lesson_tag": "lesson-123-rollback-strategies-for-prompt-model-changes",
+    "needs_run": true,
+    "commands": 9,
+    "content_id": 17339
+  },
+  {
+    "lesson_id": 3760,
+    "n": 128,
+    "phase": 12,
+    "before_tag": "lesson-123-rollback-strategies-for-prompt-model-changes",
+    "lesson_tag": "lesson-124-incident-response-playbooks-for-ai-outages",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17144
+  },
+  {
+    "lesson_id": 3761,
+    "n": 129,
+    "phase": 12,
+    "before_tag": "lesson-124-incident-response-playbooks-for-ai-outages",
+    "lesson_tag": "lesson-125-backups-and-state-recovery-for-ai-systems",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17340
+  },
+  {
+    "lesson_id": 3762,
+    "n": 130,
+    "phase": 12,
+    "before_tag": "lesson-125-backups-and-state-recovery-for-ai-systems",
+    "lesson_tag": "lesson-126-operating-anchor-in-production-runbooks-debuggin",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17341
+  },
+  {
+    "lesson_id": 3763,
+    "n": 131,
+    "phase": 12,
+    "before_tag": "lesson-126-operating-anchor-in-production-runbooks-debuggin",
+    "lesson_tag": "lesson-127-debug-drill-the-outage-that-passed-every-health",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17252
+  },
+  {
+    "lesson_id": 3765,
+    "n": 132,
+    "phase": 12,
+    "before_tag": "lesson-127-debug-drill-the-outage-that-passed-every-health",
+    "lesson_tag": "lesson-128-anchor-productionize-and-ship-it",
+    "needs_run": true,
+    "commands": 7,
+    "content_id": 17342
+  },
+  {
+    "lesson_id": 3766,
+    "n": 133,
+    "phase": 12,
+    "before_tag": "lesson-128-anchor-productionize-and-ship-it",
+    "lesson_tag": "lesson-129-staff-level-ai-engineering-interview-system-desi",
+    "needs_run": true,
+    "commands": 6,
+    "content_id": 17256
+  },
+  {
+    "lesson_id": 3771,
+    "n": 134,
+    "phase": 12,
+    "before_tag": "lesson-129-staff-level-ai-engineering-interview-system-desi",
+    "lesson_tag": "lesson-130-roles-and-hiring-how-teams-hire-ai-engineers",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17343
+  },
+  {
+    "lesson_id": 3772,
+    "n": 135,
+    "phase": 12,
+    "before_tag": "lesson-130-roles-and-hiring-how-teams-hire-ai-engineers",
+    "lesson_tag": "lesson-131-ai-engineering-interview-question-bank",
+    "needs_run": true,
+    "commands": 0,
+    "content_id": 17208
+  },
+  {
+    "lesson_id": 3798,
+    "n": 136,
+    "phase": 12,
+    "before_tag": "lesson-131-ai-engineering-interview-question-bank",
+    "lesson_tag": "lesson-132-comparisons-and-failure-stories-interviewers-ask",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17344
+  },
+  {
+    "lesson_id": 3800,
+    "n": 137,
+    "phase": 12,
+    "before_tag": "lesson-132-comparisons-and-failure-stories-interviewers-ask",
+    "lesson_tag": "lesson-133-sprint-retrospective-what-the-hybrid-rag-slice-p",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 17171
+  },
+  {
+    "lesson_id": 3767,
+    "n": 138,
+    "phase": 12,
+    "before_tag": "lesson-133-sprint-retrospective-what-the-hybrid-rag-slice-p",
+    "lesson_tag": "lesson-134-checkpoint-anchor-production-and-capstone",
+    "needs_run": false,
+    "commands": 0,
+    "content_id": 16944
+  }
+]

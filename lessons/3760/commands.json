@@ -1,0 +1,26 @@
+[
+  {
+    "block": "incident-run-1",
+    "cmd": "ruby test/integration/ai_incident_playbook_test.rb"
+  },
+  {
+    "block": "incident-run-2",
+    "cmd": "bash ops/drills/simulate_cost_spike.sh simulate"
+  },
+  {
+    "block": "incident-run-3",
+    "cmd": "bash ops/drills/simulate_cost_spike.sh classify"
+  },
+  {
+    "block": "incident-run-4",
+    "cmd": "bash ops/drills/simulate_cost_spike.sh contain"
+  },
+  {
+    "block": "incident-run-5",
+    "cmd": "bash ops/drills/simulate_cost_spike.sh chat"
+  },
+  {
+    "block": "incident-run-6",
+    "cmd": "bash ops/drills/simulate_cost_spike.sh recover"
+  }
+]

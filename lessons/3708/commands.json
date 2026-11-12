@@ -1,0 +1,34 @@
+[
+  {
+    "block": "qe-step-seed",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline python3 labs/llamaindex-query-engine/query_engine_demo.py --seed"
+  },
+  {
+    "block": "qe-step-seed",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline python3 labs/llamaindex-query-engine/query_engine_demo.py --inspect"
+  },
+  {
+    "block": "qe-step-demo",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline python3 labs/llamaindex-query-engine/query_engine_demo.py --query 'refund policy for EU customers'"
+  },
+  {
+    "block": "qe-step-hydration",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline python3 labs/llamaindex-query-engine/query_engine_demo.py --inspect"
+  },
+  {
+    "block": "qe-step-tests",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_query_engine.py -k 'three_citations or invented or foreign_envelope'"
+  },
+  {
+    "block": "qe-step-tests",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_query_engine.py -k 'existing_dense or attach or tool_has'"
+  },
+  {
+    "block": "qe-step-tests",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_query_engine.py -k 'dense_explicit'"
+  },
+  {
+    "block": "qe-step-tests",
+    "cmd": "bin/rails test test/controllers/api/document_chunks_controller_test.rb"
+  }
+]

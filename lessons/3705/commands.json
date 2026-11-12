@@ -1,0 +1,30 @@
+[
+  {
+    "block": "b21",
+    "cmd": "ruby labs/framework-comparison/framework_selection_matrix.rb --usecase escalation"
+  },
+  {
+    "block": "fc-step-rag",
+    "cmd": "ruby labs/framework-comparison/framework_selection_matrix.rb --usecase rag"
+  },
+  {
+    "block": "fc-step-triage",
+    "cmd": "ruby labs/framework-comparison/framework_selection_matrix.rb --usecase triage"
+  },
+  {
+    "block": "fc-step-tests",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_framework_selection.py"
+  },
+  {
+    "block": "fc-step-regression",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_orchestration_patterns.py anchor_ai/tests/test_query_engine.py anchor_ai/tests/test_chains.py"
+  },
+  {
+    "block": "fc-step-regression",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_retrieval_metrics.py anchor_ai/tests/test_rag_gate.py"
+  },
+  {
+    "block": "fc-step-regression",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_agent_trajectories.py"
+  }
+]

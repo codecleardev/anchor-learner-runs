@@ -1,0 +1,26 @@
+{
+  "name": "Anchor (CodeClear AI Engineering)",
+  "build": { "dockerfile": "Dockerfile", "context": "." },
+  "remoteUser": "vscode",
+  "hostRequirements": { "cpus": 2 },
+  "remoteEnv": {
+    "PATH": "${containerWorkspaceFolder}/.venv/bin:${containerEnv:PATH}",
+    "RAILS_DEVELOPMENT_HOSTS": ".app.github.dev"
+  },
+  "forwardPorts": [3000, 8000],
+  "portsAttributes": {
+    "3000": { "label": "Rails", "onAutoForward": "notify" },
+    "8000": { "label": "anchor_ai (Python)", "onAutoForward": "silent" }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "customizations": {
+    "codespaces": { "openFiles": ["README.md"] },
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python",
+        "python.terminal.activateEnvironment": true
+      },
+      "extensions": ["Shopify.ruby-lsp", "ms-python.python"]
+    }
+  }
+}

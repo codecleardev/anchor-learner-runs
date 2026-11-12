@@ -1,0 +1,26 @@
+[
+  {
+    "block": "b19",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_semantic_cache.py -k public_faq"
+  },
+  {
+    "block": "b19",
+    "cmd": "python3 ops/load/profile_tickets.py --semantic-cache"
+  },
+  {
+    "block": "b29",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_semantic_cache.py -k 'scope_and_invalidation or update_during_hit'"
+  },
+  {
+    "block": "b31",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_semantic_cache.py -k ann_switch"
+  },
+  {
+    "block": "sc-bypass-step",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_semantic_cache.py -k 'unsafe or filtered or threshold'"
+  },
+  {
+    "block": "sc-final-step",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_semantic_cache.py"
+  }
+]

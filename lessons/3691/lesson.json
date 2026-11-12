@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3691,
+  "n": 44,
+  "title": "Dataset engineering for fine-tuning: collection, curation, and labeling",
+  "phase": 4,
+  "content_id": 17270,
+  "content_digest": "c973e8d0cfafa6af5160bde8634991e5a5a22fe7a0009492fc96dca73516ef90",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "a9867d02face7068117f",
+  "before_tag": "lesson-042-when-not-to-fine-tune-prompt-engineering-vs-rag",
+  "lesson_tag": "lesson-043-dataset-engineering-for-fine-tuning-collection-c",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 6,
+  "has_demo": true,
+  "commands": 6,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

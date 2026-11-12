@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3732,
+  "n": 98,
+  "title": "Quotas, rate limiting, and cost controls",
+  "phase": 9,
+  "content_id": 17312,
+  "content_digest": "ccecd74d9a9c7c65cd9d4160b8e66d1c51585e4edf521c70b5bbbfe08f0ab5ab",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "43dc42dbeada06a0af40",
+  "before_tag": "lesson-094-cost-what-drives-spend-and-how-it-is-bounded",
+  "lesson_tag": "lesson-095-quotas-rate-limiting-and-cost-controls",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 6,
+  "has_demo": true,
+  "commands": 6,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

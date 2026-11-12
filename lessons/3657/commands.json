@@ -1,0 +1,22 @@
+[
+  {
+    "block": "b4c",
+    "cmd": "bundle add webmock --group test"
+  },
+  {
+    "block": "b13",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_infer.py"
+  },
+  {
+    "block": "b28",
+    "cmd": "bin/rails test test/services/ai_boundary_test.rb test/controllers/chat_controller_test.rb test/services/llm_client_test.rb"
+  },
+  {
+    "block": "b28",
+    "cmd": "bin/rails test"
+  },
+  {
+    "block": "b31",
+    "cmd": "python3 labs/ai-service-boundary/smoke.py"
+  }
+]

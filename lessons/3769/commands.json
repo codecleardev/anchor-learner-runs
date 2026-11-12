@@ -1,0 +1,6 @@
+[
+  {
+    "block": "b9",
+    "cmd": "curl https://api.openai.com/v1/chat/completions \\\n  -H \"Authorization: Bearer $OPENAI_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"model\": \"<your-model>\", \"messages\": [{\"role\": \"user\", \"content\": \"Where is my order #4471?\"}]}'"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "block": "b8",
+    "cmd": "rails new anchor --skip-system-test",
+    "expect": "fail",
+    "reason": "the sandbox opens inside the Anchor app, so rails new refuses to run; the lesson step is for a learner's own machine (handoff: lesson needs a sandbox note)"
+  },
+  {
+    "block": "b8",
+    "cmd": "cd anchor",
+    "expect": "fail",
+    "reason": "follows the refused rails new: the terminal is already in the project root"
+  },
+  {
+    "block": "n_prepare",
+    "cmd": "bin/rails --version"
+  },
+  {
+    "block": "n_prepare",
+    "cmd": "git status --short"
+  },
+  {
+    "block": "n_prepare",
+    "cmd": "cat config/database.yml"
+  },
+  {
+    "block": "n_prepare",
+    "cmd": "bundle install"
+  },
+  {
+    "block": "n_prepare",
+    "cmd": "bin/rails db:prepare"
+  },
+  {
+    "block": "n_prepare",
+    "cmd": "RAILS_ENV=test bin/rails db:prepare"
+  },
+  {
+    "block": "n_config_check",
+    "cmd": "env -u ANCHOR_LLM_PROVIDER -u OPENAI_API_KEY bin/rails runner 'puts Rails.configuration.x.llm.fetch(:provider)'"
+  },
+  {
+    "block": "b24",
+    "cmd": "bin/rails routes -g chat"
+  },
+  {
+    "block": "b24",
+    "cmd": "env -u ANCHOR_LLM_PROVIDER -u OPENAI_API_KEY bin/rails runner 'session = ActionDispatch::Integration::Session.new(Rails.application); session.host! \"localhost\"; session.post \"/chat\", params: { message: \"Where is my order?\" }, as: :json; abort session.response.body unless session.response.status == 200; puts session.response.body'"
+  },
+  {
+    "block": "b28",
+    "cmd": "env -u ANCHOR_LLM_PROVIDER -u OPENAI_API_KEY bin/rails test test/services/llm_client_test.rb test/controllers/chat_controller_test.rb"
+  },
+  {
+    "block": "b28",
+    "cmd": "env -u ANCHOR_LLM_PROVIDER -u OPENAI_API_KEY bin/rails test"
+  },
+  {
+    "block": "b28",
+    "cmd": "env -u ANCHOR_LLM_PROVIDER -u OPENAI_API_KEY CI=1 bin/rails test"
+  }
+]

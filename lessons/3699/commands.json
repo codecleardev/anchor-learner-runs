@@ -1,0 +1,22 @@
+[
+  {
+    "block": "memory-step-inspect",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_memory_smoke.py::test_configuration_and_schema"
+  },
+  {
+    "block": "memory-step-smoke",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_memory_smoke.py"
+  },
+  {
+    "block": "memory-step-upsert",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_memory_smoke.py::test_upsert_restart_and_isolation"
+  },
+  {
+    "block": "memory-step-budget",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_memory_smoke.py::test_recall_selection_recency_and_budget"
+  },
+  {
+    "block": "memory-step-retention",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_memory_smoke.py::test_working_eviction_expiration_and_redaction"
+  }
+]

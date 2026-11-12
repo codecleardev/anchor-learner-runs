@@ -1,0 +1,34 @@
+[
+  {
+    "block": "quant-run-1",
+    "cmd": "python3 labs/quantization-techniques/quantize.py --method gptq --bits 4"
+  },
+  {
+    "block": "quant-run-1",
+    "cmd": "python3 labs/quantization-techniques/quantize.py --method awq --bits 4"
+  },
+  {
+    "block": "quant-run-1",
+    "cmd": "python3 labs/quantization-techniques/quantize.py --method gguf --bits 4"
+  },
+  {
+    "block": "quant-run-2",
+    "cmd": "python3 labs/self-hosted-inference/benchmark.py --target local --baseline-artifact tmp/quantization/baseline.json --candidate-artifact tmp/quantization/gptq.json --runtime vllm_gpu --report tmp/quantization/gptq-report.json"
+  },
+  {
+    "block": "quant-run-2",
+    "cmd": "python3 labs/self-hosted-inference/benchmark.py --target local --baseline-artifact tmp/quantization/baseline.json --candidate-artifact tmp/quantization/awq.json --runtime vllm_gpu --report tmp/quantization/awq-report.json"
+  },
+  {
+    "block": "quant-run-3",
+    "cmd": "python3 labs/self-hosted-inference/benchmark.py --target local --baseline-artifact tmp/quantization/baseline.json --candidate-artifact tmp/quantization/gguf.json --runtime vllm_gpu --report tmp/quantization/gguf-report.json"
+  },
+  {
+    "block": "quant-run-3",
+    "cmd": "python3 eval/model_gate.py --offline --candidate quantized --artifact tmp/quantization/gguf.json --baseline-artifact tmp/quantization/baseline.json --artifact-report tmp/quantization/gguf-report.json --runtime vllm_gpu --expect-rejected"
+  },
+  {
+    "block": "quant-run-4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_serving_artifacts.py anchor_ai/tests/test_serving_benchmark.py"
+  }
+]

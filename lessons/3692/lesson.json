@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3692,
+  "n": 45,
+  "title": "Synthetic data generation and quality filtering",
+  "phase": 4,
+  "content_id": 17271,
+  "content_digest": "01f9525e1061d95c387419c0d24824d751ba6ec9b6164ebc52e7a3389ebab0f5",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "ed27208919eba9f5a8f1",
+  "before_tag": "lesson-043-dataset-engineering-for-fine-tuning-collection-c",
+  "lesson_tag": "lesson-044-synthetic-data-generation-and-quality-filtering",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

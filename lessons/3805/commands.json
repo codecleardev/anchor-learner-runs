@@ -1,0 +1,46 @@
+[
+  {
+    "block": "s1",
+    "cmd": "bin/rails test test/agent_instructions_test.rb"
+  },
+  {
+    "block": "s2",
+    "cmd": "bin/rails test test/agent_instructions_test.rb"
+  },
+  {
+    "block": "s2",
+    "cmd": "sed -n '1,8p' .agents/skills/publish-prompt-version/SKILL.md"
+  },
+  {
+    "block": "s3",
+    "cmd": "git worktree add --detach labs/coding-agents/sandbox"
+  },
+  {
+    "block": "s3",
+    "cmd": "git -C labs/coding-agents/sandbox apply ../agent_change.patch"
+  },
+  {
+    "block": "s3",
+    "cmd": "git -C labs/coding-agents/sandbox diff --stat"
+  },
+  {
+    "block": "s3",
+    "cmd": "ruby -e 'Dir.chdir(\"labs/coding-agents/sandbox\") { system(\"python3\", \"-m\", \"pytest\", \"-q\", \"anchor_ai/tests/test_model_catalog.py\") }; exit($?.exitstatus == 1 ? 0 : 1)'"
+  },
+  {
+    "block": "s3",
+    "cmd": "ruby -e 'system(\"ruby\", \"labs/coding-agents/review_agent_diff.rb\", \"labs/coding-agents/agent_change.patch\"); exit($?.exitstatus == 1 ? 0 : 1)'"
+  },
+  {
+    "block": "s3",
+    "cmd": "git worktree remove --force labs/coding-agents/sandbox"
+  },
+  {
+    "block": "s4",
+    "cmd": "env -u ANCHOR_LLM_PROVIDER bin/rails test"
+  },
+  {
+    "block": "s4",
+    "cmd": "env -u ANCHOR_LLM_PROVIDER python3 -m pytest -q anchor_ai/tests"
+  }
+]

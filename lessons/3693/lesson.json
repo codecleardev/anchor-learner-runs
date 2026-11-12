@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3693,
+  "n": 46,
+  "title": "Supervised fine-tuning (SFT) workflow end-to-end",
+  "phase": 4,
+  "content_id": 17272,
+  "content_digest": "10187d739936de5f94b723c6932ae5d541ff4d3b38b7a71f731a9fd14ab51a67",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "591a7ca9676728f5b659",
+  "before_tag": "lesson-044-synthetic-data-generation-and-quality-filtering",
+  "lesson_tag": "lesson-045-supervised-fine-tuning-sft-workflow-end-to-end",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 7,
+  "has_demo": true,
+  "commands": 7,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

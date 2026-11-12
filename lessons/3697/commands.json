@@ -1,0 +1,18 @@
+[
+  {
+    "block": "b17_run",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_react.py -k eligibility -s"
+  },
+  {
+    "block": "react_cap_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_react.py -k repeat_reaches -s"
+  },
+  {
+    "block": "react_trace_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_react.py"
+  },
+  {
+    "block": "react_regression_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_react.py anchor_ai/tests/test_agentic_rag.py anchor_ai/tests/test_autonomy.py"
+  }
+]

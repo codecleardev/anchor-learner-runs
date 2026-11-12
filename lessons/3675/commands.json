@@ -1,0 +1,22 @@
+[
+  {
+    "block": "qa-step1",
+    "cmd": "python3 bin/query_analysis_demo.py"
+  },
+  {
+    "block": "qa-step2",
+    "cmd": "python3 eval/retrieval_gate.py"
+  },
+  {
+    "block": "qa-step3",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_query_analysis.py -k 'snapshot or route or cross_tenant'"
+  },
+  {
+    "block": "qa-step4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_query_analysis.py"
+  },
+  {
+    "block": "qa-step5",
+    "cmd": "python3 eval/retrieval_gate.py"
+  }
+]

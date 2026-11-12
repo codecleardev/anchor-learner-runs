@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3761,
+  "n": 129,
+  "title": "Backups and state recovery for AI systems",
+  "phase": 12,
+  "content_id": 17340,
+  "content_digest": "578210a39bf605cbbc33aabbe40e936eb39faa4a9b1940566571ffa0389607f0",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "e3d3b4f97e9a5cd96d67",
+  "before_tag": "lesson-124-incident-response-playbooks-for-ai-outages",
+  "lesson_tag": "lesson-125-backups-and-state-recovery-for-ai-systems",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 6,
+  "has_demo": true,
+  "commands": 6,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

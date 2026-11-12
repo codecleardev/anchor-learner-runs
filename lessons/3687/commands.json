@@ -1,0 +1,22 @@
+[
+  {
+    "block": "lab-release-1",
+    "cmd": "python3 labs/adapter-merging/merge_adapter.py --fixture eval/finetune/fixtures/qlora-adapter"
+  },
+  {
+    "block": "lab-release-2",
+    "cmd": "python3 eval/model_gate.py --offline --candidate adapter-recorded"
+  },
+  {
+    "block": "lab-release-3",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_adapter_release.py anchor_ai/tests/test_customization.py anchor_ai/tests/test_provider.py"
+  },
+  {
+    "block": "lab-release-4",
+    "cmd": "python3 ops/deploy/model_release.py --offline --promote adapter-recorded"
+  },
+  {
+    "block": "lab-release-5",
+    "cmd": "python3 ops/deploy/model_release.py --offline --rollback"
+  }
+]

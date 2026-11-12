@@ -1,0 +1,30 @@
+[
+  {
+    "block": "b25",
+    "cmd": "python3 -c \"from anchor_ai.schemas import TRIAGE_FORMAT; import json; print(json.dumps(TRIAGE_FORMAT, indent=2))\""
+  },
+  {
+    "block": "n_step2",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_structured_replies.py"
+  },
+  {
+    "block": "n_step3",
+    "cmd": "grep -q webmock Gemfile || bundle add webmock --group test"
+  },
+  {
+    "block": "n_step3",
+    "cmd": "bin/rails test test/controllers/api/structured_replies_controller_test.rb"
+  },
+  {
+    "block": "n_step4",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_structured_replies.py::test_five_ticket_replay"
+  },
+  {
+    "block": "n_step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests"
+  },
+  {
+    "block": "n_step5",
+    "cmd": "bin/rails test test/controllers/chat_controller_test.rb test/controllers/api/structured_replies_controller_test.rb test/services/ai_boundary_test.rb test/services/ai_telemetry_test.rb test/services/llm_client_test.rb"
+  }
+]

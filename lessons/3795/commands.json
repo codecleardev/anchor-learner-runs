@@ -1,0 +1,22 @@
+[
+  {
+    "block": "n27",
+    "cmd": "grep -q webmock Gemfile || bundle add webmock --group test"
+  },
+  {
+    "block": "n27",
+    "cmd": "RAILS_ENV=test bundle exec ruby -r ./config/application -e 'Rails.application.config.active_record.validate_migration_timestamps = false; Rails.application.load_tasks; Rake::Task[\"db:prepare\"].invoke'"
+  },
+  {
+    "block": "n27",
+    "cmd": "bin/rails test test/controllers/chat_controller_test.rb"
+  },
+  {
+    "block": "n27",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_context.py"
+  },
+  {
+    "block": "n27",
+    "cmd": "python3 -m pytest -q anchor_ai/tests"
+  }
+]

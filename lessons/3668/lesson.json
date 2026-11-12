@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3668,
+  "n": 22,
+  "title": "Embeddings fundamentals and embedding model selection",
+  "phase": 2,
+  "content_id": 17243,
+  "content_digest": "43bccc34115d9c17d0347873d60a3b5a551d3882b7044e2c8ac5f3ef73e7c1b6",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "7e85b1bbcc4d82c22e4f",
+  "before_tag": "lesson-020-checkpoint-anchor-foundations",
+  "lesson_tag": "lesson-021-embeddings-fundamentals-and-embedding-model-sele",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

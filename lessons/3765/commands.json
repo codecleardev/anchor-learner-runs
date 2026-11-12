@@ -1,0 +1,30 @@
+[
+  {
+    "block": "launch-run-1",
+    "cmd": "python3 bin/deploy production --offline"
+  },
+  {
+    "block": "launch-run-2",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_handoff_contracts.py anchor_ai/tests/test_audio.py anchor_ai/tests/test_injection_filter.py"
+  },
+  {
+    "block": "launch-run-3",
+    "cmd": "bash ops/load/load_test.sh --target production --offline"
+  },
+  {
+    "block": "launch-run-3",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_production_tracing.py anchor_ai/tests/test_observability.py"
+  },
+  {
+    "block": "launch-run-4",
+    "cmd": "python3 bin/deploy production --offline --reject-candidate"
+  },
+  {
+    "block": "launch-run-4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_production_deploy_gate.py"
+  },
+  {
+    "block": "launch-run-4",
+    "cmd": "ruby test/integration/production_launch_test.rb"
+  }
+]

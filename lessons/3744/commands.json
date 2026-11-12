@@ -1,0 +1,38 @@
+[
+  {
+    "block": "security_execute_after_files",
+    "cmd": "bin/rails test test/integration/security_hardening_milestone_test.rb"
+  },
+  {
+    "block": "security_execute_after_files",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_security_hardening_milestone.py"
+  },
+  {
+    "block": "security_execute_full",
+    "cmd": "ruby bin/redteam_harness.rb --suite full --target hardened_release"
+  },
+  {
+    "block": "security_execute_accumulated",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_prompt_regression.py anchor_ai/tests/test_rag_endpoint_eval.py anchor_ai/tests/test_semantic_cache.py"
+  },
+  {
+    "block": "security_execute_accumulated",
+    "cmd": "ruby bin/release_gate --smoke"
+  },
+  {
+    "block": "security_execute_negative",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_security_hardening_milestone.py -k 'negative_control or offline_evidence or missing_security'"
+  },
+  {
+    "block": "security_execute_audit",
+    "cmd": "python3 -m anchor_ai.trifecta"
+  },
+  {
+    "block": "security_execute_audit",
+    "cmd": "python3 eval/owasp_coverage.py"
+  },
+  {
+    "block": "security_execute_audit",
+    "cmd": "python3 -c \"import json; from pathlib import Path; print(json.dumps(json.loads(Path('.git/anchor-eval/security.json').read_text()), indent=2)); print(Path('ops/security_audit_report.md').read_text())\""
+  }
+]

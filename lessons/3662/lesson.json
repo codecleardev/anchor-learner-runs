@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3662,
+  "n": 11,
+  "title": "Model selection: cost, latency, context length, and quality tradeoffs",
+  "phase": 1,
+  "content_id": 17226,
+  "content_digest": "86b5911a41d47762b6ca5847e733940c93e6b5d34fa72aa24a3a9f1dda4fb8e3",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "cecea98e2573eca82034",
+  "before_tag": "lesson-010-prompting-fundamentals-zero-shot-few-shot-and-ch",
+  "lesson_tag": "lesson-011-model-selection-cost-latency-context-length-and",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

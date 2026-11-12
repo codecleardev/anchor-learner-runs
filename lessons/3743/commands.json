@@ -1,0 +1,34 @@
+[
+  {
+    "block": "rt_step1",
+    "cmd": "python3 -c \"from eval.redteam_gate import ROOT; import json; rows=[json.loads(x) for x in (ROOT/'eval/datasets/security_regression_cases.jsonl').read_text().splitlines()]; print([(r['id'],r['expected'],r['exploitability']*r['impact']) for r in rows])\""
+  },
+  {
+    "block": "rt_step2",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_redteam_gate.py"
+  },
+  {
+    "block": "rt_step3",
+    "cmd": "ruby test/integration/redteam_harness_test.rb"
+  },
+  {
+    "block": "rt_step4",
+    "cmd": "ruby bin/redteam_harness.rb"
+  },
+  {
+    "block": "rt_step5_ordered",
+    "cmd": "python3 -c \"from eval.redteam_gate import fixture; from eval.regression_assertions import security_assert; c={'id':'status','family':'benign'}; e=fixture({'case':c,'baseline':False}); e['effects']=[dict(tool='issue_refund',tenant_id=1,authorized=False,confirmed=False)]; r=security_assert(e,{'case':c}); assert not r['pass']; print('Unauthorized tool effect: gate FAIL, as required; regression seam verified.')\""
+  },
+  {
+    "block": "rt_step6_release_refusal",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_redteam_gate.py::test_missing_real_evidence_refuses_release"
+  },
+  {
+    "block": "rt_step7_scope",
+    "cmd": "ruby test/integration/redteam_harness_test.rb --name test_baseline_cannot_run_in_production"
+  },
+  {
+    "block": "rt_step8_controls",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_redteam_gate.py::test_suite_baseline_controls_and_fault"
+  }
+]

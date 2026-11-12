@@ -1,0 +1,22 @@
+[
+  {
+    "block": "autonomy-step-policy",
+    "cmd": "ANCHOR_LLM_PROVIDER=fake python3 -m pytest -q -s anchor_ai/tests/test_autonomy.py::test_committed_policy_distinguishes_authority"
+  },
+  {
+    "block": "autonomy-step-denial",
+    "cmd": "ANCHOR_LLM_PROVIDER=fake python3 -m pytest -q -s anchor_ai/tests/test_autonomy.py::test_out_of_allowlist_is_redacted_before_backend"
+  },
+  {
+    "block": "autonomy-step-budget",
+    "cmd": "ANCHOR_LLM_PROVIDER=fake python3 -m pytest -q -s anchor_ai/tests/test_autonomy.py::test_scripted_loop_stops_before_next_function anchor_ai/tests/test_autonomy.py::test_parallel_atomic_reservations anchor_ai/tests/test_autonomy.py::test_expired_run_cannot_dispatch"
+  },
+  {
+    "block": "autonomy-step-refund",
+    "cmd": "ANCHOR_LLM_PROVIDER=fake python3 -m pytest -q -s anchor_ai/tests/test_agent_loop_guards.py::test_refund_dry_run_has_no_mutation anchor_ai/tests/test_agent_loop_guards.py::test_consequential_tool_requires_confirmation anchor_ai/tests/test_agent_loop_guards.py::test_confirmation_is_argument_bound_and_key_required anchor_ai/tests/test_agent_loop_guards.py::test_confirmed_parallel_retries_are_idempotent"
+  },
+  {
+    "block": "autonomy-step-regression",
+    "cmd": "env -u ANCHOR_LLM_PROVIDER python3 -m pytest -q anchor_ai/tests"
+  }
+]

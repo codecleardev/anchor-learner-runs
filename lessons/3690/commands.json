@@ -1,0 +1,14 @@
+[
+  {
+    "block": "b19",
+    "cmd": "python3 labs/customization-decision/score_decision.py labs/customization-decision/features.yml"
+  },
+  {
+    "block": "customization-step-volatility",
+    "cmd": "python3 labs/customization-decision/score_decision.py labs/customization-decision/features.yml --rare-policy-volatility 3"
+  },
+  {
+    "block": "customization-step-tests",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_customization.py"
+  }
+]

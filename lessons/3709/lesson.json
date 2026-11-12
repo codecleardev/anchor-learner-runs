@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3709,
+  "n": 68,
+  "title": "AutoGen multi-agent conversation patterns",
+  "phase": 6,
+  "content_id": 17287,
+  "content_digest": "6371eab1fb635c41c638a488d83c339e9a3bb0de7630c229da7d63599d6eee06",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "2c9c22f50377e1cb6003",
+  "before_tag": "lesson-065-llamaindex-data-connectors-and-query-engines",
+  "lesson_tag": "lesson-066-autogen-multi-agent-conversation-patterns",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 8,
+  "has_demo": true,
+  "commands": 8,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

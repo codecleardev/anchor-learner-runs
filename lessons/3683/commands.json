@@ -1,0 +1,22 @@
+[
+  {
+    "block": "b18",
+    "cmd": "python3 -m eval.ragas_eval --eval-set eval/datasets/anchor_eval_20.jsonl"
+  },
+  {
+    "block": "b21",
+    "cmd": "python3 -m eval.trulens_eval --eval-set eval/datasets/anchor_eval_20.jsonl"
+  },
+  {
+    "block": "compare_step",
+    "cmd": "python3 -m eval.ragas_eval --eval-set eval/datasets/anchor_eval_20.jsonl --output /tmp/anchor-ragas-triad.json"
+  },
+  {
+    "block": "compare_step",
+    "cmd": "python3 -m eval.trulens_eval --eval-set eval/datasets/anchor_eval_20.jsonl --output /tmp/anchor-trulens-triad.json --compare /tmp/anchor-ragas-triad.json"
+  },
+  {
+    "block": "tests_step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_triad_adapters.py anchor_ai/tests/test_faithfulness.py"
+  }
+]

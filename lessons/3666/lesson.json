@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3666,
+  "n": 21,
+  "title": "Checkpoint: Anchor foundations",
+  "phase": 1,
+  "content_id": 17241,
+  "content_digest": "72360103f1bec5cb7e044aaabdc14466eec7d30a86e9db283f27065650f24d45",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "0c0b4fd4f94976e47675",
+  "before_tag": "lesson-019-sprint-build-plan-seven-days-from-bootstrap-to-d",
+  "lesson_tag": "lesson-020-checkpoint-anchor-foundations",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

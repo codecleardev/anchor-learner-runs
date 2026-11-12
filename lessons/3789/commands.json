@@ -1,0 +1,46 @@
+[
+  {
+    "block": "b29",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_answer_policy.py"
+  },
+  {
+    "block": "b29",
+    "cmd": "python3 -m anchor_ai.tests.test_answer_policy"
+  },
+  {
+    "block": "ux_step2",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "ux_step2",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "ux_step2",
+    "cmd": "bin/rails test test/controllers/api/answer_feedback_controller_test.rb"
+  },
+  {
+    "block": "ux_step3",
+    "cmd": "bin/rails test test/controllers/chat_controller_test.rb"
+  },
+  {
+    "block": "ux_step3",
+    "cmd": "bin/rails test test/controllers/chat_streaming_test.rb"
+  },
+  {
+    "block": "ux_step4",
+    "cmd": "bin/rails test test/services/golden_datasets/candidate_reviewer_test.rb"
+  },
+  {
+    "block": "ux_step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_answer_policy.py"
+  },
+  {
+    "block": "ux_step5",
+    "cmd": "bin/rails test test/services/golden_datasets/builder_test.rb"
+  },
+  {
+    "block": "ux_step5",
+    "cmd": "bin/rails test test/services/golden_datasets/versioner_test.rb"
+  }
+]

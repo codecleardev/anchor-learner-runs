@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3702,
+  "n": 61,
+  "title": "Checkpoint: Anchor bounded agents",
+  "phase": 5,
+  "content_id": 17085,
+  "content_digest": "f179ec79185b916fa3cf2404646c4ef864816414864ca3871f6296551745c48b",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "decb21261abea05afb3b",
+  "before_tag": "lesson-059-anchor-build-it-bounded-agent-with-tools-plannin",
+  "lesson_tag": "lesson-060-checkpoint-anchor-bounded-agents",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

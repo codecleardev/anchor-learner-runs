@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3745,
+  "n": 113,
+  "title": "Checkpoint: Anchor security and safety",
+  "phase": 10,
+  "content_id": 17325,
+  "content_digest": "371a54f3c69d5b42444c98149ec5e5fc08e7183bb918d485df57bc495e931b86",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "1c5f8dd2774c426abd2f",
+  "before_tag": "lesson-108-anchor-build-it-security-hardening-milestone",
+  "lesson_tag": "lesson-109-checkpoint-anchor-security-and-safety",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

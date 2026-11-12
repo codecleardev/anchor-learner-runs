@@ -1,0 +1,30 @@
+[
+  {
+    "block": "j-step1",
+    "cmd": "ruby test/services/security_prompt_registry_test.rb"
+  },
+  {
+    "block": "j-step2",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_jailbreak_guard.py -k 'not actual_endpoint'"
+  },
+  {
+    "block": "j-step3",
+    "cmd": "python3 labs/jailbreak-resistance/jailbreak_test.py roleplay many_shot"
+  },
+  {
+    "block": "j-step4",
+    "cmd": "python3 labs/jailbreak-resistance/jailbreak_test.py long_benign"
+  },
+  {
+    "block": "j-step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_jailbreak_guard.py anchor_ai/tests/test_injection_filter.py anchor_ai/tests/test_context.py"
+  },
+  {
+    "block": "j-step5",
+    "cmd": "ruby test/services/security_prompt_registry_test.rb"
+  },
+  {
+    "block": "j-step5",
+    "cmd": "bin/rails test test/services/security_prompt_registry_test.rb test/models/document_test.rb"
+  }
+]

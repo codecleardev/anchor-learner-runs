@@ -1,0 +1,22 @@
+[
+  {
+    "block": "b19",
+    "cmd": "python3 bin/evaluate_distillation.py --offline --predictions eval/finetune/fixtures/teacher_student_predictions.jsonl"
+  },
+  {
+    "block": "b22",
+    "cmd": "python3 bin/evaluate_distillation.py --offline --predictions eval/finetune/fixtures/teacher_student_predictions.jsonl --balanced"
+  },
+  {
+    "block": "b24",
+    "cmd": "python3 bin/evaluate_distillation.py --offline --predictions eval/finetune/fixtures/teacher_student_predictions.jsonl --demo"
+  },
+  {
+    "block": "d-test-step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_distillation.py anchor_ai/tests/test_query_analysis.py"
+  },
+  {
+    "block": "d-test-step",
+    "cmd": "python3 eval/model_gate.py --offline --candidate distilled-labels"
+  }
+]

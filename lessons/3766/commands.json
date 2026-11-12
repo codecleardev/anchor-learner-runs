@@ -1,0 +1,26 @@
+[
+  {
+    "block": "staff_ordered_step1",
+    "cmd": "python3 labs/staff-interview/drill.py"
+  },
+  {
+    "block": "staff_ordered_step2",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_bounded_runtime.py -k staff_terminal_escalation_contract"
+  },
+  {
+    "block": "staff_ordered_step3",
+    "cmd": "bin/rails test test/agents/bounded_agent_test.rb"
+  },
+  {
+    "block": "staff_ordered_step3",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_bounded_runtime.py"
+  },
+  {
+    "block": "staff_ordered_step4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_escalation.py anchor_ai/tests/test_handoff_contracts.py anchor_ai/tests/test_agent_trajectories.py anchor_ai/tests/test_tenant_isolation.py anchor_ai/tests/test_retrieval_metrics.py"
+  },
+  {
+    "block": "staff_ordered_step4",
+    "cmd": "ruby test/integration/production_launch_test.rb"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "block": "s16",
+    "cmd": "python3 labs/synthetic-data/prepare_demo.py"
+  },
+  {
+    "block": "s17",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 bin/generate_synthetic.py --seed eval/finetune/synthetic_sources/train.jsonl --n 200 --out eval/finetune/synthetic_raw.jsonl"
+  },
+  {
+    "block": "s18",
+    "cmd": "python3 bin/filter_quality.py --in eval/finetune/synthetic_raw.jsonl --out eval/finetune/synthetic_clean.jsonl --rejects eval/finetune/synthetic_rejected.jsonl"
+  },
+  {
+    "block": "s19",
+    "cmd": "python3 -c \"import json; from pathlib import Path; rows=[json.loads(s) for s in Path('eval/finetune/synthetic_rejected.jsonl').read_text().splitlines()]; [print(json.dumps(r, sort_keys=True)) for r in rows[:5]]\""
+  },
+  {
+    "block": "s20",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_dataset_quality.py anchor_ai/tests/test_provider.py"
+  }
+]

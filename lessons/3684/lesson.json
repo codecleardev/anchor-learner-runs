@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3684,
+  "n": 40,
+  "title": "Anchor — build it: ship RAG evaluation milestone",
+  "phase": 3,
+  "content_id": 17267,
+  "content_digest": "578f99d6ba44ef439a1843fe4b1908fc16c60768082f032a928bf6070264b3f6",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "d0f4348b29bfe020558a",
+  "before_tag": "lesson-038-rag-evaluation-frameworks-ragas-and-trulens",
+  "lesson_tag": "lesson-039-anchor-build-it-ship-rag-evaluation-milestone",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 16,
+  "has_demo": true,
+  "commands": 16,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

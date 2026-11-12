@@ -1,0 +1,18 @@
+[
+  {
+    "block": "n_step5",
+    "cmd": "grep -q webmock Gemfile || bundle add webmock --group test"
+  },
+  {
+    "block": "n_step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests"
+  },
+  {
+    "block": "n_step5",
+    "cmd": "bin/rails test"
+  },
+  {
+    "block": "n_step5",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_provider.py::test_rate_limit_deadline_and_demo"
+  }
+]

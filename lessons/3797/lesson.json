@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3797,
+  "n": 19,
+  "title": "The concepts an interviewer assumes: six mental models of a production LLM call",
+  "phase": 1,
+  "content_id": 17239,
+  "content_digest": "c86e94f8d0312332da57230f65c92b09e2218b44cb3e11b99fc7c376ebef5861",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "bce2c71fcbe4706728fb",
+  "before_tag": "lesson-017a-working-with-coding-agents-agents-md-skills-spec",
+  "lesson_tag": "lesson-018-the-concepts-an-interviewer-assumes-six-mental-m",
+  "needs_run": false,
+  "has_lab_step": false,
+  "runnable_lines": 0,
+  "has_demo": false,
+  "commands": 0,
+  "exported_at": "2026-11-12T01:34:08Z"
+}

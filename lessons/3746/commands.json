@@ -1,0 +1,18 @@
+[
+  {
+    "block": "serving-run-1",
+    "cmd": "python3 labs/self-hosted-inference/serve_local.py --model tiny-llama --smoke"
+  },
+  {
+    "block": "serving-run-2",
+    "cmd": "python3 labs/self-hosted-inference/benchmark.py --target local"
+  },
+  {
+    "block": "serving-run-3",
+    "cmd": "python3 labs/self-hosted-inference/benchmark.py --target hosted"
+  },
+  {
+    "block": "serving-run-5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_serving_benchmark.py anchor_ai/tests/test_provider.py anchor_ai/tests/test_observability.py"
+  }
+]

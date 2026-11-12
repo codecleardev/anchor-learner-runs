@@ -1,0 +1,54 @@
+[
+  {
+    "block": "b16",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "b33",
+    "cmd": "bin/rails test test/controllers/api/ticket_attachments_controller_test.rb test/jobs/process_ticket_attachment_job_test.rb"
+  },
+  {
+    "block": "b33",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_attachment_evidence.py anchor_ai/tests/test_attachment_product_seams.py"
+  },
+  {
+    "block": "attachment_step3",
+    "cmd": "bin/rails test test/integration/attachment_answer_flow_test.rb"
+  },
+  {
+    "block": "b43",
+    "cmd": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 -m pytest -q anchor_ai/tests/test_query_analysis.py"
+  },
+  {
+    "block": "b43",
+    "cmd": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py rails 0"
+  },
+  {
+    "block": "b43",
+    "cmd": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py rails 1"
+  },
+  {
+    "block": "b43",
+    "cmd": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py rails 2"
+  },
+  {
+    "block": "b43",
+    "cmd": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py rails 3"
+  },
+  {
+    "block": "b43",
+    "cmd": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py python 0"
+  },
+  {
+    "block": "b43",
+    "cmd": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py python 1"
+  },
+  {
+    "block": "b43",
+    "cmd": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py python 2"
+  },
+  {
+    "block": "b43",
+    "cmd": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py python 3"
+  }
+]

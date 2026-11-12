@@ -1,0 +1,46 @@
+[
+  {
+    "block": "b19",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "b19",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "b19",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_incident_control.py -k one_attempt_budget"
+  },
+  {
+    "block": "b20",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_incident_control.py -k breaker_and_only_permitted"
+  },
+  {
+    "block": "incident_step3",
+    "cmd": "ruby test/integration/human_only_mode_test.rb"
+  },
+  {
+    "block": "incident_step4",
+    "cmd": "ruby test/integration/human_only_mode_test.rb"
+  },
+  {
+    "block": "incident_step4",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_incident_control.py anchor_ai/tests/test_prompt_regression.py"
+  },
+  {
+    "block": "incident_step4",
+    "cmd": "ruby test/integration/safe_tool_actions_test.rb"
+  },
+  {
+    "block": "incident_step4",
+    "cmd": "ruby test/jobs/ai_task_retry_test.rb"
+  },
+  {
+    "block": "incident_step4",
+    "cmd": "ruby test/integration/pii_pipeline_test.rb"
+  },
+  {
+    "block": "incident_step4",
+    "cmd": "bin/rails test"
+  }
+]

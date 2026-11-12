@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3726,
+  "n": 91,
+  "title": "Latency: what drives it and how it is measured and cut",
+  "phase": 9,
+  "content_id": 17305,
+  "content_digest": "c6aa6c27da8a738962818f79705582b03e207bf4cb9b399659725e822ac4ad9c",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "9e4862812a4d636ebacd",
+  "before_tag": "lesson-087-checkpoint-anchor-multimodal-and-realtime",
+  "lesson_tag": "lesson-088-latency-what-drives-it-and-how-it-is-measured-an",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 7,
+  "has_demo": true,
+  "commands": 7,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

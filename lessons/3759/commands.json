@@ -1,0 +1,38 @@
+[
+  {
+    "block": "rollback-run-01",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "rollback-run-01",
+    "cmd": "RAILS_ENV=test bin/rails db:migrate"
+  },
+  {
+    "block": "rollback-run-01",
+    "cmd": "sh ops/deploy/rollback_pipeline.sh --stage"
+  },
+  {
+    "block": "rollback-run-02",
+    "cmd": "sh ops/deploy/rollback_pipeline.sh --canary"
+  },
+  {
+    "block": "rollback-run-03",
+    "cmd": "sh ops/deploy/rollback_pipeline.sh --revert"
+  },
+  {
+    "block": "rollback-run-04",
+    "cmd": "sh ops/deploy/rollback_pipeline.sh --probe"
+  },
+  {
+    "block": "rollback-run-04",
+    "cmd": "ruby test/integration/release_pointer_rollback_test.rb"
+  },
+  {
+    "block": "rollback-run-04",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_release_bundle.py"
+  },
+  {
+    "block": "rollback-run-04",
+    "cmd": "bin/rails test"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "block": "b31",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_hybrid_retrieval.py -k rrf_arithmetic"
+  },
+  {
+    "block": "b32",
+    "cmd": "python3 bin/hybrid_query.py \"refund for delayed shipment order 4821\""
+  },
+  {
+    "block": "hybrid-step-eval",
+    "cmd": "python3 bin/hybrid_query.py \"Can I get my money back because my parcel arrived late?\""
+  },
+  {
+    "block": "hybrid-step-eval",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_hybrid_retrieval.py -k mixed_fixture"
+  },
+  {
+    "block": "hybrid-step-trace",
+    "cmd": "python3 bin/hybrid_query.py \"refund for delayed shipment order 4821\" --trace"
+  },
+  {
+    "block": "hybrid-step-trace",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_hybrid_retrieval.py"
+  },
+  {
+    "block": "hybrid-step-regressions",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_dense_retrieval.py anchor_ai/tests/test_sparse_retrieval.py anchor_ai/tests/test_index_maintenance.py anchor_ai/tests/test_hybrid_retrieval.py"
+  },
+  {
+    "block": "hybrid-step-regressions",
+    "cmd": "bin/rails test test/services/retrieval_client_test.rb"
+  }
+]

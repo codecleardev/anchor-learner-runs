@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3712,
+  "n": 74,
+  "title": "Anchor — build it: ship multi-agent orchestration milestone",
+  "phase": 6,
+  "content_id": 17346,
+  "content_digest": "aa20f3696a4d92d8ce12dff5213b0f4820cd814ce0f3d7d9d331c8a7563a8bda",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "9ed3165a659cf53fa899",
+  "before_tag": "lesson-071-computer-use-and-browser-agents-driving-a-ui-whe",
+  "lesson_tag": "lesson-072-anchor-build-it-ship-multi-agent-orchestration-m",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 5,
+  "has_demo": true,
+  "commands": 5,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "block": "b16",
+    "cmd": "python3 labs/ocr-pipelines/fixture.py"
+  },
+  {
+    "block": "ocr-run-comparison",
+    "cmd": "python3 labs/ocr-pipelines/compare_extraction.py"
+  },
+  {
+    "block": "ocr-run-tests",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_ocr.py anchor_ai/tests/test_ingestion.py"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3705,
+  "n": 71,
+  "title": "Framework comparison: LangChain vs LangGraph vs LlamaIndex vs AutoGen vs provider-native",
+  "phase": 6,
+  "content_id": 17289,
+  "content_digest": "3319f10c756a952c47d549361122988e7c6a1764027b0801e8fb0247cb87124c",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "d879b4cb1b01510fe481",
+  "before_tag": "lesson-068-agent-harness-sdks-and-agent-to-agent-interop-wh",
+  "lesson_tag": "lesson-069-framework-comparison-langchain-vs-langgraph-vs-l",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 7,
+  "has_demo": true,
+  "commands": 7,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

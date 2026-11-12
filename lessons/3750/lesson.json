@@ -1,0 +1,18 @@
+{
+  "lesson_id": 3750,
+  "n": 118,
+  "title": "KV cache management",
+  "phase": 11,
+  "content_id": 17330,
+  "content_digest": "268c1f2ae28a1760cfcc3ca0d32836d96da6501e4c86391793af305d27bcee75",
+  "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "contract_digest": "15ceb0ff103fec61533e",
+  "before_tag": "lesson-113-continuous-batching-for-inference-throughput",
+  "lesson_tag": "lesson-114-kv-cache-management",
+  "needs_run": true,
+  "has_lab_step": true,
+  "runnable_lines": 8,
+  "has_demo": true,
+  "commands": 8,
+  "exported_at": "2026-11-12T01:34:09Z"
+}

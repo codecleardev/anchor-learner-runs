@@ -1,0 +1,30 @@
+[
+  {
+    "block": "b19",
+    "cmd": "python3 -B labs/handoff-context-debug/drop_context_fault.py"
+  },
+  {
+    "block": "b19c",
+    "cmd": "ANCHOR_HANDOFF_REPRODUCE=1 bin/rails test test/integration/handoff_drop_test.rb"
+  },
+  {
+    "block": "b19f",
+    "cmd": "python3 -B labs/handoff-context-debug/drop_context_fault.py --mode fixed"
+  },
+  {
+    "block": "b19i",
+    "cmd": "bin/rails test test/integration/handoff_drop_test.rb"
+  },
+  {
+    "block": "b19i",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_handoff_contracts.py"
+  },
+  {
+    "block": "handoff-release-step",
+    "cmd": "bin/rails test"
+  },
+  {
+    "block": "handoff-release-step",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_handoff_contracts.py anchor_ai/tests/test_graph_checkpoints.py anchor_ai/tests/test_group_chat.py anchor_ai/tests/test_harness_interop.py anchor_ai/tests/test_native_agent_wrapper.py"
+  }
+]

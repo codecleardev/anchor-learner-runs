@@ -1,0 +1,38 @@
+[
+  {
+    "block": "incident-step1",
+    "cmd": "bin/rails runner labs/failover-budget-incident/incident_replay.rb broken"
+  },
+  {
+    "block": "incident-step1",
+    "cmd": "ruby labs/failover-budget-incident/incident_replay.rb broken"
+  },
+  {
+    "block": "incident-step2",
+    "cmd": "ruby labs/failover-budget-incident/incident_replay.rb validate"
+  },
+  {
+    "block": "incident-step3",
+    "cmd": "ruby labs/failover-budget-incident/incident_replay.rb corrected"
+  },
+  {
+    "block": "incident-step4",
+    "cmd": "ruby labs/failover-budget-incident/incident_replay.rb human"
+  },
+  {
+    "block": "incident-step5",
+    "cmd": "ruby test/integration/failover_budget_incident_test.rb"
+  },
+  {
+    "block": "incident-step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_failover_budget_incident.py anchor_ai/tests/test_incident_cancellation_isolation.py"
+  },
+  {
+    "block": "incident-step5",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_realtime.py"
+  },
+  {
+    "block": "incident-step5",
+    "cmd": "python3 eval/regression_gate.py --incident-only"
+  }
+]

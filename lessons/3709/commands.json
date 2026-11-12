@@ -1,0 +1,34 @@
+[
+  {
+    "block": "n-step1",
+    "cmd": "bin/rails db:migrate"
+  },
+  {
+    "block": "n-step1",
+    "cmd": "python3 -c \"from autogen_agentchat.teams import RoundRobinGroupChat; print('AutoGen team available; Rails memory routes installed')\""
+  },
+  {
+    "block": "n-step2",
+    "cmd": "python3 labs/autogen-conversations/group_chat_orchestrator.py"
+  },
+  {
+    "block": "n-step3",
+    "cmd": "python3 labs/autogen-conversations/group_chat_orchestrator.py"
+  },
+  {
+    "block": "n-step3",
+    "cmd": "bin/rails runner \"rows = AgentMemory.where(tenant_id: 3709, conversation_id: 123, run_key: 'refund-123-v1'); raise 'duplicate memory' unless rows.count == 1; puts rows.first.summary\""
+  },
+  {
+    "block": "n-step4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_group_chat.py"
+  },
+  {
+    "block": "n-step4",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_query_analysis.py"
+  },
+  {
+    "block": "n-step4",
+    "cmd": "bin/rails test test/controllers/api/agent_memories_controller_test.rb"
+  }
+]
