@@ -3,10 +3,10 @@
   "n": 14,
   "title": "Streaming responses and server-sent events",
   "phase": 1,
-  "content_id": 17700,
-  "content_digest": "497cf8f20bd98358ee3f7b678bf84f5edcda5d4a2f7fb02bc7431d6e3e619ee4",
+  "content_id": 17781,
+  "content_digest": "57a492cfdae3b3599b1458b16c9a5dfdd3ca27019aec67acb3f15b85cc07fdd2",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
-  "code_digest": "7995001d1ae86b71a1b78b08a1e70338256bb91eaf549c318e5f97f26719b897",
+  "code_digest": "d37aae82138089b37a9924e09eb2f763f0a6e216396bb98c6fbda312eda036b4",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "a0e61910b41c1f33fdcd",
   "before_tag": "lesson-013-structured-outputs-json-mode-function-calling-sc",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T07:17:39Z"
+  "exported_at": "2026-11-12T07:40:23Z"
 }

@@ -3,8 +3,8 @@
   "n": 65,
   "title": "LangChain core abstractions and chains",
   "phase": 6,
-  "content_id": 17756,
-  "content_digest": "69a5e6fa8da1465a331754027c1811f4324add7f4f574bd5421e6573f5d30718",
+  "content_id": 17777,
+  "content_digest": "c11b93dae78984a81d147eef9c77a12d7039801430978ae02af25b597e6fcf4c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "19d616e298631189e357f3dbcdc1680d304bda3472695fdef9caa9aaf2d08ee5",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T07:17:39Z"
+  "exported_at": "2026-11-12T07:40:23Z"
 }

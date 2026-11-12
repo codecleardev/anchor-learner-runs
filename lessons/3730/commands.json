@@ -21,6 +21,6 @@
   },
   {
     "block": "durable-agent-step",
-    "cmd": "bin/rails test test/jobs/ai_task_retry_test.rb -n test_checkpointed_agent_does_not_repeat_committed_tool_action"
+    "cmd": "bin/rails test test/jobs/ai_task_retry_test.rb -i test_checkpointed_agent_does_not_repeat_committed_tool_action"
   }
 ]

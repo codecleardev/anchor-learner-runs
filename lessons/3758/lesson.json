@@ -3,8 +3,8 @@
   "n": 126,
   "title": "Reliability and safety: retries, fallbacks, circuit breakers, and kill switches",
   "phase": 12,
-  "content_id": 17754,
-  "content_digest": "80b6eb1317a38d0ea227dd11732a491ceb1755bd6beb57e8ef192c67e3fabfb2",
+  "content_id": 17779,
+  "content_digest": "fa281479af5279e09e9642ef1946030f9fbc7cda4e8daebeb1391f105247b754",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "eaf1358c3078ec145b3f62c8b4a2cd8762f42db847c38db078b57aaf6814750d",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 11,
-  "exported_at": "2026-11-12T07:17:39Z"
+  "exported_at": "2026-11-12T07:40:24Z"
 }

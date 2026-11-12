@@ -3,8 +3,8 @@
   "n": 2,
   "title": "AI Engineering in one picture",
   "phase": 1,
-  "content_id": 17763,
-  "content_digest": "bc5a6c6b1733b89c1c1b5f92199e0a8ffdb0ccce1be8c8148c07c113feb83d88",
+  "content_id": 17780,
+  "content_digest": "697f60c3c150bc68af46284019260ddc32265e58da6e53b91844d38df2fb6d74",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "346f872d61f59312f9a4cfb2fc16a66325c60ea6cea198f128e71c4b0e171c3c",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 1,
-  "exported_at": "2026-11-12T07:17:39Z"
+  "exported_at": "2026-11-12T07:40:23Z"
 }

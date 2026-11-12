@@ -3,8 +3,8 @@
   "n": 104,
   "title": "Jailbreak resistance techniques",
   "phase": 10,
-  "content_id": 17733,
-  "content_digest": "5835192b36445b0e1470bdf03d666d59ac3f03ea646bd91e9c8696e1ad9836a8",
+  "content_id": 17778,
+  "content_digest": "859aefdd05ab70584420d0b0db0dce0a92d16d2a2dbe8cfbf65c56551f4e585e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "1a918905de7e6dc8adaaae375cb9cf4988b837571fe72c150106253809a61c47",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T07:17:39Z"
+  "exported_at": "2026-11-12T07:40:24Z"
 }

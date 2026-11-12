@@ -3,10 +3,10 @@
   "n": 38,
   "title": "Groundedness and faithfulness evaluation",
   "phase": 3,
-  "content_id": 17728,
-  "content_digest": "4415b2a5c00b10e986f1f378140f68e3d56a2f022f22626e81432665a002fa36",
+  "content_id": 17784,
+  "content_digest": "962952c6d3400609212a40e2a23ad9234d0e2ce00aa7540bb4cf8d52c9db31f9",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
-  "code_digest": "5d43c3d5b78970f5b91f30147f0a34cbf37e5a1f97fd63accb415f5d7bf3b133",
+  "code_digest": "3d962f4fcd279b22569ea819c1576c4917e9b5d35c7bd67d4418c574170852f6",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "cfe11adb9cf79e9b2f1f",
   "before_tag": "lesson-036-debug-drill-the-agentic-rag-loop-that-never-stop",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T07:17:39Z"
+  "exported_at": "2026-11-12T07:40:23Z"
 }

@@ -18,7 +18,7 @@
     "lesson_tag": "lesson-002-ai-engineering-in-one-picture",
     "needs_run": true,
     "commands": 1,
-    "content_id": 17763,
+    "content_id": 17780,
     "code_digest": "346f872d61f59312f9a4cfb2fc16a66325c60ea6cea198f128e71c4b0e171c3c"
   },
   {
@@ -150,8 +150,8 @@
     "lesson_tag": "lesson-014-streaming-responses-and-server-sent-events",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17700,
-    "code_digest": "7995001d1ae86b71a1b78b08a1e70338256bb91eaf549c318e5f97f26719b897"
+    "content_id": 17781,
+    "code_digest": "d37aae82138089b37a9924e09eb2f763f0a6e216396bb98c6fbda312eda036b4"
   },
   {
     "lesson_id": 3665,
@@ -194,8 +194,8 @@
     "lesson_tag": "lesson-017a-working-with-coding-agents-agents-md-skills-spec",
     "needs_run": true,
     "commands": 11,
-    "content_id": 17767,
-    "code_digest": "60b3d10d0437d0b4b4ad683bfa1f72c7ca33ad0c3c3f994eaf0f37dbd1deee6c"
+    "content_id": 17773,
+    "code_digest": "ea37d1a30b6b9cfec474887f19e75b8354a9d2ab86d1827c3313b28ab004fb91"
   },
   {
     "lesson_id": 3797,
@@ -315,7 +315,7 @@
     "lesson_tag": "lesson-028-anchor-build-it-hybrid-retrieval-fusion",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17714,
+    "content_id": 17782,
     "code_digest": "d452eca3b3c39ed2625c79d1e030521ac2a35baad42598d560ce6ce974c4a630"
   },
   {
@@ -403,7 +403,7 @@
     "lesson_tag": "lesson-036-debug-drill-the-agentic-rag-loop-that-never-stop",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17726,
+    "content_id": 17783,
     "code_digest": "04d3b61ecbbc56b91109e959463a397e63993d69967122a3ccccde414097e4b0"
   },
   {
@@ -414,8 +414,8 @@
     "lesson_tag": "lesson-037-groundedness-and-faithfulness-evaluation",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17728,
-    "code_digest": "5d43c3d5b78970f5b91f30147f0a34cbf37e5a1f97fd63accb415f5d7bf3b133"
+    "content_id": 17784,
+    "code_digest": "3d962f4fcd279b22569ea819c1576c4917e9b5d35c7bd67d4418c574170852f6"
   },
   {
     "lesson_id": 3683,
@@ -711,7 +711,7 @@
     "lesson_tag": "lesson-063-langchain-core-abstractions-and-chains",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17756,
+    "content_id": 17777,
     "code_digest": "19d616e298631189e357f3dbcdc1680d304bda3472695fdef9caa9aaf2d08ee5"
   },
   {
@@ -799,8 +799,8 @@
     "lesson_tag": "lesson-071-computer-use-and-browser-agents-driving-a-ui-whe",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17688,
-    "code_digest": "6134353256fa49aa95fd00c27c488d8fff7a35f981c965d7650b0b7a5e5e3553"
+    "content_id": 17774,
+    "code_digest": "6e2b80186ceafb0c6caec3d3385faf31d873aeff123c39587331c4f5a9116382"
   },
   {
     "lesson_id": 3712,
@@ -909,8 +909,8 @@
     "lesson_tag": "lesson-080-anchor-build-it-ci-evaluation-gates-milestone",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17699,
-    "code_digest": "7e89445f025f0b2d5ae0fc686f71bbb0b7f776254d4f9ccfefa6340129d65642"
+    "content_id": 17775,
+    "code_digest": "7693714eb4739db23d7f3b6d34c2d4e82ebc1b893af43bf8152a28e5223fe161"
   },
   {
     "lesson_id": 3720,
@@ -1052,8 +1052,8 @@
     "lesson_tag": "lesson-093-durable-background-jobs-for-long-running-ai-task",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17720,
-    "code_digest": "69650e916477ef36ccb01748c5971c2a90b2eb16423d38c3ffab83ddde3d6377"
+    "content_id": 17776,
+    "code_digest": "83af98c05260c2bdc71f43d24b6b771a0359bad647db2a91fd1ed306efb0441c"
   },
   {
     "lesson_id": 3731,
@@ -1140,7 +1140,7 @@
     "lesson_tag": "lesson-101-jailbreak-resistance-techniques",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17733,
+    "content_id": 17778,
     "code_digest": "1a918905de7e6dc8adaaae375cb9cf4988b837571fe72c150106253809a61c47"
   },
   {
@@ -1382,7 +1382,7 @@
     "lesson_tag": "lesson-122-reliability-and-safety-retries-fallbacks-circuit",
     "needs_run": true,
     "commands": 11,
-    "content_id": 17754,
+    "content_id": 17779,
     "code_digest": "eaf1358c3078ec145b3f62c8b4a2cd8762f42db847c38db078b57aaf6814750d"
   },
   {
