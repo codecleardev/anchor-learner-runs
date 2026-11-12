@@ -2,11 +2,6 @@
   {
     "block": "demo1",
     "pane": "before",
-    "cmd": "python3 labs/audio-transcription/generate_call.py --fail-chunk 1"
-  },
-  {
-    "block": "demo1",
-    "pane": "command",
     "cmd": "python3 -m eval.agent_gate --multimodal --fault multimodal --expect-rejection"
   }
 ]

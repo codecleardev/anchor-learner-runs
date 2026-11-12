@@ -3,8 +3,8 @@
   "n": 97,
   "title": "Cost: what drives spend and how it is bounded",
   "phase": 9,
-  "content_id": 17565,
-  "content_digest": "f0d00cb8f6fcb6f63ae294039684ab1da1a2714f0701a5c350edc9aa8c77d451",
+  "content_id": 17723,
+  "content_digest": "6f87153cd8fba591d9481c495d4d6582c105c64b6c7d3dd1a9dde18508b7ad5f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "1c9a47d03165a473fdfa61fd4137902d5dad1c10584451e462fe8294d8016b5e",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 8,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

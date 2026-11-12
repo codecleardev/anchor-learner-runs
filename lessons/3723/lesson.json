@@ -3,8 +3,8 @@
   "n": 88,
   "title": "Audio transcription and speech pipelines with Whisper",
   "phase": 8,
-  "content_id": 17543,
-  "content_digest": "52019018f4359e7e9a59f854030834b5b530984e0b56b16833b90c0088a9f386",
+  "content_id": 17709,
+  "content_digest": "38a18c1e61d5ed83854795caf324c0c97dde26497681ea22c778eb15fc68af7d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "b730110aa045e94d4ef6187d82c0aef09446561656e02b240647b60faf095585",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 4,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

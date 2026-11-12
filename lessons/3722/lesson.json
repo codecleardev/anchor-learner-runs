@@ -3,8 +3,8 @@
   "n": 86,
   "title": "OCR pipelines for document extraction",
   "phase": 8,
-  "content_id": 17523,
-  "content_digest": "0188039c77bacb77c4d834a279125bc58c55eeccc34fa18d0a2c9b27a2147168",
+  "content_id": 17704,
+  "content_digest": "3f68e1438caa7ad281e03b379029fad288411c894598d7a891dbe64d2221c374",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "439c6c12adc9c6922b799aa523715fdf653957afea26ca22894bb8f221be7c76",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 3,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 3,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

@@ -3,8 +3,8 @@
   "n": 29,
   "title": "Anchor — build it: hybrid retrieval fusion",
   "phase": 2,
-  "content_id": 17647,
-  "content_digest": "e4ede7234dd5f4c448432658eb1c159c6ebf252398cc78cf1b72ca8b5888eb3a",
+  "content_id": 17714,
+  "content_digest": "2708a2cfb22f5bbfd7290e8f51e7ec4d6339e46835546e83fad0111b148a738e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "d452eca3b3c39ed2625c79d1e030521ac2a35baad42598d560ce6ce974c4a630",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 8,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

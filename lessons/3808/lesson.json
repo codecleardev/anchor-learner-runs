@@ -3,8 +3,8 @@
   "n": 110,
   "title": "Agentic security canon: OWASP lists, the lethal trifecta and injection-resistant design",
   "phase": 10,
-  "content_id": 17655,
-  "content_digest": "54b621d06908980f74f29073b4d94bb342f17ca2981459e97f08814c3cb9dc91",
+  "content_id": 17742,
+  "content_digest": "fbffd160d82734d7fbd349c757fbad724c9cb3e5ce4e2ba51e6b544b9c7e386b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "bc605fd8b2b0aec1dd66969edea76c71606bc6e941a69cc239d2992b572962ac",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

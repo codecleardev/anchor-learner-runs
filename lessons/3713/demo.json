@@ -2,11 +2,6 @@
   {
     "block": "demo1",
     "pane": "before",
-    "cmd": "python3 -m pytest -q anchor_ai/tests/test_orchestration_release.py -k 'atomic_configuration or human_only_switch'"
-  },
-  {
-    "block": "demo1",
-    "pane": "command",
     "cmd": "python3 -m pytest -q anchor_ai/tests/test_handoff_contracts.py anchor_ai/tests/test_graph_checkpoints.py anchor_ai/tests/test_group_chat.py anchor_ai/tests/test_harness_interop.py anchor_ai/tests/test_native_agent_wrapper.py"
   }
 ]

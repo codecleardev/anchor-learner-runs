@@ -1,7 +1,12 @@
 [
   {
     "block": "demo1",
-    "pane": "command",
+    "pane": "before",
     "cmd": "bin/rails test"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m anchor_ai.planning --stage revise"
   }
 ]

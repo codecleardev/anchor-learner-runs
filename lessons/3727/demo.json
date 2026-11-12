@@ -2,11 +2,6 @@
   {
     "block": "demo1",
     "pane": "before",
-    "cmd": "python3 -c \"import json; r=json.load(open('tmp/latency_profile/report.json')); print(json.dumps({k:r[k] for k in ('dominant_exclusive_segment','exclusive_segments','round_trip_counts','cohorts','max_remainder_fraction','labels')}, indent=2))\""
-  },
-  {
-    "block": "demo1",
-    "pane": "command",
     "cmd": "ANCHOR_STREAM_SMOKE=1 ruby test/controllers/chat_streaming_test.rb"
   }
 ]

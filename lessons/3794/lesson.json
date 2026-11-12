@@ -3,8 +3,8 @@
   "n": 35,
   "title": "GraphRAG: knowledge-graph retrieval for relationship questions",
   "phase": 3,
-  "content_id": 17592,
-  "content_digest": "ef1a8159b34a4715457cb8d676a257367965af5659862251c11ff85828bb9f7c",
+  "content_id": 17722,
+  "content_digest": "8b721a2a2bd6e884f93ece18dbec9c4ab2122e31b1d9c81bef14f9ebfd74922b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "0d8833f0ca18490625187c209e1ed53657190bdf9b38e1a427fdfd3a47b497e2",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 10,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

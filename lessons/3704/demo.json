@@ -1,7 +1,12 @@
 [
   {
     "block": "demo1",
-    "pane": "command",
+    "pane": "before",
     "cmd": "python3 -m pytest -q anchor_ai/tests/test_tools.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "ruby bin/mcp_client_test.rb --server http://127.0.0.1:4000/mcp"
   }
 ]

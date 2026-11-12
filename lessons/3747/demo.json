@@ -2,11 +2,6 @@
   {
     "block": "demo1",
     "pane": "before",
-    "cmd": "python3 -m pytest -q anchor_ai/tests/test_serving_benchmark.py anchor_ai/tests/test_provider.py anchor_ai/tests/test_observability.py"
-  },
-  {
-    "block": "demo1",
-    "pane": "command",
     "cmd": "python3 -m pytest -q anchor_ai/tests/test_serving_artifacts.py anchor_ai/tests/test_serving_benchmark.py"
   }
 ]

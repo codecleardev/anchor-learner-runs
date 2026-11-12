@@ -3,8 +3,8 @@
   "n": 40,
   "title": "Anchor — build it: ship RAG evaluation milestone",
   "phase": 3,
-  "content_id": 17590,
-  "content_digest": "457d46557db4637d3135acc776dbe428669664f67ec81ca0f122c819fc511224",
+  "content_id": 17729,
+  "content_digest": "b3e3fde38e18eccb7e0c4facd8d0a47a1a38fb09e7962521f7751c38de137f9f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "7effc888e32551a032a3268bc04d4db7077cdd68c222721b6a167677401c7197",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 16,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

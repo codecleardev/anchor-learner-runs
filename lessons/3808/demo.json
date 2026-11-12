@@ -1,7 +1,7 @@
 [
   {
     "block": "demo1",
-    "pane": "command",
+    "pane": "before",
     "cmd": "python3 -m anchor_ai.trifecta --overlay labs/agentic-security/followup_v1.yml --expect-findings"
   }
 ]

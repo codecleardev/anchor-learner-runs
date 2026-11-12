@@ -2,11 +2,6 @@
   {
     "block": "demo1",
     "pane": "before",
-    "cmd": "python3 -m pytest -q anchor_ai/tests/test_provider_routing.py"
-  },
-  {
-    "block": "demo1",
-    "pane": "command",
     "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_provider_resilience.py -k 'outage_burst or product_timeout'"
   }
 ]

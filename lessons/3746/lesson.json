@@ -3,8 +3,8 @@
   "n": 114,
   "title": "Self-hosted inference fundamentals",
   "phase": 11,
-  "content_id": 17659,
-  "content_digest": "028f03c9425b75987a1b0de5c701dd37a7c09a2b54cb228f6e7aca7e910b3276",
+  "content_id": 17747,
+  "content_digest": "e275aa53c009a202d79ee71474d33a84476b8b0a7f533600c2c8ae55496d181f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "baf10385df38d84e2ba77786064c61e218b80b943230768139e619506b73d547",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 4,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

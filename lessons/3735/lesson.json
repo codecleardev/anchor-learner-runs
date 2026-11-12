@@ -3,8 +3,8 @@
   "n": 101,
   "title": "Debug drill: the failover loop that drained the budget",
   "phase": 9,
-  "content_id": 17623,
-  "content_digest": "bc1138604fe2091617e050634b04555ebc776ac04c1c4c3dc87fd38e2a131d57",
+  "content_id": 17731,
+  "content_digest": "448093d0c72fd3f3c72716f34d2e262d121465bbf0ae843cc90f8f75336ee56c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "782720ed86cee37890aba7b95b8cadce0157f175e6b8623861812cb4793974ae",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 8,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

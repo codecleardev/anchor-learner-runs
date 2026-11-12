@@ -3,8 +3,8 @@
   "n": 96,
   "title": "Durable background jobs for long-running AI tasks",
   "phase": 9,
-  "content_id": 17562,
-  "content_digest": "b831471e6fa03f1a1c052b595ba3de8541b902fc5c74cb565a9ee69f17a317bf",
+  "content_id": 17720,
+  "content_digest": "cf0227ea19c2cdf1ff4870319abb3a3beae6d8f340d04e1a63bb8bd0aaaba09c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "69650e916477ef36ccb01748c5971c2a90b2eb16423d38c3ffab83ddde3d6377",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

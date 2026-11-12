@@ -3,8 +3,8 @@
   "n": 23,
   "title": "Chunking strategies for retrieval quality",
   "phase": 2,
-  "content_id": 17583,
-  "content_digest": "f71d3026054e5c74813ec50bcff848c5d43707fb3297cc81df89be58ccb3300b",
+  "content_id": 17708,
+  "content_digest": "fa901c03bfed78392a3eeb535c36deb7bc81f979a33a6e10fbe2b526779b5f9d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "b056b6ea06b7af92457d66db297d61662ee89445aa7d1fbd54fbbb87a33131ee",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 13,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

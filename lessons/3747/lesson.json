@@ -3,8 +3,8 @@
   "n": 115,
   "title": "Quantization techniques: GPTQ, AWQ, and GGUF",
   "phase": 11,
-  "content_id": 17598,
-  "content_digest": "3cea60b33ab6d14a69348f4849d04da94aca7066a40b9246216ebf70d99d0916",
+  "content_id": 17750,
+  "content_digest": "561594b914f582f05012e4e2786b0c07e337b64e92a583c353b8b2953c52a504",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "8ea50a27d34d879f8f47c019e5347eeba6619a6c66d9a5ebc63c9fcdcd44fd22",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 8,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

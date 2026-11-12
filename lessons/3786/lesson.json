@@ -3,10 +3,10 @@
   "n": 111,
   "title": "AI governance and compliance: risk, contracts, licences, and audit evidence",
   "phase": 10,
-  "content_id": 17611,
-  "content_digest": "57624e9e2064267252d678a27133df007c013686e3f92256f685a48fbc66c805",
+  "content_id": 17768,
+  "content_digest": "e265ac2bc65eab1ef4d2159ea9fe2e684d8865f586e8e1cae56140219819a91e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
-  "code_digest": "53d7790fb8fcc45f741f4594d579c1ddccf59fb0874c79e0cafc8cb22c332c96",
+  "code_digest": "d86390a2ebe55defaff40d42ea5274e541dc94ee0a4719e06f5bdd4366e42b92",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "365410f8aed1699c3c9e",
   "before_tag": "lesson-106a-agentic-security-canon-owasp-lists-the-lethal-tr",
@@ -17,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

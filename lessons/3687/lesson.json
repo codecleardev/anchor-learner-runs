@@ -3,10 +3,10 @@
   "n": 50,
   "title": "PEFT library patterns and adapter merging",
   "phase": 4,
-  "content_id": 17615,
-  "content_digest": "6c3736c59d647b2ea041884cb5582fdce90c9d984f2b3438f412031ef1153fff",
+  "content_id": 17741,
+  "content_digest": "169b6ff05544d7d7d41211093be40e14bb07caa5672554a1d0b01cc2d0b447fc",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
-  "code_digest": "6b287251d1b75aa5637bd9e5ae0ce95f3514e247012a67c6b2228d69426dadb8",
+  "code_digest": "2937bbda47a02b8da379a73261a8c8b62d32699fb863d26b764ffc6a21672bb9",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "96008fb247d8916943e4",
   "before_tag": "lesson-048-qlora-and-quantized-fine-tuning",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

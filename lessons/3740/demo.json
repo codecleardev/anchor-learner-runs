@@ -1,7 +1,7 @@
 [
   {
     "block": "demo1",
-    "pane": "command",
+    "pane": "before",
     "cmd": "ANCHOR_LLM_PROVIDER=fake python3 -m pytest -q anchor_ai/tests/test_tools.py"
   }
 ]

@@ -3,8 +3,8 @@
   "n": 75,
   "title": "Debug drill: the multi-agent handoff that drops context",
   "phase": 6,
-  "content_id": 17510,
-  "content_digest": "dbd87e511b4afba51275ee7c055eade616382c9d2019ca659f4eb11162d7867c",
+  "content_id": 17690,
+  "content_digest": "b1f0bfc36d0b8bab92bfb1fa3f99975555b405279a8f8f41ee135a2549af587c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "e88252930671e5e11570450d03c009ffb6f4c2a5bfd1352f9c8d7beed454c731",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 7,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

@@ -3,10 +3,10 @@
   "n": 2,
   "title": "AI Engineering in one picture",
   "phase": 1,
-  "content_id": 17537,
-  "content_digest": "6c02d2de2605e251e93de81c0aab2385311935cfdab157c3ea61c089b8843c3d",
+  "content_id": 17763,
+  "content_digest": "bc5a6c6b1733b89c1c1b5f92199e0a8ffdb0ccce1be8c8148c07c113feb83d88",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
-  "code_digest": "3433054b3fbf05e38b431551e34a9cb82e954cf85ba2c2c736fb42968e521271",
+  "code_digest": "346f872d61f59312f9a4cfb2fc16a66325c60ea6cea198f128e71c4b0e171c3c",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "9d3870c4347eec5a158d",
   "before_tag": "lesson-001-orientation-what-this-course-is-who-it-is-for-an",
@@ -17,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 1,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

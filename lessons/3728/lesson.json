@@ -3,8 +3,8 @@
   "n": 93,
   "title": "Semantic caching strategies",
   "phase": 9,
-  "content_id": 17559,
-  "content_digest": "da8e0f87df71063eaa711148853710af2ded3121214d0dca7e2c3b0f5577672a",
+  "content_id": 17716,
+  "content_digest": "2077471d487d8f0ef5ddf0ddd5dcb5377ba197b5097cab5632c80f901c360b5d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "45795579b4fe71727cd3f729c5066cbdcb6ba83f862d135b4319d737772bc3c4",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

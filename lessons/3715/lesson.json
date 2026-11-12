@@ -3,8 +3,8 @@
   "n": 77,
   "title": "Golden dataset construction and maintenance",
   "phase": 7,
-  "content_id": 17513,
-  "content_digest": "5b47ee68e0b21c634a096fd894158df52d43b6c14aca5644d6a0fb3abad4793a",
+  "content_id": 17691,
+  "content_digest": "eebc8dc578a80fde90a98ff0a49565b75005c0a838443b84b609d8a4fd6abf58",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "d65dc16c47dcc321c2ea97bbd53b27fb05adc5f2d1c589421868180cf18becd4",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 12,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

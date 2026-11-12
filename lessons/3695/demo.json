@@ -1,7 +1,12 @@
 [
   {
     "block": "demo1",
-    "pane": "command",
+    "pane": "before",
     "cmd": "python3 -m pytest -q anchor_ai/tests/test_query_analysis.py::test_golden_gate_and_nonzero_exit_on_regression"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m anchor_ai.tools"
   }
 ]

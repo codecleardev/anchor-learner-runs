@@ -18,8 +18,8 @@
     "lesson_tag": "lesson-002-ai-engineering-in-one-picture",
     "needs_run": true,
     "commands": 1,
-    "content_id": 17537,
-    "code_digest": "3433054b3fbf05e38b431551e34a9cb82e954cf85ba2c2c736fb42968e521271"
+    "content_id": 17763,
+    "code_digest": "346f872d61f59312f9a4cfb2fc16a66325c60ea6cea198f128e71c4b0e171c3c"
   },
   {
     "lesson_id": 3770,
@@ -51,8 +51,8 @@
     "lesson_tag": "lesson-005-anchor-build-it",
     "needs_run": true,
     "commands": 14,
-    "content_id": 17544,
-    "code_digest": "dfc37cd9b32969f0214ae8c42d0c15663cee113825126d26e967145b83dd47f9"
+    "content_id": 17766,
+    "code_digest": "00f38a4021d96111dcc13d98e8ff276b7f8d45ddde8fc585e65a8fe75dcb8c0b"
   },
   {
     "lesson_id": 3658,
@@ -73,7 +73,7 @@
     "lesson_tag": "lesson-007-anchor-s-ai-service-boundary-calling-the-python",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17549,
+    "content_id": 17693,
     "code_digest": "bf004b25c5b3c3261e93231b089cdca797fb63755b7a3bae90ca3c4af7484e2f"
   },
   {
@@ -128,7 +128,7 @@
     "lesson_tag": "lesson-012-reasoning-models-and-thinking-budgets-when-extra",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17606,
+    "content_id": 17696,
     "code_digest": "7ddd37affe0468dfaf30fef560c567d1fb0c46182b599ae1418702ffc05c69a6"
   },
   {
@@ -139,7 +139,7 @@
     "lesson_tag": "lesson-013-structured-outputs-json-mode-function-calling-sc",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17577,
+    "content_id": 17698,
     "code_digest": "0c3855868b74fde39a4f559ebef0945f58f6a0b2a549cb97e602534fc1b1663d"
   },
   {
@@ -150,8 +150,8 @@
     "lesson_tag": "lesson-014-streaming-responses-and-server-sent-events",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17635,
-    "code_digest": "8a9f53b432c124e0e8d8cbb0e8714eaaa13a7272cb3347dbf4b4bcdb74f8d363"
+    "content_id": 17700,
+    "code_digest": "7995001d1ae86b71a1b78b08a1e70338256bb91eaf549c318e5f97f26719b897"
   },
   {
     "lesson_id": 3665,
@@ -172,7 +172,7 @@
     "lesson_tag": "lesson-016-context-engineering-assembling-the-context-windo",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17579,
+    "content_id": 17701,
     "code_digest": "1c4a7ef44f5d771cebce7dd7b4ab9ec7ff67de300bb7928eac9f2084d2655413"
   },
   {
@@ -183,7 +183,7 @@
     "lesson_tag": "lesson-017-model-testing-fundamentals-your-first-minitest-f",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17386,
+    "content_id": 17703,
     "code_digest": "a0ba6a7b4aed2e5790cdc17b7a74f959f6c0aa15c8c85fccfbeaf68ac91fa176"
   },
   {
@@ -194,8 +194,8 @@
     "lesson_tag": "lesson-017a-working-with-coding-agents-agents-md-skills-spec",
     "needs_run": true,
     "commands": 11,
-    "content_id": 17581,
-    "code_digest": "b33f713c8100e15b2371520990666b9f355ec9f19e2b3b7155f110216e095629"
+    "content_id": 17767,
+    "code_digest": "60b3d10d0437d0b4b4ad683bfa1f72c7ca33ad0c3c3f994eaf0f37dbd1deee6c"
   },
   {
     "lesson_id": 3797,
@@ -238,7 +238,7 @@
     "lesson_tag": "lesson-021-embeddings-fundamentals-and-embedding-model-sele",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17607,
+    "content_id": 17707,
     "code_digest": "df936eb84d53dbe40f680889403eeb15deedfcb2fa69663bd8df1b0f011a06d4"
   },
   {
@@ -249,7 +249,7 @@
     "lesson_tag": "lesson-022-chunking-strategies-for-retrieval-quality",
     "needs_run": true,
     "commands": 13,
-    "content_id": 17583,
+    "content_id": 17708,
     "code_digest": "b056b6ea06b7af92457d66db297d61662ee89445aa7d1fbd54fbbb87a33131ee"
   },
   {
@@ -260,7 +260,7 @@
     "lesson_tag": "lesson-023-anchor-build-it-document-ingestion-pipeline",
     "needs_run": true,
     "commands": 12,
-    "content_id": 17639,
+    "content_id": 17710,
     "code_digest": "f49abb1ca1df0eb81da15afba4b7bfc8d4eb514a2b066d41afb515d463d1e710"
   },
   {
@@ -293,7 +293,7 @@
     "lesson_tag": "lesson-026-anchor-build-it-dense-retrieval-and-generation",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17644,
+    "content_id": 17712,
     "code_digest": "375af7055bcf4d260293f5a4e5e5c9f9c4bdbe0d7a2617ad548023d4d034fd16"
   },
   {
@@ -315,7 +315,7 @@
     "lesson_tag": "lesson-028-anchor-build-it-hybrid-retrieval-fusion",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17647,
+    "content_id": 17714,
     "code_digest": "d452eca3b3c39ed2625c79d1e030521ac2a35baad42598d560ce6ce974c4a630"
   },
   {
@@ -326,7 +326,7 @@
     "lesson_tag": "lesson-029-query-analysis-and-rewriting-for-retrieval",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17610,
+    "content_id": 17715,
     "code_digest": "a53ecb6fdc42ac61b307f8c147b77d2f12fc006e1399b1035f9ead154b5dbd61"
   },
   {
@@ -348,7 +348,7 @@
     "lesson_tag": "lesson-031-retrieval-evaluation-metrics-recall-mrr-and-ndcg",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17612,
+    "content_id": 17717,
     "code_digest": "98a4a38b9bb66c7931407aeaa79e9ad50693c088bc8bcb4946694a539b8e8a77"
   },
   {
@@ -359,7 +359,7 @@
     "lesson_tag": "lesson-032-reranking-with-cross-encoders",
     "needs_run": true,
     "commands": 4,
-    "content_id": 17586,
+    "content_id": 17719,
     "code_digest": "aee570ea9581983e698c8a233d4cf1202c6322681c7f3500aa3be7fb6742c170"
   },
   {
@@ -370,7 +370,7 @@
     "lesson_tag": "lesson-033-multi-hop-rag-for-complex-queries",
     "needs_run": true,
     "commands": 4,
-    "content_id": 17587,
+    "content_id": 17721,
     "code_digest": "c5b1f3023c8610160be0c4172fc19d4e4049ee86d7e2302bcefa576336148fd8"
   },
   {
@@ -381,7 +381,7 @@
     "lesson_tag": "lesson-034-graphrag-knowledge-graph-retrieval-for-relations",
     "needs_run": true,
     "commands": 10,
-    "content_id": 17592,
+    "content_id": 17722,
     "code_digest": "0d8833f0ca18490625187c209e1ed53657190bdf9b38e1a427fdfd3a47b497e2"
   },
   {
@@ -392,7 +392,7 @@
     "lesson_tag": "lesson-035-agentic-rag-retrieval-as-a-tool-in-an-agent-loop",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17588,
+    "content_id": 17724,
     "code_digest": "1a99cca45faf136eef5eefb02182b87a889bc82abd361fe20e5c3e657bb2c3df"
   },
   {
@@ -403,7 +403,7 @@
     "lesson_tag": "lesson-036-debug-drill-the-agentic-rag-loop-that-never-stop",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17589,
+    "content_id": 17726,
     "code_digest": "04d3b61ecbbc56b91109e959463a397e63993d69967122a3ccccde414097e4b0"
   },
   {
@@ -414,7 +414,7 @@
     "lesson_tag": "lesson-037-groundedness-and-faithfulness-evaluation",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17603,
+    "content_id": 17728,
     "code_digest": "5d43c3d5b78970f5b91f30147f0a34cbf37e5a1f97fd63accb415f5d7bf3b133"
   },
   {
@@ -436,7 +436,7 @@
     "lesson_tag": "lesson-039-anchor-build-it-ship-rag-evaluation-milestone",
     "needs_run": true,
     "commands": 16,
-    "content_id": 17590,
+    "content_id": 17729,
     "code_digest": "7effc888e32551a032a3268bc04d4db7077cdd68c222721b6a167677401c7197"
   },
   {
@@ -447,7 +447,7 @@
     "lesson_tag": "lesson-040-sprint-deploy-ship-hybrid-rag-to-a-real-endpoint",
     "needs_run": true,
     "commands": 4,
-    "content_id": 17613,
+    "content_id": 17732,
     "code_digest": "95a8129125a660664ec9f6b35ad09b9753e6330f9cc8b6b62ac07eef80bdea90"
   },
   {
@@ -469,7 +469,7 @@
     "lesson_tag": "lesson-042-when-not-to-fine-tune-prompt-engineering-vs-rag",
     "needs_run": true,
     "commands": 3,
-    "content_id": 17601,
+    "content_id": 17734,
     "code_digest": "282c56b5206ce5f004859ff7fafb340669ea170dac33cf4c170c766cbf3e31cc"
   },
   {
@@ -491,7 +491,7 @@
     "lesson_tag": "lesson-044-synthetic-data-generation-and-quality-filtering",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17651,
+    "content_id": 17736,
     "code_digest": "f09a3f61231f3226575022e0e8101acfa2e439c31ba1a6242b8d8f537c5f5349"
   },
   {
@@ -502,8 +502,8 @@
     "lesson_tag": "lesson-045-supervised-fine-tuning-sft-workflow-end-to-end",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17614,
-    "code_digest": "84cadd5f5365c7f7a54d5e0373d18578095e0b9f0e759b141bcfcd563bb96ade"
+    "content_id": 17737,
+    "code_digest": "e6c9f2e9f1b526bb51f6eab474f2b434d8981678e54317c8e2486ed5bdae0ebd"
   },
   {
     "lesson_id": 3793,
@@ -513,7 +513,7 @@
     "lesson_tag": "lesson-046-distillation-train-a-smaller-model-from-a-larger",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17653,
+    "content_id": 17739,
     "code_digest": "de41803f6984aedddc92f6beb4b231bbb2ea3df1cd24f856ffe1df5edd0f4a25"
   },
   {
@@ -546,8 +546,8 @@
     "lesson_tag": "lesson-049-peft-library-patterns-and-adapter-merging",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17615,
-    "code_digest": "6b287251d1b75aa5637bd9e5ae0ce95f3514e247012a67c6b2228d69426dadb8"
+    "content_id": 17741,
+    "code_digest": "2937bbda47a02b8da379a73261a8c8b62d32699fb863d26b764ffc6a21672bb9"
   },
   {
     "lesson_id": 3688,
@@ -557,8 +557,8 @@
     "lesson_tag": "lesson-050-preference-alignment-rlhf-and-dpo",
     "needs_run": true,
     "commands": 9,
-    "content_id": 17616,
-    "code_digest": "72de934150288b666193c4c8076c1721087a59c6212b1ad3f78d2e16a5928837"
+    "content_id": 17743,
+    "code_digest": "ed73509ebc47981adffcd53881f502c72ef2117aec0cb73741d0ccffd266e646"
   },
   {
     "lesson_id": 3792,
@@ -590,8 +590,8 @@
     "lesson_tag": "lesson-053-tool-calling-and-function-calling-patterns",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17605,
-    "code_digest": "db18bc42e5bdd56c5aab5a1db50b227b4bf291b030480e87f7fcdd9156408ca9"
+    "content_id": 17744,
+    "code_digest": "b3057d8050a1251a2d228f57fcb9e769f1d67a9cdee7d03ba80a7e8b00b9333b"
   },
   {
     "lesson_id": 3696,
@@ -601,7 +601,7 @@
     "lesson_tag": "lesson-054-bounded-agent-design-and-autonomy-guardrails",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17658,
+    "content_id": 17746,
     "code_digest": "4fa9333f31c864b444fb661a3f05caa8207fea477b1a7afe3770645c86082da9"
   },
   {
@@ -623,8 +623,8 @@
     "lesson_tag": "lesson-056-plan-and-execute-agent-architectures",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17492,
-    "code_digest": "cbd4252abb228f481a667d5eea2108d4d23d81970ce98694b585f93a0f9704dc"
+    "content_id": 17748,
+    "code_digest": "e580ee063d7c6ebad47460f9610586bd2cf7680e92f54df28e972349a466f186"
   },
   {
     "lesson_id": 3699,
@@ -634,7 +634,7 @@
     "lesson_tag": "lesson-057-agent-memory-short-term-long-term-and-episodic",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17661,
+    "content_id": 17749,
     "code_digest": "dfc5ab42c713050395e6310ae2fa6a743b70c762faaaa937d41985414c0918cf"
   },
   {
@@ -656,7 +656,7 @@
     "lesson_tag": "lesson-059-anchor-build-it-bounded-agent-with-tools-plannin",
     "needs_run": true,
     "commands": 16,
-    "content_id": 17617,
+    "content_id": 17751,
     "code_digest": "3f5bfd21ed449aadb2e37d4d6d38372d3816cd34b11d1ea76cf7dc15b7e9c18c"
   },
   {
@@ -678,7 +678,7 @@
     "lesson_tag": "lesson-061-multi-agent-orchestration-patterns",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17665,
+    "content_id": 17753,
     "code_digest": "1aa907312d7b42ea56f6046fed00e1d14a4f4aec1f3c1fec55240a22422a8da5"
   },
   {
@@ -689,8 +689,8 @@
     "lesson_tag": "lesson-062-model-context-protocol-mcp-for-tool-and-context",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17666,
-    "code_digest": "925ccd82c049e1ac8de0cc252ff13ad4b1e05ed7404882476041e0a92cf1e5eb"
+    "content_id": 17755,
+    "code_digest": "298dcabb369c3be3e86353b39b640176e53e14f99bb8af24bd258692d0bc68bd"
   },
   {
     "lesson_id": 3806,
@@ -711,7 +711,7 @@
     "lesson_tag": "lesson-063-langchain-core-abstractions-and-chains",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17668,
+    "content_id": 17756,
     "code_digest": "19d616e298631189e357f3dbcdc1680d304bda3472695fdef9caa9aaf2d08ee5"
   },
   {
@@ -733,7 +733,7 @@
     "lesson_tag": "lesson-065-llamaindex-data-connectors-and-query-engines",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17507,
+    "content_id": 17758,
     "code_digest": "d2b3d47e3c287448bfd3026f56cf39de1b89a40b79b4827ad5e6673c8d3c81cd"
   },
   {
@@ -744,7 +744,7 @@
     "lesson_tag": "lesson-066-autogen-multi-agent-conversation-patterns",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17509,
+    "content_id": 17760,
     "code_digest": "cd38b8f7ab7100b2af57264d215de764367947e6c3f891bbb2fd106d1c231711"
   },
   {
@@ -755,7 +755,7 @@
     "lesson_tag": "lesson-067-provider-native-agent-and-assistant-apis",
     "needs_run": true,
     "commands": 4,
-    "content_id": 17673,
+    "content_id": 17761,
     "code_digest": "0712331762792974ccb99c4e9cf57a6e11f8306a2c26fd4b3fbbe99d5345ef80"
   },
   {
@@ -799,7 +799,7 @@
     "lesson_tag": "lesson-071-computer-use-and-browser-agents-driving-a-ui-whe",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17519,
+    "content_id": 17688,
     "code_digest": "6134353256fa49aa95fd00c27c488d8fff7a35f981c965d7650b0b7a5e5e3553"
   },
   {
@@ -810,7 +810,7 @@
     "lesson_tag": "lesson-072-anchor-build-it-ship-multi-agent-orchestration-m",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17618,
+    "content_id": 17689,
     "code_digest": "ec0dffcff37a32b5b2a01737a0431f28966bc954ed575a2be8cff9c28078b95e"
   },
   {
@@ -821,7 +821,7 @@
     "lesson_tag": "lesson-073-debug-drill-the-multi-agent-handoff-that-drops-c",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17510,
+    "content_id": 17690,
     "code_digest": "e88252930671e5e11570450d03c009ffb6f4c2a5bfd1352f9c8d7beed454c731"
   },
   {
@@ -843,7 +843,7 @@
     "lesson_tag": "lesson-075-golden-dataset-construction-and-maintenance",
     "needs_run": true,
     "commands": 12,
-    "content_id": 17513,
+    "content_id": 17691,
     "code_digest": "d65dc16c47dcc321c2ea97bbd53b27fb05adc5f2d1c589421868180cf18becd4"
   },
   {
@@ -854,8 +854,8 @@
     "lesson_tag": "lesson-076-ai-product-ux-citations-uncertainty-graceful-ref",
     "needs_run": true,
     "commands": 11,
-    "content_id": 17514,
-    "code_digest": "e8b0dda30ec17ba15b95db639ed0c121086009626d0f21bd5200dce7409d3038"
+    "content_id": 17769,
+    "code_digest": "1402408bfac1c0ac0bafdfdbc064c2c6431154d6b1f0254c4db995cae75bec4e"
   },
   {
     "lesson_id": 3807,
@@ -865,7 +865,7 @@
     "lesson_tag": "lesson-076a-error-analysis-and-eval-practice",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17636,
+    "content_id": 17770,
     "code_digest": "1045196f011f0e884d3489d2fa3e35efb42f867a6dd780e23d8d26478aebbe6d"
   },
   {
@@ -887,7 +887,7 @@
     "lesson_tag": "lesson-078-agent-trajectory-evaluation-step-level-scoring",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17516,
+    "content_id": 17695,
     "code_digest": "282427d5ec9ea7d8563e107d1e28cea8f6a0f26a90123df32f031e4564f37885"
   },
   {
@@ -898,7 +898,7 @@
     "lesson_tag": "lesson-079-regression-testing-for-prompts-and-pipelines",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17597,
+    "content_id": 17697,
     "code_digest": "1faf67b27bf6454ccae5e37c80167737f25c5d6c16647818c53b8e58b7620626"
   },
   {
@@ -909,7 +909,7 @@
     "lesson_tag": "lesson-080-anchor-build-it-ci-evaluation-gates-milestone",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17619,
+    "content_id": 17699,
     "code_digest": "7e89445f025f0b2d5ae0fc686f71bbb0b7f776254d4f9ccfefa6340129d65642"
   },
   {
@@ -931,7 +931,7 @@
     "lesson_tag": "lesson-082-multimodal-vision-image-understanding-with-llms",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17521,
+    "content_id": 17702,
     "code_digest": "215c3ad5e2bff2f54c50a8fb424877027531a3e9bc22c36ed27c3862646bf09a"
   },
   {
@@ -942,7 +942,7 @@
     "lesson_tag": "lesson-083-ocr-pipelines-for-document-extraction",
     "needs_run": true,
     "commands": 3,
-    "content_id": 17523,
+    "content_id": 17704,
     "code_digest": "439c6c12adc9c6922b799aa523715fdf653957afea26ca22894bb8f221be7c76"
   },
   {
@@ -953,7 +953,7 @@
     "lesson_tag": "lesson-084-anchor-build-it-screenshot-and-attachment-unders",
     "needs_run": true,
     "commands": 13,
-    "content_id": 17540,
+    "content_id": 17706,
     "code_digest": "b735dd96d702a97d7752a3d40adf29ff2ca15e3ec72021008b3d58e48fd75c60"
   },
   {
@@ -964,7 +964,7 @@
     "lesson_tag": "lesson-085-audio-transcription-and-speech-pipelines-with-wh",
     "needs_run": true,
     "commands": 4,
-    "content_id": 17543,
+    "content_id": 17709,
     "code_digest": "b730110aa045e94d4ef6187d82c0aef09446561656e02b240647b60faf095585"
   },
   {
@@ -975,7 +975,7 @@
     "lesson_tag": "lesson-086-anchor-build-it-realtime-voice-interaction",
     "needs_run": true,
     "commands": 9,
-    "content_id": 17624,
+    "content_id": 17711,
     "code_digest": "b57561be3bf6cd7a4a081496a32750efd152a27eb22e472b06da0ae57a32c655"
   },
   {
@@ -1008,7 +1008,7 @@
     "lesson_tag": "lesson-089-token-streaming-for-perceived-latency-reduction",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17621,
+    "content_id": 17713,
     "code_digest": "f604c232fbabfcbb066d05c0dd8ae7ab8515cf7e251797ab243648498b1a6f74"
   },
   {
@@ -1019,7 +1019,7 @@
     "lesson_tag": "lesson-090-semantic-caching-strategies",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17559,
+    "content_id": 17716,
     "code_digest": "45795579b4fe71727cd3f729c5066cbdcb6ba83f862d135b4319d737772bc3c4"
   },
   {
@@ -1041,7 +1041,7 @@
     "lesson_tag": "lesson-092-request-batching-for-throughput",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17561,
+    "content_id": 17718,
     "code_digest": "ee7cfc3f4046ca81ce3bd94049031fbd9b86ec6725573396ab401a3599421e9a"
   },
   {
@@ -1052,7 +1052,7 @@
     "lesson_tag": "lesson-093-durable-background-jobs-for-long-running-ai-task",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17562,
+    "content_id": 17720,
     "code_digest": "69650e916477ef36ccb01748c5971c2a90b2eb16423d38c3ffab83ddde3d6377"
   },
   {
@@ -1063,7 +1063,7 @@
     "lesson_tag": "lesson-094-cost-what-drives-spend-and-how-it-is-bounded",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17565,
+    "content_id": 17723,
     "code_digest": "1c9a47d03165a473fdfa61fd4137902d5dad1c10584451e462fe8294d8016b5e"
   },
   {
@@ -1074,7 +1074,7 @@
     "lesson_tag": "lesson-095-quotas-rate-limiting-and-cost-controls",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17567,
+    "content_id": 17725,
     "code_digest": "1804b36483a4536aea9ce1a3bb8af5cf0502ffcf574ebc0779ea5840a289345c"
   },
   {
@@ -1085,7 +1085,7 @@
     "lesson_tag": "lesson-096-provider-failover-and-multi-provider-routing",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17569,
+    "content_id": 17727,
     "code_digest": "c8df9b271d99212af4a2db52773ef8db146cd24bdf08330bc2670b1f7e462590"
   },
   {
@@ -1096,7 +1096,7 @@
     "lesson_tag": "lesson-097-retries-timeouts-and-circuit-breakers-for-llm-ca",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17622,
+    "content_id": 17730,
     "code_digest": "778bcf63facb397a3dbbd45670652d175a832f5e3eae0bfda3b5758b4cf09812"
   },
   {
@@ -1107,7 +1107,7 @@
     "lesson_tag": "lesson-098-debug-drill-the-failover-loop-that-drained-the-b",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17623,
+    "content_id": 17731,
     "code_digest": "782720ed86cee37890aba7b95b8cadce0157f175e6b8623861812cb4793974ae"
   },
   {
@@ -1140,7 +1140,7 @@
     "lesson_tag": "lesson-101-jailbreak-resistance-techniques",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17580,
+    "content_id": 17733,
     "code_digest": "1a918905de7e6dc8adaaae375cb9cf4988b837571fe72c150106253809a61c47"
   },
   {
@@ -1151,7 +1151,7 @@
     "lesson_tag": "lesson-102-pii-detection-and-redaction-in-llm-pipelines",
     "needs_run": true,
     "commands": 17,
-    "content_id": 17582,
+    "content_id": 17735,
     "code_digest": "4b5d28e4399b49a814fc281d426e6df1f5860f5eaf2d466297c7a24e6c9a1c44"
   },
   {
@@ -1162,7 +1162,7 @@
     "lesson_tag": "lesson-103-scoped-authorization-for-agent-actions",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17585,
+    "content_id": 17738,
     "code_digest": "835f417f72f726b033489ef2f086a9ed5661dbc18c7ce1a49425bf9efcb327db"
   },
   {
@@ -1184,7 +1184,7 @@
     "lesson_tag": "lesson-105-safe-side-effects-confirmation-dry-run-reversibi",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17650,
+    "content_id": 17740,
     "code_digest": "7fa5f89218a8229433ec53f162d1298f12a3f0a3edfc7ef366497647f671cc8b"
   },
   {
@@ -1206,7 +1206,7 @@
     "lesson_tag": "lesson-106a-agentic-security-canon-owasp-lists-the-lethal-tr",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17655,
+    "content_id": 17742,
     "code_digest": "bc605fd8b2b0aec1dd66969edea76c71606bc6e941a69cc239d2992b572962ac"
   },
   {
@@ -1217,8 +1217,8 @@
     "lesson_tag": "lesson-107-ai-governance-and-compliance-risk-contracts-lice",
     "needs_run": true,
     "commands": 0,
-    "content_id": 17611,
-    "code_digest": "53d7790fb8fcc45f741f4594d579c1ddccf59fb0874c79e0cafc8cb22c332c96"
+    "content_id": 17768,
+    "code_digest": "d86390a2ebe55defaff40d42ea5274e541dc94ee0a4719e06f5bdd4366e42b92"
   },
   {
     "lesson_id": 3744,
@@ -1228,8 +1228,8 @@
     "lesson_tag": "lesson-108-anchor-build-it-security-hardening-milestone",
     "needs_run": true,
     "commands": 9,
-    "content_id": 17657,
-    "code_digest": "f9cc6ca685a2737abb238520e5f574215fd73a4aec73a63866f8503f515e6747"
+    "content_id": 17745,
+    "code_digest": "f6732b00a780abad75e6f750963d6bb9d40f3661450209fc2598ff9ee4f1ffa4"
   },
   {
     "lesson_id": 3745,
@@ -1250,7 +1250,7 @@
     "lesson_tag": "lesson-110-self-hosted-inference-fundamentals",
     "needs_run": true,
     "commands": 4,
-    "content_id": 17659,
+    "content_id": 17747,
     "code_digest": "baf10385df38d84e2ba77786064c61e218b80b943230768139e619506b73d547"
   },
   {
@@ -1261,7 +1261,7 @@
     "lesson_tag": "lesson-111-quantization-techniques-gptq-awq-and-gguf",
     "needs_run": true,
     "commands": 8,
-    "content_id": 17598,
+    "content_id": 17750,
     "code_digest": "8ea50a27d34d879f8f47c019e5347eeba6619a6c66d9a5ebc63c9fcdcd44fd22"
   },
   {
@@ -1349,7 +1349,7 @@
     "lesson_tag": "lesson-119-observability-logs-metrics-and-distributed-traci",
     "needs_run": true,
     "commands": 9,
-    "content_id": 17674,
+    "content_id": 17752,
     "code_digest": "4c5eae88a42842b0e89d19140b084c42772ef3d81bfd940772da94ee8c2a17f9"
   },
   {
@@ -1382,8 +1382,8 @@
     "lesson_tag": "lesson-122-reliability-and-safety-retries-fallbacks-circuit",
     "needs_run": true,
     "commands": 11,
-    "content_id": 17677,
-    "code_digest": "72764395a04d7d89f27bde8a14e3874913c86e9d90ce664a7850de4de4b34be4"
+    "content_id": 17754,
+    "code_digest": "eaf1358c3078ec145b3f62c8b4a2cd8762f42db847c38db078b57aaf6814750d"
   },
   {
     "lesson_id": 3759,
@@ -1393,8 +1393,8 @@
     "lesson_tag": "lesson-123-rollback-strategies-for-prompt-model-changes",
     "needs_run": true,
     "commands": 9,
-    "content_id": 17600,
-    "code_digest": "b2228894c71df8cbde12293f891a17b3c312572b3fa632d312b08d4fccc7a41f"
+    "content_id": 17757,
+    "code_digest": "657641479dbb66b2b97180e0e5d91ec4363d2b26a163f735e91d98e855852e0a"
   },
   {
     "lesson_id": 3760,
@@ -1404,8 +1404,8 @@
     "lesson_tag": "lesson-124-incident-response-playbooks-for-ai-outages",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17678,
-    "code_digest": "1b80de51012d1f8a03a8a22c60ac0d84235e0b2fdb8393290c10bb3a116854e7"
+    "content_id": 17759,
+    "code_digest": "3ac8b59edcd51c950c4314bffa4773f61087b342b3918b5f0fdcd5e6865fc525"
   },
   {
     "lesson_id": 3761,
@@ -1415,7 +1415,7 @@
     "lesson_tag": "lesson-125-backups-and-state-recovery-for-ai-systems",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17679,
+    "content_id": 17762,
     "code_digest": "1d4932c3ce9500510aab698a7f04bd7d29ee75e611d52dee144331b5c54c5273"
   },
   {
@@ -1437,8 +1437,8 @@
     "lesson_tag": "lesson-127-debug-drill-the-outage-that-passed-every-health",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17681,
-    "code_digest": "58a8eb72cf1511afe2036acb34531fa1cf18315a6c62e9e8de24e59bef4d2c75"
+    "content_id": 17764,
+    "code_digest": "429974d35516e895cefb5fc8d3b4cf109c110d93a444def40a02d008ff4b1165"
   },
   {
     "lesson_id": 3765,
@@ -1459,8 +1459,8 @@
     "lesson_tag": "lesson-129-staff-level-ai-engineering-interview-system-desi",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17683,
-    "code_digest": "7777179cd3602bce2e91b825339a650bcf1de5f600082f56f500f2b108643970"
+    "content_id": 17765,
+    "code_digest": "1379b859f45227f89283b6e53465b88bfc8c24530911d34e0d531a93fbf6c97b"
   },
   {
     "lesson_id": 3771,

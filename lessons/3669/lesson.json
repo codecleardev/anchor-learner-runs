@@ -3,8 +3,8 @@
   "n": 24,
   "title": "Anchor — build it: document ingestion pipeline",
   "phase": 2,
-  "content_id": 17639,
-  "content_digest": "3b0b3da66405ef6770bd551ff515361778b1649cb1de0e5649d623927a1f2bbc",
+  "content_id": 17710,
+  "content_digest": "8044d946dea780c94aceb1558be99e79f15232607f07fc087484c14d9b40c42c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "f49abb1ca1df0eb81da15afba4b7bfc8d4eb514a2b066d41afb515d463d1e710",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 12,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

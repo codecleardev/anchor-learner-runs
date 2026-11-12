@@ -3,8 +3,8 @@
   "n": 38,
   "title": "Groundedness and faithfulness evaluation",
   "phase": 3,
-  "content_id": 17603,
-  "content_digest": "bdfa8251e005ade52a99de55b2f5186715b12477fdba2136b3d524ff898f48c5",
+  "content_id": 17728,
+  "content_digest": "4415b2a5c00b10e986f1f378140f68e3d56a2f022f22626e81432665a002fa36",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "5d43c3d5b78970f5b91f30147f0a34cbf37e5a1f97fd63accb415f5d7bf3b133",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

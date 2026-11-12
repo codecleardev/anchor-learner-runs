@@ -3,10 +3,10 @@
   "n": 133,
   "title": "Staff-level AI Engineering Interview: system design, implementation, incident, cost, and platform rounds",
   "phase": 12,
-  "content_id": 17683,
-  "content_digest": "735514d9ac1b8205ce7bc74170d0091cb599735c650f4a583262f3cf0e67d578",
+  "content_id": 17765,
+  "content_digest": "4e3af7bc1139c4cdd876df72f28d1453a4c4750d2cc77c09169f1cce814b1b56",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
-  "code_digest": "7777179cd3602bce2e91b825339a650bcf1de5f600082f56f500f2b108643970",
+  "code_digest": "1379b859f45227f89283b6e53465b88bfc8c24530911d34e0d531a93fbf6c97b",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "583b2dbbe42e036e02e1",
   "before_tag": "lesson-128-anchor-productionize-and-ship-it",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

@@ -3,8 +3,8 @@
   "n": 67,
   "title": "LlamaIndex data connectors and query engines",
   "phase": 6,
-  "content_id": 17507,
-  "content_digest": "43954d52475e9d2be99307592167952edecd5c987ff7b0eb7c7754c22ea8ddc6",
+  "content_id": 17758,
+  "content_digest": "abe3fa13d95674699df26c205522f4eb2ac81ef337b82286fb1d30f0ce5e2b4c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "d2b3d47e3c287448bfd3026f56cf39de1b89a40b79b4827ad5e6673c8d3c81cd",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

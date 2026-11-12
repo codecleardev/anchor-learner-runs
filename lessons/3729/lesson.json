@@ -3,8 +3,8 @@
   "n": 95,
   "title": "Request batching for throughput",
   "phase": 9,
-  "content_id": 17561,
-  "content_digest": "9d6e5f72db7b4cb85964442a4c7ca6fef8ff1bca6c32227c3360728b9a6a01a2",
+  "content_id": 17718,
+  "content_digest": "0d0cabba92e43c079923ea5892b4d126cf6aa87176148a5a4c271a3b50f479e8",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "ee7cfc3f4046ca81ce3bd94049031fbd9b86ec6725573396ab401a3599421e9a",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

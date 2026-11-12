@@ -3,8 +3,8 @@
   "n": 82,
   "title": "Regression testing for prompts and pipelines",
   "phase": 7,
-  "content_id": 17597,
-  "content_digest": "adde8b372646de6189e3078260adeb6f85f2965741b978774f609ae072b69716",
+  "content_id": 17697,
+  "content_digest": "269c5f5147a38a89cf8ed4cef71dd10fd0fbcfe5f9182c83af44d7295d2b68b9",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "1faf67b27bf6454ccae5e37c80167737f25c5d6c16647818c53b8e58b7620626",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

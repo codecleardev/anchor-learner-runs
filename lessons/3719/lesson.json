@@ -3,8 +3,8 @@
   "n": 83,
   "title": "Anchor — build it: CI evaluation gates milestone",
   "phase": 7,
-  "content_id": 17619,
-  "content_digest": "3b4df31c2f67e7e52bbe72ce43024e8689e84c490dd104ff0a05ca6d3514ee25",
+  "content_id": 17699,
+  "content_digest": "7e578c09bf911e951166c929b8c11386fe40a1ee3a26ff92c86ac2634a1a403f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "7e89445f025f0b2d5ae0fc686f71bbb0b7f776254d4f9ccfefa6340129d65642",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 7,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

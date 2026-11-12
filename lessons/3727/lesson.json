@@ -3,8 +3,8 @@
   "n": 92,
   "title": "Token streaming for perceived-latency reduction",
   "phase": 9,
-  "content_id": 17621,
-  "content_digest": "e82c37a9f08caf15d2c0195a39a783f0896efaa96704df0beef73cea8e30e4a2",
+  "content_id": 17713,
+  "content_digest": "e4177494b0d2d1c30c773ae29dad8b42d31ecff89f7df71840058be07569d870",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "f604c232fbabfcbb066d05c0dd8ae7ab8515cf7e251797ab243648498b1a6f74",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 8,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

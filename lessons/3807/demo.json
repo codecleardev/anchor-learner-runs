@@ -2,11 +2,6 @@
   {
     "block": "demo1",
     "pane": "before",
-    "cmd": "python3 -m eval.judge_agreement --judge v1_likert"
-  },
-  {
-    "block": "demo1",
-    "pane": "command",
     "cmd": "python3 -m eval.judge_agreement --judge v2_binary"
   }
 ]

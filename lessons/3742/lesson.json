@@ -3,8 +3,8 @@
   "n": 108,
   "title": "Safe side-effects: confirmation, dry-run, reversibility for agent actions",
   "phase": 10,
-  "content_id": 17650,
-  "content_digest": "491dec8b994730fcb087e7178c2e4f683f23cd475230f34090368c451cb09c93",
+  "content_id": 17740,
+  "content_digest": "2139420080875c91f8bf323e7034b5af4410546912ce00a4922faed1a191447d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "7fa5f89218a8229433ec53f162d1298f12a3f0a3edfc7ef366497647f671cc8b",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

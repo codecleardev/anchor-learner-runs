@@ -1,7 +1,7 @@
 [
   {
     "block": "demo1",
-    "pane": "command",
-    "cmd": "bin/rails test test/services/golden_datasets/versioner_test.rb"
+    "pane": "before",
+    "cmd": "bin/rails test test/controllers/chat_controller_test.rb"
   }
 ]

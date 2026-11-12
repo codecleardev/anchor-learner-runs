@@ -3,10 +3,10 @@
   "n": 54,
   "title": "Tool calling and function calling patterns",
   "phase": 5,
-  "content_id": 17605,
-  "content_digest": "f8102155d80661946eb6a707e96f819fb46b29bd1bb6b471a2e74baf16648402",
+  "content_id": 17744,
+  "content_digest": "0c97dff1e52abef6d1abb7c8b4fdd2c4c8e8e3491f5c58a9ffcc7e55f97e1acf",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
-  "code_digest": "db18bc42e5bdd56c5aab5a1db50b227b4bf291b030480e87f7fcdd9156408ca9",
+  "code_digest": "b3057d8050a1251a2d228f57fcb9e769f1d67a9cdee7d03ba80a7e8b00b9333b",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "d9854ecede56a6f77b4c",
   "before_tag": "lesson-052-checkpoint-anchor-fine-tuning-and-customization",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
-  "demo_commands": 1,
+  "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

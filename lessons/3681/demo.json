@@ -1,7 +1,7 @@
 [
   {
     "block": "demo1",
-    "pane": "command",
+    "pane": "before",
     "cmd": "ANCHOR_LLM_PROVIDER=offline ANCHOR_QUERY_PROVIDER=offline ANCHOR_EMBEDDING_PROVIDER=offline python3 eval/retrieval_gate.py"
   }
 ]

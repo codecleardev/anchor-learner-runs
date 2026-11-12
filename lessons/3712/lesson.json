@@ -3,8 +3,8 @@
   "n": 74,
   "title": "Anchor — build it: ship multi-agent orchestration milestone",
   "phase": 6,
-  "content_id": 17618,
-  "content_digest": "f5c2c81011751dc2178d38933793a88ada9b14ad752be116b83b3653aa53a3bf",
+  "content_id": 17689,
+  "content_digest": "148f7dbc9729b1d6ab807a9b8b2b58afd304eb4defbf44627f611afc7126d3f2",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "ec0dffcff37a32b5b2a01737a0431f28966bc954ed575a2be8cff9c28078b95e",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

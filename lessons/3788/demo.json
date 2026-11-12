@@ -2,11 +2,6 @@
   {
     "block": "demo1",
     "pane": "before",
-    "cmd": "python3 -m pytest -q anchor_ai/tests/test_ocr.py anchor_ai/tests/test_ingestion.py"
-  },
-  {
-    "block": "demo1",
-    "pane": "command",
     "cmd": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py python 3"
   }
 ]

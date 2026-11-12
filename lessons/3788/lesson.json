@@ -3,8 +3,8 @@
   "n": 87,
   "title": "Anchor — build it: screenshot and attachment understanding",
   "phase": 8,
-  "content_id": 17540,
-  "content_digest": "ce6a04c5294c3400246e4fd4322daf9217d8274169ccd0b90967a3348b9362f4",
+  "content_id": 17706,
+  "content_digest": "0c50c3c27fc3376732f09b9e205f85afcd86cba0711b5284123c04f128bd14ff",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "b735dd96d702a97d7752a3d40adf29ff2ca15e3ec72021008b3d58e48fd75c60",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 13,
   "has_demo": true,
-  "demo_commands": 2,
+  "demo_commands": 1,
   "commands": 13,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

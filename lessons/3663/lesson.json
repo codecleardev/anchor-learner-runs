@@ -3,8 +3,8 @@
   "n": 13,
   "title": "Structured outputs: JSON mode, function-calling schemas, and Pydantic validation",
   "phase": 1,
-  "content_id": 17577,
-  "content_digest": "fb1f6419dc5673f43b7e86a2cb94178d4ac3902eb54041a37abc9fd4deedf79c",
+  "content_id": 17698,
+  "content_digest": "f6ad328d59d168e91964347ecb05f13d5501c592528b743be46635109071baba",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "0c3855868b74fde39a4f559ebef0945f58f6a0b2a549cb97e602534fc1b1663d",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

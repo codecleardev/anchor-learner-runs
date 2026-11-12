@@ -2,11 +2,6 @@
   {
     "block": "demo1",
     "pane": "before",
-    "cmd": "ANCHOR_STREAM_SMOKE=1 ruby test/controllers/chat_streaming_test.rb"
-  },
-  {
-    "block": "demo1",
-    "pane": "command",
     "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_semantic_cache.py"
   }
 ]

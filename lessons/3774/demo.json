@@ -2,11 +2,6 @@
   {
     "block": "demo1",
     "pane": "before",
-    "cmd": "git show --no-patch rag-v2"
-  },
-  {
-    "block": "demo1",
-    "pane": "command",
     "cmd": "sh ops/deploy/rag_release.sh --verify-only"
   }
 ]

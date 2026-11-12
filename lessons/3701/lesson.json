@@ -3,8 +3,8 @@
   "n": 60,
   "title": "Anchor — build it: bounded agent with tools, planning, and memory",
   "phase": 5,
-  "content_id": 17617,
-  "content_digest": "aa83c15635d3a0cc9dec19c57b6ca019479b1e1873acaf8797bcbe95d2904cb7",
+  "content_id": 17751,
+  "content_digest": "003ad8ee25ccb3d44568ab7d0740caeeef5b54b3eedbd78cf716d8a37030da9f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "3f5bfd21ed449aadb2e37d4d6d38372d3816cd34b11d1ea76cf7dc15b7e9c18c",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 16,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

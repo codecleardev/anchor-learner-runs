@@ -1,7 +1,12 @@
 [
   {
     "block": "s1",
-    "cmd": "bin/rails test test/agent_instructions_test.rb"
+    "cmd": "ruby -e 'system(\"bin/rails\", \"test\", \"test/agent_instructions_test.rb\"); exit($?.exitstatus == 1 ? 0 : 1)'",
+    "saved_later": [
+      "AGENTS.md",
+      ".agents/skills/publish-prompt-version/SKILL.md"
+    ],
+    "saved_later_reason": "step 1 is the red run: the lesson says to save the test 'before writing either agent file'; AGENTS.md (b20) and the skill (b21) are shown and saved after this step, and step 2 reruns the test green"
   },
   {
     "block": "s2",

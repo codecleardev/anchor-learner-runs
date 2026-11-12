@@ -3,8 +3,8 @@
   "n": 98,
   "title": "Quotas, rate limiting, and cost controls",
   "phase": 9,
-  "content_id": 17567,
-  "content_digest": "f0d06d89d4791b8da3b29df31c2b44e741cb12220edc1ff50345a1931c1d5637",
+  "content_id": 17725,
+  "content_digest": "6ecd1c9886be78294569117b0c3d398f7bcecebef76dc2007b6454f6dfc0384e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "1804b36483a4536aea9ce1a3bb8af5cf0502ffcf574ebc0779ea5840a289345c",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

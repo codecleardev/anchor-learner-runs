@@ -3,10 +3,10 @@
   "n": 18,
   "title": "Working with coding agents: AGENTS.md, skills, spec-first loops and diff review",
   "phase": 1,
-  "content_id": 17581,
-  "content_digest": "790e188716259dcaea6d2a1426de20e03ff34b3c67da6c64cf157b88e8a02e8b",
+  "content_id": 17767,
+  "content_digest": "7e4d3fbc1d39fce9067fcc2d8cfd68ac0891db65711b32aad35f03262aca5e8a",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
-  "code_digest": "b33f713c8100e15b2371520990666b9f355ec9f19e2b3b7155f110216e095629",
+  "code_digest": "60b3d10d0437d0b4b4ad683bfa1f72c7ca33ad0c3c3f994eaf0f37dbd1deee6c",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "bdd2459f14e1e03b9b15",
   "before_tag": "lesson-017-model-testing-fundamentals-your-first-minitest-f",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 11,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }

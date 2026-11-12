@@ -3,10 +3,10 @@
   "n": 63,
   "title": "Model Context Protocol (MCP) for tool and context interop",
   "phase": 6,
-  "content_id": 17666,
-  "content_digest": "31140c223e17048de86a87d0ff168fe712684a48919376e09424c3262dd94b38",
+  "content_id": 17755,
+  "content_digest": "82fc9359076b992edb173618d4d95552102e25cb869a268f9df78aca3752fd08",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
-  "code_digest": "925ccd82c049e1ac8de0cc252ff13ad4b1e05ed7404882476041e0a92cf1e5eb",
+  "code_digest": "298dcabb369c3be3e86353b39b640176e53e14f99bb8af24bd258692d0bc68bd",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "f48728d90863b6f1bbbc",
   "before_tag": "lesson-061-multi-agent-orchestration-patterns",
@@ -15,7 +15,7 @@
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
-  "demo_commands": 1,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T06:05:45Z"
+  "exported_at": "2026-11-12T07:05:53Z"
 }
