@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 labs/agent-harness-layers/classify_layers.py --curl-card"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "ruby labs/framework-comparison/framework_selection_matrix.rb --usecase triage"
+  }
+]

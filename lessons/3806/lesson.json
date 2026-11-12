@@ -3,16 +3,17 @@
   "n": 64,
   "title": "Build an MCP server properly: official SDK, transports, OAuth and pinning",
   "phase": 6,
-  "content_id": 17425,
-  "content_digest": "8dbd3a54a018cc8a4e79f845ac566b00fccb1b2fcba2e7ad2c51f925ac9d1b77",
+  "content_id": 17502,
+  "content_digest": "9924d86e3c829d061ea1b12755930bdba453a63f7e4aee7aeada958493e10cfc",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "92b4baae79a9d891291c",
   "before_tag": "lesson-062-model-context-protocol-mcp-for-tool-and-context",
-  "lesson_tag": "lesson-062a-build-an-mcp-server-properly-official-sdk-transp",
+  "lesson_tag": "python3 labs/mcp-server/probe.py stdio",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

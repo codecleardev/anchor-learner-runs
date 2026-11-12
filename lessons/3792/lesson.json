@@ -3,8 +3,8 @@
   "n": 52,
   "title": "Reinforcement fine-tuning with graders: RFT and GRPO-style training",
   "phase": 4,
-  "content_id": 17163,
-  "content_digest": "7cbf1b8ea85de0cfc29bb821d220894a021d24919d2f7df625623c870d346f40",
+  "content_id": 17575,
+  "content_digest": "1c22cd28efe5cdb20da341d49ab1f7f2181dfa38ae9856544bea17a16036a337",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "cf7c8469c1697be87ad6",
   "before_tag": "lesson-050-preference-alignment-rlhf-and-dpo",
@@ -13,6 +13,7 @@
   "has_lab_step": false,
   "runnable_lines": 0,
   "has_demo": false,
+  "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

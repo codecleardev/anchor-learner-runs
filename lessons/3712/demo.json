@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_browser_tools.py::test_consequential_click_requires_trusted_bound_one_use_approval"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_orchestration_release.py -k 'atomic_configuration or human_only_switch'"
+  }
+]

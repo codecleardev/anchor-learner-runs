@@ -3,16 +3,17 @@
   "n": 54,
   "title": "Tool calling and function calling patterns",
   "phase": 5,
-  "content_id": 17416,
-  "content_digest": "c51d0e71a67dcd8407ed94394675810c41ee6fc09cbe3e3d682463f8ea78b003",
+  "content_id": 17605,
+  "content_digest": "f8102155d80661946eb6a707e96f819fb46b29bd1bb6b471a2e74baf16648402",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "d9854ecede56a6f77b4c",
   "before_tag": "lesson-052-checkpoint-anchor-fine-tuning-and-customization",
-  "lesson_tag": "lesson-053-tool-calling-and-function-calling-patterns",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_query_analysis.py::test_golden_gate_and_nonzero_exit_on_regression",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
+  "demo_commands": 1,
   "commands": 8,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

@@ -1,0 +1,12 @@
+[
+  {
+    "block": "ms-demo",
+    "pane": "before",
+    "cmd": "ruby bin/mcp_client_test.rb --server http://127.0.0.1:4000/mcp"
+  },
+  {
+    "block": "ms-demo",
+    "pane": "command",
+    "cmd": "python3 labs/mcp-server/probe.py stdio"
+  }
+]

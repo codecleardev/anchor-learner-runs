@@ -3,16 +3,17 @@
   "n": 58,
   "title": "Agent memory: short-term, long-term, and episodic",
   "phase": 5,
-  "content_id": 17420,
-  "content_digest": "cfb805841ed0cdb03a80d5af9676e78235aa919ad044d906948b373a9df4afc9",
+  "content_id": 17661,
+  "content_digest": "8b96e9c51f85931385f31b28f73a48ac4a6953a67927d1465ef4e491be521379",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "aceaa15deced16af5f00",
   "before_tag": "lesson-056-plan-and-execute-agent-architectures",
-  "lesson_tag": "lesson-057-agent-memory-short-term-long-term-and-episodic",
+  "lesson_tag": "python3 -m pytest -q -s anchor_ai/tests/test_memory_smoke.py::test_working_eviction_expiration_and_redaction",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

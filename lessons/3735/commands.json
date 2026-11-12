@@ -1,10 +1,6 @@
 [
   {
     "block": "incident-step1",
-    "cmd": "bin/rails runner labs/failover-budget-incident/incident_replay.rb broken"
-  },
-  {
-    "block": "incident-step1",
     "cmd": "ruby labs/failover-budget-incident/incident_replay.rb broken"
   },
   {
@@ -21,7 +17,7 @@
   },
   {
     "block": "incident-step5",
-    "cmd": "ruby test/integration/failover_budget_incident_test.rb"
+    "cmd": "bin/rails test test/integration/failover_budget_incident_test.rb"
   },
   {
     "block": "incident-step5",

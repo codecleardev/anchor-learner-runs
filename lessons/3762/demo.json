@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "ruby test/integration/state_recovery_test.rb"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "ruby test/integration/worker_recovery_test.rb"
+  }
+]

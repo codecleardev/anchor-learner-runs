@@ -3,8 +3,8 @@
   "n": 3,
   "title": "Where AI engineering fits: LLM apps vs ML engineering vs data platforms",
   "phase": 1,
-  "content_id": 17209,
-  "content_digest": "9fe625f6d1746a79d79e369a808ec1110bd4518411a2d31a4d6a33d60c97e5d6",
+  "content_id": 17539,
+  "content_digest": "263e96fe236ea308386727dc1ae59412ce23eb4e4f71e0e37bd258c16cef2dad",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "70e6dcd79ca79a25514d",
   "before_tag": "lesson-002-ai-engineering-in-one-picture",
@@ -13,6 +13,7 @@
   "has_lab_step": false,
   "runnable_lines": 0,
   "has_demo": false,
+  "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

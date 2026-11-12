@@ -8,11 +8,12 @@
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "6a7455f4d2c862248c60",
   "before_tag": "lesson-016-context-engineering-assembling-the-context-windo",
-  "lesson_tag": "lesson-017-model-testing-fundamentals-your-first-minitest-f",
+  "lesson_tag": "env -u ANCHOR_LLM_PROVIDER python3 -m pytest -q anchor_ai/tests",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
+  "demo_commands": 1,
   "commands": 8,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

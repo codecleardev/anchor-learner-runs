@@ -3,8 +3,8 @@
   "n": 90,
   "title": "Checkpoint: Anchor multimodal and realtime",
   "phase": 8,
-  "content_id": 17304,
-  "content_digest": "d475ef739e9626b93bcc0b4591fb57ee8ca682a63c2f79eff69d4d7e0b5e764a",
+  "content_id": 17550,
+  "content_digest": "391794053b7ce0f67c052b66f73cf57702f20e3cd22bbb0fc620a93623e09588",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "b18eff1d8d824c2d6999",
   "before_tag": "lesson-086-anchor-build-it-realtime-voice-interaction",
@@ -13,6 +13,7 @@
   "has_lab_step": false,
   "runnable_lines": 0,
   "has_demo": false,
+  "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

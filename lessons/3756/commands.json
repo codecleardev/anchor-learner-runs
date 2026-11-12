@@ -17,7 +17,7 @@
   },
   {
     "block": "online_run_feedback",
-    "cmd": "ruby test/integration/online_quality_monitoring_test.rb --include test_budget_reservations_and_authorized_feedback_association"
+    "cmd": "ruby test/integration/online_quality_monitoring_test.rb --name test_budget_reservations_and_authorized_feedback_association"
   },
   {
     "block": "online_run_feedback",

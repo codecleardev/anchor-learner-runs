@@ -3,16 +3,17 @@
   "n": 115,
   "title": "Quantization techniques: GPTQ, AWQ, and GGUF",
   "phase": 11,
-  "content_id": 17471,
-  "content_digest": "51ff5a8e3bbbbfcab4704075d61cac7f66eb94fe501a456bf1d89da6a31f7e2b",
+  "content_id": 17598,
+  "content_digest": "3cea60b33ab6d14a69348f4849d04da94aca7066a40b9246216ebf70d99d0916",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "ee659bfae06885aa3a73",
   "before_tag": "lesson-110-self-hosted-inference-fundamentals",
-  "lesson_tag": "lesson-111-quantization-techniques-gptq-awq-and-gguf",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_serving_artifacts.py anchor_ai/tests/test_serving_benchmark.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

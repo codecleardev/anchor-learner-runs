@@ -3,16 +3,17 @@
   "n": 101,
   "title": "Debug drill: the failover loop that drained the budget",
   "phase": 9,
-  "content_id": 17459,
-  "content_digest": "af7206e9bff1d59f9d1bcd4c21b7da76fc2aca725842cfa99ec8988c660099c0",
+  "content_id": 17623,
+  "content_digest": "bc1138604fe2091617e050634b04555ebc776ac04c1c4c3dc87fd38e2a131d57",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "ffb6ff18bc544e4c3c19",
   "before_tag": "lesson-097-retries-timeouts-and-circuit-breakers-for-llm-ca",
-  "lesson_tag": "lesson-098-debug-drill-the-failover-loop-that-drained-the-b",
+  "lesson_tag": "python3 eval/regression_gate.py --incident-only",
   "needs_run": true,
   "has_lab_step": true,
-  "runnable_lines": 9,
+  "runnable_lines": 8,
   "has_demo": true,
-  "commands": 9,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "demo_commands": 2,
+  "commands": 8,
+  "exported_at": "2026-11-12T05:34:45Z"
 }

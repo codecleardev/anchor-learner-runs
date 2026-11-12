@@ -3,16 +3,17 @@
   "n": 8,
   "title": "LLM provider APIs: request/response lifecycle, authentication, and rate limits",
   "phase": 1,
-  "content_id": 17378,
-  "content_digest": "818eb94b2e1b2345e5b4cfc553039acf13367232743391706c55afc7502fb8b6",
+  "content_id": 17630,
+  "content_digest": "ff59a57f6d5fba95e5e578393175e084f041dcaa8ff10187c59bad7c0df4ce10",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "34c6b72b2ca48ada684e",
   "before_tag": "lesson-007-anchor-s-ai-service-boundary-calling-the-python",
-  "lesson_tag": "lesson-008-llm-provider-apis-request-response-lifecycle-aut",
+  "lesson_tag": "python3 -m pytest -q -s anchor_ai/tests/test_provider.py::test_rate_limit_deadline_and_demo",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

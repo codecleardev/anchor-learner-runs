@@ -3,16 +3,17 @@
   "n": 22,
   "title": "Embeddings fundamentals and embedding model selection",
   "phase": 2,
-  "content_id": 17388,
-  "content_digest": "4da87b3848e6d7912a0d485bbd1fb2308d6b6090e901a2bd2187e7f5ce0b5f5c",
+  "content_id": 17607,
+  "content_digest": "ac3ceabd3df25d0ec91437cdfff2caef018c25955ad72d75afbd54840547de8d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "7e85b1bbcc4d82c22e4f",
   "before_tag": "lesson-020-checkpoint-anchor-foundations",
-  "lesson_tag": "lesson-021-embeddings-fundamentals-and-embedding-model-sele",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

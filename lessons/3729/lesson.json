@@ -3,16 +3,17 @@
   "n": 95,
   "title": "Request batching for throughput",
   "phase": 9,
-  "content_id": 17453,
-  "content_digest": "2fc52fca15c3e347479afb2f178b2ed6359d1017232cc3042d0e12fb4b9b3bc1",
+  "content_id": 17561,
+  "content_digest": "9d6e5f72db7b4cb85964442a4c7ca6fef8ff1bca6c32227c3360728b9a6a01a2",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "0b3c5e1d6c4293285958",
   "before_tag": "lesson-091-provider-prompt-caching-stable-prefix-layout-and",
-  "lesson_tag": "lesson-092-request-batching-for-throughput",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_batching.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

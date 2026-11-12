@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m pytest -q anchor_ai/tests/test_multihop.py anchor_ai/tests/test_dense_rag.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_graph_retrieval.py::test_deleted_source_is_excluded_even_if_stale_edge_survives anchor_ai/tests/test_graph_retrieval.py::test_replacement_failure_and_bad_provenance_roll_back"
+  }
+]

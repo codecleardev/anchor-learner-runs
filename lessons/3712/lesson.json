@@ -3,16 +3,17 @@
   "n": 74,
   "title": "Anchor — build it: ship multi-agent orchestration milestone",
   "phase": 6,
-  "content_id": 17435,
-  "content_digest": "00b83008ca4c9f8b582f3f79b2e1c7c3305b34fd152c9ad772d4fb2f8d9e6d38",
+  "content_id": 17618,
+  "content_digest": "f5c2c81011751dc2178d38933793a88ada9b14ad752be116b83b3653aa53a3bf",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "9ed3165a659cf53fa899",
   "before_tag": "lesson-071-computer-use-and-browser-agents-driving-a-ui-whe",
-  "lesson_tag": "lesson-072-anchor-build-it-ship-multi-agent-orchestration-m",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_orchestration_release.py -k 'atomic_configuration or human_only_switch'",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

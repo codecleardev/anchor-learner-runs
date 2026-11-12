@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -c \"from eval.groundedness_scorer import run_gate; run_gate()\""
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_triad_adapters.py anchor_ai/tests/test_faithfulness.py"
+  }
+]

@@ -3,16 +3,17 @@
   "n": 50,
   "title": "PEFT library patterns and adapter merging",
   "phase": 4,
-  "content_id": 17414,
-  "content_digest": "7cc565866d0c34271a66b684f98318f5e7d998ce1d6344502a1f7fee4ebf90d0",
+  "content_id": 17615,
+  "content_digest": "6c3736c59d647b2ea041884cb5582fdce90c9d984f2b3438f412031ef1153fff",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "96008fb247d8916943e4",
   "before_tag": "lesson-048-qlora-and-quantized-fine-tuning",
-  "lesson_tag": "lesson-049-peft-library-patterns-and-adapter-merging",
+  "lesson_tag": "python3 ops/deploy/model_release.py --offline --rollback",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

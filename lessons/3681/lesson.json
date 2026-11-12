@@ -3,16 +3,17 @@
   "n": 32,
   "title": "Retrieval evaluation metrics: recall, MRR, and nDCG",
   "phase": 3,
-  "content_id": 17397,
-  "content_digest": "68c548f7eedf4c5ea715e29162bf46c59ac684a6f6333855789c7a839e35343e",
+  "content_id": 17612,
+  "content_digest": "8776c0c6d9f8736e2bce25eeed3713f274a4f58f676b5b77c78e372460640116",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "ff378ff67aa22bf12d71",
   "before_tag": "lesson-030-checkpoint-anchor-rag-indexing-and-retrieval",
-  "lesson_tag": "lesson-031-retrieval-evaluation-metrics-recall-mrr-and-ndcg",
+  "lesson_tag": "ANCHOR_LLM_PROVIDER=offline ANCHOR_QUERY_PROVIDER=offline ANCHOR_EMBEDDING_PROVIDER=offline python3 eval/retrieval_gate.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

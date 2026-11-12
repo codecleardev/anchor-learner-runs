@@ -3,16 +3,17 @@
   "n": 107,
   "title": "Tenant isolation in multi-tenant AI systems",
   "phase": 10,
-  "content_id": 17464,
-  "content_digest": "be8485b8975fe4ef741542721853c8348c8e9649a8aa32ab6a8f15ec0bc6577f",
+  "content_id": 17648,
+  "content_digest": "1f31ed27ab1613b98f08a5f933e9db0ba8160155b98ea3023917dae717bedce3",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "377138029d424e49c46d",
   "before_tag": "lesson-103-scoped-authorization-for-agent-actions",
-  "lesson_tag": "lesson-104-tenant-isolation-in-multi-tenant-ai-systems",
+  "lesson_tag": "python3 labs/tenant-isolation/tenant_isolation_test.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

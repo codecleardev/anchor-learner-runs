@@ -3,16 +3,17 @@
   "n": 110,
   "title": "Agentic security canon: OWASP lists, the lethal trifecta and injection-resistant design",
   "phase": 10,
-  "content_id": 17467,
-  "content_digest": "43b4c4400e4c317f62716939a24c4ac48128fdc31bcb92cf142384a547ff941f",
+  "content_id": 17655,
+  "content_digest": "54b621d06908980f74f29073b4d94bb342f17ca2981459e97f08814c3cb9dc91",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "844ecd7df37afdf92227",
   "before_tag": "lesson-106-red-team-testing-methodology-for-llm-systems",
-  "lesson_tag": "lesson-106a-agentic-security-canon-owasp-lists-the-lethal-tr",
+  "lesson_tag": "python3 -m anchor_ai.trifecta --overlay labs/agentic-security/followup_v1.yml --expect-findings",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 labs/ai-service-boundary/smoke.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_provider.py::test_rate_limit_deadline_and_demo"
+  }
+]

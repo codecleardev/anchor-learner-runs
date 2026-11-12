@@ -3,16 +3,17 @@
   "n": 73,
   "title": "Computer-use and browser agents: driving a UI when there is no API",
   "phase": 6,
-  "content_id": 17434,
-  "content_digest": "01020e56da7f969b09920b676b3904ce805f79c3ebf81bc1462fe2f61b885349",
+  "content_id": 17519,
+  "content_digest": "8c15aace4ddd9593b0d81b2503b5669f878a6b7511c0172ce791d59d5958f071",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "76ebb866904ae83878c0",
   "before_tag": "lesson-070-code-sandboxes-for-safe-agent-code-execution-iso",
-  "lesson_tag": "lesson-071-computer-use-and-browser-agents-driving-a-ui-whe",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_browser_tools.py::test_consequential_click_requires_trusted_bound_one_use_approval",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

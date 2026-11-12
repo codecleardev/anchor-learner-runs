@@ -3,16 +3,17 @@
   "n": 117,
   "title": "Continuous batching for inference throughput",
   "phase": 11,
-  "content_id": 17473,
-  "content_digest": "d65c44d62b373b57674b407c79ac9f65dd18130e3bbb456ee983107bc2323a6f",
+  "content_id": 17528,
+  "content_digest": "65195b37f61061dcfe50d4586266effd434f0184903d9a522a9c73a69461451b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "caa499f9e7ca7c3eabc2",
   "before_tag": "lesson-112-vllm-deployment-and-serving",
-  "lesson_tag": "lesson-113-continuous-batching-for-inference-throughput",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_self_hosted_batching.py anchor_ai/tests/test_vllm_backend.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

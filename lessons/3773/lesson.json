@@ -3,8 +3,8 @@
   "n": 4,
   "title": "What you can't build yet and where to go next",
   "phase": 1,
-  "content_id": 17211,
-  "content_digest": "52e1ad8e7b3fa09f180280b7e446c864f17cfa77c3c3812d7076c2ba78511c23",
+  "content_id": 17541,
+  "content_digest": "a50b0c7696ca01b763151b3e939a6a1b35a670ac2fde26841de9809f70e8b9b0",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "f8ec0748334ddca3eebb",
   "before_tag": "lesson-003-where-ai-engineering-fits-llm-apps-vs-ml-enginee",
@@ -13,6 +13,7 @@
   "has_lab_step": false,
   "runnable_lines": 0,
   "has_demo": false,
+  "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

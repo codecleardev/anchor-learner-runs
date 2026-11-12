@@ -3,8 +3,8 @@
   "n": 137,
   "title": "Sprint retrospective: what the hybrid-RAG slice proves and what to build next",
   "phase": 12,
-  "content_id": 17171,
-  "content_digest": "6f982f2032dcc7a64e901e18254c82a7ff2814b27533f1cbe728c07a86d961bb",
+  "content_id": 17548,
+  "content_digest": "2be23b3bafd002d1d9c61128b9924ba1b400f84ebf2f58bf52c6dc175be023ef",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "f230b9a098cb9fe88182",
   "before_tag": "lesson-132-comparisons-and-failure-stories-interviewers-ask",
@@ -13,6 +13,7 @@
   "has_lab_step": false,
   "runnable_lines": 0,
   "has_demo": false,
+  "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

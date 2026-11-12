@@ -3,16 +3,17 @@
   "n": 48,
   "title": "LoRA fundamentals and adapter architecture",
   "phase": 4,
-  "content_id": 17412,
-  "content_digest": "2655bf5708ea5bcf876ca93db7c25b87339b5f515b01092dd7f38104c772504a",
+  "content_id": 17654,
+  "content_digest": "05f54a85063f084ebec5e23ec8638389c0e99f20ce794cb41e24a5fcdcfc1a72",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "1ec963be0eb79f2407b1",
   "before_tag": "lesson-046-distillation-train-a-smaller-model-from-a-larger",
-  "lesson_tag": "lesson-047-lora-fundamentals-and-adapter-architecture",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_adapter_config.py anchor_ai/tests/test_training.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

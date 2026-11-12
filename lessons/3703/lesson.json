@@ -3,16 +3,17 @@
   "n": 62,
   "title": "Multi-agent orchestration patterns",
   "phase": 6,
-  "content_id": 17423,
-  "content_digest": "7ebfe0661acb22c2d7bd1a261235001744ca60091a8d9d33c3f6de1c106dd7fd",
+  "content_id": 17499,
+  "content_digest": "6ac8d20fd7c7093245108a08f2b21eee03b1e3a7fe676aebddaeaf0be2717c17",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "a0d93de26b3c0d07d88b",
   "before_tag": "lesson-060-checkpoint-anchor-bounded-agents",
-  "lesson_tag": "lesson-061-multi-agent-orchestration-patterns",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_bounded_runtime.py anchor_ai/tests/test_agent_loop_guards.py anchor_ai/tests/test_agent_trajectories.py anchor_ai/tests/test_orchestration_patterns.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

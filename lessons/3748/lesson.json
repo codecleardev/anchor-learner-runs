@@ -3,16 +3,17 @@
   "n": 116,
   "title": "vLLM deployment and serving",
   "phase": 11,
-  "content_id": 17472,
-  "content_digest": "28cf06dad7046ef01c423711fd087814d0f021c1087b7a654a65bffa18654f87",
+  "content_id": 17662,
+  "content_digest": "c7fe148ed8e8bb7b0e16e19270b6ab26c1772c4d7903bf1ffad941f4ded33cfe",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "f0c1d05f1dd1da0e19a4",
   "before_tag": "lesson-111-quantization-techniques-gptq-awq-and-gguf",
-  "lesson_tag": "lesson-112-vllm-deployment-and-serving",
+  "lesson_tag": "bin/rails test test/services/llm_client_test.rb test/integration/self_hosted_chat_test.rb",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

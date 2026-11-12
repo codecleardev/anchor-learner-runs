@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "bash ops/drills/simulate_cost_spike.sh recover"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "ruby test/integration/state_recovery_test.rb"
+  }
+]

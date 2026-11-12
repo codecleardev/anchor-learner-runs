@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 labs/agent-loop-debug/broken_agentic_rag.py --product"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -c \"from eval.groundedness_scorer import run_gate; run_gate()\""
+  }
+]

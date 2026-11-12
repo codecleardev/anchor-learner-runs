@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_graph_checkpoints.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "bin/rails test test/controllers/api/document_chunks_controller_test.rb"
+  }
+]

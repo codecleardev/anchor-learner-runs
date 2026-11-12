@@ -3,16 +3,17 @@
   "n": 47,
   "title": "Distillation: train a smaller model from a larger model’s outputs",
   "phase": 4,
-  "content_id": 17411,
-  "content_digest": "3158f92a5781871b1838bf9a5291bfd6d59104c1d55b9e3a5ba6fc0b2d3a49a0",
+  "content_id": 17653,
+  "content_digest": "ee21f945f97f0de4217c341d36b19de0f71defc5d03e5244eeba319788584650",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "a8865d923b034c209550",
   "before_tag": "lesson-045-supervised-fine-tuning-sft-workflow-end-to-end",
-  "lesson_tag": "lesson-046-distillation-train-a-smaller-model-from-a-larger",
+  "lesson_tag": "python3 eval/model_gate.py --offline --candidate distilled-labels",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

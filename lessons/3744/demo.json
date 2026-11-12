@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_redteam_gate.py::test_suite_baseline_controls_and_fault"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -c \"import json; from pathlib import Path; print(json.dumps(json.loads(Path('.git/anchor-eval/security.json').read_text()), indent=2)); print(Path('ops/security_audit_report.md').read_text())\""
+  }
+]

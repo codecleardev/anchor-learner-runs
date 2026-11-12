@@ -3,16 +3,17 @@
   "n": 86,
   "title": "OCR pipelines for document extraction",
   "phase": 8,
-  "content_id": 17445,
-  "content_digest": "2e9350b28d1eb0a3c22182af7babe87692dd6224009c8297899d2e5b0b2cc855",
+  "content_id": 17523,
+  "content_digest": "0188039c77bacb77c4d834a279125bc58c55eeccc34fa18d0a2c9b27a2147168",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "f63d94b6fbc2d286a52f",
   "before_tag": "lesson-082-multimodal-vision-image-understanding-with-llms",
-  "lesson_tag": "lesson-083-ocr-pipelines-for-document-extraction",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_ocr.py anchor_ai/tests/test_ingestion.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 3,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 3,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

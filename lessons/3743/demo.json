@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_tools.py anchor_ai/tests/test_escalation.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_redteam_gate.py::test_suite_baseline_controls_and_fault"
+  }
+]

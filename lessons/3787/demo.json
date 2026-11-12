@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_semantic_cache.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 labs/provider-prompt-caching/compare_prefixes.py --section answers"
+  }
+]

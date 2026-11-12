@@ -26,5 +26,9 @@
   {
     "block": "pacing-step-four",
     "cmd": "ANCHOR_STREAM_SMOKE=1 ruby test/controllers/chat_streaming_test.rb"
+  },
+  {
+    "block": "pacing-step-four",
+    "cmd": "bin/rails test test/controllers/chat_streaming_test.rb"
   }
 ]

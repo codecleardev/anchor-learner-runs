@@ -3,16 +3,17 @@
   "n": 56,
   "title": "ReAct: reasoning-acting loops for agents",
   "phase": 5,
-  "content_id": 17418,
-  "content_digest": "cd5428f950580cde43fd864511e26ea80ba1a3988b8fb6a9c05e260be7e60b7f",
+  "content_id": 17660,
+  "content_digest": "c424fd0773023be564866f791e870f50a56a67accf469c55c944efd2d40dcd28",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "bb39e4ad402d5bc547c1",
   "before_tag": "lesson-054-bounded-agent-design-and-autonomy-guardrails",
-  "lesson_tag": "lesson-055-react-reasoning-acting-loops-for-agents",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_react.py anchor_ai/tests/test_agentic_rag.py anchor_ai/tests/test_autonomy.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

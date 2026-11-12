@@ -3,16 +3,17 @@
   "n": 26,
   "title": "Index maintenance: incremental updates, deletes, and re-embedding migrations",
   "phase": 2,
-  "content_id": 17392,
-  "content_digest": "e641a92f1eccddd50540f60f7c882a10a7725e941afa14325fc8cc0d412cc5a5",
+  "content_id": 17642,
+  "content_digest": "d8c7cf981c6ce51ebf31e225f754638d8bb47838e400f327311f3b52e868d9df",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "5770fdf23cb98af1ee33",
   "before_tag": "lesson-024-vector-indexes-faiss-hnsw-ivf-tradeoffs",
-  "lesson_tag": "lesson-025-index-maintenance-incremental-updates-deletes-an",
+  "lesson_tag": "python3 -c \"from anchor_ai.storage import connect; from anchor_ai.index_maintenance import complete; from anchor_ai.vector_index import VectorIndex; db = connect('labs/index-maintenance/sandbox/index.sqlite3'); generations = [dict(r) for r in db.execute(\\\"SELECT * FROM retrieval_generations WHERE tenant_id=1 AND status='ready'\\\")]; assert generations and all(complete(db, 1, g) for g in generations); result = VectorIndex().search_active(db, 1, 'What is the refund policy?'); assert result['hits'] and result['dimensions'] == 4; print({'all_retained_generations_complete': True, 'policy_query': result, 'outcome': 'Anchor serves one complete generation and switches back without changing application code'}); db.close()\"",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 15,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 15,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

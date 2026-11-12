@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 eval/agent_gate.py --fault missing-escalation --expect-rejection"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_bounded_runtime.py anchor_ai/tests/test_agent_loop_guards.py anchor_ai/tests/test_agent_trajectories.py anchor_ai/tests/test_orchestration_patterns.py"
+  }
+]

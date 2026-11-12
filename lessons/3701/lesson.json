@@ -3,16 +3,17 @@
   "n": 60,
   "title": "Anchor — build it: bounded agent with tools, planning, and memory",
   "phase": 5,
-  "content_id": 17422,
-  "content_digest": "a5b63f175a7dbd61a4cff572cce94411e0f295299c2cdb93518dfa35e6899abf",
+  "content_id": 17617,
+  "content_digest": "aa83c15635d3a0cc9dec19c57b6ca019479b1e1873acaf8797bcbe95d2904cb7",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "c86ce51fadc672393c78",
   "before_tag": "lesson-058-human-escalation-and-human-in-the-loop-workflows",
-  "lesson_tag": "lesson-059-anchor-build-it-bounded-agent-with-tools-plannin",
+  "lesson_tag": "python3 eval/agent_gate.py --fault missing-escalation --expect-rejection",
   "needs_run": true,
   "has_lab_step": true,
-  "runnable_lines": 71,
+  "runnable_lines": 16,
   "has_demo": true,
-  "commands": 71,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "demo_commands": 2,
+  "commands": 16,
+  "exported_at": "2026-11-12T05:34:45Z"
 }

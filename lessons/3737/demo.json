@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 eval/regression_gate.py --incident-only"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 labs/prompt-injection-defenses/injection_filter_test.py"
+  }
+]

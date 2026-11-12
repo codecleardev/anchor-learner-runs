@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "bin/rails test test/controllers/api/document_chunks_controller_test.rb"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "bin/rails test test/controllers/api/agent_memories_controller_test.rb"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 labs/reasoning-budgets/compare_budgets.py --offline --verify-policy"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "bin/rails test test/controllers/chat_controller_test.rb test/controllers/api/structured_replies_controller_test.rb test/services/ai_boundary_test.rb test/services/ai_telemetry_test.rb test/services/llm_client_test.rb"
+  }
+]

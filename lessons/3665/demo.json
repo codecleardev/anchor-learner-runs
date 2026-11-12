@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "ANCHOR_LLM_MODE=offline python3 -m pytest -q -s anchor_ai/tests/test_streaming_stack.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "ANCHOR_PROMPT_EXPORT=/tmp/anchor-3665-contracts.json python3 -m pytest -q -s anchor_ai/tests/test_prompt_contract.py"
+  }
+]

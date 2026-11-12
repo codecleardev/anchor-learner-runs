@@ -3,16 +3,17 @@
   "n": 104,
   "title": "Jailbreak resistance techniques",
   "phase": 10,
-  "content_id": 17461,
-  "content_digest": "56c1a69fa4e69d98876fe3e26b3ec3dc557ffa1fcf4a680b90493b2fb65d68bc",
+  "content_id": 17580,
+  "content_digest": "fce2cf8a60c3a807ce7023654509ab38989380fdb89b6bd7b2127d29065fa0a7",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "c48ff1a186e98cd83d41",
   "before_tag": "lesson-100-prompt-injection-attack-vectors-and-defenses",
-  "lesson_tag": "lesson-101-jailbreak-resistance-techniques",
+  "lesson_tag": "bin/rails test test/services/security_prompt_registry_test.rb test/models/document_test.rb",
   "needs_run": true,
   "has_lab_step": true,
-  "runnable_lines": 7,
+  "runnable_lines": 6,
   "has_demo": true,
-  "commands": 7,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "demo_commands": 2,
+  "commands": 6,
+  "exported_at": "2026-11-12T05:34:46Z"
 }

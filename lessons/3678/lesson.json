@@ -3,16 +3,17 @@
   "n": 34,
   "title": "Multi-hop RAG for complex queries",
   "phase": 3,
-  "content_id": 17399,
-  "content_digest": "af41f91275b9a8bf7eddaa077e112ac777332d2686c19d7990dd69c9f37055bc",
+  "content_id": 17587,
+  "content_digest": "77c85b77ca52bbc301cd8be22c23c7bf7eabdc918755fb2859a2f73a88b0ff55",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "440a07bb6c01ba73659d",
   "before_tag": "lesson-032-reranking-with-cross-encoders",
-  "lesson_tag": "lesson-033-multi-hop-rag-for-complex-queries",
+  "lesson_tag": "ANCHOR_LLM_MODE=offline python3 -m pytest -q anchor_ai/tests/test_multihop.py anchor_ai/tests/test_dense_rag.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

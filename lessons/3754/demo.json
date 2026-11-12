@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_quota_admission.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_production_manifest.py::test_rendered_production_manifest anchor_ai/tests/test_production_manifest.py::test_release_refuses_missing_real_infrastructure"
+  }
+]

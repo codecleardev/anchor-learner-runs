@@ -3,8 +3,8 @@
   "n": 2,
   "title": "AI Engineering in one picture",
   "phase": 1,
-  "content_id": 17037,
-  "content_digest": "cdec36dc69eccc0522491e43eaf12526ac24f8c915de2cfd7fa649db5ce883b2",
+  "content_id": 17537,
+  "content_digest": "6c02d2de2605e251e93de81c0aab2385311935cfdab157c3ea61c089b8843c3d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "9d3870c4347eec5a158d",
   "before_tag": "lesson-001-orientation-what-this-course-is-who-it-is-for-an",
@@ -13,6 +13,7 @@
   "has_lab_step": false,
   "runnable_lines": 1,
   "has_demo": false,
+  "demo_commands": 0,
   "commands": 1,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

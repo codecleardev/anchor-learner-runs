@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -c \"import json; from pathlib import Path; from anchor_ai.customization import sft_examples; rows=[json.loads(s) for s in Path('eval/finetune/train.jsonl').read_text().splitlines()]; print(json.dumps(sft_examples(rows)[0], indent=2))\""
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_dataset_quality.py anchor_ai/tests/test_provider.py"
+  }
+]

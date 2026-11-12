@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_quantized_training.py anchor_ai/tests/test_adapter_config.py anchor_ai/tests/test_training.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 ops/deploy/model_release.py --offline --rollback"
+  }
+]

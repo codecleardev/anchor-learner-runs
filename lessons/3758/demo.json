@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 ops/load/load_test.py --ticket-spike"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "bin/rails test"
+  }
+]

@@ -21,11 +21,7 @@
   },
   {
     "block": "rt-step6",
-    "cmd": "ruby test/controllers/api/realtime_sessions_controller_test.rb"
-  },
-  {
-    "block": "rt-step6",
-    "cmd": "ruby test/integration/realtime_voice_flow_test.rb"
+    "cmd": "bin/rails test test/controllers/api/realtime_sessions_controller_test.rb test/integration/realtime_voice_flow_test.rb"
   },
   {
     "block": "rt-step6",

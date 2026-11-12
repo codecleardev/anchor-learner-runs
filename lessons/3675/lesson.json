@@ -3,16 +3,17 @@
   "n": 30,
   "title": "Query analysis and rewriting for retrieval",
   "phase": 2,
-  "content_id": 17396,
-  "content_digest": "a9218a7426e9ff213231f308a8133e8e0c90316e4fe28d611c6699b0197b0d2e",
+  "content_id": 17610,
+  "content_digest": "852cd7860489ce229d1357064af84de6c35b81a2925175b91182a3d1172284df",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "9fb31b8420c75834af62",
   "before_tag": "lesson-028-anchor-build-it-hybrid-retrieval-fusion",
-  "lesson_tag": "lesson-029-query-analysis-and-rewriting-for-retrieval",
+  "lesson_tag": "python3 eval/retrieval_gate.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

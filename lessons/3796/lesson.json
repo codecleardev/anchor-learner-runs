@@ -3,16 +3,17 @@
   "n": 12,
   "title": "Reasoning models and thinking budgets: when extra reasoning pays off",
   "phase": 1,
-  "content_id": 17381,
-  "content_digest": "0638b6dc8a191493813e17a33ee9fb5a3605dd138ef138ad44e37edc89fdf2e9",
+  "content_id": 17606,
+  "content_digest": "83a36e94623904f202e654c7f62a8c1c52c5b51ce8a87a37c413d63bde259055",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "108f99be020feb2065d0",
   "before_tag": "lesson-011-model-selection-cost-latency-context-length-and",
-  "lesson_tag": "lesson-012-reasoning-models-and-thinking-budgets-when-extra",
+  "lesson_tag": "python3 labs/reasoning-budgets/compare_budgets.py --offline --verify-policy",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

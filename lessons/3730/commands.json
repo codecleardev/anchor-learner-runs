@@ -9,18 +9,18 @@
   },
   {
     "block": "b21",
-    "cmd": "bundle exec ruby test/integration/ai_task_flow_test.rb"
+    "cmd": "bin/rails test test/integration/ai_task_flow_test.rb"
   },
   {
     "block": "b21b",
-    "cmd": "bundle exec ruby test/integration/ai_task_flow_test.rb"
+    "cmd": "bin/rails test test/integration/ai_task_flow_test.rb"
   },
   {
     "block": "durable-restart-step",
-    "cmd": "bundle exec ruby test/jobs/ai_task_retry_test.rb"
+    "cmd": "bin/rails test test/jobs/ai_task_retry_test.rb"
   },
   {
     "block": "durable-agent-step",
-    "cmd": "bundle exec ruby test/jobs/ai_task_retry_test.rb --name test_checkpointed_agent_does_not_repeat_committed_tool_action"
+    "cmd": "bin/rails test test/jobs/ai_task_retry_test.rb -n test_checkpointed_agent_does_not_repeat_committed_tool_action"
   }
 ]

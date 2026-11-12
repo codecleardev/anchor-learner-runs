@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_judge_calibration.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_trajectory_eval.py anchor_ai/tests/test_observability.py anchor_ai/tests/test_agent_trajectories.py"
+  }
+]

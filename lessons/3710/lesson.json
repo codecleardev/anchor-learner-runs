@@ -3,16 +3,17 @@
   "n": 69,
   "title": "Provider-native agent and assistant APIs",
   "phase": 6,
-  "content_id": 17430,
-  "content_digest": "1eba74f4d731b3b3da90d5562d51f175e7fb580901eace1c8951ebf96ae0465a",
+  "content_id": 17501,
+  "content_digest": "bb4a7e1dd10bfc2174a5b22aeab0173375aba36541091da8b4d733b07529fbc4",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "1f062ba741c18d7bf5b6",
   "before_tag": "lesson-066-autogen-multi-agent-conversation-patterns",
-  "lesson_tag": "lesson-067-provider-native-agent-and-assistant-apis",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_native_agent_wrapper.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

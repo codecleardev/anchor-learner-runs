@@ -45,7 +45,7 @@
   },
   {
     "block": "n_lab_release",
-    "cmd": "git add anchor_ai/rag.py anchor_ai/tests/test_rag_gate.py anchor_ai/tests/test_agent_trajectories.py eval/heuristic_judge.py eval/rag_gate.py eval/datasets/rag_thresholds.json eval/triad.py eval/faithfulness.py eval/ragas_eval.py eval/trulens_eval.py eval/retrieval_gate.py .github/workflows/retrieval-eval.yml"
+    "cmd": "git add anchor_ai/rag.py anchor_ai/tests/test_rag_gate.py anchor_ai/tests/test_agent_trajectories.py eval/heuristic_judge.py eval/rag_gate.py eval/datasets/rag_thresholds.json eval/triad.py eval/faithfulness.py eval/ragas_eval.py eval/trulens_eval.py"
   },
   {
     "block": "n_lab_release",

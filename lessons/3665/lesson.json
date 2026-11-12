@@ -3,16 +3,17 @@
   "n": 15,
   "title": "Prompt versioning and prompts-as-contracts design",
   "phase": 1,
-  "content_id": 17384,
-  "content_digest": "5e581f35d02563ecb8390cb0baf273d8b56308f612835c8842f090a9663f68e8",
+  "content_id": 17637,
+  "content_digest": "25555288785352ebf28443d0014bdbd922b5e6601a93125b72b8d697e409a773",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "530efade532a0b006fa5",
   "before_tag": "lesson-014-streaming-responses-and-server-sent-events",
-  "lesson_tag": "lesson-015-prompt-versioning-and-prompts-as-contracts-desig",
+  "lesson_tag": "ANCHOR_PROMPT_EXPORT=/tmp/anchor-3665-contracts.json python3 -m pytest -q -s anchor_ai/tests/test_prompt_contract.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 12,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 12,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

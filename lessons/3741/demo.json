@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "ANCHOR_LLM_PROVIDER=fake python3 -m pytest -q anchor_ai/tests/test_tools.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 labs/tenant-isolation/tenant_isolation_test.py"
+  }
+]

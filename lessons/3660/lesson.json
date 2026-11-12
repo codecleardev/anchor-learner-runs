@@ -3,16 +3,17 @@
   "n": 9,
   "title": "Tracing and structured logging for LLM calls (request, tokens, cost, latency per span)",
   "phase": 1,
-  "content_id": 17379,
-  "content_digest": "beb26c1e1b24d20768908f59a1a8bdbb72bfb1988d32b990acfe45698b9b42d8",
+  "content_id": 17631,
+  "content_digest": "ba468c2b1585e344f1993086c3d7a8fb193627a93fc4997f63256e15e023886b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "25c2d379a0d94d75b94d",
   "before_tag": "lesson-008-llm-provider-apis-request-response-lifecycle-aut",
-  "lesson_tag": "lesson-009-tracing-and-structured-logging-for-llm-calls-req",
+  "lesson_tag": "bin/rails test test/services/ai_telemetry_test.rb test/services/ai_boundary_test.rb test/services/llm_client_test.rb test/controllers/chat_controller_test.rb",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

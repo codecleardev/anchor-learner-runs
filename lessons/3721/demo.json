@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_eval_release_gate.py -k 'upstream or identity or quarantine or stale'"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_vision.py anchor_ai/tests/test_observability.py"
+  }
+]

@@ -3,8 +3,8 @@
   "n": 5,
   "title": "Anchor — build it",
   "phase": 1,
-  "content_id": 17375,
-  "content_digest": "bae412da7cbeea575f54fd3da800a4ad969d929bd8c62033927c95b08f02a8e3",
+  "content_id": 17544,
+  "content_digest": "9d1cb7e07e79729c9026d381d102129156d7d9146911a0e9baec4be0c055574f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "6ddbf6f5ff2f829dcfef",
   "before_tag": "lesson-004-what-you-can-t-build-yet-and-where-to-go-next",
@@ -13,6 +13,7 @@
   "has_lab_step": true,
   "runnable_lines": 14,
   "has_demo": false,
+  "demo_commands": 0,
   "commands": 14,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

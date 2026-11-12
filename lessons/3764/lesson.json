@@ -3,8 +3,8 @@
   "n": 1,
   "title": "Orientation: what this course is, who it is for, and what you will build",
   "phase": 1,
-  "content_id": 17148,
-  "content_digest": "fd4865910b9d3f51a1cffbb2f161efd8a3001ecf071298a8b4ffb7cb5f99cb5b",
+  "content_id": 17535,
+  "content_digest": "4b960c75177f64797f8cf02cf96af9879a0ea2c4a361e7f4e74719d0ede700e3",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "245399b23f3f2fbf2513",
   "before_tag": "lesson-000-rails-new",
@@ -13,6 +13,7 @@
   "has_lab_step": false,
   "runnable_lines": 0,
   "has_demo": false,
+  "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

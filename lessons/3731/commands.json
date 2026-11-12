@@ -21,7 +21,7 @@
   },
   {
     "block": "cost-step-4",
-    "cmd": "ANCHOR_COST_STANDALONE=1 RAILS_ENV=test ruby test/integration/ai_cost_dashboard_test.rb --name '/atomic_idempotent|exact_threshold/'"
+    "cmd": "ANCHOR_COST_STANDALONE=1 RAILS_ENV=test ruby test/integration/ai_cost_dashboard_test.rb -i '/atomic_idempotent|exact_threshold/'"
   },
   {
     "block": "cost-step-4",

@@ -3,16 +3,17 @@
   "n": 36,
   "title": "Agentic RAG: retrieval as a tool in an agent loop",
   "phase": 3,
-  "content_id": 17401,
-  "content_digest": "bf522c2f6c8dea2ca1fbbbf735937e51923c59ec00ce269c9f466ef569ac801e",
+  "content_id": 17588,
+  "content_digest": "78b1a1d880ed1c9dbdf3c7125f1a4eda95fcabb30290d110190b34dba18c35d7",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "2f003a117e733d8ff93e",
   "before_tag": "lesson-034-graphrag-knowledge-graph-retrieval-for-relations",
-  "lesson_tag": "lesson-035-agentic-rag-retrieval-as-a-tool-in-an-agent-loop",
+  "lesson_tag": "ANCHOR_LLM_MODE=offline python3 -m pytest -q anchor_ai/tests/test_agentic_rag.py anchor_ai/tests/test_multihop.py anchor_ai/tests/test_retrieval_metrics.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

@@ -3,16 +3,17 @@
   "n": 38,
   "title": "Groundedness and faithfulness evaluation",
   "phase": 3,
-  "content_id": 17403,
-  "content_digest": "bd4c99cdf0fa6799cecbdab024ddf94469cf62d313770e728469c1fddc0538e3",
+  "content_id": 17603,
+  "content_digest": "bdfa8251e005ade52a99de55b2f5186715b12477fdba2136b3d524ff898f48c5",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "cfe11adb9cf79e9b2f1f",
   "before_tag": "lesson-036-debug-drill-the-agentic-rag-loop-that-never-stop",
-  "lesson_tag": "lesson-037-groundedness-and-faithfulness-evaluation",
+  "lesson_tag": "python3 -c \"from eval.groundedness_scorer import run_gate; run_gate()\"",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

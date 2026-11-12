@@ -1,0 +1,7 @@
+[
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "bin/rails test test/agent_instructions_test.rb"
+  }
+]

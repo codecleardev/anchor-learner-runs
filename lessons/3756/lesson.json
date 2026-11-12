@@ -3,16 +3,17 @@
   "n": 124,
   "title": "Online evaluation and quality monitoring on production traffic: traffic sampling, live judge scoring, feedback capture, and drift alerts",
   "phase": 12,
-  "content_id": 17479,
-  "content_digest": "594387cebf32902b16c8c2000474b6b47821bf767212f22791a52429a247979d",
+  "content_id": 17628,
+  "content_digest": "cab98f8846f476033361fc495d81a6599e97b1eafdd149fa534ea7615389e5dd",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "2f95e2970487edc5f500",
   "before_tag": "lesson-119-observability-logs-metrics-and-distributed-traci",
-  "lesson_tag": "lesson-120-online-evaluation-and-quality-monitoring-on-prod",
+  "lesson_tag": "bin/rails test",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
+  "demo_commands": 1,
   "commands": 8,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

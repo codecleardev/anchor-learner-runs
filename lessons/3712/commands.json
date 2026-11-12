@@ -9,7 +9,7 @@
   },
   {
     "block": "m19",
-    "cmd": "python3 -c 'import os, subprocess, sys; e=dict(os.environ); e.pop(\"ANCHOR_ORCHESTRATION_RELEASE_ADAPTER\", None); p=subprocess.run([sys.executable,\"eval/multi_agent_gate.py\"],env=e,capture_output=True,text=True); print(p.stdout,end=\"\"); assert p.returncode != 0 and \"product_composition_adapter_missing\" in p.stdout; print(\"Offline controls verified; sandbox isolation not verified: no container runtime; production release remains blocked\")'"
+    "cmd": "python3 -c 'import os, subprocess, sys; e=dict(os.environ); e.pop(\"ANCHOR_ORCHESTRATION_RELEASE_ADAPTER\", None); p=subprocess.run([sys.executable,\"eval/multi_agent_gate.py\"],env=e,capture_output=True,text=True); print(p.stdout,end=\"\"); assert p.returncode != 0 and \"product_composition_adapter_missing\" in p.stdout; print(\"Release gate blocked: product_composition_adapter_missing (expected without a release adapter)\")'"
   },
   {
     "block": "n19",

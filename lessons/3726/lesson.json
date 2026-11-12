@@ -3,16 +3,17 @@
   "n": 91,
   "title": "Latency: what drives it and how it is measured and cut",
   "phase": 9,
-  "content_id": 17449,
-  "content_digest": "753cc99da35e5bd41858ae7ad327263fd3a6daba14cebbbc681a2431982c7ff9",
+  "content_id": 17641,
+  "content_digest": "146bc2bb5f34d85cbf5ca993ee438dd6ff0b243926ed47d43964a8b7cc74728b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "9e4862812a4d636ebacd",
   "before_tag": "lesson-087-checkpoint-anchor-multimodal-and-realtime",
-  "lesson_tag": "lesson-088-latency-what-drives-it-and-how-it-is-measured-an",
+  "lesson_tag": "python3 -c \"import json; r=json.load(open('tmp/latency_profile/report.json')); print(json.dumps({k:r[k] for k in ('dominant_exclusive_segment','exclusive_segments','round_trip_counts','cohorts','max_remainder_fraction','labels')}, indent=2))\"",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

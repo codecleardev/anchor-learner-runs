@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_tools.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "bin/rails test test/controllers/api/prompt_versions_controller_test.rb"
+  }
+]

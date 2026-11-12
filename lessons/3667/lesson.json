@@ -3,16 +3,17 @@
   "n": 23,
   "title": "Chunking strategies for retrieval quality",
   "phase": 2,
-  "content_id": 17389,
-  "content_digest": "dcc3de58ff2fe347dd1253e3bdc399634a8dae2037021093162653db03d51291",
+  "content_id": 17583,
+  "content_digest": "f71d3026054e5c74813ec50bcff848c5d43707fb3297cc81df89be58ccb3300b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "3652651103c8f4f0862d",
   "before_tag": "lesson-021-embeddings-fundamentals-and-embedding-model-sele",
-  "lesson_tag": "lesson-022-chunking-strategies-for-retrieval-quality",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_chunking.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 13,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 13,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

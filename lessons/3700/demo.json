@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_memory_smoke.py::test_working_eviction_expiration_and_redaction"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_escalation.py anchor_ai/tests/test_autonomy.py anchor_ai/tests/test_react.py anchor_ai/tests/test_planning.py"
+  }
+]

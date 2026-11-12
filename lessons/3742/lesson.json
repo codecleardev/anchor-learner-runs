@@ -3,16 +3,17 @@
   "n": 108,
   "title": "Safe side-effects: confirmation, dry-run, reversibility for agent actions",
   "phase": 10,
-  "content_id": 17465,
-  "content_digest": "f022d0061d2c2faf03b15d83dab2fa20e3d087caa5569c4a55a265863acf0eff",
+  "content_id": 17650,
+  "content_digest": "491dec8b994730fcb087e7178c2e4f683f23cd475230f34090368c451cb09c93",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "4e06975e2f0ff5238367",
   "before_tag": "lesson-104-tenant-isolation-in-multi-tenant-ai-systems",
-  "lesson_tag": "lesson-105-safe-side-effects-confirmation-dry-run-reversibi",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_tools.py anchor_ai/tests/test_escalation.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
+  "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

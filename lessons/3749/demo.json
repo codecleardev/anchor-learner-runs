@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "bin/rails test test/services/llm_client_test.rb test/integration/self_hosted_chat_test.rb"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_self_hosted_batching.py anchor_ai/tests/test_vllm_backend.py"
+  }
+]

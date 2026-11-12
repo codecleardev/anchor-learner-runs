@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "bin/rails test"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "bash ops/drills/simulate_cost_spike.sh recover"
+  }
+]

@@ -3,16 +3,17 @@
   "n": 122,
   "title": "Deployment architectures for LLM-backed applications",
   "phase": 12,
-  "content_id": 17477,
-  "content_digest": "74bc9eb6b1266ebb156c56da40ceb02c321e1dd62d40370c1d02543f05098dbd",
+  "content_id": 17626,
+  "content_digest": "e41f105b4adcd4539e8e22f2f31d43b0045e74afd082399df529b73ff01b6ebb",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "cf1f09cbd9ed112503a3",
   "before_tag": "lesson-117-checkpoint-anchor-self-hosted-inference",
-  "lesson_tag": "lesson-118-deployment-architectures-for-llm-backed-applicat",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_production_manifest.py::test_rendered_production_manifest anchor_ai/tests/test_production_manifest.py::test_release_refuses_missing_real_infrastructure",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

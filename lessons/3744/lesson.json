@@ -3,16 +3,17 @@
   "n": 112,
   "title": "Anchor — build it: security hardening milestone",
   "phase": 10,
-  "content_id": 17469,
-  "content_digest": "0a1e7be0875a26b8401a18a849a78e71aec4e0de34800db5cfc2fdf1bf18687e",
+  "content_id": 17657,
+  "content_digest": "9744ac7ef691b12707a5dc7d690873205c885a59ad819f39302567c14981bac4",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "11fe64998ef8c3844b22",
   "before_tag": "lesson-107-ai-governance-and-compliance-risk-contracts-lice",
-  "lesson_tag": "lesson-108-anchor-build-it-security-hardening-milestone",
+  "lesson_tag": "python3 -c \"import json; from pathlib import Path; print(json.dumps(json.loads(Path('.git/anchor-eval/security.json').read_text()), indent=2)); print(Path('ops/security_audit_report.md').read_text())\"",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 9,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 9,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

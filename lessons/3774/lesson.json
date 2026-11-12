@@ -3,16 +3,17 @@
   "n": 41,
   "title": "Sprint deploy: ship hybrid-RAG to a real endpoint",
   "phase": 3,
-  "content_id": 17489,
-  "content_digest": "ebb77730f429a77f6a8dbd2d3a5cf926872acfe258dba583f2bc1ca4624e05bc",
+  "content_id": 17613,
+  "content_digest": "0581ab4577bcf63e6098f791494e37532c9d2763a12ac6076b1ab21bffa84809",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "b05ebab9660983746728",
   "before_tag": "lesson-039-anchor-build-it-ship-rag-evaluation-milestone",
-  "lesson_tag": "lesson-040-sprint-deploy-ship-hybrid-rag-to-a-real-endpoint",
+  "lesson_tag": "sh ops/deploy/rag_release.sh --verify-only",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

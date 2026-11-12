@@ -3,16 +3,17 @@
   "n": 70,
   "title": "Agent harness SDKs and agent-to-agent interop: what each layer is for",
   "phase": 6,
-  "content_id": 17431,
-  "content_digest": "7c8a67737f79aba8b2fea30d4cfe32da710364cda926863009ae6e945b1d9949",
+  "content_id": 17629,
+  "content_digest": "82698d4187b3addbe001fa9f4e084a698c23d1b09a6c0b548e5f48e404a43629",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "2dae3e64469bfd721a46",
   "before_tag": "lesson-067-provider-native-agent-and-assistant-apis",
-  "lesson_tag": "lesson-068-agent-harness-sdks-and-agent-to-agent-interop-wh",
+  "lesson_tag": "python3 labs/agent-harness-layers/classify_layers.py --curl-card",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

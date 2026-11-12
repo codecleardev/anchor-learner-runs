@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -c \"from anchor_ai.prompts import render; print(render('zero_shot', 'Checkout throws a 500 for every customer. Also update our billing email.'))\""
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 labs/reasoning-budgets/compare_budgets.py --offline --verify-policy"
+  }
+]

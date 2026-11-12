@@ -3,16 +3,17 @@
   "n": 83,
   "title": "Anchor — build it: CI evaluation gates milestone",
   "phase": 7,
-  "content_id": 17443,
-  "content_digest": "2c0b7bd3722affb3b3558c342d4da4b9ffa75cb457f155ddfe556c5367502a7f",
+  "content_id": 17619,
+  "content_digest": "3b4df31c2f67e7e52bbe72ce43024e8689e84c490dd104ff0a05ca6d3514ee25",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "f0abdacec67926618868",
   "before_tag": "lesson-079-regression-testing-for-prompts-and-pipelines",
-  "lesson_tag": "lesson-080-anchor-build-it-ci-evaluation-gates-milestone",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_eval_release_gate.py -k 'upstream or identity or quarantine or stale'",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

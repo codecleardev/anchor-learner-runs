@@ -21,7 +21,7 @@
   },
   {
     "block": "pii_step_two",
-    "cmd": "ruby test/integration/pii_pipeline_test.rb"
+    "cmd": "bin/rails test test/integration/pii_pipeline_test.rb"
   },
   {
     "block": "pii_step_three",

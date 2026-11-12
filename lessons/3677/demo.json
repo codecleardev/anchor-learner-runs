@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline ANCHOR_QUERY_PROVIDER=offline ANCHOR_EMBEDDING_PROVIDER=offline python3 eval/retrieval_gate.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "ANCHOR_RERANKER=disabled python3 -m pytest -q anchor_ai/tests/test_reranking.py anchor_ai/tests/test_hybrid_retrieval.py anchor_ai/tests/test_retrieval_metrics.py"
+  }
+]

@@ -3,16 +3,17 @@
   "n": 79,
   "title": "Error analysis and eval practice",
   "phase": 7,
-  "content_id": 17439,
-  "content_digest": "5144ec8dee115ca3723ebd914ccaf878024d9de0ac7ca10ce9946b751a56eec6",
+  "content_id": 17636,
+  "content_digest": "86b168daa21be794b4a0f40ad1ff3e55073ea9edd792edeee6f07301ef0874b0",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "a9b2784d2c2257227666",
   "before_tag": "lesson-076-ai-product-ux-citations-uncertainty-graceful-ref",
-  "lesson_tag": "lesson-076a-error-analysis-and-eval-practice",
+  "lesson_tag": "python3 -m eval.judge_agreement --judge v2_binary",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

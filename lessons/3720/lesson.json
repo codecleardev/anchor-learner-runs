@@ -3,8 +3,8 @@
   "n": 84,
   "title": "Checkpoint: Anchor evaluation and CI",
   "phase": 7,
-  "content_id": 17103,
-  "content_digest": "9f32ea8c3b49d5832550e9a7b849d8647c3420ceeb6d275f0f446e212edebb85",
+  "content_id": 17520,
+  "content_digest": "88186f30bb486f89b728dd6b06788a30dc3bfe9d566353bb0dce01c1c4b2d4a5",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "1bd082702b5d7ca41704",
   "before_tag": "lesson-080-anchor-build-it-ci-evaluation-gates-milestone",
@@ -13,6 +13,7 @@
   "has_lab_step": false,
   "runnable_lines": 0,
   "has_demo": false,
+  "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

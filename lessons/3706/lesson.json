@@ -3,16 +3,17 @@
   "n": 65,
   "title": "LangChain core abstractions and chains",
   "phase": 6,
-  "content_id": 17426,
-  "content_digest": "5e5f952cab58452ac4fe55ad7361d0bfc1a5698bc430192214ce3a342940a23f",
+  "content_id": 17504,
+  "content_digest": "4cea560369bdbfd8ead5a44e4ed165fef754bb14caa4b24d992c9b8f8cb951ea",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "cf08030918d915625910",
   "before_tag": "lesson-062a-build-an-mcp-server-properly-official-sdk-transp",
-  "lesson_tag": "lesson-063-langchain-core-abstractions-and-chains",
+  "lesson_tag": "bin/rails test test/controllers/api/prompt_versions_controller_test.rb",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

@@ -9,7 +9,11 @@
   },
   {
     "block": "b33",
-    "cmd": "ruby -e 'system(\"bin/rails\", \"test\", \"test/models/prompt_version_test.rb\"); exit($?.exitstatus == 1 ? 0 : 1)'"
+    "cmd": "ruby -e 'system(\"bin/rails\", \"test\", \"test/models/prompt_version_test.rb\"); exit($?.exitstatus == 1 ? 0 : 1)'",
+    "saved_later": [
+      "app/models/prompt_version.rb"
+    ],
+    "saved_later_reason": "step 1 is the red run: the lesson says to install the model test 'before changing the model'; app/models/prompt_version.rb (block b15) is shown and saved after this step, and step 2 reruns the test green"
   },
   {
     "block": "n4",

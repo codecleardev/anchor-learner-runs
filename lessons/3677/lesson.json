@@ -3,16 +3,17 @@
   "n": 33,
   "title": "Reranking with cross-encoders",
   "phase": 3,
-  "content_id": 17398,
-  "content_digest": "3a296969db610dc8a6c42f701c05f171047d17097717184c554e6c427d240e0e",
+  "content_id": 17586,
+  "content_digest": "17c79565c5d370ac2ebf2aa3821bb041e59d0a7befc87d3e0ce41856125bc155",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "a0ad6ae7123a83f0c71e",
   "before_tag": "lesson-031-retrieval-evaluation-metrics-recall-mrr-and-ndcg",
-  "lesson_tag": "lesson-032-reranking-with-cross-encoders",
+  "lesson_tag": "ANCHOR_RERANKER=disabled python3 -m pytest -q anchor_ai/tests/test_reranking.py anchor_ai/tests/test_hybrid_retrieval.py anchor_ai/tests/test_retrieval_metrics.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

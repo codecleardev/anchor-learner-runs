@@ -3,16 +3,17 @@
   "n": 89,
   "title": "Anchor — build it: realtime voice interaction",
   "phase": 8,
-  "content_id": 17448,
-  "content_digest": "02dab56ef3c6216049a0650c2c51fe755818594abd423c877bab484125edabcd",
+  "content_id": 17624,
+  "content_digest": "194d7d3a35c3e45936dcb737dbb06f5c813bba7dc2fe432f564d41a15fe21c41",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "0228b647707618fcf47f",
   "before_tag": "lesson-085-audio-transcription-and-speech-pipelines-with-wh",
-  "lesson_tag": "lesson-086-anchor-build-it-realtime-voice-interaction",
+  "lesson_tag": "python3 -m eval.agent_gate --multimodal --fault multimodal --expect-rejection",
   "needs_run": true,
   "has_lab_step": true,
-  "runnable_lines": 10,
+  "runnable_lines": 9,
   "has_demo": true,
-  "commands": 10,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "demo_commands": 2,
+  "commands": 9,
+  "exported_at": "2026-11-12T05:34:45Z"
 }

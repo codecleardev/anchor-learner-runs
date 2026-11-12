@@ -3,16 +3,17 @@
   "n": 39,
   "title": "RAG evaluation frameworks: RAGAS and TruLens",
   "phase": 3,
-  "content_id": 17404,
-  "content_digest": "0d78ec2dc235d55cbd766527024acabe9bb2e3976cf2d7af7759fe093aec39c4",
+  "content_id": 17649,
+  "content_digest": "de54e198c53fe87ecaa41fb5bdf4b84833860cc9db271e058feb9b037a2ab78c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "c44e1037c775d3a3badc",
   "before_tag": "lesson-037-groundedness-and-faithfulness-evaluation",
-  "lesson_tag": "lesson-038-rag-evaluation-frameworks-ragas-and-trulens",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_triad_adapters.py anchor_ai/tests/test_faithfulness.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

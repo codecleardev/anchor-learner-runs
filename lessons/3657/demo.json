@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "env -u ANCHOR_LLM_PROVIDER -u OPENAI_API_KEY CI=1 bin/rails test"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 labs/ai-service-boundary/smoke.py"
+  }
+]

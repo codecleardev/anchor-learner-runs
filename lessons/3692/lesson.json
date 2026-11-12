@@ -3,16 +3,17 @@
   "n": 45,
   "title": "Synthetic data generation and quality filtering",
   "phase": 4,
-  "content_id": 17409,
-  "content_digest": "d460599352adc9f5defc31325834c9ab5d79ed4dd5d46148c1497aac0b854c7a",
+  "content_id": 17651,
+  "content_digest": "6cd81284da8c83b2c55851eac5c95e5be245b6f304063837b446482dd974b1d3",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "ed27208919eba9f5a8f1",
   "before_tag": "lesson-043-dataset-engineering-for-fine-tuning-collection-c",
-  "lesson_tag": "lesson-044-synthetic-data-generation-and-quality-filtering",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_dataset_quality.py anchor_ai/tests/test_provider.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

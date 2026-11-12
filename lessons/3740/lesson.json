@@ -3,16 +3,17 @@
   "n": 106,
   "title": "Scoped authorization for agent actions",
   "phase": 10,
-  "content_id": 17463,
-  "content_digest": "cfb71dcf56205499649f2cbe5618173244e033f88f74789e234dab47ab61ab7f",
+  "content_id": 17585,
+  "content_digest": "6f706aed9fa4ed142c47817af59cdf19a952727d397704a0fe1ed46b3862ba5b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "069e2e3247b6624e3476",
   "before_tag": "lesson-102-pii-detection-and-redaction-in-llm-pipelines",
-  "lesson_tag": "lesson-103-scoped-authorization-for-agent-actions",
+  "lesson_tag": "ANCHOR_LLM_PROVIDER=fake python3 -m pytest -q anchor_ai/tests/test_tools.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
+  "demo_commands": 1,
   "commands": 7,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

@@ -3,16 +3,17 @@
   "n": 25,
   "title": "Vector indexes: FAISS, HNSW, IVF tradeoffs",
   "phase": 2,
-  "content_id": 17391,
-  "content_digest": "6dd9e5daad0df8225a77aac5902bde5fb064ec736fef19fa2a5dffe82e43cc8e",
+  "content_id": 17640,
+  "content_digest": "1ddb8a53236058df63c88abd7934b01e2ddfe6f22dfb5452fd022175bca1e2ad",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "776e51b663ddd85f6834",
   "before_tag": "lesson-023-anchor-build-it-document-ingestion-pipeline",
-  "lesson_tag": "lesson-024-vector-indexes-faiss-hnsw-ivf-tradeoffs",
+  "lesson_tag": "python3 labs/vector-indexes/index_bench.py --demo",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

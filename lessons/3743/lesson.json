@@ -3,16 +3,17 @@
   "n": 109,
   "title": "Red-team testing methodology for LLM systems",
   "phase": 10,
-  "content_id": 17466,
-  "content_digest": "04d6c08a78eeb006b92350eecf069dcafb7e0c506a765553defc4dd9ebda6cef",
+  "content_id": 17652,
+  "content_digest": "a5b934fbd13e4c1558cba7a41ad7570bbd230832f8e35b2d23df6ecb8769b333",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "7ab523b087831f662e40",
   "before_tag": "lesson-105-safe-side-effects-confirmation-dry-run-reversibi",
-  "lesson_tag": "lesson-106-red-team-testing-methodology-for-llm-systems",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_redteam_gate.py::test_suite_baseline_controls_and_fault",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

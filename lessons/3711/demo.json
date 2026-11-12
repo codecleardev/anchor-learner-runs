@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_agent_trajectories.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -c \"from pathlib import Path; print(Path('ops/runbooks/sandbox_capacity.md').read_text())\""
+  }
+]

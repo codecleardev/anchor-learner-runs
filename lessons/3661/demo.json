@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "bin/rails test test/services/ai_telemetry_test.rb test/services/ai_boundary_test.rb test/services/llm_client_test.rb test/controllers/chat_controller_test.rb"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -c \"from anchor_ai.prompts import render; print(render('zero_shot', 'Checkout throws a 500 for every customer. Also update our billing email.'))\""
+  }
+]

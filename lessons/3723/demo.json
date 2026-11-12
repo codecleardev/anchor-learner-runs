@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py python 3"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 labs/audio-transcription/generate_call.py --fail-chunk 1"
+  }
+]

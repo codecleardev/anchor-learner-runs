@@ -3,16 +3,17 @@
   "n": 118,
   "title": "KV cache management",
   "phase": 11,
-  "content_id": 17474,
-  "content_digest": "be78a642c947fd67329cedda9b00cdabe726346eba42a893c410dadbd2cbf73d",
+  "content_id": 17529,
+  "content_digest": "440b33e64208070a5767c8056318d2e85ac39e7ecfda4261e2ff1a4cef44811e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "15ceb0ff103fec61533e",
   "before_tag": "lesson-113-continuous-batching-for-inference-throughput",
-  "lesson_tag": "lesson-114-kv-cache-management",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_kv_cache.py anchor_ai/tests/test_self_hosted_batching.py anchor_ai/tests/test_quota_admission.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

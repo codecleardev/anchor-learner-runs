@@ -3,16 +3,17 @@
   "n": 125,
   "title": "Load testing LLM endpoints",
   "phase": 12,
-  "content_id": 17480,
-  "content_digest": "8d85f6567b9077158d4ddc48c8debb2b3ae1a7d983d22c40de11ec598264aa6d",
+  "content_id": 17531,
+  "content_digest": "627688bea3d7e5ada6c8185be68b303af94a0630c704d2963af15db35590db22",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "08a6b50d353f61e2c08c",
   "before_tag": "lesson-120-online-evaluation-and-quality-monitoring-on-prod",
-  "lesson_tag": "lesson-121-load-testing-llm-endpoints",
+  "lesson_tag": "python3 ops/load/load_test.py --ticket-spike",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

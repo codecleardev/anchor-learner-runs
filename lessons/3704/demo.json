@@ -1,0 +1,7 @@
+[
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_tools.py"
+  }
+]

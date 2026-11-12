@@ -3,16 +3,17 @@
   "n": 92,
   "title": "Token streaming for perceived-latency reduction",
   "phase": 9,
-  "content_id": 17450,
-  "content_digest": "fab5208811aa1eb16e341864ce60f6f13ec833986b0784b1134cee839d351424",
+  "content_id": 17621,
+  "content_digest": "e82c37a9f08caf15d2c0195a39a783f0896efaa96704df0beef73cea8e30e4a2",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "d478d364bb85a5a78d31",
   "before_tag": "lesson-088-latency-what-drives-it-and-how-it-is-measured-an",
-  "lesson_tag": "lesson-089-token-streaming-for-perceived-latency-reduction",
+  "lesson_tag": "ANCHOR_STREAM_SMOKE=1 ruby test/controllers/chat_streaming_test.rb",
   "needs_run": true,
   "has_lab_step": true,
-  "runnable_lines": 7,
+  "runnable_lines": 8,
   "has_demo": true,
-  "commands": 7,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "demo_commands": 2,
+  "commands": 8,
+  "exported_at": "2026-11-12T05:34:45Z"
 }

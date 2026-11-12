@@ -9,7 +9,7 @@
   },
   {
     "block": "quota_step_1",
-    "cmd": "ruby test/integration/ai_quota_enforcement_test.rb"
+    "cmd": "bin/rails test test/integration/ai_quota_enforcement_test.rb"
   },
   {
     "block": "quota_step_2",

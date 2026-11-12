@@ -1,0 +1,12 @@
+[
+  {
+    "block": "demo1",
+    "pane": "before",
+    "cmd": "ANCHOR_LLM_PROVIDER=offline python3 -m pytest -q anchor_ai/tests/test_context.py anchor_ai/tests/test_dense_rag.py anchor_ai/tests/test_agent_trajectories.py"
+  },
+  {
+    "block": "demo1",
+    "pane": "command",
+    "cmd": "bin/rails test test/services/security_prompt_registry_test.rb test/models/document_test.rb"
+  }
+]

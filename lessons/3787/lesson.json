@@ -3,16 +3,17 @@
   "n": 94,
   "title": "Provider prompt caching: stable-prefix layout and cache hit measurement",
   "phase": 9,
-  "content_id": 17452,
-  "content_digest": "5fa3d2a454e2788eb5455bac37c01552acc63b3a1788f1f891526374662ab0b0",
+  "content_id": 17643,
+  "content_digest": "d37166062b65088e09905d5305b6aebb2f71d9332c64a77ea0683154db3bdb5b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "e4bbdf8db609c7dc39b7",
   "before_tag": "lesson-090-semantic-caching-strategies",
-  "lesson_tag": "lesson-091-provider-prompt-caching-stable-prefix-layout-and",
+  "lesson_tag": "python3 labs/provider-prompt-caching/compare_prefixes.py --section answers",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

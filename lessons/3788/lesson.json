@@ -3,16 +3,17 @@
   "n": 87,
   "title": "Anchor — build it: screenshot and attachment understanding",
   "phase": 8,
-  "content_id": 17446,
-  "content_digest": "9d4f56c25017427ed30c86e8b9723e9e0dd6905e386751d69aa85d9bbab908f7",
+  "content_id": 17540,
+  "content_digest": "ce6a04c5294c3400246e4fd4322daf9217d8274169ccd0b90967a3348b9362f4",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "049ba0b4b65e005816bd",
   "before_tag": "lesson-083-ocr-pipelines-for-document-extraction",
-  "lesson_tag": "lesson-084-anchor-build-it-screenshot-and-attachment-unders",
+  "lesson_tag": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py python 3",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 13,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 13,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:45Z"
 }

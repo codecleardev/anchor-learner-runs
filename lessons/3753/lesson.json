@@ -3,8 +3,8 @@
   "n": 121,
   "title": "Checkpoint: Anchor self-hosted inference",
   "phase": 11,
-  "content_id": 17333,
-  "content_digest": "9fd674b28df463a64236ef92ef5c0afa4424024a51c294a4d6f8f16de53e324a",
+  "content_id": 17530,
+  "content_digest": "b50a9099df60d4300e4ac2aaa21fa54cb4abec832083bae260381c98c688aefa",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "8acfa0f812144520a2e3",
   "before_tag": "lesson-116-anchor-build-it-self-hosted-inference-milestone",
@@ -13,6 +13,7 @@
   "has_lab_step": false,
   "runnable_lines": 0,
   "has_demo": false,
+  "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:46Z"
 }

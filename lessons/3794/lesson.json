@@ -3,16 +3,17 @@
   "n": 35,
   "title": "GraphRAG: knowledge-graph retrieval for relationship questions",
   "phase": 3,
-  "content_id": 17400,
-  "content_digest": "715bea4ac18d14cdbbd2cda1a4a086da500d041d6d88ff924ae88fbb11859c31",
+  "content_id": 17592,
+  "content_digest": "ef1a8159b34a4715457cb8d676a257367965af5659862251c11ff85828bb9f7c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "97aba78acb07e9d2bfdc",
   "before_tag": "lesson-033-multi-hop-rag-for-complex-queries",
-  "lesson_tag": "lesson-034-graphrag-knowledge-graph-retrieval-for-relations",
+  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_graph_retrieval.py::test_deleted_source_is_excluded_even_if_stale_edge_survives anchor_ai/tests/test_graph_retrieval.py::test_replacement_failure_and_bad_provenance_roll_back",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 10,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 10,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }

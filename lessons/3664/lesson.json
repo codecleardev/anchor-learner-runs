@@ -3,16 +3,17 @@
   "n": 14,
   "title": "Streaming responses and server-sent events",
   "phase": 1,
-  "content_id": 17383,
-  "content_digest": "b6a50aea18aad6c1931dc565be2d33386c23ac0c25983a6524bd8c27edc225ce",
+  "content_id": 17635,
+  "content_digest": "41b718eb66bb7100de0893067d85525e10980efe355aa2d6b98c6540442ac73c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "a0e61910b41c1f33fdcd",
   "before_tag": "lesson-013-structured-outputs-json-mode-function-calling-sc",
-  "lesson_tag": "lesson-014-streaming-responses-and-server-sent-events",
+  "lesson_tag": "ANCHOR_LLM_MODE=offline python3 -m pytest -q -s anchor_ai/tests/test_streaming_stack.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
+  "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T02:59:45Z"
+  "exported_at": "2026-11-12T05:34:44Z"
 }
