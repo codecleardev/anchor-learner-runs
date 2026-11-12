@@ -6,6 +6,8 @@
   "content_id": 17408,
   "content_digest": "d85ac807bdfbc2dca85d6f3d933ae062c717c9298e011ca097e2fbf87fdc17e9",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "7095600e2a7065038ed6e52e766dc16c1779891d207a60b67b6c3dd81a7d2b5b",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "a9867d02face7068117f",
   "before_tag": "lesson-042-when-not-to-fine-tune-prompt-engineering-vs-rag",
   "lesson_tag": "python3 -c \"import json; from pathlib import Path; from anchor_ai.customization import sft_examples; rows=[json.loads(s) for s in Path('eval/finetune/train.jsonl').read_text().splitlines()]; print(json.dumps(sft_examples(rows)[0], indent=2))\"",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

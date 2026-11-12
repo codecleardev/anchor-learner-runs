@@ -6,6 +6,8 @@
   "content_id": 17591,
   "content_digest": "6ee23c73c1994b161e9f7bd165dcdcb8828b6867e7a528cb3d3efd3ba8de9028",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "bce2c71fcbe4706728fb",
   "before_tag": "lesson-017a-working-with-coding-agents-agents-md-skills-spec",
   "lesson_tag": "lesson-018-the-concepts-an-interviewer-assumes-six-mental-m",
@@ -15,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

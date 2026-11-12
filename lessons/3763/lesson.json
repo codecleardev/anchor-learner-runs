@@ -3,9 +3,11 @@
   "n": 131,
   "title": "Debug drill: the outage that passed every health check",
   "phase": 12,
-  "content_id": 17538,
-  "content_digest": "b1fb27f6c4adbd64dc313220cd4bc178f36d5df2321c3ace84cd24cb8ccda047",
+  "content_id": 17681,
+  "content_digest": "47000f631be73ee4ce20d2598f101229c89fbf13314e146f5526a6c7d444a15e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "58a8eb72cf1511afe2036acb34531fa1cf18315a6c62e9e8de24e59bef4d2c75",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "f4bba10f6f0a5c987a40",
   "before_tag": "lesson-126-operating-anchor-in-production-runbooks-debuggin",
   "lesson_tag": "ruby test/integration/stale_release_recovery_test.rb",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

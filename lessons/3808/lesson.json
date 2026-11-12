@@ -6,6 +6,8 @@
   "content_id": 17655,
   "content_digest": "54b621d06908980f74f29073b4d94bb342f17ca2981459e97f08814c3cb9dc91",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "bc605fd8b2b0aec1dd66969edea76c71606bc6e941a69cc239d2992b572962ac",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "844ecd7df37afdf92227",
   "before_tag": "lesson-106-red-team-testing-methodology-for-llm-systems",
   "lesson_tag": "python3 -m anchor_ai.trifecta --overlay labs/agentic-security/followup_v1.yml --expect-findings",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

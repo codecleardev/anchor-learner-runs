@@ -6,6 +6,8 @@
   "content_id": 17654,
   "content_digest": "05f54a85063f084ebec5e23ec8638389c0e99f20ce794cb41e24a5fcdcfc1a72",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "c39c2e3c6ffb7345f838391e4b77b8e0df6cd3b29a72391809ecb465ec6d2b25",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "1ec963be0eb79f2407b1",
   "before_tag": "lesson-046-distillation-train-a-smaller-model-from-a-larger",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_adapter_config.py anchor_ai/tests/test_training.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

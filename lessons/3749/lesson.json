@@ -3,9 +3,11 @@
   "n": 117,
   "title": "Continuous batching for inference throughput",
   "phase": 11,
-  "content_id": 17528,
-  "content_digest": "65195b37f61061dcfe50d4586266effd434f0184903d9a522a9c73a69461451b",
+  "content_id": 17664,
+  "content_digest": "edaa1beb14978adb4b493d66c16a460edaa999baabe0975ffc263ef724bcac6f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "0861ef3439fc0af03e2fa706ee58d39c32e79ce0284bb3d04f3c494c6beeb481",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "caa499f9e7ca7c3eabc2",
   "before_tag": "lesson-112-vllm-deployment-and-serving",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_self_hosted_batching.py anchor_ai/tests/test_vllm_backend.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

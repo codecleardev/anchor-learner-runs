@@ -6,6 +6,8 @@
   "content_id": 17475,
   "content_digest": "d7f030c39492e25542a2565d877d1f0d73b4516b8c643160cd3d501b7b657522",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "e0bba7f3da6d80d576c194b7b199536baf3cd66f0dd545648656e817db98debb",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "93671b5b61d9d1e3b025",
   "before_tag": "lesson-114-kv-cache-management",
   "lesson_tag": "lesson-115-hosted-versus-local-inference-tradeoffs",
@@ -15,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

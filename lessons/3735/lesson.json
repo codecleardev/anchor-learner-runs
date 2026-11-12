@@ -6,6 +6,8 @@
   "content_id": 17623,
   "content_digest": "bc1138604fe2091617e050634b04555ebc776ac04c1c4c3dc87fd38e2a131d57",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "782720ed86cee37890aba7b95b8cadce0157f175e6b8623861812cb4793974ae",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "ffb6ff18bc544e4c3c19",
   "before_tag": "lesson-097-retries-timeouts-and-circuit-breakers-for-llm-ca",
   "lesson_tag": "python3 eval/regression_gate.py --incident-only",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

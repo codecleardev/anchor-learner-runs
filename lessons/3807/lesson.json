@@ -6,6 +6,8 @@
   "content_id": 17636,
   "content_digest": "86b168daa21be794b4a0f40ad1ff3e55073ea9edd792edeee6f07301ef0874b0",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "1045196f011f0e884d3489d2fa3e35efb42f867a6dd780e23d8d26478aebbe6d",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "a9b2784d2c2257227666",
   "before_tag": "lesson-076-ai-product-ux-citations-uncertainty-graceful-ref",
   "lesson_tag": "python3 -m eval.judge_agreement --judge v2_binary",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

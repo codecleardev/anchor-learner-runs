@@ -6,6 +6,8 @@
   "content_id": 17549,
   "content_digest": "b4abcd2622858e57fdcd4bba6a0ff68232da5f4549ba85f889046bcfd8924ffc",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "bf004b25c5b3c3261e93231b089cdca797fb63755b7a3bae90ca3c4af7484e2f",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "d331ffca869590061d10",
   "before_tag": "lesson-006-llm-foundations-transformer-architecture-and-tok",
   "lesson_tag": "python3 labs/ai-service-boundary/smoke.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

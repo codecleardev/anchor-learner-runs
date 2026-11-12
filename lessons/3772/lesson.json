@@ -6,6 +6,8 @@
   "content_id": 17208,
   "content_digest": "99787b10d2f2fe9efcccc7064555ee374c0275a62f5ff10b6da7a10bc902a7d8",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "6f421c590bcb313f0a925dbdfb9f9cb2b6dca5b48d1ea974db1b83717ea77358",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "6472027ab86604a1af33",
   "before_tag": "lesson-130-roles-and-hiring-how-teams-hire-ai-engineers",
   "lesson_tag": "lesson-131-ai-engineering-interview-question-bank",
@@ -15,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

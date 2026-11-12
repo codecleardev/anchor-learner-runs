@@ -6,6 +6,8 @@
   "content_id": 17540,
   "content_digest": "ce6a04c5294c3400246e4fd4322daf9217d8274169ccd0b90967a3348b9362f4",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "b735dd96d702a97d7752a3d40adf29ff2ca15e3ec72021008b3d58e48fd75c60",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "049ba0b4b65e005816bd",
   "before_tag": "lesson-083-ocr-pipelines-for-document-extraction",
   "lesson_tag": "python3 labs/screenshot-and-attachment-understanding/test_regressions.py python 3",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 13,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

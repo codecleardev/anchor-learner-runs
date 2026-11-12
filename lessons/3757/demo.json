@@ -2,7 +2,7 @@
   {
     "block": "demo1",
     "pane": "before",
-    "cmd": "bin/rails test"
+    "cmd": "python3 -m anchor_ai.online_quality"
   },
   {
     "block": "demo1",

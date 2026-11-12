@@ -6,6 +6,8 @@
   "content_id": 17502,
   "content_digest": "9924d86e3c829d061ea1b12755930bdba453a63f7e4aee7aeada958493e10cfc",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "abef21c6ffaec940098d565d94d0260746caa90d7eda71e323570217b2470ea6",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "92b4baae79a9d891291c",
   "before_tag": "lesson-062-model-context-protocol-mcp-for-tool-and-context",
   "lesson_tag": "python3 labs/mcp-server/probe.py stdio",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

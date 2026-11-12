@@ -6,6 +6,8 @@
   "content_id": 17548,
   "content_digest": "2be23b3bafd002d1d9c61128b9924ba1b400f84ebf2f58bf52c6dc175be023ef",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "f230b9a098cb9fe88182",
   "before_tag": "lesson-132-comparisons-and-failure-stories-interviewers-ask",
   "lesson_tag": "lesson-133-sprint-retrospective-what-the-hybrid-rag-slice-p",
@@ -15,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

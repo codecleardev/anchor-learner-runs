@@ -6,6 +6,8 @@
   "content_id": 17617,
   "content_digest": "aa83c15635d3a0cc9dec19c57b6ca019479b1e1873acaf8797bcbe95d2904cb7",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "3f5bfd21ed449aadb2e37d4d6d38372d3816cd34b11d1ea76cf7dc15b7e9c18c",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "c86ce51fadc672393c78",
   "before_tag": "lesson-058-human-escalation-and-human-in-the-loop-workflows",
   "lesson_tag": "python3 eval/agent_gate.py --fault missing-escalation --expect-rejection",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 16,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

@@ -3,17 +3,19 @@
   "n": 126,
   "title": "Reliability and safety: retries, fallbacks, circuit breakers, and kill switches",
   "phase": 12,
-  "content_id": 17532,
-  "content_digest": "d015d979115c23669257360468513ccb7a7ddbf6d5b6a5cf6e45d9b41252570a",
+  "content_id": 17677,
+  "content_digest": "e2123bf3dbabab06662bd4f5cfb976905de6cad0145ff65e9f259eaf59ddc724",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "72764395a04d7d89f27bde8a14e3874913c86e9d90ce664a7850de4de4b34be4",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "1dc51e55f5f8350eafc9",
   "before_tag": "lesson-121-load-testing-llm-endpoints",
-  "lesson_tag": "bin/rails test",
+  "lesson_tag": "python3 -m pytest -q -s anchor_ai/tests/test_incident_control.py anchor_ai/tests/test_prompt_regression.py",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 11,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 11,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

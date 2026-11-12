@@ -3,9 +3,11 @@
   "n": 128,
   "title": "Incident response playbooks for AI outages",
   "phase": 12,
-  "content_id": 17483,
-  "content_digest": "e6e6d70e79ce1a5927b64305d047eb8413a488d49fc45ea1e35782c7b3a719bf",
+  "content_id": 17678,
+  "content_digest": "c23df6bbcf37f4df0f5808bef4290c59dad9c51c9ffb26c42ca093642682f955",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "1b80de51012d1f8a03a8a22c60ac0d84235e0b2fdb8393290c10bb3a116854e7",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "090bdce89ea9218a2e56",
   "before_tag": "lesson-123-rollback-strategies-for-prompt-model-changes",
   "lesson_tag": "bash ops/drills/simulate_cost_spike.sh recover",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

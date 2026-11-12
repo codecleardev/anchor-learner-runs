@@ -6,6 +6,8 @@
   "content_id": 17611,
   "content_digest": "57624e9e2064267252d678a27133df007c013686e3f92256f685a48fbc66c805",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "53d7790fb8fcc45f741f4594d579c1ddccf59fb0874c79e0cafc8cb22c332c96",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "365410f8aed1699c3c9e",
   "before_tag": "lesson-106a-agentic-security-canon-owasp-lists-the-lethal-tr",
   "lesson_tag": "lesson-107-ai-governance-and-compliance-risk-contracts-lice",
@@ -15,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

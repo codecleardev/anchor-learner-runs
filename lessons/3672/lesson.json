@@ -6,6 +6,8 @@
   "content_id": 17644,
   "content_digest": "9460153d049c144ae1c1245c60305fb08f6757872b3698ab302053e68b26c52a",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "375af7055bcf4d260293f5a4e5e5c9f9c4bdbe0d7a2617ad548023d4d034fd16",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "3463890ca88d5dc96cb3",
   "before_tag": "lesson-025-index-maintenance-incremental-updates-deletes-an",
   "lesson_tag": "bin/rails test",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 7,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

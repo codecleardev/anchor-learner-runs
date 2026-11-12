@@ -6,6 +6,8 @@
   "content_id": 17590,
   "content_digest": "457d46557db4637d3135acc776dbe428669664f67ec81ca0f122c819fc511224",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "7effc888e32551a032a3268bc04d4db7077cdd68c222721b6a167677401c7197",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "d0f4348b29bfe020558a",
   "before_tag": "lesson-038-rag-evaluation-frameworks-ragas-and-trulens",
   "lesson_tag": "git show --no-patch rag-v2",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 16,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

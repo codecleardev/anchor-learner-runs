@@ -6,6 +6,8 @@
   "content_id": 17641,
   "content_digest": "146bc2bb5f34d85cbf5ca993ee438dd6ff0b243926ed47d43964a8b7cc74728b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "9cd048a082cdb7ce33ce6e2ed1f8dd7e24acfec53ea741ab10543aafc0fb72bb",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "9e4862812a4d636ebacd",
   "before_tag": "lesson-087-checkpoint-anchor-multimodal-and-realtime",
   "lesson_tag": "python3 -c \"import json; r=json.load(open('tmp/latency_profile/report.json')); print(json.dumps({k:r[k] for k in ('dominant_exclusive_segment','exclusive_segments','round_trip_counts','cohorts','max_remainder_fraction','labels')}, indent=2))\"",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

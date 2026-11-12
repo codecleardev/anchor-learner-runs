@@ -6,6 +6,8 @@
   "content_id": 17630,
   "content_digest": "ff59a57f6d5fba95e5e578393175e084f041dcaa8ff10187c59bad7c0df4ce10",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "2c914557230936c0537d1cfef37bd6b52e866d72278217f25fc707d250887e3f",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "34c6b72b2ca48ada684e",
   "before_tag": "lesson-007-anchor-s-ai-service-boundary-calling-the-python",
   "lesson_tag": "python3 -m pytest -q -s anchor_ai/tests/test_provider.py::test_rate_limit_deadline_and_demo",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

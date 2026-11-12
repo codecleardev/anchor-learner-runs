@@ -3,9 +3,11 @@
   "n": 125,
   "title": "Load testing LLM endpoints",
   "phase": 12,
-  "content_id": 17531,
-  "content_digest": "627688bea3d7e5ada6c8185be68b303af94a0630c704d2963af15db35590db22",
+  "content_id": 17676,
+  "content_digest": "689eae6eb80d365c236ea1a67e660411dd056fe89743023491a26010883f3d7b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "4e6ee31cc3a46e6a5bc7c2a26d899d0072bc819bbd10e6e1d5525cd18cb6f87c",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "08a6b50d353f61e2c08c",
   "before_tag": "lesson-120-online-evaluation-and-quality-monitoring-on-prod",
   "lesson_tag": "python3 ops/load/load_test.py --ticket-spike",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

@@ -3,9 +3,11 @@
   "n": 122,
   "title": "Deployment architectures for LLM-backed applications",
   "phase": 12,
-  "content_id": 17626,
-  "content_digest": "e41f105b4adcd4539e8e22f2f31d43b0045e74afd082399df529b73ff01b6ebb",
+  "content_id": 17672,
+  "content_digest": "1f8d8f19bd6c5454925616e6909e9d9a6301152c0da67e17b9abe8c356802479",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "3302b514764b782ed13a77f4c609c59cdf7b09b516167ede1d6804a2fcacdf9f",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "cf1f09cbd9ed112503a3",
   "before_tag": "lesson-117-checkpoint-anchor-self-hosted-inference",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_production_manifest.py::test_rendered_production_manifest anchor_ai/tests/test_production_manifest.py::test_release_refuses_missing_real_infrastructure",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

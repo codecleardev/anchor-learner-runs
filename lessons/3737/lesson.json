@@ -6,6 +6,8 @@
   "content_id": 17646,
   "content_digest": "1d2bcf14fae79b3e2af580eedaa4b9cdefe0d66a32c14e171d25a37e0777d6be",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "4a2b65f5cf50d5ab7952f82104dcb14432540adc8ec80cdb8fd5ec13d830f2d4",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "2efc1bdcf7c58143f2ad",
   "before_tag": "lesson-099-checkpoint-anchor-performance-and-cost",
   "lesson_tag": "python3 labs/prompt-injection-defenses/injection_filter_test.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

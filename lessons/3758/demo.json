@@ -7,6 +7,6 @@
   {
     "block": "demo1",
     "pane": "command",
-    "cmd": "bin/rails test"
+    "cmd": "python3 -m pytest -q -s anchor_ai/tests/test_incident_control.py anchor_ai/tests/test_prompt_regression.py"
   }
 ]

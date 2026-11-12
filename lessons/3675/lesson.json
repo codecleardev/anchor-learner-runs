@@ -6,6 +6,8 @@
   "content_id": 17610,
   "content_digest": "852cd7860489ce229d1357064af84de6c35b81a2925175b91182a3d1172284df",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "a53ecb6fdc42ac61b307f8c147b77d2f12fc006e1399b1035f9ead154b5dbd61",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "9fb31b8420c75834af62",
   "before_tag": "lesson-028-anchor-build-it-hybrid-retrieval-fusion",
   "lesson_tag": "python3 eval/retrieval_gate.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

@@ -6,6 +6,8 @@
   "content_id": 17509,
   "content_digest": "6ce0ba2860b259bf26606559bf274bc4aaa637f79cc3773f7d7b8930f18771ae",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "cd38b8f7ab7100b2af57264d215de764367947e6c3f891bbb2fd106d1c231711",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "2c9c22f50377e1cb6003",
   "before_tag": "lesson-065-llamaindex-data-connectors-and-query-engines",
   "lesson_tag": "bin/rails test test/controllers/api/agent_memories_controller_test.rb",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

@@ -6,6 +6,8 @@
   "content_id": 17598,
   "content_digest": "3cea60b33ab6d14a69348f4849d04da94aca7066a40b9246216ebf70d99d0916",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "8ea50a27d34d879f8f47c019e5347eeba6619a6c66d9a5ebc63c9fcdcd44fd22",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "ee659bfae06885aa3a73",
   "before_tag": "lesson-110-self-hosted-inference-fundamentals",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_serving_artifacts.py anchor_ai/tests/test_serving_benchmark.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

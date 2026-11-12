@@ -3,9 +3,11 @@
   "n": 123,
   "title": "Observability: logs, metrics, and distributed tracing for LLM pipelines",
   "phase": 12,
-  "content_id": 17627,
-  "content_digest": "aa4721328bc9638876fef6689d9623cd45a57670fe2022a1045e45ac2202426e",
+  "content_id": 17674,
+  "content_digest": "b8ea698a9127ee2bbf0cf6360c2ba9cc5c834d767c55fac2adc21820a23ef3ff",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "4c5eae88a42842b0e89d19140b084c42772ef3d81bfd940772da94ee8c2a17f9",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "03277ee879d8ea324e45",
   "before_tag": "lesson-118-deployment-architectures-for-llm-backed-applicat",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_observability.py -k observability_release",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 9,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

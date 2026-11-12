@@ -6,6 +6,8 @@
   "content_id": 17604,
   "content_digest": "fd6ac107096b281267f9dc213c404c7b410eab38b2c3c2787ea155fd45e47b54",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "e51ec9baba5066337342",
   "before_tag": "lesson-051-reinforcement-fine-tuning-with-graders-rft-and-g",
   "lesson_tag": "lesson-052-checkpoint-anchor-fine-tuning-and-customization",
@@ -15,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

@@ -6,6 +6,8 @@
   "content_id": 17663,
   "content_digest": "c8030cb8dc65ee8bcba04bb89081c93f5f5ab09cba8c9851ce1d11b77a5b3086",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "f3beeabf66db24bdf10336671a9431391b98176b3eb6290e832ab12a73e72f3c",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "b454032eec5afa2da6ed",
   "before_tag": "lesson-057-agent-memory-short-term-long-term-and-episodic",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_escalation.py anchor_ai/tests/test_autonomy.py anchor_ai/tests/test_react.py anchor_ai/tests/test_planning.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 2,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

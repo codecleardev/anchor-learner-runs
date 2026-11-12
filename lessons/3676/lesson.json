@@ -6,6 +6,8 @@
   "content_id": 17260,
   "content_digest": "046234210c53b75761721e135e0237850d3068bfe98f1456ab3204e0dab405ba",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "7b2766b4d4118511e3a1",
   "before_tag": "lesson-029-query-analysis-and-rewriting-for-retrieval",
   "lesson_tag": "lesson-030-checkpoint-anchor-rag-indexing-and-retrieval",
@@ -15,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

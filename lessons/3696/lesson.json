@@ -6,6 +6,8 @@
   "content_id": 17658,
   "content_digest": "572206c9bacbeaa862c2408110d2d4a89f8a38019feadeabb76fac9d9176225d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "4fa9333f31c864b444fb661a3f05caa8207fea477b1a7afe3770645c86082da9",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "eed0a80bf05b86a4c0a7",
   "before_tag": "lesson-053-tool-calling-and-function-calling-patterns",
   "lesson_tag": "env -u ANCHOR_LLM_PROVIDER python3 -m pytest -q anchor_ai/tests",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

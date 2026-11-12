@@ -6,6 +6,8 @@
   "content_id": 17638,
   "content_digest": "b961c42a90ed78d5c3a3b8065cc676e5d28f153a420e078a515234d2eeaa1854",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "9ae7077b55d307f9555e52507f374e91cdd2ad62be264e09c8a8fdd5101b1987",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "f395704d0f12d20ce7da",
   "before_tag": "lesson-076a-error-analysis-and-eval-practice",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_judge_calibration.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

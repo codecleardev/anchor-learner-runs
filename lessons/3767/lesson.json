@@ -6,6 +6,8 @@
   "content_id": 17558,
   "content_digest": "c2c1b8490ce13783e40451425869818537c0e996ffc3311c8d8ad77d06b2a4ba",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "1491b95079e9ed3b0457",
   "before_tag": "lesson-133-sprint-retrospective-what-the-hybrid-rag-slice-p",
   "lesson_tag": "lesson-134-checkpoint-anchor-production-and-capstone",
@@ -15,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

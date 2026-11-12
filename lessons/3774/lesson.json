@@ -6,6 +6,8 @@
   "content_id": 17613,
   "content_digest": "0581ab4577bcf63e6098f791494e37532c9d2763a12ac6076b1ab21bffa84809",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "95a8129125a660664ec9f6b35ad09b9753e6330f9cc8b6b62ac07eef80bdea90",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "b05ebab9660983746728",
   "before_tag": "lesson-039-anchor-build-it-ship-rag-evaluation-milestone",
   "lesson_tag": "sh ops/deploy/rag_release.sh --verify-only",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

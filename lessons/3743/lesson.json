@@ -6,6 +6,8 @@
   "content_id": 17652,
   "content_digest": "a5b934fbd13e4c1558cba7a41ad7570bbd230832f8e35b2d23df6ecb8769b333",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "ad3613f716262cabf2de1970ab5148f5ec754e9315942b676d4cc18f2d3db66e",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "7ab523b087831f662e40",
   "before_tag": "lesson-105-safe-side-effects-confirmation-dry-run-reversibi",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_redteam_gate.py::test_suite_baseline_controls_and_fault",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

@@ -3,9 +3,11 @@
   "n": 132,
   "title": "Anchor — productionize and ship it",
   "phase": 12,
-  "content_id": 17542,
-  "content_digest": "d022405abec7e7c4e397adcded55f5f6a90e727fa8bf9c8c0a2b9ba40daa4b48",
+  "content_id": 17682,
+  "content_digest": "d48c4964100c2e0f9a048eb95b9a7f6ad31f1cc03547406750924b802c6c51ba",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "3263dc68d64b756c4061f0da0764f15560b26a7fa70bfe89aeac1787647ab11d",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "94c63bb8a637179b3911",
   "before_tag": "lesson-127-debug-drill-the-outage-that-passed-every-health",
   "lesson_tag": "ruby test/integration/production_launch_test.rb",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

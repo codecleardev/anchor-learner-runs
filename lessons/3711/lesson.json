@@ -6,6 +6,8 @@
   "content_id": 17634,
   "content_digest": "eb635c57dec8800220f56e84add73c6d069521e45fc7194bd351155c8c363fd3",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "2ccb8518b4681abcf5adc9acbad5bc94e9544f0c56c3abb9b3421fd7f846bf8b",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "e704ce9c012a8c286382",
   "before_tag": "lesson-069-framework-comparison-langchain-vs-langgraph-vs-l",
   "lesson_tag": "python3 -c \"from pathlib import Path; print(Path('ops/runbooks/sandbox_capacity.md').read_text())\"",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

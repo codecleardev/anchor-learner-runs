@@ -6,6 +6,8 @@
   "content_id": 17567,
   "content_digest": "f0d06d89d4791b8da3b29df31c2b44e741cb12220edc1ff50345a1931c1d5637",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "1804b36483a4536aea9ce1a3bb8af5cf0502ffcf574ebc0779ea5840a289345c",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "43dc42dbeada06a0af40",
   "before_tag": "lesson-094-cost-what-drives-spend-and-how-it-is-bounded",
   "lesson_tag": "bin/rails test",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

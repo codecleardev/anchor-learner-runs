@@ -6,6 +6,8 @@
   "content_id": 17585,
   "content_digest": "6f706aed9fa4ed142c47817af59cdf19a952727d397704a0fe1ed46b3862ba5b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "835f417f72f726b033489ef2f086a9ed5661dbc18c7ce1a49425bf9efcb327db",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "069e2e3247b6624e3476",
   "before_tag": "lesson-102-pii-detection-and-redaction-in-llm-pipelines",
   "lesson_tag": "ANCHOR_LLM_PROVIDER=fake python3 -m pytest -q anchor_ai/tests/test_tools.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 7,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

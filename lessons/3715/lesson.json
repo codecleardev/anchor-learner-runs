@@ -6,6 +6,8 @@
   "content_id": 17513,
   "content_digest": "5b47ee68e0b21c634a096fd894158df52d43b6c14aca5644d6a0fb3abad4793a",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "d65dc16c47dcc321c2ea97bbd53b27fb05adc5f2d1c589421868180cf18becd4",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "f291d23b330c202ef291",
   "before_tag": "lesson-074-checkpoint-anchor-multi-agent-orchestration",
   "lesson_tag": "bin/rails test",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 12,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

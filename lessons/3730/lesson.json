@@ -6,6 +6,8 @@
   "content_id": 17562,
   "content_digest": "b831471e6fa03f1a1c052b595ba3de8541b902fc5c74cb565a9ee69f17a317bf",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "69650e916477ef36ccb01748c5971c2a90b2eb16423d38c3ffab83ddde3d6377",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "022dbec7b8b226248ebc",
   "before_tag": "lesson-092-request-batching-for-throughput",
   "lesson_tag": "bin/rails test test/jobs/ai_task_retry_test.rb -n test_checkpointed_agent_does_not_repeat_committed_tool_action",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

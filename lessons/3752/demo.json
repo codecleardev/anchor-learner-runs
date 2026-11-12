@@ -1,7 +1,12 @@
 [
   {
     "block": "demo1",
+    "pane": "before",
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_hosting_economics.py"
+  },
+  {
+    "block": "demo1",
     "pane": "command",
-    "cmd": "python3 -m pytest -q anchor_ai/tests/test_quota_admission.py"
+    "cmd": "python3 -m ops.deploy.self_hosted_release demo"
   }
 ]

@@ -6,6 +6,8 @@
   "content_id": 17657,
   "content_digest": "9744ac7ef691b12707a5dc7d690873205c885a59ad819f39302567c14981bac4",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "f9cc6ca685a2737abb238520e5f574215fd73a4aec73a63866f8503f515e6747",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "11fe64998ef8c3844b22",
   "before_tag": "lesson-107-ai-governance-and-compliance-risk-contracts-lice",
   "lesson_tag": "python3 -c \"import json; from pathlib import Path; print(json.dumps(json.loads(Path('.git/anchor-eval/security.json').read_text()), indent=2)); print(Path('ops/security_audit_report.md').read_text())\"",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 9,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

@@ -6,6 +6,8 @@
   "content_id": 17523,
   "content_digest": "0188039c77bacb77c4d834a279125bc58c55eeccc34fa18d0a2c9b27a2147168",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "439c6c12adc9c6922b799aa523715fdf653957afea26ca22894bb8f221be7c76",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "f63d94b6fbc2d286a52f",
   "before_tag": "lesson-082-multimodal-vision-image-understanding-with-llms",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_ocr.py anchor_ai/tests/test_ingestion.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 3,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

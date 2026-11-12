@@ -6,6 +6,8 @@
   "content_id": 17645,
   "content_digest": "506a98cd92705a9a41f81f3777f97986fda5cc42f30196435411f7811f9de469",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "8a7522f3d0abf139144e2102a7fdad4db9428d25bdb6b85a40d6c64275664978",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "14232565cf49c08faa6a",
   "before_tag": "lesson-026-anchor-build-it-dense-retrieval-and-generation",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_sparse_retrieval.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

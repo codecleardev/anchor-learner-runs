@@ -6,6 +6,8 @@
   "content_id": 17386,
   "content_digest": "438c06713246072fdbeb1d78c6a67db4f48f0c406cbd25a30311585c61d77ad7",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "a0ba6a7b4aed2e5790cdc17b7a74f959f6c0aa15c8c85fccfbeaf68ac91fa176",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "6a7455f4d2c862248c60",
   "before_tag": "lesson-016-context-engineering-assembling-the-context-windo",
   "lesson_tag": "env -u ANCHOR_LLM_PROVIDER python3 -m pytest -q anchor_ai/tests",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 8,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

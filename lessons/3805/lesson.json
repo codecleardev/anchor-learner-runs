@@ -6,6 +6,8 @@
   "content_id": 17581,
   "content_digest": "790e188716259dcaea6d2a1426de20e03ff34b3c67da6c64cf157b88e8a02e8b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "b33f713c8100e15b2371520990666b9f355ec9f19e2b3b7155f110216e095629",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "bdd2459f14e1e03b9b15",
   "before_tag": "lesson-017-model-testing-fundamentals-your-first-minitest-f",
   "lesson_tag": "bin/rails test test/agent_instructions_test.rb",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 11,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

@@ -3,9 +3,11 @@
   "n": 118,
   "title": "KV cache management",
   "phase": 11,
-  "content_id": 17529,
-  "content_digest": "440b33e64208070a5767c8056318d2e85ac39e7ecfda4261e2ff1a4cef44811e",
+  "content_id": 17667,
+  "content_digest": "ed0a28e76baaabcc694c51db5775fc43bd19a41c48798a60103814e0924dec29",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "4ebccc8607704adc28a104b38124981c284ee07193231492a3fa06e237d0b6b6",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "15ceb0ff103fec61533e",
   "before_tag": "lesson-113-continuous-batching-for-inference-throughput",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_kv_cache.py anchor_ai/tests/test_self_hosted_batching.py anchor_ai/tests/test_quota_admission.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

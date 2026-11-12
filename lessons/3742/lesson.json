@@ -6,6 +6,8 @@
   "content_id": 17650,
   "content_digest": "491dec8b994730fcb087e7178c2e4f683f23cd475230f34090368c451cb09c93",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "7fa5f89218a8229433ec53f162d1298f12a3f0a3edfc7ef366497647f671cc8b",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "4e06975e2f0ff5238367",
   "before_tag": "lesson-104-tenant-isolation-in-multi-tenant-ai-systems",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_tools.py anchor_ai/tests/test_escalation.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

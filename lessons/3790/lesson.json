@@ -6,6 +6,8 @@
   "content_id": 17519,
   "content_digest": "8c15aace4ddd9593b0d81b2503b5669f878a6b7511c0172ce791d59d5958f071",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "6134353256fa49aa95fd00c27c488d8fff7a35f981c965d7650b0b7a5e5e3553",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "76ebb866904ae83878c0",
   "before_tag": "lesson-070-code-sandboxes-for-safe-agent-code-execution-iso",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_browser_tools.py::test_consequential_click_requires_trusted_bound_one_use_approval",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

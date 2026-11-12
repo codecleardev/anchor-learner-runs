@@ -6,6 +6,8 @@
   "content_id": 17661,
   "content_digest": "8b96e9c51f85931385f31b28f73a48ac4a6953a67927d1465ef4e491be521379",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "dfc5ab42c713050395e6310ae2fa6a743b70c762faaaa937d41985414c0918cf",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "aceaa15deced16af5f00",
   "before_tag": "lesson-056-plan-and-execute-agent-architectures",
   "lesson_tag": "python3 -m pytest -q -s anchor_ai/tests/test_memory_smoke.py::test_working_eviction_expiration_and_redaction",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

@@ -6,6 +6,8 @@
   "content_id": 17516,
   "content_digest": "62782f2c0cf0c340dfd080c17f4a67acc0944b55e4ad1c38a07d3c9c2fff1b26",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "282427d5ec9ea7d8563e107d1e28cea8f6a0f26a90123df32f031e4564f37885",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "976578e567743dc16243",
   "before_tag": "lesson-077-llm-as-judge-design-and-calibration-against-huma",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_trajectory_eval.py anchor_ai/tests/test_observability.py anchor_ai/tests/test_agent_trajectories.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

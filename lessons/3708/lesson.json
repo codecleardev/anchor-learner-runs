@@ -6,6 +6,8 @@
   "content_id": 17507,
   "content_digest": "43954d52475e9d2be99307592167952edecd5c987ff7b0eb7c7754c22ea8ddc6",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "d2b3d47e3c287448bfd3026f56cf39de1b89a40b79b4827ad5e6673c8d3c81cd",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "5a9c306d0bb2bf6f2dea",
   "before_tag": "lesson-064-langgraph-stateful-graph-orchestration",
   "lesson_tag": "bin/rails test test/controllers/api/document_chunks_controller_test.rb",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

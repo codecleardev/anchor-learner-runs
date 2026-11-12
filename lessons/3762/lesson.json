@@ -3,9 +3,11 @@
   "n": 130,
   "title": "Operating Anchor in production: runbooks, debugging, and maintenance",
   "phase": 12,
-  "content_id": 17536,
-  "content_digest": "314779d1365436090956d4cb7e13c2bf3c8c526bd31eb27d88983e08501ac6d5",
+  "content_id": 17680,
+  "content_digest": "0e03c7b49473b5e3976ef5efa8c91dd7b50f4ba8c95c5c460fdf8c97c20ce28e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "94e39682a4b9e373ef20a03a98ddb954926ee7bd51f65aa8b4de6e4ed328796f",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "d392557fccb69dd036d9",
   "before_tag": "lesson-125-backups-and-state-recovery-for-ai-systems",
   "lesson_tag": "ruby test/integration/worker_recovery_test.rb",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

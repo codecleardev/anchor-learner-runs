@@ -6,6 +6,8 @@
   "content_id": 17589,
   "content_digest": "98461b61649ca518adeb2ea1f965c04e0c2c1c77664722dc2f6dee16068c39ef",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "04d3b61ecbbc56b91109e959463a397e63993d69967122a3ccccde414097e4b0",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "6b6e746de0990d99089d",
   "before_tag": "lesson-035-agentic-rag-retrieval-as-a-tool-in-an-agent-loop",
   "lesson_tag": "python3 labs/agent-loop-debug/broken_agentic_rag.py --product",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

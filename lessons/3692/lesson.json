@@ -6,6 +6,8 @@
   "content_id": 17651,
   "content_digest": "6cd81284da8c83b2c55851eac5c95e5be245b6f304063837b446482dd974b1d3",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "f09a3f61231f3226575022e0e8101acfa2e439c31ba1a6242b8d8f537c5f5349",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "ed27208919eba9f5a8f1",
   "before_tag": "lesson-043-dataset-engineering-for-fine-tuning-collection-c",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_dataset_quality.py anchor_ai/tests/test_provider.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

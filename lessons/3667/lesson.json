@@ -6,6 +6,8 @@
   "content_id": 17583,
   "content_digest": "f71d3026054e5c74813ec50bcff848c5d43707fb3297cc81df89be58ccb3300b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "b056b6ea06b7af92457d66db297d61662ee89445aa7d1fbd54fbbb87a33131ee",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "3652651103c8f4f0862d",
   "before_tag": "lesson-021-embeddings-fundamentals-and-embedding-model-sele",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_chunking.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 13,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

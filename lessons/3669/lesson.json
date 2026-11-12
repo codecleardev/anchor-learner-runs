@@ -6,6 +6,8 @@
   "content_id": 17639,
   "content_digest": "3b0b3da66405ef6770bd551ff515361778b1649cb1de0e5649d623927a1f2bbc",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "f49abb1ca1df0eb81da15afba4b7bfc8d4eb514a2b066d41afb515d463d1e710",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "92f9c4356ab0c6849178",
   "before_tag": "lesson-022-chunking-strategies-for-retrieval-quality",
   "lesson_tag": "bin/rails test",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 12,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

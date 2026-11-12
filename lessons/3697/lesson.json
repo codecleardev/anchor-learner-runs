@@ -6,6 +6,8 @@
   "content_id": 17660,
   "content_digest": "c424fd0773023be564866f791e870f50a56a67accf469c55c944efd2d40dcd28",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "a8ef355459529f7d1d52c5d017f8a910ed80dd8c483c6ccc1107c5d03e7d5931",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "bb39e4ad402d5bc547c1",
   "before_tag": "lesson-054-bounded-agent-design-and-autonomy-guardrails",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_react.py anchor_ai/tests/test_agentic_rag.py anchor_ai/tests/test_autonomy.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

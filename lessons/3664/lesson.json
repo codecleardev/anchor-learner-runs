@@ -6,6 +6,8 @@
   "content_id": 17635,
   "content_digest": "41b718eb66bb7100de0893067d85525e10980efe355aa2d6b98c6540442ac73c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "8a9f53b432c124e0e8d8cbb0e8714eaaa13a7272cb3347dbf4b4bcdb74f8d363",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "a0e61910b41c1f33fdcd",
   "before_tag": "lesson-013-structured-outputs-json-mode-function-calling-sc",
   "lesson_tag": "ANCHOR_LLM_MODE=offline python3 -m pytest -q -s anchor_ai/tests/test_streaming_stack.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

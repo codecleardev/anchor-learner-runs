@@ -6,6 +6,8 @@
   "content_id": 17643,
   "content_digest": "d37166062b65088e09905d5305b6aebb2f71d9332c64a77ea0683154db3bdb5b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "980f6c1f0c561fe178f9ac00c437cedc278cf2ee15d788f8e1801ad6f80622f9",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "e4bbdf8db609c7dc39b7",
   "before_tag": "lesson-090-semantic-caching-strategies",
   "lesson_tag": "python3 labs/provider-prompt-caching/compare_prefixes.py --section answers",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

@@ -6,6 +6,8 @@
   "content_id": 17649,
   "content_digest": "de54e198c53fe87ecaa41fb5bdf4b84833860cc9db271e058feb9b037a2ab78c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "d74e9a52250c65551b0cd0abfaa748d75d306d8460559739720b5f4d13f1d1d1",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "c44e1037c775d3a3badc",
   "before_tag": "lesson-037-groundedness-and-faithfulness-evaluation",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_triad_adapters.py anchor_ai/tests/test_faithfulness.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

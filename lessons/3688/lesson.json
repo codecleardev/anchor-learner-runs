@@ -6,6 +6,8 @@
   "content_id": 17616,
   "content_digest": "37cce857a0f9198c3320466cc305e05f2e9a56b56087c6c2f4931e2a97371e15",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "72de934150288b666193c4c8076c1721087a59c6212b1ad3f78d2e16a5928837",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "11735e4b5f8c6a109f20",
   "before_tag": "lesson-049-peft-library-patterns-and-adapter-merging",
   "lesson_tag": "python3 -m eval.rag_gate",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 9,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

@@ -13,11 +13,11 @@
   },
   {
     "block": "recovery-explicit-refusal-step",
-    "cmd": "python3 -m unittest anchor_ai.tests.test_backup_integrity.BackupIntegrityTest.test_production_and_non_disposable_targets_refused -v"
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_backup_integrity.py -k production_and_non_disposable"
   },
   {
     "block": "b19d",
-    "cmd": "python3 -m unittest anchor_ai.tests.test_backup_integrity -v"
+    "cmd": "python3 -m pytest -q anchor_ai/tests/test_backup_integrity.py"
   },
   {
     "block": "b19d",

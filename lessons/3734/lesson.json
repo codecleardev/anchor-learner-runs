@@ -6,6 +6,8 @@
   "content_id": 17622,
   "content_digest": "07badd6d44619b49bb3e7c8a5ab98efe650994e2923c6a59dfbd04e448fa5672",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "778bcf63facb397a3dbbd45670652d175a832f5e3eae0bfda3b5758b4cf09812",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "f468fb047d5a595dc804",
   "before_tag": "lesson-096-provider-failover-and-multi-provider-routing",
   "lesson_tag": "python3 -m pytest -q -s anchor_ai/tests/test_provider_resilience.py -k 'outage_burst or product_timeout'",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

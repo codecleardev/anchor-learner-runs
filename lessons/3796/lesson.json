@@ -6,6 +6,8 @@
   "content_id": 17606,
   "content_digest": "83a36e94623904f202e654c7f62a8c1c52c5b51ce8a87a37c413d63bde259055",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "7ddd37affe0468dfaf30fef560c567d1fb0c46182b599ae1418702ffc05c69a6",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "108f99be020feb2065d0",
   "before_tag": "lesson-011-model-selection-cost-latency-context-length-and",
   "lesson_tag": "python3 labs/reasoning-budgets/compare_budgets.py --offline --verify-policy",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

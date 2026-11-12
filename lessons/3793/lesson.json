@@ -6,6 +6,8 @@
   "content_id": 17653,
   "content_digest": "ee21f945f97f0de4217c341d36b19de0f71defc5d03e5244eeba319788584650",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "de41803f6984aedddc92f6beb4b231bbb2ea3df1cd24f856ffe1df5edd0f4a25",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "a8865d923b034c209550",
   "before_tag": "lesson-045-supervised-fine-tuning-sft-workflow-end-to-end",
   "lesson_tag": "python3 eval/model_gate.py --offline --candidate distilled-labels",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

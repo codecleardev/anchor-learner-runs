@@ -6,6 +6,8 @@
   "content_id": 17662,
   "content_digest": "c7fe148ed8e8bb7b0e16e19270b6ab26c1772c4d7903bf1ffad941f4ded33cfe",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "7980a672b60e0066fe3ae6a63c8a951028823782572655924eaff4affc8e2cb1",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "f0c1d05f1dd1da0e19a4",
   "before_tag": "lesson-111-quantization-techniques-gptq-awq-and-gguf",
   "lesson_tag": "bin/rails test test/services/llm_client_test.rb test/integration/self_hosted_chat_test.rb",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

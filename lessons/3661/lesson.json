@@ -6,6 +6,8 @@
   "content_id": 17633,
   "content_digest": "79a58eee22b554e2a8a43e3e4c5d4c6328697d14df2b95171adedbb0dde1da80",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "ca3837d4ef49e6a341be446d2099ff3ec54d8acb1d202a5589afe404064ede14",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "6a100355d3fccfce7297",
   "before_tag": "lesson-009-tracing-and-structured-logging-for-llm-calls-req",
   "lesson_tag": "python3 -c \"from anchor_ai.prompts import render; print(render('zero_shot', 'Checkout throws a 500 for every customer. Also update our billing email.'))\"",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

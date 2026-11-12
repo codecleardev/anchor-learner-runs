@@ -6,6 +6,8 @@
   "content_id": 17588,
   "content_digest": "78b1a1d880ed1c9dbdf3c7125f1a4eda95fcabb30290d110190b34dba18c35d7",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "1a99cca45faf136eef5eefb02182b87a889bc82abd361fe20e5c3e657bb2c3df",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "2f003a117e733d8ff93e",
   "before_tag": "lesson-034-graphrag-knowledge-graph-retrieval-for-relations",
   "lesson_tag": "ANCHOR_LLM_MODE=offline python3 -m pytest -q anchor_ai/tests/test_agentic_rag.py anchor_ai/tests/test_multihop.py anchor_ai/tests/test_retrieval_metrics.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }

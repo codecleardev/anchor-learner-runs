@@ -6,6 +6,8 @@
   "content_id": 17569,
   "content_digest": "5d75af737cd22f8a8b8028c2e455eda92a77c0e9739d86a3227c41f025d57e5f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "c8df9b271d99212af4a2db52773ef8db146cd24bdf08330bc2670b1f7e462590",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "21a132bbe19dfc9c21d7",
   "before_tag": "lesson-095-quotas-rate-limiting-and-cost-controls",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_provider_routing.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

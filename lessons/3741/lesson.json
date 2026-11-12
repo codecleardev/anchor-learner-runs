@@ -6,6 +6,8 @@
   "content_id": 17648,
   "content_digest": "1f31ed27ab1613b98f08a5f933e9db0ba8160155b98ea3023917dae717bedce3",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "0eb6d0d25542b79c23fd68c78798f2e27a00c8feef1500d252b4bedefb43d813",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "377138029d424e49c46d",
   "before_tag": "lesson-103-scoped-authorization-for-agent-actions",
   "lesson_tag": "python3 labs/tenant-isolation/tenant_isolation_test.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T05:34:46Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

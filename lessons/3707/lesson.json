@@ -3,9 +3,11 @@
   "n": 66,
   "title": "LangGraph stateful graph orchestration",
   "phase": 6,
-  "content_id": 17505,
-  "content_digest": "b006abce112b2e4d9b5594377e8fc95f0aa4c8ff0afb3139739309d136ccc754",
+  "content_id": 17671,
+  "content_digest": "77447a803346c4666924b495313851db76e3e220e177c650aff043861fd1388c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "d267717f00a6efc8430b143878655683de59c23c56f59738a7c229c59a60c116",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "bc92b30a5790a0303cbc",
   "before_tag": "lesson-063-langchain-core-abstractions-and-chains",
   "lesson_tag": "python3 -m pytest -q -s anchor_ai/tests/test_graph_checkpoints.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 11,
-  "exported_at": "2026-11-12T05:34:45Z"
+  "exported_at": "2026-11-12T05:39:54Z"
 }

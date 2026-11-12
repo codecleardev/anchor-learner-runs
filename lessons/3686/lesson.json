@@ -6,6 +6,8 @@
   "content_id": 17656,
   "content_digest": "ff77784c30561b533f2b0db33adee5a09f894df0d92c18dd329567dd9a23aaa9",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
+  "code_digest": "8f2877c61f80ef05dfdb81649e73c1420f4ce710e616dc4910d804d4edb49eaa",
+  "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "1d073d42663bdc410759",
   "before_tag": "lesson-047-lora-fundamentals-and-adapter-architecture",
   "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_quantized_training.py anchor_ai/tests/test_adapter_config.py anchor_ai/tests/test_training.py",
@@ -15,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:34:44Z"
+  "exported_at": "2026-11-12T05:39:53Z"
 }
