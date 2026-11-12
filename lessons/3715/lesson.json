@@ -3,8 +3,8 @@
   "n": 77,
   "title": "Golden dataset construction and maintenance",
   "phase": 7,
-  "content_id": 17294,
-  "content_digest": "559d2bffad0978511037d282d3d300dc4bf09058d3a5fe2ec113add0517c32db",
+  "content_id": 17437,
+  "content_digest": "a2a52d390c85943b315479faee04873c38b2f778b9f66d02ec5c56278a2d5b58",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "f291d23b330c202ef291",
   "before_tag": "lesson-074-checkpoint-anchor-multi-agent-orchestration",
@@ -14,5 +14,5 @@
   "runnable_lines": 12,
   "has_demo": true,
   "commands": 12,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

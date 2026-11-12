@@ -3,8 +3,8 @@
   "n": 87,
   "title": "Anchor — build it: screenshot and attachment understanding",
   "phase": 8,
-  "content_id": 17301,
-  "content_digest": "3492658e72f7028f30d164c52eb94678f0563cc62d3d974abcd439cd02be78f2",
+  "content_id": 17446,
+  "content_digest": "9d4f56c25017427ed30c86e8b9723e9e0dd6905e386751d69aa85d9bbab908f7",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "049ba0b4b65e005816bd",
   "before_tag": "lesson-083-ocr-pipelines-for-document-extraction",
@@ -14,5 +14,5 @@
   "runnable_lines": 13,
   "has_demo": true,
   "commands": 13,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

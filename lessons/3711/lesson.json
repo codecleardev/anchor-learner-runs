@@ -3,8 +3,8 @@
   "n": 72,
   "title": "Code sandboxes for safe agent code execution: isolation, resource limits, and egress control",
   "phase": 6,
-  "content_id": 17290,
-  "content_digest": "86625469d7df553fc4394c777224064481c8a495b7208c3a26625019698aebba",
+  "content_id": 17433,
+  "content_digest": "5d69014cbc8ebc1f96311386f8d45143b70ec682c9869b0a75f5e61dd8fe4fed",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "e704ce9c012a8c286382",
   "before_tag": "lesson-069-framework-comparison-langchain-vs-langgraph-vs-l",
@@ -14,5 +14,5 @@
   "runnable_lines": 6,
   "has_demo": true,
   "commands": 6,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

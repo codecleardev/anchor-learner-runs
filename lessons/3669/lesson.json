@@ -3,8 +3,8 @@
   "n": 24,
   "title": "Anchor — build it: document ingestion pipeline",
   "phase": 2,
-  "content_id": 17248,
-  "content_digest": "ce1a178a118a899345bb7db58e890cbab93074d3f6b4ce9d24ac2acf8f688d62",
+  "content_id": 17390,
+  "content_digest": "f9b2aade14e1907d5b52fbbd6640ac83df5f542d75b627e08161045f307ee4a8",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "92f9c4356ab0c6849178",
   "before_tag": "lesson-022-chunking-strategies-for-retrieval-quality",
@@ -14,5 +14,5 @@
   "runnable_lines": 12,
   "has_demo": true,
   "commands": 12,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

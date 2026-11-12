@@ -3,8 +3,8 @@
   "n": 101,
   "title": "Debug drill: the failover loop that drained the budget",
   "phase": 9,
-  "content_id": 17349,
-  "content_digest": "fc1bbae66d9f4b7330feac6ee52d5cc4e7eb75c6064000df6d2651523e4cac87",
+  "content_id": 17459,
+  "content_digest": "af7206e9bff1d59f9d1bcd4c21b7da76fc2aca725842cfa99ec8988c660099c0",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "ffb6ff18bc544e4c3c19",
   "before_tag": "lesson-097-retries-timeouts-and-circuit-breakers-for-llm-ca",
@@ -14,5 +14,5 @@
   "runnable_lines": 9,
   "has_demo": true,
   "commands": 9,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

@@ -3,8 +3,8 @@
   "n": 78,
   "title": "AI product UX: citations, uncertainty, graceful refusal, and feedback into golden datasets",
   "phase": 7,
-  "content_id": 17295,
-  "content_digest": "a60b7c246b711452439ff8259a849e1661255a2ff1aa131d0461a06b618cf879",
+  "content_id": 17438,
+  "content_digest": "e2358c1dff04fb9cc22b8a02cec12cc8c42569da26f5b2bf1ee9f0b3df2078aa",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "7448c3c04d7f72708bb8",
   "before_tag": "lesson-075-golden-dataset-construction-and-maintenance",
@@ -14,5 +14,5 @@
   "runnable_lines": 11,
   "has_demo": true,
   "commands": 11,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

@@ -3,8 +3,8 @@
   "n": 73,
   "title": "Computer-use and browser agents: driving a UI when there is no API",
   "phase": 6,
-  "content_id": 17291,
-  "content_digest": "111586765ecac0965d5023762e0e078d56f4c419ed2e33c37e73826ddb1bf090",
+  "content_id": 17434,
+  "content_digest": "01020e56da7f969b09920b676b3904ce805f79c3ebf81bc1462fe2f61b885349",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "76ebb866904ae83878c0",
   "before_tag": "lesson-070-code-sandboxes-for-safe-agent-code-execution-iso",
@@ -14,5 +14,5 @@
   "runnable_lines": 8,
   "has_demo": true,
   "commands": 8,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

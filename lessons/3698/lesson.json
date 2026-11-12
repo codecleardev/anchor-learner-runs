@@ -3,8 +3,8 @@
   "n": 57,
   "title": "Plan-and-execute agent architectures",
   "phase": 5,
-  "content_id": 17081,
-  "content_digest": "259e1d822d08a6876df4d01b1de013302ba7eba8201ecc18c5fe5ac9d9689de1",
+  "content_id": 17419,
+  "content_digest": "898dcce29d3eed6be6d52d6611fe88e1ae5109958048e560ccb0444d796d74c9",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "7a508c3c8ea97e0b5e8e",
   "before_tag": "lesson-055-react-reasoning-acting-loops-for-agents",
@@ -14,5 +14,5 @@
   "runnable_lines": 7,
   "has_demo": true,
   "commands": 7,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

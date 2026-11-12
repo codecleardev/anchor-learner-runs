@@ -3,8 +3,8 @@
   "n": 115,
   "title": "Quantization techniques: GPTQ, AWQ, and GGUF",
   "phase": 11,
-  "content_id": 17327,
-  "content_digest": "ae3432afd04c6e763b2c12f0c5fb801b3601391260dfe31e34c06ba98f93743b",
+  "content_id": 17471,
+  "content_digest": "51ff5a8e3bbbbfcab4704075d61cac7f66eb94fe501a456bf1d89da6a31f7e2b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "ee659bfae06885aa3a73",
   "before_tag": "lesson-110-self-hosted-inference-fundamentals",
@@ -14,5 +14,5 @@
   "runnable_lines": 8,
   "has_demo": true,
   "commands": 8,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

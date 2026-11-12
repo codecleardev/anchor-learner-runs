@@ -3,8 +3,8 @@
   "n": 33,
   "title": "Reranking with cross-encoders",
   "phase": 3,
-  "content_id": 17262,
-  "content_digest": "9ed78e03f503355e3748b121a59d6f3777b802c53cbb64b07752d3af4540d4db",
+  "content_id": 17398,
+  "content_digest": "3a296969db610dc8a6c42f701c05f171047d17097717184c554e6c427d240e0e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "a0ad6ae7123a83f0c71e",
   "before_tag": "lesson-031-retrieval-evaluation-metrics-recall-mrr-and-ndcg",
@@ -14,5 +14,5 @@
   "runnable_lines": 4,
   "has_demo": true,
   "commands": 4,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

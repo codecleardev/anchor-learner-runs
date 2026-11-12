@@ -3,8 +3,8 @@
   "n": 112,
   "title": "Anchor — build it: security hardening milestone",
   "phase": 10,
-  "content_id": 17350,
-  "content_digest": "9c6db50a379ecac42f98f54db2049e9459daa200c8b7fd28312d5bce139ea4c0",
+  "content_id": 17469,
+  "content_digest": "0a1e7be0875a26b8401a18a849a78e71aec4e0de34800db5cfc2fdf1bf18687e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "11fe64998ef8c3844b22",
   "before_tag": "lesson-107-ai-governance-and-compliance-risk-contracts-lice",
@@ -14,5 +14,5 @@
   "runnable_lines": 9,
   "has_demo": true,
   "commands": 9,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

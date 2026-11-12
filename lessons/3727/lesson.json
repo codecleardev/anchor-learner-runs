@@ -3,8 +3,8 @@
   "n": 92,
   "title": "Token streaming for perceived-latency reduction",
   "phase": 9,
-  "content_id": 17306,
-  "content_digest": "d486a4411993af708e5bf9b259140a6e6569ec7ef7792a2949a430754dfa4103",
+  "content_id": 17450,
+  "content_digest": "fab5208811aa1eb16e341864ce60f6f13ec833986b0784b1134cee839d351424",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "d478d364bb85a5a78d31",
   "before_tag": "lesson-088-latency-what-drives-it-and-how-it-is-measured-an",
@@ -14,5 +14,5 @@
   "runnable_lines": 7,
   "has_demo": true,
   "commands": 7,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

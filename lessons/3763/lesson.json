@@ -3,8 +3,8 @@
   "n": 131,
   "title": "Debug drill: the outage that passed every health check",
   "phase": 12,
-  "content_id": 17354,
-  "content_digest": "adf12d8979e5186b69555ad78aa7eeda270aa1831bbc7e5c08c0f2a3be1facbc",
+  "content_id": 17486,
+  "content_digest": "f7b0fc0f8222b88d1749f9d40d940e5724c0ff7e6aa11359768f67390cee2752",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "f4bba10f6f0a5c987a40",
   "before_tag": "lesson-126-operating-anchor-in-production-runbooks-debuggin",
@@ -14,5 +14,5 @@
   "runnable_lines": 6,
   "has_demo": true,
   "commands": 6,
-  "exported_at": "2026-11-12T01:40:37Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

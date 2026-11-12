@@ -3,8 +3,8 @@
   "n": 120,
   "title": "Anchor — build it: self-hosted inference milestone",
   "phase": 11,
-  "content_id": 17351,
-  "content_digest": "539e6e2e40f48b54c059a2846d2d4c5982b81c5d7689c0ac48572ab065d29b83",
+  "content_id": 17476,
+  "content_digest": "b74b34420d77c77b438e8afbb1ee4a54824e6e0ede79e4eb985ab9903233a12c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "ee3e977e9d4a1b7d049d",
   "before_tag": "lesson-115-hosted-versus-local-inference-tradeoffs",
@@ -14,5 +14,5 @@
   "runnable_lines": 10,
   "has_demo": true,
   "commands": 10,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

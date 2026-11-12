@@ -3,8 +3,8 @@
   "n": 59,
   "title": "Human escalation and human-in-the-loop workflows",
   "phase": 5,
-  "content_id": 17282,
-  "content_digest": "46b1c1c111ad6e99e7a4509705a2a44ff14e4286136828902b0b739efbb55c24",
+  "content_id": 17421,
+  "content_digest": "8f5e09f819b4079b8826389ae4300c6212fcc6724c4b97e7904364e6287ebe1b",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "b454032eec5afa2da6ed",
   "before_tag": "lesson-057-agent-memory-short-term-long-term-and-episodic",
@@ -14,5 +14,5 @@
   "runnable_lines": 2,
   "has_demo": true,
   "commands": 2,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

@@ -3,8 +3,8 @@
   "n": 75,
   "title": "Debug drill: the multi-agent handoff that drops context",
   "phase": 6,
-  "content_id": 17292,
-  "content_digest": "6c89482d079690bcd311085573c56ee64d5fd49a41c62b1fc6e074590fb7a81f",
+  "content_id": 17436,
+  "content_digest": "80fe0011d5d885d06fd29db3e51a28b68e9558c828f9483c2f63c3ac4c5f4b5e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "3a22d629b7e631918a91",
   "before_tag": "lesson-072-anchor-build-it-ship-multi-agent-orchestration-m",
@@ -14,5 +14,5 @@
   "runnable_lines": 7,
   "has_demo": true,
   "commands": 7,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

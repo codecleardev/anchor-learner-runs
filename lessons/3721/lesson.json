@@ -3,8 +3,8 @@
   "n": 85,
   "title": "Multimodal vision: image understanding with LLMs",
   "phase": 8,
-  "content_id": 17299,
-  "content_digest": "fb7842f53b4ac4913d639b9c1f13f49e7aecd55b7feeccc0a6d2121bd1698218",
+  "content_id": 17444,
+  "content_digest": "3c042154bb84412f32f6978dbc6fea88bdb0564da7d9fd1a24786b8a292c2036",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "0bf91ef7fb24751d58b0",
   "before_tag": "lesson-081-checkpoint-anchor-evaluation-and-ci",
@@ -14,5 +14,5 @@
   "runnable_lines": 5,
   "has_demo": true,
   "commands": 5,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

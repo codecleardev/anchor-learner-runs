@@ -3,8 +3,8 @@
   "n": 16,
   "title": "Context engineering: assembling the context window and compacting long conversations",
   "phase": 1,
-  "content_id": 17234,
-  "content_digest": "b6002462978bbb15fd5c6f9d2e0cc35dd8c071f8035dd679b0f8aa26faf2fd98",
+  "content_id": 17385,
+  "content_digest": "553454b7a116021f7d3c958a82d06650ab677c7520c51180fa96652b3c1ee360",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "6c3fb0ce4da72ba1f30d",
   "before_tag": "lesson-015-prompt-versioning-and-prompts-as-contracts-desig",
@@ -14,5 +14,5 @@
   "runnable_lines": 5,
   "has_demo": true,
   "commands": 5,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

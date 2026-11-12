@@ -3,8 +3,8 @@
   "n": 26,
   "title": "Index maintenance: incremental updates, deletes, and re-embedding migrations",
   "phase": 2,
-  "content_id": 17253,
-  "content_digest": "fd3f16ffc99e7509353fc6c1b4637b8617c1360ea37c241104073785f02bbba7",
+  "content_id": 17392,
+  "content_digest": "e641a92f1eccddd50540f60f7c882a10a7725e941afa14325fc8cc0d412cc5a5",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "5770fdf23cb98af1ee33",
   "before_tag": "lesson-024-vector-indexes-faiss-hnsw-ivf-tradeoffs",
@@ -14,5 +14,5 @@
   "runnable_lines": 15,
   "has_demo": true,
   "commands": 15,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

@@ -3,8 +3,8 @@
   "n": 132,
   "title": "Anchor — productionize and ship it",
   "phase": 12,
-  "content_id": 17355,
-  "content_digest": "03ccd21becd83cf388d6c2e8138f751491276454227c9c41019ff3aa784a8797",
+  "content_id": 17487,
+  "content_digest": "ee0be0bfbb977cbae408e3c16655302a16db4b5dc7b6e46e621bfcb6fcf90d86",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "94c63bb8a637179b3911",
   "before_tag": "lesson-127-debug-drill-the-outage-that-passed-every-health",
@@ -14,5 +14,5 @@
   "runnable_lines": 7,
   "has_demo": true,
   "commands": 7,
-  "exported_at": "2026-11-12T01:40:37Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

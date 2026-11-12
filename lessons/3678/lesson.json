@@ -3,8 +3,8 @@
   "n": 34,
   "title": "Multi-hop RAG for complex queries",
   "phase": 3,
-  "content_id": 17263,
-  "content_digest": "4535b90318bcdd0fbc3d9008d28b9b8cce7682710b131d2bcc2053c246313bfe",
+  "content_id": 17399,
+  "content_digest": "af41f91275b9a8bf7eddaa077e112ac777332d2686c19d7990dd69c9f37055bc",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "440a07bb6c01ba73659d",
   "before_tag": "lesson-032-reranking-with-cross-encoders",
@@ -14,5 +14,5 @@
   "runnable_lines": 4,
   "has_demo": true,
   "commands": 4,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

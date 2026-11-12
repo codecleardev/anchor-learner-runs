@@ -3,8 +3,8 @@
   "n": 80,
   "title": "LLM-as-judge design and calibration against human labels",
   "phase": 7,
-  "content_id": 17296,
-  "content_digest": "912c2ae2b2f40f83532108035be02668d907eba5f9ce0911e8dd24757c2025c0",
+  "content_id": 17440,
+  "content_digest": "977b2ca437ff3d75db10fe2cdc23bea28dbcf9b1338b0091a496870a9acb9d6d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "f395704d0f12d20ce7da",
   "before_tag": "lesson-076a-error-analysis-and-eval-practice",
@@ -14,5 +14,5 @@
   "runnable_lines": 4,
   "has_demo": true,
   "commands": 4,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

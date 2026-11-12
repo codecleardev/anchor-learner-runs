@@ -3,8 +3,8 @@
   "n": 96,
   "title": "Durable background jobs for long-running AI tasks",
   "phase": 9,
-  "content_id": 17310,
-  "content_digest": "4291f9bbaa9da0dc1de3784c3a6cc00a564f7bcdb8007982cba075c9fcd61ca0",
+  "content_id": 17454,
+  "content_digest": "b77b74c6fed75dbf53b910c02f6b7c44170b9a79939700766b45a76149682a53",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "022dbec7b8b226248ebc",
   "before_tag": "lesson-092-request-batching-for-throughput",
@@ -14,5 +14,5 @@
   "runnable_lines": 6,
   "has_demo": true,
   "commands": 6,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

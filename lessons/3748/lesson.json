@@ -3,8 +3,8 @@
   "n": 116,
   "title": "vLLM deployment and serving",
   "phase": 11,
-  "content_id": 17328,
-  "content_digest": "f83103b737c062fa874b6326479f350a9eab967e10f8e2f5b325a147bee94224",
+  "content_id": 17472,
+  "content_digest": "28cf06dad7046ef01c423711fd087814d0f021c1087b7a654a65bffa18654f87",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "f0c1d05f1dd1da0e19a4",
   "before_tag": "lesson-111-quantization-techniques-gptq-awq-and-gguf",
@@ -14,5 +14,5 @@
   "runnable_lines": 7,
   "has_demo": true,
   "commands": 7,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

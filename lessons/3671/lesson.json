@@ -3,8 +3,8 @@
   "n": 25,
   "title": "Vector indexes: FAISS, HNSW, IVF tradeoffs",
   "phase": 2,
-  "content_id": 17250,
-  "content_digest": "89659f38d0b87a03d9d7860e75e678a651fe406509cfd7144143b4abeb6ff95f",
+  "content_id": 17391,
+  "content_digest": "6dd9e5daad0df8225a77aac5902bde5fb064ec736fef19fa2a5dffe82e43cc8e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "776e51b663ddd85f6834",
   "before_tag": "lesson-023-anchor-build-it-document-ingestion-pipeline",
@@ -14,5 +14,5 @@
   "runnable_lines": 5,
   "has_demo": true,
   "commands": 5,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

@@ -3,8 +3,8 @@
   "n": 7,
   "title": "Anchor's AI service boundary: calling the Python AI runtime from Rails (contract, auth, timeouts, local topology)",
   "phase": 1,
-  "content_id": 17218,
-  "content_digest": "9773e14878738786ebfd4cda2876783ef110e050cb5969e93bcec2e2a8efc2cf",
+  "content_id": 17377,
+  "content_digest": "1c7c658f3f27847b5402af40b5b5005c3301095af12835791315378156182b20",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "d331ffca869590061d10",
   "before_tag": "lesson-006-llm-foundations-transformer-architecture-and-tok",
@@ -14,5 +14,5 @@
   "runnable_lines": 5,
   "has_demo": true,
   "commands": 5,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

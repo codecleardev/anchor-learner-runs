@@ -3,8 +3,8 @@
   "n": 130,
   "title": "Operating Anchor in production: runbooks, debugging, and maintenance",
   "phase": 12,
-  "content_id": 17341,
-  "content_digest": "d4df959d9aa159355396c45716d4d2c3d68e0ac13cd324bdb0e9e33c4bd88a84",
+  "content_id": 17485,
+  "content_digest": "2797b745b5a3e8d847fe4c85ebb119190b11431c370408f3df359e1487dd0591",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "d392557fccb69dd036d9",
   "before_tag": "lesson-125-backups-and-state-recovery-for-ai-systems",
@@ -14,5 +14,5 @@
   "runnable_lines": 6,
   "has_demo": true,
   "commands": 6,
-  "exported_at": "2026-11-12T01:40:37Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

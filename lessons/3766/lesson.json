@@ -3,8 +3,8 @@
   "n": 133,
   "title": "Staff-level AI Engineering Interview: system design, implementation, incident, cost, and platform rounds",
   "phase": 12,
-  "content_id": 17256,
-  "content_digest": "b45f6c9722f94b6b84c2410b5c0983a5da6635cf43cbb6f14e613e085b4b0655",
+  "content_id": 17488,
+  "content_digest": "8515d972c97313eb1b02ad40da77d44eeb9fb85bfa26870e17c1a2f6ae25ee91",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "583b2dbbe42e036e02e1",
   "before_tag": "lesson-128-anchor-productionize-and-ship-it",
@@ -14,5 +14,5 @@
   "runnable_lines": 6,
   "has_demo": true,
   "commands": 6,
-  "exported_at": "2026-11-12T01:40:37Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

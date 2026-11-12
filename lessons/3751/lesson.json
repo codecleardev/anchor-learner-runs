@@ -3,8 +3,8 @@
   "n": 119,
   "title": "Hosted-versus-local inference tradeoffs",
   "phase": 11,
-  "content_id": 17331,
-  "content_digest": "d236be1bc0ab70d098f328813544632b5e5281311eb703a532dcdfd814c266e8",
+  "content_id": 17475,
+  "content_digest": "d7f030c39492e25542a2565d877d1f0d73b4516b8c643160cd3d501b7b657522",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "93671b5b61d9d1e3b025",
   "before_tag": "lesson-114-kv-cache-management",
@@ -14,5 +14,5 @@
   "runnable_lines": 5,
   "has_demo": false,
   "commands": 5,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

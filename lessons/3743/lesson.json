@@ -3,8 +3,8 @@
   "n": 109,
   "title": "Red-team testing methodology for LLM systems",
   "phase": 10,
-  "content_id": 17322,
-  "content_digest": "0a915a50405698cff025afa324c0a47c74afbce15bc7b9f2bd83a1ffc517e124",
+  "content_id": 17466,
+  "content_digest": "04d6c08a78eeb006b92350eecf069dcafb7e0c506a765553defc4dd9ebda6cef",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "7ab523b087831f662e40",
   "before_tag": "lesson-105-safe-side-effects-confirmation-dry-run-reversibi",
@@ -14,5 +14,5 @@
   "runnable_lines": 8,
   "has_demo": true,
   "commands": 8,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

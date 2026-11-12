@@ -3,8 +3,8 @@
   "n": 15,
   "title": "Prompt versioning and prompts-as-contracts design",
   "phase": 1,
-  "content_id": 17232,
-  "content_digest": "3e565085eea96036691a6f660ad37e35400a4f30717bd6e8cb340f81b6b95c09",
+  "content_id": 17384,
+  "content_digest": "5e581f35d02563ecb8390cb0baf273d8b56308f612835c8842f090a9663f68e8",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "530efade532a0b006fa5",
   "before_tag": "lesson-014-streaming-responses-and-server-sent-events",
@@ -14,5 +14,5 @@
   "runnable_lines": 12,
   "has_demo": true,
   "commands": 12,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

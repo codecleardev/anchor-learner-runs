@@ -3,8 +3,8 @@
   "n": 66,
   "title": "LangGraph stateful graph orchestration",
   "phase": 6,
-  "content_id": 17091,
-  "content_digest": "e5c5b4e70d070dc0f6f72dc3d4ed252ffe38400a456f5b757c8b88f27e1347c0",
+  "content_id": 17427,
+  "content_digest": "ca4012f2cc2b6d3d8dbdf7ba6bac0b7e1ef379d53e6c443e9d6e31b54bd8829d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "bc92b30a5790a0303cbc",
   "before_tag": "lesson-063-langchain-core-abstractions-and-chains",
@@ -14,5 +14,5 @@
   "runnable_lines": 11,
   "has_demo": true,
   "commands": 11,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

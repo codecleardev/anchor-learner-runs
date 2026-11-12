@@ -3,8 +3,8 @@
   "n": 56,
   "title": "ReAct: reasoning-acting loops for agents",
   "phase": 5,
-  "content_id": 17280,
-  "content_digest": "5f6d6fd5f964719330ceddb1f53b0462d2aa0547e5694010471669a11120af6d",
+  "content_id": 17418,
+  "content_digest": "cd5428f950580cde43fd864511e26ea80ba1a3988b8fb6a9c05e260be7e60b7f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "bb39e4ad402d5bc547c1",
   "before_tag": "lesson-054-bounded-agent-design-and-autonomy-guardrails",
@@ -14,5 +14,5 @@
   "runnable_lines": 4,
   "has_demo": true,
   "commands": 4,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

@@ -3,8 +3,8 @@
   "n": 32,
   "title": "Retrieval evaluation metrics: recall, MRR, and nDCG",
   "phase": 3,
-  "content_id": 17261,
-  "content_digest": "eb05aa320b749f61c474d9665a70a2db2a05023ca0a573cf7c206f0e82c628d2",
+  "content_id": 17397,
+  "content_digest": "68c548f7eedf4c5ea715e29162bf46c59ac684a6f6333855789c7a839e35343e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "ff378ff67aa22bf12d71",
   "before_tag": "lesson-030-checkpoint-anchor-rag-indexing-and-retrieval",
@@ -14,5 +14,5 @@
   "runnable_lines": 5,
   "has_demo": true,
   "commands": 5,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

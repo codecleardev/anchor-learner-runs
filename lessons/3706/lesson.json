@@ -3,8 +3,8 @@
   "n": 65,
   "title": "LangChain core abstractions and chains",
   "phase": 6,
-  "content_id": 17285,
-  "content_digest": "4ff38d210902e6fd105821c99053d4f5623e40ceee38a2749454550411a11944",
+  "content_id": 17426,
+  "content_digest": "5e5f952cab58452ac4fe55ad7361d0bfc1a5698bc430192214ce3a342940a23f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "cf08030918d915625910",
   "before_tag": "lesson-062a-build-an-mcp-server-properly-official-sdk-transp",
@@ -14,5 +14,5 @@
   "runnable_lines": 6,
   "has_demo": true,
   "commands": 6,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

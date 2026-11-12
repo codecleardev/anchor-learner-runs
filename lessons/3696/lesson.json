@@ -3,8 +3,8 @@
   "n": 55,
   "title": "Bounded agent design and autonomy guardrails",
   "phase": 5,
-  "content_id": 17279,
-  "content_digest": "a7f1855f115fe88e9cd5d7d061c439e0daf4879e92c2afb8cb1c0c17cd3ccd4d",
+  "content_id": 17417,
+  "content_digest": "8030c78e5b1634eed47e62473c356994f0cadc94fa1fe42076653414b8de6514",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "eed0a80bf05b86a4c0a7",
   "before_tag": "lesson-053-tool-calling-and-function-calling-patterns",
@@ -14,5 +14,5 @@
   "runnable_lines": 5,
   "has_demo": true,
   "commands": 5,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

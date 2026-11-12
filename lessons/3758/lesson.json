@@ -3,8 +3,8 @@
   "n": 126,
   "title": "Reliability and safety: retries, fallbacks, circuit breakers, and kill switches",
   "phase": 12,
-  "content_id": 17352,
-  "content_digest": "3e54fe8f20c0b07868bc279da86fd382f691efcccd682284a3823e195b091501",
+  "content_id": 17481,
+  "content_digest": "e1c1befb69333fba8052db75ab2d23c78ce9fc18cfc30d86c593848f1f29b600",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "1dc51e55f5f8350eafc9",
   "before_tag": "lesson-121-load-testing-llm-endpoints",
@@ -14,5 +14,5 @@
   "runnable_lines": 11,
   "has_demo": true,
   "commands": 11,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

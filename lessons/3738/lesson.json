@@ -3,8 +3,8 @@
   "n": 104,
   "title": "Jailbreak resistance techniques",
   "phase": 10,
-  "content_id": 17317,
-  "content_digest": "74dbce6d16109c54fffd5566d71e4137f10387cfce604fcbe77ecf1887189060",
+  "content_id": 17461,
+  "content_digest": "56c1a69fa4e69d98876fe3e26b3ec3dc557ffa1fcf4a680b90493b2fb65d68bc",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "c48ff1a186e98cd83d41",
   "before_tag": "lesson-100-prompt-injection-attack-vectors-and-defenses",
@@ -14,5 +14,5 @@
   "runnable_lines": 7,
   "has_demo": true,
   "commands": 7,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

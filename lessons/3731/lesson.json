@@ -3,8 +3,8 @@
   "n": 97,
   "title": "Cost: what drives spend and how it is bounded",
   "phase": 9,
-  "content_id": 17311,
-  "content_digest": "4bd0c0e29973ef7100e7f26c86bc6fa14d98516b92c9fe852ccba3df2b9e68d4",
+  "content_id": 17455,
+  "content_digest": "a654cfe0a01a69e1d875c806987725b4d2e96cbad5ccac77cf911589b99e5782",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "a81bdf50554bb31b5446",
   "before_tag": "lesson-093-durable-background-jobs-for-long-running-ai-task",
@@ -14,5 +14,5 @@
   "runnable_lines": 8,
   "has_demo": true,
   "commands": 8,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

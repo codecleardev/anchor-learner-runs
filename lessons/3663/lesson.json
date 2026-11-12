@@ -3,8 +3,8 @@
   "n": 13,
   "title": "Structured outputs: JSON mode, function-calling schemas, and Pydantic validation",
   "phase": 1,
-  "content_id": 17186,
-  "content_digest": "10127bdd99fb9aec0a6d7ed54f9f599379d0ec287b9f7a76d0a8b174eb25affb",
+  "content_id": 17382,
+  "content_digest": "f2da76318c3d7906d4eaeaf7a3c505015874dd04148ae58c8b6ecd5d24b5651d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "401c4ae1146af4f95a28",
   "before_tag": "lesson-012-reasoning-models-and-thinking-budgets-when-extra",
@@ -14,5 +14,5 @@
   "runnable_lines": 7,
   "has_demo": true,
   "commands": 7,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

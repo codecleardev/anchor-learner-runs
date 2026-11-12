@@ -3,8 +3,8 @@
   "n": 82,
   "title": "Regression testing for prompts and pipelines",
   "phase": 7,
-  "content_id": 17297,
-  "content_digest": "7463be83dc59704e9b09c2d9da318c9b421ad32f23485af361d6fa4c4ff1bdac",
+  "content_id": 17442,
+  "content_digest": "d61a9bdd1fd4ef4dabc8de1d0281249abe3a3600f3580a8b9b2b27beb44bc6c5",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "0ca0eab912810091c532",
   "before_tag": "lesson-078-agent-trajectory-evaluation-step-level-scoring",
@@ -14,5 +14,5 @@
   "runnable_lines": 6,
   "has_demo": true,
   "commands": 6,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

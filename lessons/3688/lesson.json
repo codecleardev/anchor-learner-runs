@@ -3,8 +3,8 @@
   "n": 51,
   "title": "Preference alignment: RLHF and DPO",
   "phase": 4,
-  "content_id": 17200,
-  "content_digest": "76451321d016c1e2bde8edd735d3793f475f79b3229048bb40c0754f221a84fc",
+  "content_id": 17415,
+  "content_digest": "fa37017666828719edfed7fbcfb3a115acb1c0e0c9cd188c600ec74cc639f8a4",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "11735e4b5f8c6a109f20",
   "before_tag": "lesson-049-peft-library-patterns-and-adapter-merging",
@@ -14,5 +14,5 @@
   "runnable_lines": 9,
   "has_demo": true,
   "commands": 9,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

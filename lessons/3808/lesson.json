@@ -3,8 +3,8 @@
   "n": 110,
   "title": "Agentic security canon: OWASP lists, the lethal trifecta and injection-resistant design",
   "phase": 10,
-  "content_id": 17176,
-  "content_digest": "d8de73a4f96e30ebf7c73e29798cb473c7bf3945608c34b8a5e4cd339f84e230",
+  "content_id": 17467,
+  "content_digest": "43b4c4400e4c317f62716939a24c4ac48128fdc31bcb92cf142384a547ff941f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "844ecd7df37afdf92227",
   "before_tag": "lesson-106-red-team-testing-methodology-for-llm-systems",
@@ -14,5 +14,5 @@
   "runnable_lines": 5,
   "has_demo": true,
   "commands": 5,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }

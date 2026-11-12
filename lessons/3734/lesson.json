@@ -3,8 +3,8 @@
   "n": 100,
   "title": "Retries, timeouts, and circuit breakers for LLM calls",
   "phase": 9,
-  "content_id": 17314,
-  "content_digest": "f7f95efd428e3d647e07862d2fecfac93c0fb5a5454a112064f664b74280df23",
+  "content_id": 17458,
+  "content_digest": "097459d29afa3655c5ac406c30acf7d913ff1d1b7dd5afee7f09c99115b7938d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "contract_digest": "f468fb047d5a595dc804",
   "before_tag": "lesson-096-provider-failover-and-multi-provider-routing",
@@ -14,5 +14,5 @@
   "runnable_lines": 5,
   "has_demo": true,
   "commands": 5,
-  "exported_at": "2026-11-12T01:40:36Z"
+  "exported_at": "2026-11-12T02:59:45Z"
 }
