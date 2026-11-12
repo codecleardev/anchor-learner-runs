@@ -37,7 +37,7 @@ No secrets are used: the labs run offline against recorded fixtures.
 | Path | Content |
 |---|---|
 | `lessons/index.json` | Every lesson: id, number, before-tag, lesson tag, whether it needs a run. |
-| `lessons/<lesson_id>/lesson.json` | Lesson id, content row id and `content_digest`, before-tag, lesson tag. |
+| `lessons/<lesson_id>/lesson.json` | Lesson id, `code_digest`, content row id and `content_digest`, before-tag, lesson tag. |
 | `lessons/<lesson_id>/commands.json` | The lesson's commands in order (`block`, `cmd`, optional `"expect": "fail"` with a `reason`, optional `saved_later` file list with `saved_later_reason`). |
 | `lessons/<lesson_id>/demo.json` | The demo block's commands for `demo_before` (`block`, `pane`: `before` or `command`, `cmd`). |
 | `fallback/.devcontainer/` | Dev container used only for tags that have none. |
@@ -70,7 +70,7 @@ any lesson did not pass. A lesson job is green when the run was recorded, whethe
 | `transcript.jsonl` | One JSON object per step: `{phase, cmd, stdout, stderr, exit, seconds}`. Nothing trimmed. |
 | `transcript.txt` | The same as a readable log. |
 | `transcript.cast` | The same as asciicast v2 (made from the JSONL; timing is per step). |
-| `meta.json` | `lesson_id`, `content_id`, `content_digest`, `before_tag`, `lesson_tag`, their commits and tree hashes, `before_devcontainer_tree` (the hash of the before-tag's `.devcontainer/`, which defines the image), `repo`, `image_digest` (of the image this job built: every job builds its own, so it is a record, not something two runs share), `arch`, `devcontainer_source`, `date_utc`, the workflow run, and the sha256 of `transcript.jsonl`. |
+| `meta.json` | `lesson_id`, `code_digest` (what the run is a run of: the lesson's code, terminal and lab-step blocks and its demo commands, in order; the lesson's prose is not in it, so a wording fix does not make the run stale), `content_id` and `content_digest` (the exact row, for the record), `before_tag`, `lesson_tag`, their commits and tree hashes, `before_devcontainer_tree` (the hash of the before-tag's `.devcontainer/`, which defines the image), `repo`, `image_digest` (of the image this job built: every job builds its own, so it is a record, not something two runs share), `arch`, `devcontainer_source`, `date_utc`, the workflow run, and the sha256 of `transcript.jsonl`. |
 | `result.json` | `pass`, `setup_ok`, commands that exited non-zero, suite results, `demo_before` (command and exit code), seconds. |
 | `commands.json`, `demo.json`, `setup.sh`, `learner.sh`, `devcontainer_up.log` | Exactly what ran. |
 

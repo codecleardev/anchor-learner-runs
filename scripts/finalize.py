@@ -18,6 +18,8 @@ meta = {
     "lesson_id": L["lesson_id"], "n": L["n"], "title": L["title"], "phase": L["phase"],
     "content_id": L["content_id"], "contract_digest": L.get("contract_digest"),
     "content_digest": L["content_digest"], "content_digest_how": L["content_digest_how"],
+    # what the run is bound to: the lesson's code, lab steps, terminal blocks and demo commands (not its prose)
+    "code_digest": L.get("code_digest"), "code_digest_how": L.get("code_digest_how"),
     "before_tag": L["before_tag"], "lesson_tag": L["lesson_tag"],
     "before_commit": git("rev-parse", L["before_tag"] + "^{commit}"), "before_tree": git("rev-parse", L["before_tag"] + "^{tree}"),
     "lesson_commit": git("rev-parse", L["lesson_tag"] + "^{commit}"), "lesson_tree": git("rev-parse", L["lesson_tag"] + "^{tree}"),
