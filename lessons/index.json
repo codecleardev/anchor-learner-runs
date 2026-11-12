@@ -1239,7 +1239,7 @@
     "lesson_tag": "lesson-109-checkpoint-anchor-security-and-safety",
     "needs_run": false,
     "commands": 0,
-    "content_id": 17325,
+    "content_id": 17685,
     "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26"
   },
   {
@@ -1305,8 +1305,8 @@
     "lesson_tag": "lesson-115-hosted-versus-local-inference-tradeoffs",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17475,
-    "code_digest": "e0bba7f3da6d80d576c194b7b199536baf3cd66f0dd545648656e817db98debb"
+    "content_id": 17684,
+    "code_digest": "e0ee70dba90996d305b0d3235c15d345e74b9d315b5d38649358edcf1bff5a80"
   },
   {
     "lesson_id": 3752,
@@ -1470,7 +1470,7 @@
     "lesson_tag": "lesson-130-roles-and-hiring-how-teams-hire-ai-engineers",
     "needs_run": false,
     "commands": 0,
-    "content_id": 17545,
+    "content_id": 17686,
     "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26"
   },
   {
@@ -1481,7 +1481,7 @@
     "lesson_tag": "lesson-131-ai-engineering-interview-question-bank",
     "needs_run": true,
     "commands": 0,
-    "content_id": 17208,
+    "content_id": 17687,
     "code_digest": "6f421c590bcb313f0a925dbdfb9f9cb2b6dca5b48d1ea974db1b83717ea77358"
   },
   {

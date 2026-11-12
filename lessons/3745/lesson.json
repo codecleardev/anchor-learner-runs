@@ -3,8 +3,8 @@
   "n": 113,
   "title": "Checkpoint: Anchor security and safety",
   "phase": 10,
-  "content_id": 17325,
-  "content_digest": "371a54f3c69d5b42444c98149ec5e5fc08e7183bb918d485df57bc495e931b86",
+  "content_id": 17685,
+  "content_digest": "8893431dcb41613cdbfa578b09b392cc772b28d2172ce67b71218b4e68eb2a8e",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T05:39:54Z"
+  "exported_at": "2026-11-12T05:56:22Z"
 }

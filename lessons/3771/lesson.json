@@ -3,8 +3,8 @@
   "n": 134,
   "title": "Roles and hiring: how teams hire AI engineers",
   "phase": 12,
-  "content_id": 17545,
-  "content_digest": "a4f74cef165ad51225b102416ab7beb20cd2025ccf436670f00f18df10323a02",
+  "content_id": 17686,
+  "content_digest": "2663876f1c63e59252935dc574feca9ee556d3c40d122edc5176a9344cee8007",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T05:39:54Z"
+  "exported_at": "2026-11-12T05:56:22Z"
 }
