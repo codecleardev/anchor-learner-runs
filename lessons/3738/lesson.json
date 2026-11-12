@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "c48ff1a186e98cd83d41",
   "before_tag": "lesson-100-prompt-injection-attack-vectors-and-defenses",
-  "lesson_tag": "bin/rails test test/services/security_prompt_registry_test.rb test/models/document_test.rb",
+  "lesson_tag": "lesson-101-jailbreak-resistance-techniques",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

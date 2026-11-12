@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "9b7c579d9bd54f87f762",
   "before_tag": "lesson-084-anchor-build-it-screenshot-and-attachment-unders",
-  "lesson_tag": "python3 labs/audio-transcription/generate_call.py --fail-chunk 1",
+  "lesson_tag": "lesson-085-audio-transcription-and-speech-pipelines-with-wh",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

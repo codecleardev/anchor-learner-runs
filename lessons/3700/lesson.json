@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "b454032eec5afa2da6ed",
   "before_tag": "lesson-057-agent-memory-short-term-long-term-and-episodic",
-  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_escalation.py anchor_ai/tests/test_autonomy.py anchor_ai/tests/test_react.py anchor_ai/tests/test_planning.py",
+  "lesson_tag": "lesson-058-human-escalation-and-human-in-the-loop-workflows",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 2,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 2,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

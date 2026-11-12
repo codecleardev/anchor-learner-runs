@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "440a07bb6c01ba73659d",
   "before_tag": "lesson-032-reranking-with-cross-encoders",
-  "lesson_tag": "ANCHOR_LLM_MODE=offline python3 -m pytest -q anchor_ai/tests/test_multihop.py anchor_ai/tests/test_dense_rag.py",
+  "lesson_tag": "lesson-033-multi-hop-rag-for-complex-queries",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

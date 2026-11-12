@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "6c3fb0ce4da72ba1f30d",
   "before_tag": "lesson-015-prompt-versioning-and-prompts-as-contracts-desig",
-  "lesson_tag": "python3 -m pytest -q anchor_ai/tests",
+  "lesson_tag": "lesson-016-context-engineering-assembling-the-context-windo",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
   "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

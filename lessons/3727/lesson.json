@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "d478d364bb85a5a78d31",
   "before_tag": "lesson-088-latency-what-drives-it-and-how-it-is-measured-an",
-  "lesson_tag": "ANCHOR_STREAM_SMOKE=1 ruby test/controllers/chat_streaming_test.rb",
+  "lesson_tag": "lesson-089-token-streaming-for-perceived-latency-reduction",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

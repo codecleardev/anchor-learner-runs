@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "c86ce51fadc672393c78",
   "before_tag": "lesson-058-human-escalation-and-human-in-the-loop-workflows",
-  "lesson_tag": "python3 eval/agent_gate.py --fault missing-escalation --expect-rejection",
+  "lesson_tag": "lesson-059-anchor-build-it-bounded-agent-with-tools-plannin",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 16,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 16,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

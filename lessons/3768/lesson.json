@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "6a7455f4d2c862248c60",
   "before_tag": "lesson-016-context-engineering-assembling-the-context-windo",
-  "lesson_tag": "env -u ANCHOR_LLM_PROVIDER python3 -m pytest -q anchor_ai/tests",
+  "lesson_tag": "lesson-017-model-testing-fundamentals-your-first-minitest-f",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
   "demo_commands": 1,
   "commands": 8,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

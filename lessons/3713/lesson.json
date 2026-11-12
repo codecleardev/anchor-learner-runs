@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "3a22d629b7e631918a91",
   "before_tag": "lesson-072-anchor-build-it-ship-multi-agent-orchestration-m",
-  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_handoff_contracts.py anchor_ai/tests/test_graph_checkpoints.py anchor_ai/tests/test_group_chat.py anchor_ai/tests/test_harness_interop.py anchor_ai/tests/test_native_agent_wrapper.py",
+  "lesson_tag": "lesson-073-debug-drill-the-multi-agent-handoff-that-drops-c",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "9e4862812a4d636ebacd",
   "before_tag": "lesson-087-checkpoint-anchor-multimodal-and-realtime",
-  "lesson_tag": "python3 -c \"import json; r=json.load(open('tmp/latency_profile/report.json')); print(json.dumps({k:r[k] for k in ('dominant_exclusive_segment','exclusive_segments','round_trip_counts','cohorts','max_remainder_fraction','labels')}, indent=2))\"",
+  "lesson_tag": "lesson-088-latency-what-drives-it-and-how-it-is-measured-an",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

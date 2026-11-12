@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "1dc51e55f5f8350eafc9",
   "before_tag": "lesson-121-load-testing-llm-endpoints",
-  "lesson_tag": "python3 -m pytest -q -s anchor_ai/tests/test_incident_control.py anchor_ai/tests/test_prompt_regression.py",
+  "lesson_tag": "lesson-122-reliability-and-safety-retries-fallbacks-circuit",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 11,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 11,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

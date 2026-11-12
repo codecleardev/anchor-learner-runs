@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "f0c1d05f1dd1da0e19a4",
   "before_tag": "lesson-111-quantization-techniques-gptq-awq-and-gguf",
-  "lesson_tag": "bin/rails test test/services/llm_client_test.rb test/integration/self_hosted_chat_test.rb",
+  "lesson_tag": "lesson-112-vllm-deployment-and-serving",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

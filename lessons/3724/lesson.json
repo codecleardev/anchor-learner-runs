@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "0228b647707618fcf47f",
   "before_tag": "lesson-085-audio-transcription-and-speech-pipelines-with-wh",
-  "lesson_tag": "python3 -m eval.agent_gate --multimodal --fault multimodal --expect-rejection",
+  "lesson_tag": "lesson-086-anchor-build-it-realtime-voice-interaction",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 9,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 9,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

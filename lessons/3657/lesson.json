@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "d331ffca869590061d10",
   "before_tag": "lesson-006-llm-foundations-transformer-architecture-and-tok",
-  "lesson_tag": "python3 labs/ai-service-boundary/smoke.py",
+  "lesson_tag": "lesson-007-anchor-s-ai-service-boundary-calling-the-python",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:56:21Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

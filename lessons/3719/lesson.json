@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "f0abdacec67926618868",
   "before_tag": "lesson-079-regression-testing-for-prompts-and-pipelines",
-  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_eval_release_gate.py -k 'upstream or identity or quarantine or stale'",
+  "lesson_tag": "lesson-080-anchor-build-it-ci-evaluation-gates-milestone",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 7,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 7,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

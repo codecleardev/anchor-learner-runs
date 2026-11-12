@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "022dbec7b8b226248ebc",
   "before_tag": "lesson-092-request-batching-for-throughput",
-  "lesson_tag": "bin/rails test test/jobs/ai_task_retry_test.rb -n test_checkpointed_agent_does_not_repeat_committed_tool_action",
+  "lesson_tag": "lesson-093-durable-background-jobs-for-long-running-ai-task",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

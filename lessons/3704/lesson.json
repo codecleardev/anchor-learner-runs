@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "f48728d90863b6f1bbbc",
   "before_tag": "lesson-061-multi-agent-orchestration-patterns",
-  "lesson_tag": "python3 -m pytest -q anchor_ai/tests/test_tools.py",
+  "lesson_tag": "lesson-062-model-context-protocol-mcp-for-tool-and-context",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
   "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

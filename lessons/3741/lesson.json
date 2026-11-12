@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "377138029d424e49c46d",
   "before_tag": "lesson-103-scoped-authorization-for-agent-actions",
-  "lesson_tag": "python3 labs/tenant-isolation/tenant_isolation_test.py",
+  "lesson_tag": "lesson-104-tenant-isolation-in-multi-tenant-ai-systems",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 8,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

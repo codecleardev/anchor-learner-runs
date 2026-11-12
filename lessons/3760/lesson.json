@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "090bdce89ea9218a2e56",
   "before_tag": "lesson-123-rollback-strategies-for-prompt-model-changes",
-  "lesson_tag": "bash ops/drills/simulate_cost_spike.sh recover",
+  "lesson_tag": "lesson-124-incident-response-playbooks-for-ai-outages",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 6,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

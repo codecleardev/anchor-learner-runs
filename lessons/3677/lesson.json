@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "a0ad6ae7123a83f0c71e",
   "before_tag": "lesson-031-retrieval-evaluation-metrics-recall-mrr-and-ndcg",
-  "lesson_tag": "ANCHOR_RERANKER=disabled python3 -m pytest -q anchor_ai/tests/test_reranking.py anchor_ai/tests/test_hybrid_retrieval.py anchor_ai/tests/test_retrieval_metrics.py",
+  "lesson_tag": "lesson-032-reranking-with-cross-encoders",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 4,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

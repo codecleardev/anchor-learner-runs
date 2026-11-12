@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "0bf91ef7fb24751d58b0",
   "before_tag": "lesson-081-checkpoint-anchor-evaluation-and-ci",
-  "lesson_tag": "python3 -m pytest -q -s anchor_ai/tests/test_vision.py anchor_ai/tests/test_observability.py",
+  "lesson_tag": "lesson-082-multimodal-vision-image-understanding-with-llms",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 5,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

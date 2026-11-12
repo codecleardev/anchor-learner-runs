@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "5770fdf23cb98af1ee33",
   "before_tag": "lesson-024-vector-indexes-faiss-hnsw-ivf-tradeoffs",
-  "lesson_tag": "python3 -c \"from anchor_ai.storage import connect; from anchor_ai.index_maintenance import complete; from anchor_ai.vector_index import VectorIndex; db = connect('labs/index-maintenance/sandbox/index.sqlite3'); generations = [dict(r) for r in db.execute(\\\"SELECT * FROM retrieval_generations WHERE tenant_id=1 AND status='ready'\\\")]; assert generations and all(complete(db, 1, g) for g in generations); result = VectorIndex().search_active(db, 1, 'What is the refund policy?'); assert result['hits'] and result['dimensions'] == 4; print({'all_retained_generations_complete': True, 'policy_query': result, 'outcome': 'Anchor serves one complete generation and switches back without changing application code'}); db.close()\"",
+  "lesson_tag": "lesson-025-index-maintenance-incremental-updates-deletes-an",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 15,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 15,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }

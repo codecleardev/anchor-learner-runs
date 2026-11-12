@@ -10,12 +10,12 @@
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "11fe64998ef8c3844b22",
   "before_tag": "lesson-107-ai-governance-and-compliance-risk-contracts-lice",
-  "lesson_tag": "python3 -c \"import json; from pathlib import Path; print(json.dumps(json.loads(Path('.git/anchor-eval/security.json').read_text()), indent=2)); print(Path('ops/security_audit_report.md').read_text())\"",
+  "lesson_tag": "lesson-108-anchor-build-it-security-hardening-milestone",
   "needs_run": true,
   "has_lab_step": true,
   "runnable_lines": 9,
   "has_demo": true,
   "demo_commands": 2,
   "commands": 9,
-  "exported_at": "2026-11-12T05:56:22Z"
+  "exported_at": "2026-11-12T06:05:45Z"
 }
