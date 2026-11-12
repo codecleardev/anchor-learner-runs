@@ -3,8 +3,8 @@
   "n": 44,
   "title": "Dataset engineering for fine-tuning: collection, curation, and labeling",
   "phase": 4,
-  "content_id": 17408,
-  "content_digest": "d85ac807bdfbc2dca85d6f3d933ae062c717c9298e011ca097e2fbf87fdc17e9",
+  "content_id": 17800,
+  "content_digest": "7ba7c5b7f34bd1ed505d384ea7d8867860286f5f8a0919a5d0d008255a57ee5f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "7095600e2a7065038ed6e52e766dc16c1779891d207a60b67b6c3dd81a7d2b5b",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 6,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

@@ -3,8 +3,8 @@
   "n": 102,
   "title": "Checkpoint: Anchor performance and cost",
   "phase": 9,
-  "content_id": 17576,
-  "content_digest": "00828e61d24277c2c02e98453f91d3bbef4cc0baf65f8b12afb753d0c0eab063",
+  "content_id": 17804,
+  "content_digest": "2c184fa4bed3ecafc09b8e6bf4cf0722fff6de2f3828ba725662fdff802006a1",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

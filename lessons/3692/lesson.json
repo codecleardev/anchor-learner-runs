@@ -3,8 +3,8 @@
   "n": 45,
   "title": "Synthetic data generation and quality filtering",
   "phase": 4,
-  "content_id": 17736,
-  "content_digest": "5c9ca7a500420c9167d1ce094c33de08ae0ab852740956d1991a8810519554e0",
+  "content_id": 17801,
+  "content_digest": "16c645c286c88903fc4db5833c8d6722f18958ef80772e4459ad74081c4d2386",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "f09a3f61231f3226575022e0e8101acfa2e439c31ba1a6242b8d8f537c5f5349",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

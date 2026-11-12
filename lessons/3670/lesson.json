@@ -3,8 +3,8 @@
   "n": 26,
   "title": "Index maintenance: incremental updates, deletes, and re-embedding migrations",
   "phase": 2,
-  "content_id": 17642,
-  "content_digest": "d8c7cf981c6ce51ebf31e225f754638d8bb47838e400f327311f3b52e868d9df",
+  "content_id": 17789,
+  "content_digest": "6471bd5ab7b98bc5ee692b3488a35e5997e639965492cf12a5b2ed64535c4b59",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "bc049ea1e6de47b84a0e0ceed69de610ef96d84dc840e8ca8aab9aef4d447069",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 15,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

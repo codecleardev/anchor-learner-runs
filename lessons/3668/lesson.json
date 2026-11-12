@@ -3,8 +3,8 @@
   "n": 22,
   "title": "Embeddings fundamentals and embedding model selection",
   "phase": 2,
-  "content_id": 17707,
-  "content_digest": "8810a89aac70a2773d5edb5c0cdca9da6d101d064c4dc083b940427288d44177",
+  "content_id": 17788,
+  "content_digest": "077025909c45ed38391ea4801a9dea04ea66b7cedc1931c46dd00aa90ddf31fe",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "df936eb84d53dbe40f680889403eeb15deedfcb2fa69663bd8df1b0f011a06d4",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

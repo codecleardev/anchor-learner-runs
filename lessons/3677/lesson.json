@@ -3,8 +3,8 @@
   "n": 33,
   "title": "Reranking with cross-encoders",
   "phase": 3,
-  "content_id": 17719,
-  "content_digest": "8cfbcedd18ff78b9424adf938de944d2082eadaa7b5e2e0f175f899e69de08ff",
+  "content_id": 17793,
+  "content_digest": "24f66a255f6f0f1999aaf1ee0eb14b63b7927dd8ebec8c63d697fc791da3054f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "aee570ea9581983e698c8a233d4cf1202c6322681c7f3500aa3be7fb6742c170",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

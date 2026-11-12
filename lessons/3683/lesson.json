@@ -3,8 +3,8 @@
   "n": 39,
   "title": "RAG evaluation frameworks: RAGAS and TruLens",
   "phase": 3,
-  "content_id": 17649,
-  "content_digest": "de54e198c53fe87ecaa41fb5bdf4b84833860cc9db271e058feb9b037a2ab78c",
+  "content_id": 17796,
+  "content_digest": "2f08a8ecc639138aa5272319127a4af643d82d8d5a3db676c5ce24aba1a2d739",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "d74e9a52250c65551b0cd0abfaa748d75d306d8460559739720b5f4d13f1d1d1",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

@@ -3,8 +3,8 @@
   "n": 4,
   "title": "What you can't build yet and where to go next",
   "phase": 1,
-  "content_id": 17541,
-  "content_digest": "a50b0c7696ca01b763151b3e939a6a1b35a670ac2fde26841de9809f70e8b9b0",
+  "content_id": 17810,
+  "content_digest": "98c035d4c78ebcf508c32162158ac856c3ec16cdf70ae874d8e2636b5fe45fb1",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 0,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

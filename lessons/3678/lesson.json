@@ -3,8 +3,8 @@
   "n": 34,
   "title": "Multi-hop RAG for complex queries",
   "phase": 3,
-  "content_id": 17721,
-  "content_digest": "03dc66f8eef1761981ffb154dfc4b17f03753b7822defbf0da8de81cbece6818",
+  "content_id": 17794,
+  "content_digest": "aa89a17740ab0b61db1c7ace9d045e201052d3d642a02c700419ddbfdb80e5e5",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "c5b1f3023c8610160be0c4172fc19d4e4049ee86d7e2302bcefa576336148fd8",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

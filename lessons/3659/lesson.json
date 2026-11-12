@@ -3,8 +3,8 @@
   "n": 8,
   "title": "LLM provider APIs: request/response lifecycle, authentication, and rate limits",
   "phase": 1,
-  "content_id": 17630,
-  "content_digest": "ff59a57f6d5fba95e5e578393175e084f041dcaa8ff10187c59bad7c0df4ce10",
+  "content_id": 17786,
+  "content_digest": "a446da3bdd35e73a05fb232723b19504a82ecf81b8c9acc8fceccb17399097f9",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "2c914557230936c0537d1cfef37bd6b52e866d72278217f25fc707d250887e3f",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 4,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

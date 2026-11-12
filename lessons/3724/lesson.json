@@ -3,8 +3,8 @@
   "n": 89,
   "title": "Anchor — build it: realtime voice interaction",
   "phase": 8,
-  "content_id": 17711,
-  "content_digest": "c381994e3b5a72004ccf2df9f74a78e1839281c4e5244648fe9f49aa2a4f6ab6",
+  "content_id": 17803,
+  "content_digest": "14fd35d0187109f04ec339affc0b6390a88aecf327784e5923ea2af0488008d2",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "b57561be3bf6cd7a4a081496a32750efd152a27eb22e472b06da0ae57a32c655",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 9,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

@@ -3,8 +3,8 @@
   "n": 27,
   "title": "Anchor — build it: dense retrieval and generation",
   "phase": 2,
-  "content_id": 17712,
-  "content_digest": "679360fa66456ed4a2c9534bdf70972678ac9e59bfd6149813b02b5e85232399",
+  "content_id": 17791,
+  "content_digest": "8082677bdf3f8a3eda2f5cb2bd04d4cf60988373f34b6c5ec92520777eb2a96c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "375af7055bcf4d260293f5a4e5e5c9f9c4bdbe0d7a2617ad548023d4d034fd16",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 7,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

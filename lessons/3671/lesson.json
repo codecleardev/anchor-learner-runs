@@ -3,8 +3,8 @@
   "n": 25,
   "title": "Vector indexes: FAISS, HNSW, IVF tradeoffs",
   "phase": 2,
-  "content_id": 17640,
-  "content_digest": "1ddb8a53236058df63c88abd7934b01e2ddfe6f22dfb5452fd022175bca1e2ad",
+  "content_id": 17790,
+  "content_digest": "63d12789be810a425034b17068721d6167cc86dfa5a159ce295507e6e4ef9878",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "e2254776b8a5ba34f924ecb68b2cfd5f6acd7284a238839c5a774cf3a3ae3ee0",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

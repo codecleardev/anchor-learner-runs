@@ -40,7 +40,7 @@
     "lesson_tag": "lesson-004-what-you-can-t-build-yet-and-where-to-go-next",
     "needs_run": false,
     "commands": 0,
-    "content_id": 17541,
+    "content_id": 17810,
     "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26"
   },
   {
@@ -73,7 +73,7 @@
     "lesson_tag": "lesson-007-anchor-s-ai-service-boundary-calling-the-python",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17693,
+    "content_id": 17785,
     "code_digest": "bf004b25c5b3c3261e93231b089cdca797fb63755b7a3bae90ca3c4af7484e2f"
   },
   {
@@ -84,7 +84,7 @@
     "lesson_tag": "lesson-008-llm-provider-apis-request-response-lifecycle-aut",
     "needs_run": true,
     "commands": 4,
-    "content_id": 17630,
+    "content_id": 17786,
     "code_digest": "2c914557230936c0537d1cfef37bd6b52e866d72278217f25fc707d250887e3f"
   },
   {
@@ -150,7 +150,7 @@
     "lesson_tag": "lesson-014-streaming-responses-and-server-sent-events",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17781,
+    "content_id": 17787,
     "code_digest": "d37aae82138089b37a9924e09eb2f763f0a6e216396bb98c6fbda312eda036b4"
   },
   {
@@ -216,7 +216,7 @@
     "lesson_tag": "lesson-019-sprint-build-plan-seven-days-from-bootstrap-to-d",
     "needs_run": false,
     "commands": 0,
-    "content_id": 17564,
+    "content_id": 17809,
     "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26"
   },
   {
@@ -238,7 +238,7 @@
     "lesson_tag": "lesson-021-embeddings-fundamentals-and-embedding-model-sele",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17707,
+    "content_id": 17788,
     "code_digest": "df936eb84d53dbe40f680889403eeb15deedfcb2fa69663bd8df1b0f011a06d4"
   },
   {
@@ -271,7 +271,7 @@
     "lesson_tag": "lesson-024-vector-indexes-faiss-hnsw-ivf-tradeoffs",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17640,
+    "content_id": 17790,
     "code_digest": "e2254776b8a5ba34f924ecb68b2cfd5f6acd7284a238839c5a774cf3a3ae3ee0"
   },
   {
@@ -282,7 +282,7 @@
     "lesson_tag": "lesson-025-index-maintenance-incremental-updates-deletes-an",
     "needs_run": true,
     "commands": 15,
-    "content_id": 17642,
+    "content_id": 17789,
     "code_digest": "bc049ea1e6de47b84a0e0ceed69de610ef96d84dc840e8ca8aab9aef4d447069"
   },
   {
@@ -293,7 +293,7 @@
     "lesson_tag": "lesson-026-anchor-build-it-dense-retrieval-and-generation",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17712,
+    "content_id": 17791,
     "code_digest": "375af7055bcf4d260293f5a4e5e5c9f9c4bdbe0d7a2617ad548023d4d034fd16"
   },
   {
@@ -304,7 +304,7 @@
     "lesson_tag": "lesson-027-anchor-build-it-sparse-retrieval-with-bm25",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17645,
+    "content_id": 17792,
     "code_digest": "8a7522f3d0abf139144e2102a7fdad4db9428d25bdb6b85a40d6c64275664978"
   },
   {
@@ -359,7 +359,7 @@
     "lesson_tag": "lesson-032-reranking-with-cross-encoders",
     "needs_run": true,
     "commands": 4,
-    "content_id": 17719,
+    "content_id": 17793,
     "code_digest": "aee570ea9581983e698c8a233d4cf1202c6322681c7f3500aa3be7fb6742c170"
   },
   {
@@ -370,7 +370,7 @@
     "lesson_tag": "lesson-033-multi-hop-rag-for-complex-queries",
     "needs_run": true,
     "commands": 4,
-    "content_id": 17721,
+    "content_id": 17794,
     "code_digest": "c5b1f3023c8610160be0c4172fc19d4e4049ee86d7e2302bcefa576336148fd8"
   },
   {
@@ -381,7 +381,7 @@
     "lesson_tag": "lesson-034-graphrag-knowledge-graph-retrieval-for-relations",
     "needs_run": true,
     "commands": 10,
-    "content_id": 17722,
+    "content_id": 17808,
     "code_digest": "0d8833f0ca18490625187c209e1ed53657190bdf9b38e1a427fdfd3a47b497e2"
   },
   {
@@ -392,7 +392,7 @@
     "lesson_tag": "lesson-035-agentic-rag-retrieval-as-a-tool-in-an-agent-loop",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17724,
+    "content_id": 17795,
     "code_digest": "1a99cca45faf136eef5eefb02182b87a889bc82abd361fe20e5c3e657bb2c3df"
   },
   {
@@ -425,7 +425,7 @@
     "lesson_tag": "lesson-038-rag-evaluation-frameworks-ragas-and-trulens",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17649,
+    "content_id": 17796,
     "code_digest": "d74e9a52250c65551b0cd0abfaa748d75d306d8460559739720b5f4d13f1d1d1"
   },
   {
@@ -458,7 +458,7 @@
     "lesson_tag": "lesson-041-checkpoint-anchor-advanced-rag-and-evaluation",
     "needs_run": false,
     "commands": 0,
-    "content_id": 17269,
+    "content_id": 17797,
     "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26"
   },
   {
@@ -480,7 +480,7 @@
     "lesson_tag": "lesson-043-dataset-engineering-for-fine-tuning-collection-c",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17408,
+    "content_id": 17800,
     "code_digest": "7095600e2a7065038ed6e52e766dc16c1779891d207a60b67b6c3dd81a7d2b5b"
   },
   {
@@ -491,7 +491,7 @@
     "lesson_tag": "lesson-044-synthetic-data-generation-and-quality-filtering",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17736,
+    "content_id": 17801,
     "code_digest": "f09a3f61231f3226575022e0e8101acfa2e439c31ba1a6242b8d8f537c5f5349"
   },
   {
@@ -524,7 +524,7 @@
     "lesson_tag": "lesson-047-lora-fundamentals-and-adapter-architecture",
     "needs_run": true,
     "commands": 4,
-    "content_id": 17654,
+    "content_id": 17802,
     "code_digest": "c39c2e3c6ffb7345f838391e4b77b8e0df6cd3b29a72391809ecb465ec6d2b25"
   },
   {
@@ -535,7 +535,7 @@
     "lesson_tag": "lesson-048-qlora-and-quantized-fine-tuning",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17656,
+    "content_id": 17798,
     "code_digest": "8f2877c61f80ef05dfdb81649e73c1420f4ce710e616dc4910d804d4edb49eaa"
   },
   {
@@ -546,7 +546,7 @@
     "lesson_tag": "lesson-049-peft-library-patterns-and-adapter-merging",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17741,
+    "content_id": 17799,
     "code_digest": "2937bbda47a02b8da379a73261a8c8b62d32699fb863d26b764ffc6a21672bb9"
   },
   {
@@ -975,7 +975,7 @@
     "lesson_tag": "lesson-086-anchor-build-it-realtime-voice-interaction",
     "needs_run": true,
     "commands": 9,
-    "content_id": 17711,
+    "content_id": 17803,
     "code_digest": "b57561be3bf6cd7a4a081496a32750efd152a27eb22e472b06da0ae57a32c655"
   },
   {
@@ -1118,7 +1118,7 @@
     "lesson_tag": "lesson-099-checkpoint-anchor-performance-and-cost",
     "needs_run": false,
     "commands": 0,
-    "content_id": 17576,
+    "content_id": 17804,
     "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26"
   },
   {
@@ -1140,7 +1140,7 @@
     "lesson_tag": "lesson-101-jailbreak-resistance-techniques",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17778,
+    "content_id": 17805,
     "code_digest": "1a918905de7e6dc8adaaae375cb9cf4988b837571fe72c150106253809a61c47"
   },
   {
@@ -1206,8 +1206,8 @@
     "lesson_tag": "lesson-106a-agentic-security-canon-owasp-lists-the-lethal-tr",
     "needs_run": true,
     "commands": 5,
-    "content_id": 17742,
-    "code_digest": "bc605fd8b2b0aec1dd66969edea76c71606bc6e941a69cc239d2992b572962ac"
+    "content_id": 17812,
+    "code_digest": "01dd5c2c08dc58e5c3227f40455032b64c560d2e3ea34fe1ab367aa942ff040d"
   },
   {
     "lesson_id": 3786,
@@ -1393,8 +1393,8 @@
     "lesson_tag": "lesson-123-rollback-strategies-for-prompt-model-changes",
     "needs_run": true,
     "commands": 9,
-    "content_id": 17757,
-    "code_digest": "657641479dbb66b2b97180e0e5d91ec4363d2b26a163f735e91d98e855852e0a"
+    "content_id": 17813,
+    "code_digest": "e2022d2a46f63793baf925e10223326029053b8df360e4fb6e76a9cdd4221d2c"
   },
   {
     "lesson_id": 3760,
@@ -1415,7 +1415,7 @@
     "lesson_tag": "lesson-125-backups-and-state-recovery-for-ai-systems",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17762,
+    "content_id": 17806,
     "code_digest": "1d4932c3ce9500510aab698a7f04bd7d29ee75e611d52dee144331b5c54c5273"
   },
   {
@@ -1448,7 +1448,7 @@
     "lesson_tag": "lesson-128-anchor-productionize-and-ship-it",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17682,
+    "content_id": 17807,
     "code_digest": "3263dc68d64b756c4061f0da0764f15560b26a7fa70bfe89aeac1787647ab11d"
   },
   {
@@ -1503,7 +1503,7 @@
     "lesson_tag": "lesson-133-sprint-retrospective-what-the-hybrid-rag-slice-p",
     "needs_run": false,
     "commands": 0,
-    "content_id": 17548,
+    "content_id": 17811,
     "code_digest": "393be1023536781fe54d57c47196dc2448311fe30355b4e09853b8a423c9cb26"
   },
   {

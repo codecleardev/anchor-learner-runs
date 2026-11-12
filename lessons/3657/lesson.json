@@ -3,8 +3,8 @@
   "n": 7,
   "title": "Anchor's AI service boundary: calling the Python AI runtime from Rails (contract, auth, timeouts, local topology)",
   "phase": 1,
-  "content_id": 17693,
-  "content_digest": "c0438b8c1f3d9fabb6373b2166e81e21eb4bc3e204825b5f3f291a93be4edf91",
+  "content_id": 17785,
+  "content_digest": "d53c617c39cebf3af56b533ac1733d7843ec5e83768f8b61475b31703b47835d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "bf004b25c5b3c3261e93231b089cdca797fb63755b7a3bae90ca3c4af7484e2f",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 5,
-  "exported_at": "2026-11-12T07:40:23Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

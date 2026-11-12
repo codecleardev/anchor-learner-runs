@@ -3,10 +3,10 @@
   "n": 127,
   "title": "Rollback strategies for prompt/model changes",
   "phase": 12,
-  "content_id": 17757,
-  "content_digest": "0f9e6a3208766a9162625ca01dd45f0801ebd753903ada5c5852124748a2ed28",
+  "content_id": 17813,
+  "content_digest": "ce1e59a50cffef334145b46e3996afd968e28d25892b90084998519ebd45e897",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
-  "code_digest": "657641479dbb66b2b97180e0e5d91ec4363d2b26a163f735e91d98e855852e0a",
+  "code_digest": "e2022d2a46f63793baf925e10223326029053b8df360e4fb6e76a9cdd4221d2c",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "4918bc91e65b5e6d922f",
   "before_tag": "lesson-122-reliability-and-safety-retries-fallbacks-circuit",
@@ -17,5 +17,5 @@
   "has_demo": false,
   "demo_commands": 0,
   "commands": 9,
-  "exported_at": "2026-11-12T07:40:24Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

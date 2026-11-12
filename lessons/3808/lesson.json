@@ -3,10 +3,10 @@
   "n": 110,
   "title": "Agentic security canon: OWASP lists, the lethal trifecta and injection-resistant design",
   "phase": 10,
-  "content_id": 17742,
-  "content_digest": "fbffd160d82734d7fbd349c757fbad724c9cb3e5ce4e2ba51e6b544b9c7e386b",
+  "content_id": 17812,
+  "content_digest": "e9618b32ec20b2f84142e5e21d9ec5eb8f58a91fddacefca485a348468afc21f",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
-  "code_digest": "bc605fd8b2b0aec1dd66969edea76c71606bc6e941a69cc239d2992b572962ac",
+  "code_digest": "01dd5c2c08dc58e5c3227f40455032b64c560d2e3ea34fe1ab367aa942ff040d",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
   "contract_digest": "844ecd7df37afdf92227",
   "before_tag": "lesson-106-red-team-testing-methodology-for-llm-systems",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 5,
-  "exported_at": "2026-11-12T07:40:24Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }

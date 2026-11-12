@@ -3,8 +3,8 @@
   "n": 129,
   "title": "Backups and state recovery for AI systems",
   "phase": 12,
-  "content_id": 17762,
-  "content_digest": "48b7994b11fc88426c460e2dc39d3675ad7a23e789e56fe0084f5cf4624d8beb",
+  "content_id": 17806,
+  "content_digest": "441c10d166334014714a1e681bb1d7cb502ac92475d459e4ada07ca019d9d43d",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "1d4932c3ce9500510aab698a7f04bd7d29ee75e611d52dee144331b5c54c5273",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 1,
   "commands": 6,
-  "exported_at": "2026-11-12T07:40:24Z"
+  "exported_at": "2026-11-12T16:12:27Z"
 }
