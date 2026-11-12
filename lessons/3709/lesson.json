@@ -3,8 +3,8 @@
   "n": 68,
   "title": "AutoGen multi-agent conversation patterns",
   "phase": 6,
-  "content_id": 17760,
-  "content_digest": "40dbcb157a858a8edb16af8f8008578fb0e959dc5bc6fe54cce337849c5a82b4",
+  "content_id": 17771,
+  "content_digest": "2aa3602865e46c1966a0666af2ea6506106ef5cad66d7f48079ed0e144ea6c9c",
   "content_digest_how": "sha256 of Ruby JSON.generate(LessonContent#blocks)",
   "code_digest": "cd38b8f7ab7100b2af57264d215de764367947e6c3f891bbb2fd106d1c231711",
   "code_digest_how": "code_digest/v1: sha256 over the code, terminal and lab_step blocks and the demo commands, in order (app/services/lesson_videos/code_digest.rb); a run is bound to this, not to content_digest",
@@ -17,5 +17,5 @@
   "has_demo": true,
   "demo_commands": 2,
   "commands": 8,
-  "exported_at": "2026-11-12T07:05:53Z"
+  "exported_at": "2026-11-12T07:17:39Z"
 }
