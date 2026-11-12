@@ -827,7 +827,7 @@
     "lesson_tag": "lesson-080-anchor-build-it-ci-evaluation-gates-milestone",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17298
+    "content_id": 17348
   },
   {
     "lesson_id": 3720,
@@ -1007,7 +1007,7 @@
     "lesson_tag": "lesson-098-debug-drill-the-failover-loop-that-drained-the-b",
     "needs_run": true,
     "commands": 9,
-    "content_id": 17240
+    "content_id": 17349
   },
   {
     "lesson_id": 3736,
@@ -1117,7 +1117,7 @@
     "lesson_tag": "lesson-108-anchor-build-it-security-hardening-milestone",
     "needs_run": true,
     "commands": 9,
-    "content_id": 17324
+    "content_id": 17350
   },
   {
     "lesson_id": 3745,
@@ -1197,7 +1197,7 @@
     "lesson_tag": "lesson-116-anchor-build-it-self-hosted-inference-milestone",
     "needs_run": true,
     "commands": 10,
-    "content_id": 17332
+    "content_id": 17351
   },
   {
     "lesson_id": 3753,
@@ -1257,7 +1257,7 @@
     "lesson_tag": "lesson-122-reliability-and-safety-retries-fallbacks-circuit",
     "needs_run": true,
     "commands": 11,
-    "content_id": 17338
+    "content_id": 17352
   },
   {
     "lesson_id": 3759,
@@ -1267,7 +1267,7 @@
     "lesson_tag": "lesson-123-rollback-strategies-for-prompt-model-changes",
     "needs_run": true,
     "commands": 9,
-    "content_id": 17339
+    "content_id": 17353
   },
   {
     "lesson_id": 3760,
@@ -1307,7 +1307,7 @@
     "lesson_tag": "lesson-127-debug-drill-the-outage-that-passed-every-health",
     "needs_run": true,
     "commands": 6,
-    "content_id": 17252
+    "content_id": 17354
   },
   {
     "lesson_id": 3765,
@@ -1317,7 +1317,7 @@
     "lesson_tag": "lesson-128-anchor-productionize-and-ship-it",
     "needs_run": true,
     "commands": 7,
-    "content_id": 17342
+    "content_id": 17355
   },
   {
     "lesson_id": 3766,

@@ -9,9 +9,9 @@ on:
         required: true
         default: all
       anchor_repo:
-        description: 'Anchor repo to clone, owner/name (the repo of record is sandeepmvl/anchor)'
-        required: true
-        default: sandeepmvl/anchor
+        description: 'Anchor repo to clone, owner/name. Empty = repository variable ANCHOR_REPO, else <owner of this repo>/anchor'
+        required: false
+        default: ''
       devcontainer:
         description: 'auto = the tag''s own .devcontainer, the pinned fallback only when the tag has none'
         type: choice
@@ -27,6 +27,8 @@ permissions:
 
 env:
   DEVCONTAINER_CLI_VERSION: 0.90.0
+  # The only place the owner is decided: input, else the repository variable, else this repo's owner.
+  ANCHOR_REPO: ${{ inputs.anchor_repo || vars.ANCHOR_REPO || format('{0}/anchor', github.repository_owner) }}
 
 jobs:
   plan:
@@ -61,7 +63,6 @@ jobs:
       - name: Learner-path run
         env:
           LESSON: ${{ matrix.lesson }}
-          ANCHOR_REPO: ${{ inputs.anchor_repo }}
           DC_MODE: ${{ inputs.devcontainer }}
           LESSON_TIMEOUT: '2400'
         run: |
@@ -93,7 +94,6 @@ jobs:
         id: table
         env:
           MATRIX: ${{ needs.plan.outputs.matrix }}
-          ANCHOR_REPO: ${{ inputs.anchor_repo }}
         run: |
           mkdir -p runs
           rc=0; python3 scripts/summary.py runs "$MATRIX" >> "$GITHUB_STEP_SUMMARY" || rc=$?

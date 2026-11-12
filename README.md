@@ -1,7 +1,7 @@
 # anchor-learner-runs
 
 Test harness for the CodeClear AI Engineering course. **This is not course material.** The course's
-project lives in [sandeepmvl/anchor](https://github.com/sandeepmvl/anchor); this repository only checks
+project lives in the `anchor` repository of the same owner; this repository only checks
 that each lesson's lab works for a learner who opens it in a cloud sandbox, and records what they would see.
 
 ## What a learner-path run is
@@ -42,12 +42,12 @@ No secrets are used: the labs run offline against recorded fixtures.
 Actions, "learner-runs", "Run workflow", or:
 
 ```
-gh workflow run learner-runs.yml -R sandeepmvl/anchor-learner-runs -f lessons=all
-gh workflow run learner-runs.yml -R sandeepmvl/anchor-learner-runs -f lessons="3657,3667"
+gh workflow run learner-runs.yml -R <owner>/anchor-learner-runs -f lessons=all
+gh workflow run learner-runs.yml -R <owner>/anchor-learner-runs -f lessons="3657,3667"
 ```
 
-Inputs: `lessons` (ids or `all` = every lesson with `needs_run`), `anchor_repo` (default
-`sandeepmvl/anchor`), `devcontainer` (`auto`, `repo` = never use the fallback, `fallback`), `max_parallel`
+Inputs: `lessons` (ids or `all` = every lesson with `needs_run`), `anchor_repo` (empty = the
+repository variable `ANCHOR_REPO`, else `<owner of this repository>/anchor`), `devcontainer` (`auto`, `repo` = never use the fallback, `fallback`), `max_parallel`
 (default 20).
 
 One job per lesson, at most 20 at a time, 60 minutes per job at most. Each job uploads one artifact,
